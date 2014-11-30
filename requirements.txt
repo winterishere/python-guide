@@ -1,2 +1,3 @@
 requests
 sphinx
+sphinx-intl
