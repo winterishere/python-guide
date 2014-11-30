@@ -1,0 +1,52 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: pythonguide 0.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-11-30 22:28\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../starting/installation.rst:2
+msgid "Properly Installing Python"
+msgstr ""
+
+#: ../../starting/installation.rst:4
+msgid ""
+"There's a good chance that you already have Python on your operating system."
+msgstr ""
+
+#: ../../starting/installation.rst:6
+msgid ""
+"If so, you do not need to install or configure anything else to use Python. "
+"Having said that, I would strongly recommend that you install the tools and "
+"libraries described in the guides below before you start building Python "
+"applications for real-world use. In particular, you should always install "
+"Setuptools, Pip, and Virtualenv — they make it much easier for you to use "
+"other third-party Python libraries."
+msgstr ""
+
+#: ../../starting/installation.rst:14
+msgid "Installation Guides"
+msgstr ""
+
+#: ../../starting/installation.rst:17
+msgid ""
+"for development purposes, as well as setuptools, pip, and virtualenv setup."
+msgstr ""
+
+#: ../../starting/installation.rst:19
+msgid ":ref:`Mac OS X <install-osx>`."
+msgstr ""
+
+#: ../../starting/installation.rst:20
+msgid ":ref:`Microsoft Windows<install-windows>`."
+msgstr ""
+
+#: ../../starting/installation.rst:21
+msgid ":ref:`Ubuntu Linux <install-linux>`."
+msgstr ""
