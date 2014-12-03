@@ -11,15 +11,15 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ..\..\scenarios\db.rst:2
+#: ../../scenarios/db.rst:2
 msgid "Databases"
 msgstr ""
 
-#: ..\..\scenarios\db.rst:5
+#: ../../scenarios/db.rst:5
 msgid "DB-API"
 msgstr ""
 
-#: ..\..\scenarios\db.rst:7
+#: ../../scenarios/db.rst:7
 msgid ""
 "The Python Database API (DB-API) defines a standard interface for Python "
 "database access modules. It's documented in :pep:`249`. Nearly all Python "
@@ -27,7 +27,7 @@ msgid ""
 "this interface."
 msgstr ""
 
-#: ..\..\scenarios\db.rst:12
+#: ../../scenarios/db.rst:12
 msgid ""
 "Tutorials that explain how to work with modules that conform to this "
 "interface can be found `here "
@@ -37,47 +37,47 @@ msgid ""
 "/DB-API.html>`__."
 msgstr ""
 
-#: ..\..\scenarios\db.rst:17
+#: ../../scenarios/db.rst:17
 msgid "SQLAlchemy"
 msgstr ""
 
-#: ..\..\scenarios\db.rst:19
+#: ../../scenarios/db.rst:19
 msgid ""
 "`SQLAlchemy <http://www.sqlalchemy.org/>`_ is a commonly used database "
 "toolkit. Unlike many database libraries it not only provides an ORM layer "
 "but also a generalized API for writing database-agnostic code without SQL."
 msgstr ""
 
-#: ..\..\scenarios\db.rst:28
+#: ../../scenarios/db.rst:28
 msgid "Django ORM"
 msgstr ""
 
-#: ..\..\scenarios\db.rst:30
+#: ../../scenarios/db.rst:30
 msgid ""
 "The Django ORM is the interface used by `Django "
 "<http://www.djangoproject.com>`_ to provide database access."
 msgstr ""
 
-#: ..\..\scenarios\db.rst:33
+#: ../../scenarios/db.rst:33
 msgid ""
 "It's based on the idea of `models <https://docs.djangoproject.com/en/1.3"
 "/#the-model-layer>`_, an abstraction that makes it easier to manipulate data"
 " in Python."
 msgstr ""
 
-#: ..\..\scenarios\db.rst:36
+#: ../../scenarios/db.rst:36
 msgid "The basics:"
 msgstr ""
 
-#: ..\..\scenarios\db.rst:38
+#: ../../scenarios/db.rst:38
 msgid "Each model is a Python class that subclasses django.db.models.Model."
 msgstr ""
 
-#: ..\..\scenarios\db.rst:39
+#: ../../scenarios/db.rst:39
 msgid "Each attribute of the model represents a database field."
 msgstr ""
 
-#: ..\..\scenarios\db.rst:40
+#: ../../scenarios/db.rst:40
 msgid ""
 "Django gives you an automatically-generated database-access API; see `Making"
 " queries <https://docs.djangoproject.com/en/dev/topics/db/queries/>`__."

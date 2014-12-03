@@ -11,22 +11,22 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ..\..\scenarios\ci.rst:2
+#: ../../scenarios/ci.rst:2
 msgid "Continuous Integration"
 msgstr ""
 
-#: ..\..\scenarios\ci.rst:6
+#: ../../scenarios/ci.rst:6
 msgid "Why?"
 msgstr ""
 
-#: ..\..\scenarios\ci.rst:8
+#: ../../scenarios/ci.rst:8
 msgid ""
 "Martin Fowler, who first wrote about `Continuous Integration "
 "<http://martinfowler.com/articles/continuousIntegration.html>`_ (short: CI) "
 "together with Kent Beck, describes the CI as follows:"
 msgstr ""
 
-#: ..\..\scenarios\ci.rst:11
+#: ../../scenarios/ci.rst:11
 msgid ""
 "Continuous Integration is a software development practice where members of a"
 " team integrate their work frequently, usually each person integrates at "
@@ -37,31 +37,31 @@ msgid ""
 "cohesive software more rapidly."
 msgstr ""
 
-#: ..\..\scenarios\ci.rst:20
+#: ../../scenarios/ci.rst:20
 msgid "Jenkins"
 msgstr ""
 
-#: ..\..\scenarios\ci.rst:22
+#: ../../scenarios/ci.rst:22
 msgid ""
 "`Jenkins CI <http://jenkins-ci.org>`_ is an extensible continuous "
 "integration engine. Use it."
 msgstr ""
 
-#: ..\..\scenarios\ci.rst:28
+#: ../../scenarios/ci.rst:28
 msgid "Buildbot"
 msgstr ""
 
-#: ..\..\scenarios\ci.rst:30
+#: ../../scenarios/ci.rst:30
 msgid ""
 "`Buildbot <http://docs.buildbot.net/current/>`_ is a Python system to "
 "automate the compile/test cycle to validate code changes."
 msgstr ""
 
-#: ..\..\scenarios\ci.rst:35
+#: ../../scenarios/ci.rst:35
 msgid "Mule"
 msgstr ""
 
-#: ..\..\scenarios\ci.rst:37
+#: ../../scenarios/ci.rst:37
 msgid ""
 "`Mule "
 "<http://www.mulesoft.org/documentation/display/current/Mule+Fundamentals>`_ "
@@ -73,11 +73,11 @@ msgid ""
 "that happens."
 msgstr ""
 
-#: ..\..\scenarios\ci.rst:47
+#: ../../scenarios/ci.rst:47
 msgid "Tox"
 msgstr ""
 
-#: ..\..\scenarios\ci.rst:49
+#: ../../scenarios/ci.rst:49
 msgid ""
 "`tox <http://tox.readthedocs.org/en/latest/>`_ is an automation tool "
 "providing packaging, testing and deployment of Python software right from "
@@ -85,29 +85,29 @@ msgid ""
 "command line tool which provides the following features:"
 msgstr ""
 
-#: ..\..\scenarios\ci.rst:54
+#: ../../scenarios/ci.rst:54
 msgid ""
 "Checking that packages install correctly with different Python versions and "
 "interpreters"
 msgstr ""
 
-#: ..\..\scenarios\ci.rst:56
+#: ../../scenarios/ci.rst:56
 msgid ""
 "Running tests in each of the environments, configuring your test tool of "
 "choice"
 msgstr ""
 
-#: ..\..\scenarios\ci.rst:58
+#: ../../scenarios/ci.rst:58
 msgid ""
 "Acting as a front-end to Continuous Integration servers, reducing "
 "boilerplate and merging CI and shell-based testing."
 msgstr ""
 
-#: ..\..\scenarios\ci.rst:63
+#: ../../scenarios/ci.rst:63
 msgid "Travis-CI"
 msgstr ""
 
-#: ..\..\scenarios\ci.rst:65
+#: ../../scenarios/ci.rst:65
 msgid ""
 "`Travis-CI <https://travis-ci.org/>`_ is a distributed CI server which "
 "builds tests for open source projects for free. It provides multiple workers"
@@ -117,13 +117,13 @@ msgid ""
 "ci is a great and easy way to get started with Continuous Integration."
 msgstr ""
 
-#: ..\..\scenarios\ci.rst:72
+#: ../../scenarios/ci.rst:72
 msgid ""
 "In order to get started, add a :file:`.travis.yml` file to your repository "
 "with this example content::"
 msgstr ""
 
-#: ..\..\scenarios\ci.rst:88
+#: ../../scenarios/ci.rst:88
 msgid ""
 "This will get your project tested on all the listed Python versions by "
 "running the given script, and will only build the master branch. There are a"
@@ -132,7 +132,7 @@ msgid ""
 "explain all of these options, and are very thorough."
 msgstr ""
 
-#: ..\..\scenarios\ci.rst:94
+#: ../../scenarios/ci.rst:94
 msgid ""
 "In order to activate testing for your project, go to `the travis-ci site "
 "<https://travis-ci.org/>`_ and login with your GitHub account. Then activate"

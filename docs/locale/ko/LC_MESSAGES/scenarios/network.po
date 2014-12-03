@@ -11,15 +11,15 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ..\..\scenarios\network.rst:2
+#: ../../scenarios/network.rst:2
 msgid "Networking"
 msgstr ""
 
-#: ..\..\scenarios\network.rst:5
+#: ../../scenarios/network.rst:5
 msgid "Twisted"
 msgstr ""
 
-#: ..\..\scenarios\network.rst:7
+#: ../../scenarios/network.rst:7
 msgid ""
 "`Twisted <http://twistedmatrix.com/trac/>`_ is an event-driven networking "
 "engine. It can be used to build applications around many different "
@@ -28,11 +28,11 @@ msgid ""
 "<http://twistedmatrix.com/trac/wiki/Documentation>`_."
 msgstr ""
 
-#: ..\..\scenarios\network.rst:13
+#: ../../scenarios/network.rst:13
 msgid "PyZMQ"
 msgstr ""
 
-#: ..\..\scenarios\network.rst:15
+#: ../../scenarios/network.rst:15
 msgid ""
 "`PyZMQ <http://zeromq.github.com/pyzmq/>`_ is the Python binding for `ZeroMQ"
 " <http://www.zeromq.org/>`_, which is a high-performance asynchronous "
@@ -40,36 +40,36 @@ msgid ""
 "message queuing without a message broker. The basic patterns for this are:"
 msgstr ""
 
-#: ..\..\scenarios\network.rst:20
+#: ../../scenarios/network.rst:20
 msgid ""
 "request-reply: connects a set of clients to a set of services. This is a "
 "remote procedure call and task distribution pattern."
 msgstr ""
 
-#: ..\..\scenarios\network.rst:22
+#: ../../scenarios/network.rst:22
 msgid ""
 "publish-subscribe: connects a set of publishers to a set of subscribers. "
 "This is a data distribution pattern."
 msgstr ""
 
-#: ..\..\scenarios\network.rst:24
+#: ../../scenarios/network.rst:24
 msgid ""
 "push-pull (or pipeline): connects nodes in a fan-out / fan-in pattern that "
 "can have multiple steps, and loops. This is a parallel task distribution and"
 " collection pattern."
 msgstr ""
 
-#: ..\..\scenarios\network.rst:28
+#: ../../scenarios/network.rst:28
 msgid ""
 "For a quick start, read the `ZeroMQ guide "
 "<http://zguide.zeromq.org/page:all>`_."
 msgstr ""
 
-#: ..\..\scenarios\network.rst:31
+#: ../../scenarios/network.rst:31
 msgid "gevent"
 msgstr ""
 
-#: ..\..\scenarios\network.rst:33
+#: ../../scenarios/network.rst:33
 msgid ""
 "`gevent <http://www.gevent.org/>`_ is a coroutine-based Python networking "
 "library that uses greenlets to provide a high-level synchronous API on top "
