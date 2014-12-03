@@ -23,6 +23,7 @@ msgid ""
 "means making clean code whose logic and dependencies are clear as well as "
 "how the files and folders are organized in the filesystem."
 msgstr ""
+"test"
 
 #: ../../writing/structure.rst:11
 msgid ""
