@@ -13,7 +13,7 @@ msgstr ""
 
 #: ../../writing/structure.rst:2
 msgid "Structuring Your Project"
-msgstr ""
+msgstr "프로젝트 구성하기"
 
 #: ../../writing/structure.rst:4
 msgid ""
