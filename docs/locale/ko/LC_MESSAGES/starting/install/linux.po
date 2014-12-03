@@ -11,17 +11,17 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../starting/install/linux.rst:4
+#: ..\..\starting\install\linux.rst:4
 msgid "Installing Python on Linux"
 msgstr "리눅스에 파이썬 설치하기"
 
-#: ../../starting/install/linux.rst:6
+#: ..\..\starting\install\linux.rst:6
 msgid ""
 "The latest versions of Ubuntu and Fedora **come with Python 2.7 out of the "
 "box**."
 msgstr "최신 버전의 우분투와 페도라는 **훌륭하게도 파이썬 2.7이 딸려온다**."
 
-#: ../../starting/install/linux.rst:8
+#: ..\..\starting\install\linux.rst:8
 msgid ""
 "The latest versions of Redhat Enterprise (RHEL) and CentOS come with Python "
 "2.6. Some older versions of RHEL and CentOS come with Python 2.4 which is "
@@ -31,15 +31,13 @@ msgid ""
 "Python 2.6 package specifically designed to install side-by-side with the "
 "system's Python 2.4 installation."
 msgstr ""
-"최신 버전의 레드햇 엔터프라이즈(RHEL)과 CentOS는 파이선 2.6이 딸려온다. 조금 "
-"옛날 버전의 RHEL과 CentOS는 파이썬 2.4가 딸려온다. 하지만 이 버전의 파이썬은 "
-"요즘의 파이썬 개발에는 적당하지 않다. 다행히 "
-"`Extra Packages for Enterprise Linux<http://fedoraproject.org/wiki/EPEL>`_ "
-"라는게 있다. 이 패키지는 페도라의 패키지에 대응하는 훌륭한 추가 패키지를 포함하고 "
-"있다. 이 저장소는 파이썬 2.4가 설치된 시스템에서도 돌아갈 수 있도록 특별히 "
-"만들어진 파이썬 2.6 패키지를 포함하고 있다."
+"최신 버전의 레드햇 엔터프라이즈(RHEL)과 CentOS는 파이선 2.6이 딸려온다. 조금 옛날 버전의 RHEL과 CentOS는 파이썬 "
+"2.4가 딸려온다. 하지만 이 버전의 파이썬은 요즘의 파이썬 개발에는 적당하지 않다. 다행히 `Extra Packages for "
+"Enterprise Linux<http://fedoraproject.org/wiki/EPEL>`_ 라는게 있다. 이 패키지는 페도라의 "
+"패키지에 대응하는 훌륭한 추가 패키지를 포함하고 있다. 이 저장소는 파이썬 2.4가 설치된 시스템에서도 돌아갈 수 있도록 특별히 만들어진"
+" 파이썬 2.6 패키지를 포함하고 있다."
 
-#: ../../starting/install/linux.rst:18
+#: ..\..\starting\install\linux.rst:18
 msgid ""
 "You do not need to install or configure anything else to use Python. Having "
 "said that, I would strongly recommend that you install the tools and "
@@ -48,17 +46,15 @@ msgid ""
 "Setuptools, as it makes it much easier for you to use other third-party "
 "Python libraries."
 msgstr ""
-"파이썬을 사용하기 위해 달리 설치하거나 설정을 할 필요는 없다."
-"그렇기 해도 실제로 사용할 파이썬 어플리케이션을 만들기 전에 이 가이드에서 아래에 "
-"설명할 툴과 라이브러리들을 설치할 것을 강력 추천한다. 특히 Setuptools"
-"는 반드시 설치해야 한다. 이것들은 다른 파이썬 서드파티 라이브러리들을 "
-"사용하기 편하게 해준다."
+"파이썬을 사용하기 위해 달리 설치하거나 설정을 할 필요는 없다.그렇기 해도 실제로 사용할 파이썬 어플리케이션을 만들기 전에 이 가이드에서"
+" 아래에 설명할 툴과 라이브러리들을 설치할 것을 강력 추천한다. 특히 Setuptools는 반드시 설치해야 한다. 이것들은 다른 파이썬 "
+"서드파티 라이브러리들을 사용하기 편하게 해준다."
 
-#: ../../starting/install/linux.rst:25
+#: ..\..\starting\install\linux.rst:25
 msgid "Setuptools & Pip"
 msgstr "Setuptools & Pip"
 
-#: ../../starting/install/linux.rst:27
+#: ..\..\starting\install\linux.rst:27
 msgid ""
 "The most crucial third-party Python software of all is Setuptools, which "
 "extends the packaging and installation facilities provided by the distutils "
@@ -67,39 +63,38 @@ msgid ""
 " command. It also enables you to add this network installation capability to"
 " your own Python software with very little work."
 msgstr ""
-"Setuptools은 모든 파이썬 서드파티 소프트웨어 중 가장 중요하다. 표준 라이브러리인 "
-"distutils의 패키징과 설치 기능을 더욱 편하게 해주기 때문이다. Setuptools을 파이썬 "
-"시스템에 설치하면 어느 파이썬 소프트웨어 제품이라도 명령어 한 줄로 설치할 수 있다. "
-"또한 최소한의 작업으로 당신이 만든 파이썬 소프트웨어의 네트워크 설치를 가능하게 한다."
+"Setuptools은 모든 파이썬 서드파티 소프트웨어 중 가장 중요하다. 표준 라이브러리인 distutils의 패키징과 설치 기능을 더욱"
+" 편하게 해주기 때문이다. Setuptools을 파이썬 시스템에 설치하면 어느 파이썬 소프트웨어 제품이라도 명령어 한 줄로 설치할 수 "
+"있다. 또한 최소한의 작업으로 당신이 만든 파이썬 소프트웨어의 네트워크 설치를 가능하게 한다."
 
-#: ../../starting/install/linux.rst:34
+#: ..\..\starting\install\linux.rst:34
 msgid ""
 "To obtain the latest version of Setuptools for Linux, refer to the "
 "documentation available here: `unix-setuptools "
 "<https://pypi.python.org/pypi/setuptools#unix-wget>`_"
 msgstr ""
-"리눅에서 최신 버전의 Setuptoos를 설치하려면 아래 파이썬 스크립트를 실행하면 된다. "
-"`unix-setuptools <https://pypi.python.org/pypi/setuptools#unix-wget>`_"
+"리눅에서 최신 버전의 Setuptoos를 설치하려면 아래 파이썬 스크립트를 실행하면 된다. `unix-setuptools "
+"<https://pypi.python.org/pypi/setuptools#unix-wget>`_"
 
-#: ../../starting/install/linux.rst:37
+#: ..\..\starting\install\linux.rst:37
 msgid ""
 "The new ``easy_install`` command you have available is considered by many to"
 " be deprecated, so we will install its replacement: **pip**. Pip allows for "
 "uninstallation of packages, and is actively maintained, unlike easy_install."
 msgstr ""
-"이제 새로운 명령을 내릴 수 있게 되었다: **easy_install** 이다. 하지만 이 명령어를 "
-"불편하게 생각하는 사람들도 많다. 그러니 이를 대체할 것을 설치해보자. **pip** 는 "
-"패키지의 설치 제거도 가능케 하고, easy_install와 달리 현재 활발히 유지 보수되고 있다."
+"이제 새로운 명령을 내릴 수 있게 되었다: **easy_install** 이다. 하지만 이 명령어를 불편하게 생각하는 사람들도 많다. "
+"그러니 이를 대체할 것을 설치해보자. **pip** 는 패키지의 설치 제거도 가능케 하고, easy_install와 달리 현재 활발히 "
+"유지 보수되고 있다."
 
-#: ../../starting/install/linux.rst:41
+#: ..\..\starting\install\linux.rst:41
 msgid "To install pip, simply open a command prompt and run"
 msgstr "pip를 설치하려면 아래 파이썬 스크립트를 실행하면 된다."
 
-#: ../../starting/install/linux.rst:49
+#: ..\..\starting\install\linux.rst:49
 msgid "Virtual Environments"
 msgstr "Virtual Environments"
 
-#: ../../starting/install/linux.rst:51
+#: ..\..\starting\install\linux.rst:51
 msgid ""
 "A Virtual Environment is a tool to keep the dependencies required by "
 "different projects in separate places, by creating virtual Python "
@@ -107,34 +102,31 @@ msgid ""
 " Project Y needs 4.x\" dilemma, and keeps your global site-packages "
 "directory clean and manageable."
 msgstr ""
-"Virtual Environments은 파이썬 가상 환경을 만들어 독립된 위치의 다양한 프로젝트들 "
-"간의 독립성을 유지시켜주는 툴이다. 이는 \"프로젝트 X는 버전 1.x를 쓰는데, "
-"프로젝트Y는 버전 4.x가 필요한\" 난국을 해결해준다. 그리고 전역 패키지를 깨끗하게 "
+"Virtual Environments은 파이썬 가상 환경을 만들어 독립된 위치의 다양한 프로젝트들 간의 독립성을 유지시켜주는 툴이다. "
+"이는 \"프로젝트 X는 버전 1.x를 쓰는데, 프로젝트Y는 버전 4.x가 필요한\" 난국을 해결해준다. 그리고 전역 패키지를 깨끗하게 "
 "관리할 수 있도록 해준다."
 
-#: ../../starting/install/linux.rst:56
+#: ..\..\starting\install\linux.rst:56
 msgid ""
 "For example, you can work on a project which requires Django 1.3 while also "
 "maintaining a project which requires Django 1.0."
-msgstr ""
-"예를 들면 장고 1.3을 쓰는 프로젝트에서 일하면서, 장고 1.0을 사용하는 프로젝트를 "
-"유지보수 할 수 있도록 해준다."
+msgstr "예를 들면 장고 1.3을 쓰는 프로젝트에서 일하면서, 장고 1.0을 사용하는 프로젝트를 유지보수 할 수 있도록 해준다."
 
-#: ../../starting/install/linux.rst:59
+#: ..\..\starting\install\linux.rst:59
 msgid ""
 "To start using and see more information: `Virtual Environments "
 "<http://github.com/kennethreitz/python-"
 "guide/blob/master/docs/dev/virtualenvs.rst>`_ docs."
 msgstr ""
-"Virtual Environments을 사용하기 위해 더 많은 정보를 알고 싶다면 "
-"`Virtual Environments <http://github.com/kennethreitz/python-guide/blob/master/docs/dev/virtualenvs.rst>`_ "
-"에서 볼 수 있다."
+"Virtual Environments을 사용하기 위해 더 많은 정보를 알고 싶다면 `Virtual Environments "
+"<http://github.com/kennethreitz/python-"
+"guide/blob/master/docs/dev/virtualenvs.rst>`_ 에서 볼 수 있다."
 
-#: ../../starting/install/linux.rst:64
+#: ..\..\starting\install\linux.rst:64
 msgid ""
 "This page is a remixed version of `another guide "
 "<http://www.stuartellis.eu/articles/python-development-windows/>`_, which is"
 " available under the same license."
 msgstr ""
-"이 페이지는 `다른 가이드 <http://www.stuartellis.eu/articles/python-development-windows/>`_ "
-"를 재배열 버전이다. 라이선스는 동일하다."
+"이 페이지는 `다른 가이드 <http://www.stuartellis.eu/articles/python-development-"
+"windows/>`_ 를 재배열 버전이다. 라이선스는 동일하다."
