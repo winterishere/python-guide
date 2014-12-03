@@ -40,7 +40,7 @@ msgstr "설치 가이드"
 #: ..\..\starting\installation.rst:17
 msgid ""
 "for development purposes, as well as setuptools, pip, and virtualenv setup."
-msgstr "개발을 위한 설치 뿐만 아니라 setuptools, pip, and virtualenv의 설치도 다룬다."
+msgstr "이 가이드는 파이썬 개발을 위한 설치 뿐만 아니라 setuptools, pip, and virtualenv의 설치도 다룬다."
 
 #: ..\..\starting\installation.rst:19
 msgid ":ref:`Mac OS X <install-osx>`."
