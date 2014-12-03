@@ -26,7 +26,7 @@ msgstr ""
 "우선 공식 웹사이트에서 파이썬 2.7의 `최신 버전 "
 "<http://python.org/ftp/python/2.7.6/python-2.7.6.msi>`_ 을 다운로드 받아야 "
 "한다. 확실한 최신 버전으로 파이썬을 설치하고자 한다면, `Python.org web "
-"site <http://python.org>`_ 홈페이지의 "Windows Installer" 링크에서 다운받으면 "
+"site <http://python.org>`_ 홈페이지의 \"Windows Installer\" 링크에서 다운받으면 "
 "된다."
 
 #: ../../starting/install/win.rst:11

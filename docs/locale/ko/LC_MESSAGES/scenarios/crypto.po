@@ -11,41 +11,41 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ..\..\scenarios\crypto.rst:2 ..\..\scenarios\crypto.rst:5
+#: ../../scenarios/crypto.rst:2 ../../scenarios/crypto.rst:5
 msgid "Cryptography"
 msgstr ""
 
-#: ..\..\scenarios\crypto.rst:7
+#: ../../scenarios/crypto.rst:7
 msgid ""
 "`Cryptography <https://cryptography.io/en/latest/>`_ is an actively "
 "developed library that provides cryptographic recipes and primitives. It "
 "supports Python 2.6-2.7, Python 3.2+ and PyPy."
 msgstr ""
 
-#: ..\..\scenarios\crypto.rst:12
+#: ../../scenarios/crypto.rst:12
 msgid ""
 "Cryptography is divided into two layers of recipes and hazardous materials "
 "(hazmat). The recipes layer provides simple API for proper symmetric "
 "encryption and the hazmat layer provides low-level cryptographic primitives."
 msgstr ""
 
-#: ..\..\scenarios\crypto.rst:19 ..\..\scenarios\crypto.rst:49
+#: ../../scenarios/crypto.rst:19 ../../scenarios/crypto.rst:49
 msgid "Installation"
 msgstr ""
 
-#: ..\..\scenarios\crypto.rst:26 ..\..\scenarios\crypto.rst:56
+#: ../../scenarios/crypto.rst:26 ../../scenarios/crypto.rst:56
 msgid "Example"
 msgstr ""
 
-#: ..\..\scenarios\crypto.rst:28
+#: ../../scenarios/crypto.rst:28
 msgid "Example code using high level symmetric encryption recipe:"
 msgstr ""
 
-#: ..\..\scenarios\crypto.rst:42
+#: ../../scenarios/crypto.rst:42
 msgid "PyCrypto"
 msgstr ""
 
-#: ..\..\scenarios\crypto.rst:44
+#: ../../scenarios/crypto.rst:44
 msgid ""
 "`PyCrypto <https://www.dlitz.net/software/pycrypto/>`_ is another library, "
 "which provides secure hash functions and various encryption algorithms. It "

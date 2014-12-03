@@ -11,15 +11,15 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ..\..\index.rst:7
+#: ../../index.rst:7
 msgid "The Hitchhiker's Guide to Python!"
 msgstr "파이썬을 여행하는 히치하이커를 위한 안내서"
 
-#: ..\..\index.rst:9
+#: ../../index.rst:9
 msgid "Welcome to The Hitchhiker's Guide to Python."
 msgstr "파이썬을 여행하는 히치하이커를 위한 안내서에 오신 것을 환영합니다."
 
-#: ..\..\index.rst:11
+#: ../../index.rst:11
 msgid ""
 "**This guide is currently under heavy active development.**  If you'd like "
 "to help, `fork us on GitHub <https://github.com/kennethreitz/python-"
@@ -28,7 +28,7 @@ msgstr ""
 "**이 가이드는 현재 많은 변화가 진행 중입니다.**  도와주고 싶으시다면, `fork us on GitHub "
 "<https://github.com/kennethreitz/python-guide>`_!"
 
-#: ..\..\index.rst:14
+#: ../../index.rst:14
 msgid ""
 "This *opinionated* guide exists to provide both novice and expert Python "
 "developers a best-practice handbook to the installation, configuration, and "
@@ -37,60 +37,60 @@ msgstr ""
 "이 *자부심 강한* 가이드는 파이썬 초보자와 전문 개발자 모두에게 매일매일 단위로 파이썬의 설치, 설정, 사용을 안내하는 우수 사례 "
 "안내서입니다."
 
-#: ..\..\contents.rst.inc:2
+#: ../../contents.rst.inc:2
 msgid "Getting Started"
 msgstr "시작하기"
 
-#: ..\..\contents.rst.inc:4
+#: ../../contents.rst.inc:4
 msgid "This part of the guide focuses on setting up your Python environment."
 msgstr "이 파트의 주제는 파이썬 환경설정입니다."
 
-#: ..\..\contents.rst.inc:11
+#: ../../contents.rst.inc:11
 msgid "Properly Install Python"
 msgstr "적절한 파이썬 설치"
 
-#: ..\..\contents.rst.inc:23
+#: ../../contents.rst.inc:23
 msgid "Writing Great Code"
 msgstr "최고의 코드 작성하기"
 
-#: ..\..\contents.rst.inc:25
+#: ../../contents.rst.inc:25
 msgid ""
 "This part of the guide focuses on best practices for writing Python code."
 msgstr "이 파트는 파이썬 코드 작성의 모범 사례를 다룹니다."
 
-#: ..\..\contents.rst.inc:41
+#: ../../contents.rst.inc:41
 msgid "Scenario Guide"
 msgstr "시나리오 안내"
 
-#: ..\..\contents.rst.inc:43
+#: ../../contents.rst.inc:43
 msgid ""
 "This part of the guide focuses on tool and module advice based on different "
 "scenarios."
 msgstr "이 파트는 다양한 시나리에오 따른 툴과 모듈에 대한 조언을 다룹니다"
 
-#: ..\..\contents.rst.inc:66
+#: ../../contents.rst.inc:66
 msgid "Shipping Great Code"
 msgstr "최고의 코드를 진수하기"
 
-#: ..\..\contents.rst.inc:68
+#: ../../contents.rst.inc:68
 msgid "This part of the guide focuses on deploying your Python code."
 msgstr "이 파트는 파이썬 코드 배포를 다룹니다"
 
-#: ..\..\contents.rst.inc:78
+#: ../../contents.rst.inc:78
 msgid "Development Environment"
 msgstr "개발 환경"
 
-#: ..\..\contents.rst.inc:90
+#: ../../contents.rst.inc:90
 msgid "Additional Notes"
 msgstr "참고"
 
-#: ..\..\contents.rst.inc:92
+#: ../../contents.rst.inc:92
 msgid ""
 "This part of the guide, which is mostly prose, begins with some background "
 "information about Python, then focuses on next steps."
 msgstr "대부분 산문체로 쓰여진 이 부분은 파이썬에 대한 배경 지식부터 시작하여 그 다음 단계까지 다룹니다."
 
-#: ..\..\contents.rst.inc:109
+#: ../../contents.rst.inc:109
 msgid ""
 "Contribution notes and legal information are here (for those interested)."
 msgstr "(관심있으신 분들을 위한) 공헌자를 위한 알림과 법적 정보는 여기에 있습니다."

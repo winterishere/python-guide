@@ -11,22 +11,22 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ..\..\scenarios\scientific.rst:3
+#: ../../scenarios/scientific.rst:3
 msgid "Scientific Applications"
 msgstr ""
 
-#: ..\..\scenarios\scientific.rst:6
+#: ../../scenarios/scientific.rst:6
 msgid "Context"
 msgstr ""
 
-#: ..\..\scenarios\scientific.rst:8
+#: ../../scenarios/scientific.rst:8
 msgid ""
 "Python is frequently used for high-performance scientific applications. It "
 "is widely used in academia and scientific projects because it is easy to "
 "write and performs well."
 msgstr ""
 
-#: ..\..\scenarios\scientific.rst:12
+#: ../../scenarios/scientific.rst:12
 msgid ""
 "Due to its high performance nature, scientific computing in Python often "
 "utilizes external libraries, typically written in faster languages (like C, "
@@ -37,15 +37,15 @@ msgid ""
 "Lecture Notes <http://scipy-lectures.github.com/>`_"
 msgstr ""
 
-#: ..\..\scenarios\scientific.rst:22
+#: ../../scenarios/scientific.rst:22
 msgid "Tools"
 msgstr ""
 
-#: ..\..\scenarios\scientific.rst:25
+#: ../../scenarios/scientific.rst:25
 msgid "IPython"
 msgstr ""
 
-#: ..\..\scenarios\scientific.rst:27
+#: ../../scenarios/scientific.rst:27
 msgid ""
 "`IPython <http://ipython.org/>`_ is an enhanced version of Python "
 "interpreter, which provides features of great interest to scientists. The "
@@ -57,15 +57,15 @@ msgid ""
 "shared and exported in various file formats."
 msgstr ""
 
-#: ..\..\scenarios\scientific.rst:38
+#: ../../scenarios/scientific.rst:38
 msgid "Libraries"
 msgstr ""
 
-#: ..\..\scenarios\scientific.rst:41
+#: ../../scenarios/scientific.rst:41
 msgid "NumPy"
 msgstr ""
 
-#: ..\..\scenarios\scientific.rst:43
+#: ../../scenarios/scientific.rst:43
 msgid ""
 "`NumPy <http://numpy.scipy.org/>`_ is a low level library written in C (and "
 "FORTRAN) for high level mathematical functions. NumPy cleverly overcomes the"
@@ -75,23 +75,23 @@ msgid ""
 "quickly."
 msgstr ""
 
-#: ..\..\scenarios\scientific.rst:49
+#: ../../scenarios/scientific.rst:49
 msgid ""
 "NumPy is part of the SciPy project, and is released as a separate library so"
 " people who only need the basic requirements can use it without installing "
 "the rest of SciPy."
 msgstr ""
 
-#: ..\..\scenarios\scientific.rst:53
+#: ../../scenarios/scientific.rst:53
 msgid ""
 "NumPy is compatible with Python versions 2.4 through to 2.7.2 and 3.1+."
 msgstr ""
 
-#: ..\..\scenarios\scientific.rst:56
+#: ../../scenarios/scientific.rst:56
 msgid "Numba"
 msgstr ""
 
-#: ..\..\scenarios\scientific.rst:58
+#: ../../scenarios/scientific.rst:58
 msgid ""
 "`Numba <http://numba.pydata.org>`_ is an Numpy aware Python compiler (just-"
 "in-time (JIT) specializing compiler) which compiles annotated Python (and "
@@ -100,11 +100,11 @@ msgid ""
 "which can be natively executed at runtime."
 msgstr ""
 
-#: ..\..\scenarios\scientific.rst:65
+#: ../../scenarios/scientific.rst:65
 msgid "SciPy"
 msgstr ""
 
-#: ..\..\scenarios\scientific.rst:67
+#: ../../scenarios/scientific.rst:67
 msgid ""
 "`SciPy <http://scipy.org/>`_ is a library that uses NumPy for more "
 "mathematical functions. SciPy uses NumPy arrays as the basic data structure,"
@@ -113,11 +113,11 @@ msgid ""
 "differential equation solving and signal processing."
 msgstr ""
 
-#: ..\..\scenarios\scientific.rst:74
+#: ../../scenarios/scientific.rst:74
 msgid "Matplotlib"
 msgstr ""
 
-#: ..\..\scenarios\scientific.rst:76
+#: ../../scenarios/scientific.rst:76
 msgid ""
 "`Matplotlib <http://matplotlib.sourceforge.net/>`_ is a flexible plotting "
 "library for creating interactive 2D and 3D plots that can also be saved as "
@@ -128,11 +128,11 @@ msgid ""
 "<http://matplotlib.sourceforge.net/gallery.html>`_."
 msgstr ""
 
-#: ..\..\scenarios\scientific.rst:85
+#: ../../scenarios/scientific.rst:85
 msgid "Pandas"
 msgstr ""
 
-#: ..\..\scenarios\scientific.rst:87
+#: ../../scenarios/scientific.rst:87
 msgid ""
 "`Pandas <http://pandas.pydata.org/>`_ is data manipulation library based on "
 "Numpy which provides many useful functions for accessing, indexing, merging "
@@ -142,11 +142,11 @@ msgid ""
 " data."
 msgstr ""
 
-#: ..\..\scenarios\scientific.rst:95
+#: ../../scenarios/scientific.rst:95
 msgid "Rpy2"
 msgstr ""
 
-#: ..\..\scenarios\scientific.rst:97
+#: ../../scenarios/scientific.rst:97
 msgid ""
 "`Rpy2 <http://rpy.sourceforge.net/rpy2.html>`_ is a Python binding for the R"
 " statistical package allowing the execution of R functions from Python and "
@@ -155,11 +155,11 @@ msgid ""
 " bindings."
 msgstr ""
 
-#: ..\..\scenarios\scientific.rst:103
+#: ../../scenarios/scientific.rst:103
 msgid "PsychoPy"
 msgstr ""
 
-#: ..\..\scenarios\scientific.rst:105
+#: ../../scenarios/scientific.rst:105
 msgid ""
 "`PsychoPy <http://www.psychopy.org/>`_ is a library for cognitive scientists"
 " allowing the creation of cognitive psychology and neuroscience experiments."
@@ -167,11 +167,11 @@ msgid ""
 "design and data collection."
 msgstr ""
 
-#: ..\..\scenarios\scientific.rst:112
+#: ../../scenarios/scientific.rst:112
 msgid "Resources"
 msgstr ""
 
-#: ..\..\scenarios\scientific.rst:114
+#: ../../scenarios/scientific.rst:114
 msgid ""
 "Installation of scientific Python packages can be troublesome, as many of "
 "these packages are implemented as Python C extensions which need to be "
@@ -180,11 +180,11 @@ msgid ""
 "scientific Python packages."
 msgstr ""
 
-#: ..\..\scenarios\scientific.rst:121
+#: ../../scenarios/scientific.rst:121
 msgid "Unofficial Windows Binaries for Python Extension Packages"
 msgstr ""
 
-#: ..\..\scenarios\scientific.rst:123
+#: ../../scenarios/scientific.rst:123
 msgid ""
 "Many people who do scientific computing are on Windows, yet many of the "
 "scientific computing packages are notoriously difficult to build and install"
@@ -195,11 +195,11 @@ msgid ""
 "If you're on Windows, you may want to check it out."
 msgstr ""
 
-#: ..\..\scenarios\scientific.rst:131
+#: ../../scenarios/scientific.rst:131
 msgid "Anaconda"
 msgstr ""
 
-#: ..\..\scenarios\scientific.rst:133
+#: ../../scenarios/scientific.rst:133
 msgid ""
 "`Continuum Analytics <http://continuum.io/>`_ offers the `Anaconda Python "
 "Distribution <https://store.continuum.io/cshop/anaconda>`_ which includes "
@@ -209,11 +209,11 @@ msgid ""
 "available for academics and researchers."
 msgstr ""
 
-#: ..\..\scenarios\scientific.rst:141
+#: ../../scenarios/scientific.rst:141
 msgid "Canopy"
 msgstr ""
 
-#: ..\..\scenarios\scientific.rst:143
+#: ../../scenarios/scientific.rst:143
 msgid ""
 "`Canopy <https://www.enthought.com/products/canopy/>`_ is another scientific"
 " Python distribution, produced by `Enthought <https://www.enthought.com/>`_."

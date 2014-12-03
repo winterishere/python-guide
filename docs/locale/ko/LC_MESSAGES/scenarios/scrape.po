@@ -11,15 +11,15 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ..\..\scenarios\scrape.rst:2
+#: ../../scenarios/scrape.rst:2
 msgid "HTML Scraping"
 msgstr ""
 
-#: ..\..\scenarios\scrape.rst:5
+#: ../../scenarios/scrape.rst:5
 msgid "Web Scraping"
 msgstr ""
 
-#: ..\..\scenarios\scrape.rst:7
+#: ../../scenarios/scrape.rst:7
 msgid ""
 "Web sites are written using HTML, which means that each web page is a "
 "structured document. Sometimes it would be great to obtain some data from "
@@ -27,7 +27,7 @@ msgid ""
 "provide their data in comfortable formats such as ``csv`` or ``json``."
 msgstr ""
 
-#: ..\..\scenarios\scrape.rst:12
+#: ../../scenarios/scrape.rst:12
 msgid ""
 "This is where web scraping comes in. Web scraping is the practice of using a"
 " computer program to sift through a web page and gather the data that you "
@@ -35,11 +35,11 @@ msgid ""
 "structure of the data."
 msgstr ""
 
-#: ..\..\scenarios\scrape.rst:18
+#: ../../scenarios/scrape.rst:18
 msgid "lxml and Requests"
 msgstr ""
 
-#: ..\..\scenarios\scrape.rst:20
+#: ../../scenarios/scrape.rst:20
 msgid ""
 "`lxml <http://lxml.de/>`_ is a pretty extensive library written for parsing "
 "XML and HTML documents very quickly, even handling messed up tags in the "
@@ -49,31 +49,31 @@ msgid ""
 "both using ``pip install lxml`` and ``pip install requests``."
 msgstr ""
 
-#: ..\..\scenarios\scrape.rst:27
+#: ../../scenarios/scrape.rst:27
 msgid "Let's start with the imports:"
 msgstr ""
 
-#: ..\..\scenarios\scrape.rst:34
+#: ../../scenarios/scrape.rst:34
 msgid ""
 "Next we will use ``requests.get`` to retrieve the web page with our data, "
 "parse it using the ``html`` module and save the results in ``tree``:"
 msgstr ""
 
-#: ..\..\scenarios\scrape.rst:42
+#: ../../scenarios/scrape.rst:42
 msgid ""
 "``tree`` now contains the whole HTML file in a nice tree structure which we "
 "can go over two different ways: XPath and CSSSelect. In this example, we "
 "will focus on the former."
 msgstr ""
 
-#: ..\..\scenarios\scrape.rst:46
+#: ../../scenarios/scrape.rst:46
 msgid ""
 "XPath is a way of locating information in structured documents such as HTML "
 "or XML documents. A good introduction to XPath is on `W3Schools "
 "<http://www.w3schools.com/xpath/default.asp>`_ ."
 msgstr ""
 
-#: ..\..\scenarios\scrape.rst:50
+#: ../../scenarios/scrape.rst:50
 msgid ""
 "There are also various tools for obtaining the XPath of elements such as "
 "FireBug for Firefox or the Chrome Inspector. If you're using Chrome, you can"
@@ -81,24 +81,24 @@ msgid ""
 " click again and choose 'Copy XPath'."
 msgstr ""
 
-#: ..\..\scenarios\scrape.rst:55
+#: ../../scenarios/scrape.rst:55
 msgid ""
 "After a quick analysis, we see that in our page the data is contained in two"
 " elements - one is a div with title 'buyer-name' and the other is a span "
 "with class 'item-price':"
 msgstr ""
 
-#: ..\..\scenarios\scrape.rst:64
+#: ../../scenarios/scrape.rst:64
 msgid ""
 "Knowing this we can create the correct XPath query and use the lxml "
 "``xpath`` function like this:"
 msgstr ""
 
-#: ..\..\scenarios\scrape.rst:74
+#: ../../scenarios/scrape.rst:74
 msgid "Let's see what we got exactly:"
 msgstr ""
 
-#: ..\..\scenarios\scrape.rst:94
+#: ../../scenarios/scrape.rst:94
 msgid ""
 "Congratulations! We have successfully scraped all the data we wanted from a "
 "web page using lxml and Requests. We have it stored in memory as two lists. "
@@ -106,7 +106,7 @@ msgid ""
 "Python or we can save it to a file and share it with the world."
 msgstr ""
 
-#: ..\..\scenarios\scrape.rst:99
+#: ../../scenarios/scrape.rst:99
 msgid ""
 "Some more cool ideas to think about are modifying this script to iterate "
 "through the rest of the pages of this example dataset, or rewriting this "
