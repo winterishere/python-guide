@@ -11,26 +11,26 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../scenarios/client.rst:2
+#: ..\..\scenarios\client.rst:2
 msgid "Network Applications"
 msgstr ""
 
-#: ../../scenarios/client.rst:7
+#: ..\..\scenarios\client.rst:7
 msgid "HTTP"
 msgstr ""
 
-#: ../../scenarios/client.rst:9
+#: ..\..\scenarios\client.rst:9
 msgid ""
 "The Hypertext Transfer Protocol (HTTP) is an application protocol for "
 "distributed, collaborative, hypermedia information systems. HTTP is the "
 "foundation of data communication for the World Wide Web."
 msgstr ""
 
-#: ../../scenarios/client.rst:14
+#: ..\..\scenarios\client.rst:14
 msgid "Requests"
 msgstr ""
 
-#: ../../scenarios/client.rst:16
+#: ..\..\scenarios\client.rst:16
 msgid ""
 "Python’s standard urllib2 module provides most of the HTTP capabilities you "
 "need, but the API is thoroughly broken. It was built for a different time — "
@@ -38,7 +38,7 @@ msgid ""
 "overrides) to perform the simplest of tasks."
 msgstr ""
 
-#: ../../scenarios/client.rst:21
+#: ..\..\scenarios\client.rst:21
 msgid ""
 "Requests takes all of the work out of Python HTTP — making your integration "
 "with web services seamless. There’s no need to manually add query strings to"
@@ -47,28 +47,28 @@ msgid ""
 "Requests."
 msgstr ""
 
-#: ../../scenarios/client.rst:27
+#: ..\..\scenarios\client.rst:27
 msgid ""
 "`Documentation <http://docs.python-requests.org/en/latest/index.html>`_"
 msgstr ""
 
-#: ../../scenarios/client.rst:28
+#: ..\..\scenarios\client.rst:28
 msgid "`PyPi <http://pypi.python.org/pypi/requests>`_"
 msgstr ""
 
-#: ../../scenarios/client.rst:29
+#: ..\..\scenarios\client.rst:29
 msgid "`GitHub <https://github.com/kennethreitz/requests>`_"
 msgstr ""
 
-#: ../../scenarios/client.rst:33
+#: ..\..\scenarios\client.rst:33
 msgid "Distributed Systems"
 msgstr ""
 
-#: ../../scenarios/client.rst:37
+#: ..\..\scenarios\client.rst:37
 msgid "ZeroMQ"
 msgstr ""
 
-#: ../../scenarios/client.rst:39
+#: ..\..\scenarios\client.rst:39
 msgid ""
 "ØMQ (also spelled ZeroMQ, 0MQ or ZMQ) is a high-performance asynchronous "
 "messaging library aimed at use in scalable distributed or concurrent "
@@ -77,11 +77,11 @@ msgid ""
 "library is designed to have a familiar socket-style API."
 msgstr ""
 
-#: ../../scenarios/client.rst:46
+#: ..\..\scenarios\client.rst:46
 msgid "RabbitMQ"
 msgstr ""
 
-#: ../../scenarios/client.rst:48
+#: ..\..\scenarios\client.rst:48
 msgid ""
 "RabbitMQ is an open source message broker software that implements the "
 "Advanced Message Queuing Protocol (AMQP). The RabbitMQ server is written in "
@@ -90,10 +90,10 @@ msgid ""
 "the broker are available for all major programming languages."
 msgstr ""
 
-#: ../../scenarios/client.rst:53
+#: ..\..\scenarios\client.rst:53
 msgid "`Homepage <http://www.rabbitmq.com/>`_"
 msgstr ""
 
-#: ../../scenarios/client.rst:54
+#: ..\..\scenarios\client.rst:54
 msgid "`GitHub Organization <https://github.com/rabbitmq?page=1>`_"
 msgstr ""

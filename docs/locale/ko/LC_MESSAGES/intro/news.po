@@ -11,75 +11,75 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../intro/news.rst:2
+#: ..\..\intro\news.rst:2
 msgid "News"
 msgstr ""
 
-#: ../../intro/news.rst:5
+#: ..\..\intro\news.rst:5
 msgid "Planet Python"
 msgstr ""
 
-#: ../../intro/news.rst:7
+#: ..\..\intro\news.rst:7
 msgid ""
 "This is an aggregate of Python news from a growing number of developers."
 msgstr ""
 
-#: ../../intro/news.rst:9
+#: ..\..\intro\news.rst:9
 msgid "`Planet Python <http://planet.python.org>`_"
 msgstr ""
 
-#: ../../intro/news.rst:12
+#: ..\..\intro\news.rst:12
 msgid "/r/python"
 msgstr ""
 
-#: ../../intro/news.rst:14
+#: ..\..\intro\news.rst:14
 msgid ""
 "/r/python is the Reddit Python community where users contribute and vote on "
 "Python-related news."
 msgstr ""
 
-#: ../../intro/news.rst:17
+#: ..\..\intro\news.rst:17
 msgid "`/r/python <http://reddit.com/r/python>`_"
 msgstr ""
 
-#: ../../intro/news.rst:20
+#: ..\..\intro\news.rst:20
 msgid "Pycoder's Weekly"
 msgstr ""
 
-#: ../../intro/news.rst:22
+#: ..\..\intro\news.rst:22
 msgid ""
 "Pycoder's Weekly is a free weekly Python newsletter for Python developers by"
 " Python developers (Projects, Articles, News, and Jobs)."
 msgstr ""
 
-#: ../../intro/news.rst:25
+#: ..\..\intro\news.rst:25
 msgid "`Pycoder's Weekly <http://www.pycoders.com/>`_"
 msgstr ""
 
-#: ../../intro/news.rst:28
+#: ..\..\intro\news.rst:28
 msgid "Python Weekly"
 msgstr ""
 
-#: ../../intro/news.rst:30
+#: ..\..\intro\news.rst:30
 msgid ""
 "Python Weekly is a free weekly newsletter featuring curated news, articles, "
 "new releases, jobs, etc. related to Python."
 msgstr ""
 
-#: ../../intro/news.rst:33
+#: ..\..\intro\news.rst:33
 msgid "`Python Weekly <http://www.pythonweekly.com/>`_"
 msgstr ""
 
-#: ../../intro/news.rst:36
+#: ..\..\intro\news.rst:36
 msgid "Python News"
 msgstr ""
 
-#: ../../intro/news.rst:38
+#: ..\..\intro\news.rst:38
 msgid ""
 "News section in the official Python web site (www.python.org). It briefly "
 "highlights the news from Python community."
 msgstr ""
 
-#: ../../intro/news.rst:41
+#: ..\..\intro\news.rst:41
 msgid "`Python News <http://www.python.org/news/>`_"
 msgstr ""

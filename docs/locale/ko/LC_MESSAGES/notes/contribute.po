@@ -11,16 +11,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../notes/contribute.rst:2
+#: ..\..\notes\contribute.rst:2
 msgid "Contribute"
 msgstr ""
 
-#: ../../notes/contribute.rst:4
+#: ..\..\notes\contribute.rst:4
 msgid ""
 "Python-guide is under active development, and contributors are welcome."
 msgstr ""
 
-#: ../../notes/contribute.rst:6
+#: ..\..\notes\contribute.rst:6
 msgid ""
 "If you have a feature request, suggestion, or bug report, please open a new "
 "issue on GitHub_. To submit patches, please send a pull request on GitHub_. "
@@ -29,24 +29,24 @@ msgid ""
 "guide/contributors>`_."
 msgstr ""
 
-#: ../../notes/contribute.rst:12
+#: ..\..\notes\contribute.rst:12
 msgid "Style Guide"
 msgstr ""
 
-#: ../../notes/contribute.rst:14
+#: ..\..\notes\contribute.rst:14
 msgid "For all contributions, please follow the :ref:`guide-style-guide`."
 msgstr ""
 
-#: ../../notes/contribute.rst:19
+#: ..\..\notes\contribute.rst:19
 msgid "Todo List"
 msgstr ""
 
-#: ../../notes/contribute.rst:21
+#: ..\..\notes\contribute.rst:21
 msgid ""
 "If you'd like to contribute, there's plenty to do. Here's a short todo_ "
 "list."
 msgstr ""
 
-#: ../../../TODO.rst:1
+#: ..\..\..\TODO.rst:1
 msgid "Establish \"use this\" vs \"alternatives are....\" recommendations"
 msgstr ""

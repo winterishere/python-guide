@@ -11,16 +11,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../starting/installation.rst:2
+#: ..\..\starting\installation.rst:2
 msgid "Properly Installing Python"
 msgstr "올바른 파이썬 설치"
 
-#: ../../starting/installation.rst:4
+#: ..\..\starting\installation.rst:4
 msgid ""
 "There's a good chance that you already have Python on your operating system."
 msgstr "운좋게도 이미 파이썬이 당신의 운영체제에 설치되어 있을 수도 있다."
 
-#: ../../starting/installation.rst:6
+#: ..\..\starting\installation.rst:6
 msgid ""
 "If so, you do not need to install or configure anything else to use Python. "
 "Having said that, I would strongly recommend that you install the tools and "
@@ -29,29 +29,33 @@ msgid ""
 "Setuptools, Pip, and Virtualenv — they make it much easier for you to use "
 "other third-party Python libraries."
 msgstr ""
-"만일 그렇다면 파이썬을 사용하기 위해 달리 설치하거나 설정을 할 필요는 없다."
-"그렇긴 해도 실제로 사용할 파이썬 어플리케이션을 만들기 전에 이 가이드에서 아래에 "
-"설명할 툴과 라이브러리들을 설치할 것을 강력 추천한다."
-"특히 Setuptools, Pip, Virtualenv는 반드시 설치해야 한다."
-"이것들은 다른 파이썬 서드파티 라이브러리들을 사용하기 편하게 해준다."
+"만일 그렇다면 파이썬을 사용하기 위해 달리 설치하거나 설정을 할 필요는 없다.그렇긴 해도 실제로 사용할 파이썬 어플리케이션을 만들기 전에"
+"이 가이드에서 아래에 설명할 툴과 라이브러리들을 설치할 것을 강력 추천한다.특히 Setuptools, Pip, Virtualenv는 "
+"반드시 설치해야 한다.이것들은 다른 파이썬 서드파티 라이브러리들을 사용하기 편하게 해준다."
 
-#: ../../starting/installation.rst:14
+#: ..\..\starting\installation.rst:14
 msgid "Installation Guides"
 msgstr "설치 가이드"
 
-#: ../../starting/installation.rst:17
+#: ..\..\starting\installation.rst:17
 msgid ""
 "for development purposes, as well as setuptools, pip, and virtualenv setup."
 msgstr "개발을 위한 설치 뿐만 아니라 setuptools, pip, and virtualenv의 설치도 다룬다."
 
-#: ../../starting/installation.rst:19
+#: ..\..\starting\installation.rst:19
 msgid ":ref:`Mac OS X <install-osx>`."
 msgstr ":ref:`Mac OS X <install-osx>`."
 
-#: ../../starting/installation.rst:20
+#: ..\..\starting\installation.rst:20
 msgid ":ref:`Microsoft Windows<install-windows>`."
 msgstr ":ref:`Microsoft Windows<install-windows>`."
 
-#: ../../starting/installation.rst:21
+#: ..\..\starting\installation.rst:21
 msgid ":ref:`Ubuntu Linux <install-linux>`."
 msgstr ":ref:`Ubuntu Linux <install-linux>`."
+
+#: ..\..\starting\installation.rst:17
+msgid ""
+"These guides go over the proper installation of :ref:`Python 2.7 <which-"
+"python>`"
+msgstr ""

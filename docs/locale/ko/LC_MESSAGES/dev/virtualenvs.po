@@ -11,11 +11,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../dev/virtualenvs.rst:2
+#: ..\..\dev\virtualenvs.rst:2
 msgid "Virtual Environments"
 msgstr ""
 
-#: ../../dev/virtualenvs.rst:4
+#: ..\..\dev\virtualenvs.rst:4
 msgid ""
 "A Virtual Environment is a tool to keep the dependencies required by "
 "different projects in separate places, by creating virtual Python "
@@ -24,17 +24,17 @@ msgid ""
 "directory clean and manageable."
 msgstr ""
 
-#: ../../dev/virtualenvs.rst:9
+#: ..\..\dev\virtualenvs.rst:9
 msgid ""
 "For example, you can work on a project which requires Django 1.3 while also "
 "maintaining a project which requires Django 1.0."
 msgstr ""
 
-#: ../../dev/virtualenvs.rst:13
+#: ..\..\dev\virtualenvs.rst:13
 msgid "virtualenv"
 msgstr ""
 
-#: ../../dev/virtualenvs.rst:15
+#: ..\..\dev\virtualenvs.rst:15
 msgid ""
 "`virtualenv <http://pypi.python.org/pypi/virtualenv>`_ is a tool to create "
 "isolated Python environments. virtualenv creates a folder which contains all"
@@ -42,19 +42,19 @@ msgid ""
 "need."
 msgstr ""
 
-#: ../../dev/virtualenvs.rst:19
+#: ..\..\dev\virtualenvs.rst:19
 msgid "Install virtualenv via pip:"
 msgstr ""
 
-#: ../../dev/virtualenvs.rst:26 ../../dev/virtualenvs.rst:145
+#: ..\..\dev\virtualenvs.rst:26 ..\..\dev\virtualenvs.rst:145
 msgid "Basic Usage"
 msgstr ""
 
-#: ../../dev/virtualenvs.rst:28
+#: ..\..\dev\virtualenvs.rst:28
 msgid "Create a virtual environment for a project:"
 msgstr ""
 
-#: ../../dev/virtualenvs.rst:35
+#: ..\..\dev\virtualenvs.rst:35
 msgid ""
 "``virtualenv venv`` will create a folder in the current directory which will"
 " contain the Python executable files, and a copy of the ``pip`` library "
@@ -63,25 +63,25 @@ msgid ""
 "name will place the files in the current directory instead."
 msgstr ""
 
-#: ../../dev/virtualenvs.rst:40
+#: ..\..\dev\virtualenvs.rst:40
 msgid ""
 "This creates a copy of Python in whichever directory you ran the command in,"
 " placing it in a folder named :file:`venv`."
 msgstr ""
 
-#: ../../dev/virtualenvs.rst:43
+#: ..\..\dev\virtualenvs.rst:43
 msgid "You can also use a Python interpreter of your choice."
 msgstr ""
 
-#: ../../dev/virtualenvs.rst:49
+#: ..\..\dev\virtualenvs.rst:49
 msgid "This will use the Python interpreter in :file:`/usr/bin/python2.7`"
 msgstr ""
 
-#: ../../dev/virtualenvs.rst:51
+#: ..\..\dev\virtualenvs.rst:51
 msgid "To begin using the virtual environment, it needs to be activated:"
 msgstr ""
 
-#: ../../dev/virtualenvs.rst:57
+#: ..\..\dev\virtualenvs.rst:57
 msgid ""
 "The name of the current virtual environment will now appear on the left of "
 "the prompt (e.g. ``(venv)Your-Computer:your_project UserName$)`` to let you "
@@ -90,40 +90,40 @@ msgid ""
 "installation."
 msgstr ""
 
-#: ../../dev/virtualenvs.rst:62
+#: ..\..\dev\virtualenvs.rst:62
 msgid "Install packages as usual, for example:"
 msgstr ""
 
-#: ../../dev/virtualenvs.rst:68
+#: ..\..\dev\virtualenvs.rst:68
 msgid ""
 "If you are done working in the virtual environment for the moment, you can "
 "deactivate it:"
 msgstr ""
 
-#: ../../dev/virtualenvs.rst:75
+#: ..\..\dev\virtualenvs.rst:75
 msgid ""
 "This puts you back to the system's default Python interpreter with all its "
 "installed libraries."
 msgstr ""
 
-#: ../../dev/virtualenvs.rst:78
+#: ..\..\dev\virtualenvs.rst:78
 msgid ""
 "To delete a virtual environment, just delete its folder. (In this case, it "
 "would be ``rm -rf venv``.)"
 msgstr ""
 
-#: ../../dev/virtualenvs.rst:81
+#: ..\..\dev\virtualenvs.rst:81
 msgid ""
 "After a while, though, you might end up with a lot of virtual environments "
 "littered across your system, and its possible you'll forget their names or "
 "where they were placed."
 msgstr ""
 
-#: ../../dev/virtualenvs.rst:86
+#: ..\..\dev\virtualenvs.rst:86
 msgid "Other Notes"
 msgstr ""
 
-#: ../../dev/virtualenvs.rst:88
+#: ..\..\dev\virtualenvs.rst:88
 msgid ""
 "Running ``virtualenv`` with the option :option:`--no-site-packages` will not"
 " include the packages that are installed globally. This can be useful for "
@@ -131,13 +131,13 @@ msgid ""
 "is the default behavior for ``virtualenv`` 1.7 and later.]"
 msgstr ""
 
-#: ../../dev/virtualenvs.rst:93
+#: ..\..\dev\virtualenvs.rst:93
 msgid ""
 "In order to keep your environment consistent, it's a good idea to \"freeze\""
 " the current state of the environment packages. To do this, run"
 msgstr ""
 
-#: ../../dev/virtualenvs.rst:100
+#: ..\..\dev\virtualenvs.rst:100
 msgid ""
 "This will create a :file:`requirements.txt` file, which contains a simple "
 "list of all the packages in the current environment, and their respective "
@@ -146,23 +146,23 @@ msgid ""
 "same versions:"
 msgstr ""
 
-#: ../../dev/virtualenvs.rst:110
+#: ..\..\dev\virtualenvs.rst:110
 msgid ""
 "This can help ensure consistency across installations, across deployments, "
 "and across developers."
 msgstr ""
 
-#: ../../dev/virtualenvs.rst:113
+#: ..\..\dev\virtualenvs.rst:113
 msgid ""
 "Lastly, remember to exclude the virtual environment folder from source "
 "control by adding it to the ignore list."
 msgstr ""
 
-#: ../../dev/virtualenvs.rst:117
+#: ..\..\dev\virtualenvs.rst:117
 msgid "virtualenvwrapper"
 msgstr ""
 
-#: ../../dev/virtualenvs.rst:119
+#: ..\..\dev\virtualenvs.rst:119
 msgid ""
 "`virtualenvwrapper "
 "<http://virtualenvwrapper.readthedocs.org/en/latest/index.html>`_ provides a"
@@ -170,98 +170,114 @@ msgid ""
 "pleasant. It also places all your virtual environments in one place."
 msgstr ""
 
-#: ../../dev/virtualenvs.rst:123 ../../dev/virtualenvs.rst:135
+#: ..\..\dev\virtualenvs.rst:123 ..\..\dev\virtualenvs.rst:135
 msgid "To install (make sure **virtualenv** is already installed):"
 msgstr ""
 
-#: ../../dev/virtualenvs.rst:131
+#: ..\..\dev\virtualenvs.rst:131
 msgid ""
 "(`Full virtualenvwrapper install instructions "
 "<http://virtualenvwrapper.readthedocs.org/en/latest/install.html>`_.)"
 msgstr ""
 
-#: ../../dev/virtualenvs.rst:133
+#: ..\..\dev\virtualenvs.rst:133
 msgid ""
 "For Windows, you can use the `virtualenvwrapper-powershell "
 "<https://bitbucket.org/guillermooo/virtualenvwrapper-powershell>`_ clone."
 msgstr ""
 
-#: ../../dev/virtualenvs.rst:147
+#: ..\..\dev\virtualenvs.rst:147
 msgid "Create a virtual environment:"
 msgstr ""
 
-#: ../../dev/virtualenvs.rst:153
+#: ..\..\dev\virtualenvs.rst:153
 msgid "This creates the :file:`venv` folder inside :file:`~/Envs`."
 msgstr ""
 
-#: ../../dev/virtualenvs.rst:155
+#: ..\..\dev\virtualenvs.rst:155
 msgid "Work on a virtual environment:"
 msgstr ""
 
-#: ../../dev/virtualenvs.rst:161
+#: ..\..\dev\virtualenvs.rst:161
 msgid ""
 "**virtualenvwrapper** provides tab-completion on environment names. It "
 "really helps when you have a lot of environments and have trouble "
 "remembering their names."
 msgstr ""
 
-#: ../../dev/virtualenvs.rst:165
+#: ..\..\dev\virtualenvs.rst:165
 msgid ""
 "``workon`` also deactivates whatever environment you are currently in, so "
 "you can quickly switch between environments."
 msgstr ""
 
-#: ../../dev/virtualenvs.rst:168
+#: ..\..\dev\virtualenvs.rst:168
 msgid "Deactivating is still the same:"
 msgstr ""
 
-#: ../../dev/virtualenvs.rst:174
+#: ..\..\dev\virtualenvs.rst:174
 msgid "To delete:"
 msgstr ""
 
-#: ../../dev/virtualenvs.rst:181
+#: ..\..\dev\virtualenvs.rst:181
 msgid "Other useful commands"
 msgstr ""
 
-#: ../../dev/virtualenvs.rst:184
+#: ..\..\dev\virtualenvs.rst:184
 msgid "List all of the environments."
 msgstr ""
 
-#: ../../dev/virtualenvs.rst:187
+#: ..\..\dev\virtualenvs.rst:187
 msgid ""
 "Navigate into the directory of the currently activated virtual environment, "
 "so you can browse its :file:`site-packages`, for example."
 msgstr ""
 
-#: ../../dev/virtualenvs.rst:191
+#: ..\..\dev\virtualenvs.rst:191
 msgid "Like the above, but directly into :file:`site-packages` directory."
 msgstr ""
 
-#: ../../dev/virtualenvs.rst:194
+#: ..\..\dev\virtualenvs.rst:194
 msgid "Shows contents of :file:`site-packages` directory."
 msgstr ""
 
-#: ../../dev/virtualenvs.rst:196
+#: ..\..\dev\virtualenvs.rst:196
 msgid ""
 "`Full list of virtualenvwrapper commands "
 "<http://virtualenvwrapper.readthedocs.org/en/latest/command_ref.html>`_."
 msgstr ""
 
-#: ../../dev/virtualenvs.rst:199
+#: ..\..\dev\virtualenvs.rst:199
 msgid "autoenv"
 msgstr ""
 
-#: ../../dev/virtualenvs.rst:200
+#: ..\..\dev\virtualenvs.rst:200
 msgid ""
 "When you ``cd`` into a directory containing a :file:`.env`, `autoenv "
 "<https://github.com/kennethreitz/autoenv>`_ automagically activates the "
 "environment."
 msgstr ""
 
-#: ../../dev/virtualenvs.rst:203
+#: ..\..\dev\virtualenvs.rst:203
 msgid "Install it on Mac OS X using ``brew``:"
 msgstr ""
 
-#: ../../dev/virtualenvs.rst:209
+#: ..\..\dev\virtualenvs.rst:209
 msgid "And on Linux:"
+msgstr ""
+
+#: ..\..\dev\virtualenvs.rst:184
+msgid "``lsvirtualenv``"
+msgstr ""
+
+#: ..\..\dev\virtualenvs.rst:188
+msgid "``cdvirtualenv``"
+msgstr ""
+
+#: ..\..\dev\virtualenvs.rst:191
+msgid "``cdsitepackages``"
+msgstr ""
+
+#: ..\..\dev\virtualenvs.rst:194
+msgid "``lssitepackages``"
 msgstr ""

@@ -11,47 +11,47 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../intro/documentation.rst:2
+#: ..\..\intro\documentation.rst:2
 msgid "Documentation"
 msgstr ""
 
-#: ../../intro/documentation.rst:5
+#: ..\..\intro\documentation.rst:5
 msgid "Official Documentation"
 msgstr ""
 
-#: ../../intro/documentation.rst:7
+#: ..\..\intro\documentation.rst:7
 msgid ""
 "The official Python Language and Library documentation can be found here:"
 msgstr ""
 
-#: ../../intro/documentation.rst:9
+#: ..\..\intro\documentation.rst:9
 msgid "`Python 2.x <https://docs.python.org/2/>`_"
 msgstr ""
 
-#: ../../intro/documentation.rst:10
+#: ..\..\intro\documentation.rst:10
 msgid "`Python 3.x <https://docs.python.org/3/>`_"
 msgstr ""
 
-#: ../../intro/documentation.rst:14
+#: ..\..\intro\documentation.rst:14
 msgid "Read the Docs"
 msgstr ""
 
-#: ../../intro/documentation.rst:16
+#: ..\..\intro\documentation.rst:16
 msgid ""
 "Read the Docs is a popular community project that hosts documentation for "
 "open source software. It holds documentation for many Python modules, both "
 "popular and exotic."
 msgstr ""
 
-#: ../../intro/documentation.rst:20
+#: ..\..\intro\documentation.rst:20
 msgid "`Read the Docs <https://readthedocs.org/>`_"
 msgstr ""
 
-#: ../../intro/documentation.rst:24
+#: ..\..\intro\documentation.rst:24
 msgid "pydoc"
 msgstr ""
 
-#: ../../intro/documentation.rst:26
+#: ..\..\intro\documentation.rst:26
 msgid ""
 ":program:`pydoc` is a utlity that is installed when you install Python. It "
 "allows you to quickly retrieve and search for documentation from your shell."
@@ -59,7 +59,7 @@ msgid ""
 "pulling up documentation would be as simple as"
 msgstr ""
 
-#: ../../intro/documentation.rst:35
+#: ..\..\intro\documentation.rst:35
 msgid ""
 "The above command is essentially equivalent to opening the Python REPL and "
 "running"

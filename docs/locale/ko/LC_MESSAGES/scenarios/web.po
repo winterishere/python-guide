@@ -11,25 +11,25 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../scenarios/web.rst:3
+#: ..\..\scenarios\web.rst:3
 msgid "Web Applications"
 msgstr ""
 
-#: ../../scenarios/web.rst:5
+#: ..\..\scenarios\web.rst:5
 msgid ""
 "As a powerful scripting language adapted to both fast prototyping and bigger"
 " projects, Python is widely used in Web applications development."
 msgstr ""
 
-#: ../../scenarios/web.rst:10
+#: ..\..\scenarios\web.rst:10
 msgid "Context"
 msgstr ""
 
-#: ../../scenarios/web.rst:14
+#: ..\..\scenarios\web.rst:14
 msgid "WSGI"
 msgstr ""
 
-#: ../../scenarios/web.rst:16
+#: ..\..\scenarios\web.rst:16
 msgid ""
 "The Web Server Gateway Interface (or \"WSGI\" for short) is a standard "
 "interface between web servers and Python web application frameworks. By "
@@ -39,11 +39,11 @@ msgid ""
 "WSGI is documented in :pep:`3333`."
 msgstr ""
 
-#: ../../scenarios/web.rst:25
+#: ..\..\scenarios\web.rst:25
 msgid "Frameworks"
 msgstr ""
 
-#: ../../scenarios/web.rst:27
+#: ..\..\scenarios\web.rst:27
 msgid ""
 "Broadly speaking, a web framework consists of a set of libraries and a main "
 "handler within which you can build custom code to implement a web "
@@ -51,33 +51,33 @@ msgid ""
 "patterns and utilities to accomplish at least the following:"
 msgstr ""
 
-#: ../../scenarios/web.rst:33
+#: ..\..\scenarios\web.rst:33
 msgid ""
 "Matches an incoming HTTP request to a particular piece of Python code to be "
 "invoked"
 msgstr ""
 
-#: ../../scenarios/web.rst:37
+#: ..\..\scenarios\web.rst:37
 msgid "Encapsulate the information received from or sent to a user's browser"
 msgstr ""
 
-#: ../../scenarios/web.rst:40
+#: ..\..\scenarios\web.rst:40
 msgid ""
 "Allows for separating Python code implementing an application's logic from "
 "the HTML (or other) output that it produces"
 msgstr ""
 
-#: ../../scenarios/web.rst:44
+#: ..\..\scenarios\web.rst:44
 msgid ""
 "Runs an HTTP server on development machines to enable rapid development; "
 "often automatically reloads server-side code when files are updated"
 msgstr ""
 
-#: ../../scenarios/web.rst:49
+#: ..\..\scenarios\web.rst:49
 msgid "Django"
 msgstr ""
 
-#: ../../scenarios/web.rst:51
+#: ..\..\scenarios\web.rst:51
 msgid ""
 "`Django <http://www.djangoproject.com>`_ is a \"batteries included\" web "
 "application framework. By providing many utilities and patterns out of the "
@@ -86,24 +86,24 @@ msgid ""
 " it."
 msgstr ""
 
-#: ../../scenarios/web.rst:57
+#: ..\..\scenarios\web.rst:57
 msgid ""
 "Django has a large and active community, and many pre-built `re-usable "
 "modules <http://djangopackages.com/>`_ that can be incorporated into a new "
 "project as-is, or customized to fit your needs."
 msgstr ""
 
-#: ../../scenarios/web.rst:61
+#: ..\..\scenarios\web.rst:61
 msgid ""
 "There are annual Django conferences `in the United States "
 "<http://djangocon.us>`_ and `in Europe <http://djangocon.eu>`_."
 msgstr ""
 
-#: ../../scenarios/web.rst:66
+#: ..\..\scenarios\web.rst:66
 msgid "Flask"
 msgstr ""
 
-#: ../../scenarios/web.rst:68
+#: ..\..\scenarios\web.rst:68
 msgid ""
 "`Flask <http://flask.pocoo.org/>`_ is a \"microframework\" for Python. "
 "Rather than aiming to provide everything you could possibly need, Flask "
@@ -115,17 +115,17 @@ msgid ""
 "<http://flask.pocoo.org/extensions/>`_ may already exist to suit your needs."
 msgstr ""
 
-#: ../../scenarios/web.rst:77
+#: ..\..\scenarios\web.rst:77
 msgid ""
 "**Support** for flask can best be found in its mailing list. Just shoot an "
 "email to flask@librelist.com and reply to the confirmation email."
 msgstr ""
 
-#: ../../scenarios/web.rst:82
+#: ..\..\scenarios\web.rst:82
 msgid "Werkzeug"
 msgstr ""
 
-#: ../../scenarios/web.rst:84
+#: ..\..\scenarios\web.rst:84
 msgid ""
 "`Werkzeug <http://werkzeug.pocoo.org/>`_ is not actually a real framework, "
 "but rather a very powerful set of tools for building web applications. It "
@@ -134,17 +134,17 @@ msgid ""
 "for their application that is not commonly found in other web frameworks."
 msgstr ""
 
-#: ../../scenarios/web.rst:90
+#: ..\..\scenarios\web.rst:90
 msgid ""
 "Support can be found on its `mailing list "
 "<http://werkzeug.pocoo.org/community/#mailinglist>`_."
 msgstr ""
 
-#: ../../scenarios/web.rst:94
+#: ..\..\scenarios\web.rst:94
 msgid "Tornado"
 msgstr ""
 
-#: ../../scenarios/web.rst:95
+#: ..\..\scenarios\web.rst:95
 msgid ""
 "`Tornado <http://www.tornadoweb.org/>`_ is a scalable, non-blocking web "
 "server and web application framework with a relative simple usage. Tornado "
@@ -152,17 +152,17 @@ msgid ""
 "`friendfeed <http://friendfeed.com/>`_ , a real time chat and blog system."
 msgstr ""
 
-#: ../../scenarios/web.rst:99
+#: ..\..\scenarios\web.rst:99
 msgid ""
 "In the Jinja2 template engine example it is used to serve the rendered "
 "pages."
 msgstr ""
 
-#: ../../scenarios/web.rst:103
+#: ..\..\scenarios\web.rst:103
 msgid "Pyramid"
 msgstr ""
 
-#: ../../scenarios/web.rst:105
+#: ..\..\scenarios\web.rst:105
 msgid ""
 "`Pyramid <http://www.pylonsproject.org/>`_ lies somewhere between a big "
 "framework like Django and the microframeworks: It comes with a lot of "
@@ -176,21 +176,21 @@ msgid ""
 "running web application in the browser."
 msgstr ""
 
-#: ../../scenarios/web.rst:115
+#: ..\..\scenarios\web.rst:115
 msgid ""
 "**Support** can also be found in the `documentation "
 "<http://docs.pylonsproject.org/en/latest/index.html#support-desc>`__."
 msgstr ""
 
-#: ../../scenarios/web.rst:120
+#: ..\..\scenarios\web.rst:120
 msgid "Web Servers"
 msgstr ""
 
-#: ../../scenarios/web.rst:125
+#: ..\..\scenarios\web.rst:125
 msgid "Nginx"
 msgstr ""
 
-#: ../../scenarios/web.rst:127
+#: ..\..\scenarios\web.rst:127
 msgid ""
 "`Nginx <http://nginx.org/>`_ (pronounced \"engine-x\") is a web server and "
 "reverse-proxy for HTTP, SMTP and other protocols. It is known for its high "
@@ -200,21 +200,21 @@ msgid ""
 "high-load websites, Nginx is gradually becoming quite popular."
 msgstr ""
 
-#: ../../scenarios/web.rst:138
+#: ..\..\scenarios\web.rst:138
 msgid "WSGI Servers"
 msgstr ""
 
-#: ../../scenarios/web.rst:140
+#: ..\..\scenarios\web.rst:140
 msgid ""
 "Stand-alone WSGI servers typically use less resources than traditional web "
 "servers and provide top performance [3]_."
 msgstr ""
 
-#: ../../scenarios/web.rst:146
+#: ..\..\scenarios\web.rst:146
 msgid "Gunicorn"
 msgstr ""
 
-#: ../../scenarios/web.rst:148
+#: ..\..\scenarios\web.rst:148
 msgid ""
 "`Gunicorn <http://gunicorn.org/>`_ (Green Unicorn) is a WSGI server used to "
 "serve Python applications. It is a Python interpretation of the Ruby "
@@ -226,11 +226,11 @@ msgid ""
 "<http://gunicorn.org/index.html#deployment>`_."
 msgstr ""
 
-#: ../../scenarios/web.rst:160
+#: ..\..\scenarios\web.rst:160
 msgid "uWSGI"
 msgstr ""
 
-#: ../../scenarios/web.rst:162
+#: ..\..\scenarios\web.rst:162
 msgid ""
 "`uWSGI <https://uwsgi-docs.readthedocs.org>`_ is a full stack for building "
 "hosting services.  In addition to process management, process monitoring, "
@@ -245,33 +245,33 @@ msgid ""
 "magic variables <https://uwsgi-docs.readthedocs.org/en/latest/Vars.html>`_."
 msgstr ""
 
-#: ../../scenarios/web.rst:180
+#: ..\..\scenarios\web.rst:180
 msgid "Server Best Practices"
 msgstr ""
 
-#: ../../scenarios/web.rst:182
+#: ..\..\scenarios\web.rst:182
 msgid ""
 "The majority of self hosted Python applications today are hosted with a WSGI"
 " server such as :ref:`Gunicorn <gunicorn-ref>`, either directly or behind a "
 "lightweight web server such as :ref:`nginx <nginx-ref>`."
 msgstr ""
 
-#: ../../scenarios/web.rst:186
+#: ..\..\scenarios\web.rst:186
 msgid ""
 "The WSGI servers serve the Python applications while the web server handles "
 "tasks better suited for it such as static file serving, request routing, "
 "DDoS protection, and basic authentication."
 msgstr ""
 
-#: ../../scenarios/web.rst:191
+#: ..\..\scenarios\web.rst:191
 msgid "Hosting"
 msgstr ""
 
-#: ../../scenarios/web.rst:194
+#: ..\..\scenarios\web.rst:194
 msgid "Platform-as-a-Service"
 msgstr ""
 
-#: ../../scenarios/web.rst:196
+#: ..\..\scenarios\web.rst:196
 msgid ""
 "Platform-as-a-Service (PaaS) is a type of cloud computing infrastructure "
 "which abstracts and manages infrastructure, routing, and scaling of web "
@@ -280,32 +280,32 @@ msgid ""
 "details."
 msgstr ""
 
-#: ../../scenarios/web.rst:202
+#: ..\..\scenarios\web.rst:202
 msgid ""
 "Most PaaS services offer a command-line interface that developers can use to"
 " set up and interrogate configuration, and to deploy new releases of an "
 "application to the service."
 msgstr ""
 
-#: ../../scenarios/web.rst:206
+#: ..\..\scenarios\web.rst:206
 msgid ""
 "PaaS services and their partners offer add-on functionality which is well "
 "integrated into the platform, such as database hosting, email services, "
 "logging, scheduled and background tasks, billing and payment, etc."
 msgstr ""
 
-#: ../../scenarios/web.rst:212
+#: ..\..\scenarios\web.rst:212
 msgid "Heroku"
 msgstr ""
 
-#: ../../scenarios/web.rst:214
+#: ..\..\scenarios\web.rst:214
 msgid ""
 "`Heroku <http://www.heroku.com/>`_'s `Cedar stack "
 "<http://devcenter.heroku.com/articles/cedar>`_ offers first class support "
 "for Python 2.7 applications."
 msgstr ""
 
-#: ../../scenarios/web.rst:218
+#: ..\..\scenarios\web.rst:218
 msgid ""
 "Heroku allows you to run as many Python web applications as you like, 24/7 "
 "and free of charge. Heroku is best described as a horizontal scaling "
@@ -313,7 +313,7 @@ msgid ""
 "run on more than one Dyno (abstracted servers) at a time."
 msgstr ""
 
-#: ../../scenarios/web.rst:223
+#: ..\..\scenarios\web.rst:223
 msgid ""
 "Heroku maintains `articles "
 "<https://devcenter.heroku.com/categories/python>`_ on using Python with "
@@ -322,11 +322,11 @@ msgid ""
 " to set up your first application."
 msgstr ""
 
-#: ../../scenarios/web.rst:230
+#: ..\..\scenarios\web.rst:230
 msgid "DotCloud"
 msgstr ""
 
-#: ../../scenarios/web.rst:232
+#: ..\..\scenarios\web.rst:232
 msgid ""
 "`DotCloud <http://www.dotcloud.com/>`_ supports WSGI applications and "
 "background/worker tasks natively on their platform. Web applications run "
@@ -334,31 +334,31 @@ msgid ""
 "ref>`, and allow custom configuration of both for advanced users."
 msgstr ""
 
-#: ../../scenarios/web.rst:237
+#: ..\..\scenarios\web.rst:237
 msgid ""
 "DotCloud uses a custom command-line API client which can work with "
 "applications managed in git repositories or any other version control "
 "system."
 msgstr ""
 
-#: ../../scenarios/web.rst:241
+#: ..\..\scenarios\web.rst:241
 msgid ""
 "DotCloud has a free plan with limited database size, and without extra "
 "services (caching…)."
 msgstr ""
 
-#: ../../scenarios/web.rst:244
+#: ..\..\scenarios\web.rst:244
 msgid ""
 "See the `DotCloud documentation on Python "
 "<http://docs.dotcloud.com/services/python/>`_ for more information and help "
 "getting started."
 msgstr ""
 
-#: ../../scenarios/web.rst:250
+#: ..\..\scenarios\web.rst:250
 msgid "Gondor"
 msgstr ""
 
-#: ../../scenarios/web.rst:252
+#: ..\..\scenarios\web.rst:252
 msgid ""
 "`Gondor <https://gondor.io/>`_ is a PaaS specialized for deploying Django "
 "and Pinax applications. Gondor recommends Django version 1.6 and supports "
@@ -367,17 +367,17 @@ msgid ""
 "specific configuration information."
 msgstr ""
 
-#: ../../scenarios/web.rst:257
+#: ..\..\scenarios\web.rst:257
 msgid ""
 "Gondor has a guide on deploying `Django projects "
 "<https://gondor.io/support/django/setup/>`_."
 msgstr ""
 
-#: ../../scenarios/web.rst:261
+#: ..\..\scenarios\web.rst:261
 msgid "Templating"
 msgstr ""
 
-#: ../../scenarios/web.rst:263
+#: ..\..\scenarios\web.rst:263
 msgid ""
 "Most WSGI applications are responding to HTTP requests to serve content in "
 "HTML or other markup languages. Instead of generating directly textual "
@@ -389,19 +389,19 @@ msgid ""
 "application."
 msgstr ""
 
-#: ../../scenarios/web.rst:273
+#: ..\..\scenarios\web.rst:273
 msgid ""
 "As template files are sometimes written by designers or front-end "
 "developers, it can be difficult to handle increasing complexity."
 msgstr ""
 
-#: ../../scenarios/web.rst:277
+#: ..\..\scenarios\web.rst:277
 msgid ""
 "Some general good practices apply to the part of the application passing "
 "dynamic content to the template engine, and to the templates themselves."
 msgstr ""
 
-#: ../../scenarios/web.rst:281
+#: ..\..\scenarios\web.rst:281
 msgid ""
 "Template files should be passed only the dynamic content that is needed for "
 "rendering the template. Avoid the temptation to pass additional content "
@@ -409,7 +409,7 @@ msgid ""
 " to remove a likely unused variable later."
 msgstr ""
 
-#: ../../scenarios/web.rst:287
+#: ..\..\scenarios\web.rst:287
 msgid ""
 "Many template engines allow for complex statements or assignments in the "
 "template itself, and many allow some Python code to be evaluated in the "
@@ -417,18 +417,18 @@ msgid ""
 " and often make it harder to find bugs."
 msgstr ""
 
-#: ../../scenarios/web.rst:293
+#: ..\..\scenarios\web.rst:293
 msgid ""
 "It is often necessary to mix JavaScript templates with HTML templates. A "
 "sane approach to this design is to isolate the parts where the HTML template"
 " passes some variable content to the JavaScript code."
 msgstr ""
 
-#: ../../scenarios/web.rst:301
+#: ..\..\scenarios\web.rst:301
 msgid "Jinja2"
 msgstr ""
 
-#: ../../scenarios/web.rst:302
+#: ..\..\scenarios\web.rst:302
 msgid ""
 "`Jinja2 <http://jinja.pocoo.org/>`_ is a template engine which is similar to"
 " the Django template system with some extra features. It is a text-based "
@@ -438,48 +438,64 @@ msgid ""
 "Jinja2 is released under the BSD license."
 msgstr ""
 
-#: ../../scenarios/web.rst:309
+#: ..\..\scenarios\web.rst:309
 msgid "Here some important html tags in Jinja2:"
 msgstr ""
 
-#: ../../scenarios/web.rst:330
+#: ..\..\scenarios\web.rst:330
 msgid ""
 "The next listings is an example of a web site in combination with the "
 "tornado web server. Tornado is not very complicate to use."
 msgstr ""
 
-#: ../../scenarios/web.rst:371
+#: ..\..\scenarios\web.rst:371
 msgid ""
 "The :file:`base.html` file can be used as base for all site pages which are "
 "for example implemented in the content block."
 msgstr ""
 
-#: ../../scenarios/web.rst:396
+#: ..\..\scenarios\web.rst:396
 msgid ""
 "The next listing is our site page (:file:`site.html`) loaded in the Python "
 "app which extends :file:`base.html`. The content block is automatically set "
 "into the corresponding block in the :file:`base.html` page."
 msgstr ""
 
-#: ../../scenarios/web.rst:419
+#: ..\..\scenarios\web.rst:419
 msgid "References"
 msgstr ""
 
-#: ../../scenarios/web.rst:420
+#: ..\..\scenarios\web.rst:420
 msgid ""
 "`The mod_python project is now officially dead "
 "<http://blog.dscpl.com.au/2010/06/modpython-project-is-now-"
 "officially.html>`_"
 msgstr ""
 
-#: ../../scenarios/web.rst:421
+#: ..\..\scenarios\web.rst:421
 msgid ""
 "`mod_wsgi vs mod_python "
 "<http://www.modpython.org/pipermail/mod_python/2007-July/024080.html>`_"
 msgstr ""
 
-#: ../../scenarios/web.rst:422
+#: ..\..\scenarios\web.rst:422
 msgid ""
 "`Benchmark of Python WSGI Servers <http://nichol.as/benchmark-of-python-web-"
 "servers>`_"
+msgstr ""
+
+#: ..\..\scenarios\web.rst:34
+msgid "URL Routing"
+msgstr ""
+
+#: ..\..\scenarios\web.rst:37
+msgid "Request and Response Objects"
+msgstr ""
+
+#: ..\..\scenarios\web.rst:41
+msgid "Template Engine"
+msgstr ""
+
+#: ..\..\scenarios\web.rst:46
+msgid "Development Web Server"
 msgstr ""

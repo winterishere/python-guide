@@ -11,11 +11,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../_themes/README.rst:2
+#: ..\..\_themes\README.rst:2
 msgid "krTheme Sphinx Style"
 msgstr ""
 
-#: ../../_themes/README.rst:4
+#: ..\..\_themes\README.rst:4
 msgid ""
 "This repository contains sphinx styles Kenneth Reitz uses in most of his "
 "projects. It is a derivative of Mitsuhiko's themes for Flask and Flask "
@@ -23,25 +23,33 @@ msgid ""
 "this guide:"
 msgstr ""
 
-#: ../../_themes/README.rst:9
+#: ..\..\_themes\README.rst:9
 msgid ""
 "put this folder as _themes into your docs folder.  Alternatively you can "
 "also use git submodules to check out the contents there."
 msgstr ""
 
-#: ../../_themes/README.rst:12
+#: ..\..\_themes\README.rst:12
 msgid "add this to your :file:`conf.py`: ::"
 msgstr ""
 
-#: ../../_themes/README.rst:18
+#: ..\..\_themes\README.rst:18
 msgid "The following themes exist:"
 msgstr ""
 
-#: ../../_themes/README.rst:21
+#: ..\..\_themes\README.rst:21
 msgid "the standard flask documentation theme for large projects"
 msgstr ""
 
-#: ../../_themes/README.rst:24
+#: ..\..\_themes\README.rst:24
 msgid ""
 "small one-page theme.  Intended to be used by very small addon libraries."
+msgstr ""
+
+#: ..\..\_themes\README.rst:21
+msgid "**kr**"
+msgstr ""
+
+#: ..\..\_themes\README.rst:24
+msgid "**kr_small**"
 msgstr ""

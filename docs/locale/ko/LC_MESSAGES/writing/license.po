@@ -11,11 +11,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../writing/license.rst:2
+#: ..\..\writing\license.rst:2
 msgid "Choosing a License"
 msgstr ""
 
-#: ../../writing/license.rst:4
+#: ..\..\writing\license.rst:4
 msgid ""
 "Your source publication *needs* a license. In the US, if no license is "
 "specified, users have no legal right to download, modify, or distribute. "
@@ -24,24 +24,24 @@ msgid ""
 "pointers:"
 msgstr ""
 
-#: ../../writing/license.rst:10
+#: ..\..\writing\license.rst:10
 msgid ""
 "Open source. There are plenty of `open source licenses "
 "<http://opensource.org/licenses/alphabetical>`_ available to choose from."
 msgstr ""
 
-#: ../../writing/license.rst:14
+#: ..\..\writing\license.rst:14
 msgid "In general, these licenses tend to fall into one of two categories:"
 msgstr ""
 
-#: ../../writing/license.rst:16
+#: ..\..\writing\license.rst:16
 msgid ""
 "licenses that focus more on the user's freedom to do with the software as "
 "they please (these are the more permissive open source licenses such as the "
 "MIT, BSD, & Apache)."
 msgstr ""
 
-#: ../../writing/license.rst:20
+#: ..\..\writing\license.rst:20
 msgid ""
 "licenses that focus more on making sure that the code itself — including any"
 " changes made to it and distributed along with it — always remains free "
@@ -49,70 +49,70 @@ msgid ""
 "LGPL)."
 msgstr ""
 
-#: ../../writing/license.rst:25
+#: ..\..\writing\license.rst:25
 msgid ""
 "The latter are less permissive in the sense that they don't permit someone "
 "to add code to the software and distribute it without also including the "
 "source code for their changes."
 msgstr ""
 
-#: ../../writing/license.rst:29
+#: ..\..\writing\license.rst:29
 msgid ""
 "To help you choose one for your project, there's a `license chooser "
 "<http://choosealicense.com/>`_, **use it**."
 msgstr ""
 
-#: ../../writing/license.rst:32
+#: ..\..\writing\license.rst:32
 msgid "**More Permissive**"
 msgstr ""
 
-#: ../../writing/license.rst:34
+#: ..\..\writing\license.rst:34
 msgid ""
 "PSFL (Python Software Foundation License) -- for contributing to Python "
 "itself"
 msgstr ""
 
-#: ../../writing/license.rst:35
+#: ..\..\writing\license.rst:35
 msgid "MIT / BSD / ISC"
 msgstr ""
 
-#: ../../writing/license.rst:37
+#: ..\..\writing\license.rst:37
 msgid "MIT (X11)"
 msgstr ""
 
-#: ../../writing/license.rst:38
+#: ..\..\writing\license.rst:38
 msgid "New BSD"
 msgstr ""
 
-#: ../../writing/license.rst:39
+#: ..\..\writing\license.rst:39
 msgid "ISC"
 msgstr ""
 
-#: ../../writing/license.rst:41
+#: ..\..\writing\license.rst:41
 msgid "Apache"
 msgstr ""
 
-#: ../../writing/license.rst:43
+#: ..\..\writing\license.rst:43
 msgid "**Less Permissive:**"
 msgstr ""
 
-#: ../../writing/license.rst:45
+#: ..\..\writing\license.rst:45
 msgid "LGPL"
 msgstr ""
 
-#: ../../writing/license.rst:46
+#: ..\..\writing\license.rst:46
 msgid "GPL"
 msgstr ""
 
-#: ../../writing/license.rst:48
+#: ..\..\writing\license.rst:48
 msgid "GPLv2"
 msgstr ""
 
-#: ../../writing/license.rst:49
+#: ..\..\writing\license.rst:49
 msgid "GPLv3"
 msgstr ""
 
-#: ../../writing/license.rst:51
+#: ..\..\writing\license.rst:51
 msgid ""
 "A good overview of licenses with explanations of what one can, cannot, and "
 "must do using a particular software can be found at `tl;drLegal "

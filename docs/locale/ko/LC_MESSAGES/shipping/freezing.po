@@ -11,145 +11,145 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../shipping/freezing.rst:2
+#: ..\..\shipping\freezing.rst:2
 msgid "Freezing Your Code"
 msgstr ""
 
-#: ../../shipping/freezing.rst:4
+#: ..\..\shipping\freezing.rst:4
 msgid ""
 "An alternative to shipping your code is freezing it — shipping it as an "
 "executable with a bundled Python interpreter."
 msgstr ""
 
-#: ../../shipping/freezing.rst:7
+#: ..\..\shipping\freezing.rst:7
 msgid "Many applications you use every day do this:"
 msgstr ""
 
-#: ../../shipping/freezing.rst:9
+#: ..\..\shipping\freezing.rst:9
 msgid "Dropbox"
 msgstr ""
 
-#: ../../shipping/freezing.rst:10
+#: ..\..\shipping\freezing.rst:10
 msgid "BitTorrent"
 msgstr ""
 
-#: ../../shipping/freezing.rst:11
+#: ..\..\shipping\freezing.rst:11
 msgid "..."
 msgstr ""
 
-#: ../../shipping/freezing.rst:13
+#: ..\..\shipping\freezing.rst:13
 msgid "Fill in \"Freezing Your Code\" stub"
 msgstr ""
 
-#: ../../shipping/freezing.rst:18
+#: ..\..\shipping\freezing.rst:18
 msgid "Comparison"
 msgstr ""
 
-#: ../../shipping/freezing.rst:20
+#: ..\..\shipping\freezing.rst:20
 msgid "Solutions and platforms/features supported:"
 msgstr ""
 
-#: ../../shipping/freezing.rst:23
+#: ..\..\shipping\freezing.rst:23
 msgid "Solution"
 msgstr ""
 
-#: ../../shipping/freezing.rst:23 ../../shipping/freezing.rst:43
+#: ..\..\shipping\freezing.rst:23 ..\..\shipping\freezing.rst:43
 msgid "Windows"
 msgstr ""
 
-#: ../../shipping/freezing.rst:23 ../../shipping/freezing.rst:103
+#: ..\..\shipping\freezing.rst:23 ..\..\shipping\freezing.rst:103
 msgid "Linux"
 msgstr ""
 
-#: ../../shipping/freezing.rst:23
+#: ..\..\shipping\freezing.rst:23
 msgid "OS X"
 msgstr ""
 
-#: ../../shipping/freezing.rst:23
+#: ..\..\shipping\freezing.rst:23
 msgid "Python 3"
 msgstr ""
 
-#: ../../shipping/freezing.rst:23
+#: ..\..\shipping\freezing.rst:23
 msgid "License"
 msgstr ""
 
-#: ../../shipping/freezing.rst:23
+#: ..\..\shipping\freezing.rst:23
 msgid "One-file mode"
 msgstr ""
 
-#: ../../shipping/freezing.rst:23
+#: ..\..\shipping\freezing.rst:23
 msgid "Zipfile import"
 msgstr ""
 
-#: ../../shipping/freezing.rst:23
+#: ..\..\shipping\freezing.rst:23
 msgid "Eggs"
 msgstr ""
 
-#: ../../shipping/freezing.rst:23
+#: ..\..\shipping\freezing.rst:23
 msgid "pkg_resources support"
 msgstr ""
 
-#: ../../shipping/freezing.rst:25 ../../shipping/freezing.rst:46
-#: ../../shipping/freezing.rst:107
+#: ..\..\shipping\freezing.rst:25 ..\..\shipping\freezing.rst:46
+#: ..\..\shipping\freezing.rst:107
 msgid "bbFreeze"
 msgstr ""
 
-#: ../../shipping/freezing.rst:25 ../../shipping/freezing.rst:25
-#: ../../shipping/freezing.rst:25 ../../shipping/freezing.rst:25
-#: ../../shipping/freezing.rst:25 ../../shipping/freezing.rst:25
-#: ../../shipping/freezing.rst:26 ../../shipping/freezing.rst:26
-#: ../../shipping/freezing.rst:26 ../../shipping/freezing.rst:26
-#: ../../shipping/freezing.rst:27 ../../shipping/freezing.rst:27
-#: ../../shipping/freezing.rst:27 ../../shipping/freezing.rst:27
-#: ../../shipping/freezing.rst:27 ../../shipping/freezing.rst:28
-#: ../../shipping/freezing.rst:28 ../../shipping/freezing.rst:28
-#: ../../shipping/freezing.rst:28 ../../shipping/freezing.rst:28
-#: ../../shipping/freezing.rst:28 ../../shipping/freezing.rst:29
-#: ../../shipping/freezing.rst:29 ../../shipping/freezing.rst:29
-#: ../../shipping/freezing.rst:29 ../../shipping/freezing.rst:29
+#: ..\..\shipping\freezing.rst:25 ..\..\shipping\freezing.rst:25
+#: ..\..\shipping\freezing.rst:25 ..\..\shipping\freezing.rst:25
+#: ..\..\shipping\freezing.rst:25 ..\..\shipping\freezing.rst:25
+#: ..\..\shipping\freezing.rst:26 ..\..\shipping\freezing.rst:26
+#: ..\..\shipping\freezing.rst:26 ..\..\shipping\freezing.rst:26
+#: ..\..\shipping\freezing.rst:27 ..\..\shipping\freezing.rst:27
+#: ..\..\shipping\freezing.rst:27 ..\..\shipping\freezing.rst:27
+#: ..\..\shipping\freezing.rst:27 ..\..\shipping\freezing.rst:28
+#: ..\..\shipping\freezing.rst:28 ..\..\shipping\freezing.rst:28
+#: ..\..\shipping\freezing.rst:28 ..\..\shipping\freezing.rst:28
+#: ..\..\shipping\freezing.rst:28 ..\..\shipping\freezing.rst:29
+#: ..\..\shipping\freezing.rst:29 ..\..\shipping\freezing.rst:29
+#: ..\..\shipping\freezing.rst:29 ..\..\shipping\freezing.rst:29
 msgid "yes"
 msgstr ""
 
-#: ../../shipping/freezing.rst:25 ../../shipping/freezing.rst:25
-#: ../../shipping/freezing.rst:26 ../../shipping/freezing.rst:26
-#: ../../shipping/freezing.rst:26 ../../shipping/freezing.rst:26
-#: ../../shipping/freezing.rst:27 ../../shipping/freezing.rst:27
-#: ../../shipping/freezing.rst:27 ../../shipping/freezing.rst:28
-#: ../../shipping/freezing.rst:28 ../../shipping/freezing.rst:29
-#: ../../shipping/freezing.rst:29 ../../shipping/freezing.rst:29
+#: ..\..\shipping\freezing.rst:25 ..\..\shipping\freezing.rst:25
+#: ..\..\shipping\freezing.rst:26 ..\..\shipping\freezing.rst:26
+#: ..\..\shipping\freezing.rst:26 ..\..\shipping\freezing.rst:26
+#: ..\..\shipping\freezing.rst:27 ..\..\shipping\freezing.rst:27
+#: ..\..\shipping\freezing.rst:27 ..\..\shipping\freezing.rst:28
+#: ..\..\shipping\freezing.rst:28 ..\..\shipping\freezing.rst:29
+#: ..\..\shipping\freezing.rst:29 ..\..\shipping\freezing.rst:29
 msgid "no"
 msgstr ""
 
-#: ../../shipping/freezing.rst:25 ../../shipping/freezing.rst:26
-#: ../../shipping/freezing.rst:29
+#: ..\..\shipping\freezing.rst:25 ..\..\shipping\freezing.rst:26
+#: ..\..\shipping\freezing.rst:29
 msgid "MIT"
 msgstr ""
 
-#: ../../shipping/freezing.rst:26 ../../shipping/freezing.rst:53
+#: ..\..\shipping\freezing.rst:26 ..\..\shipping\freezing.rst:53
 msgid "py2exe"
 msgstr ""
 
-#: ../../shipping/freezing.rst:27
+#: ..\..\shipping\freezing.rst:27
 msgid "pyInstaller"
 msgstr ""
 
-#: ../../shipping/freezing.rst:27
+#: ..\..\shipping\freezing.rst:27
 msgid "GPL"
 msgstr ""
 
-#: ../../shipping/freezing.rst:28
+#: ..\..\shipping\freezing.rst:28
 msgid "cx_Freeze"
 msgstr ""
 
-#: ../../shipping/freezing.rst:28
+#: ..\..\shipping\freezing.rst:28
 msgid "PSF"
 msgstr ""
 
-#: ../../shipping/freezing.rst:29 ../../shipping/freezing.rst:96
+#: ..\..\shipping\freezing.rst:29 ..\..\shipping\freezing.rst:96
 msgid "py2app"
 msgstr ""
 
-#: ../../shipping/freezing.rst:33
+#: ..\..\shipping\freezing.rst:33
 msgid ""
 "Freezing Python code on Linux into a Windows executable was only once "
 "supported in PyInstaller `and later dropped. "
@@ -157,54 +157,54 @@ msgid ""
 "on-linux-into-a-windows-executable#comment11890276_2951046>`_."
 msgstr ""
 
-#: ../../shipping/freezing.rst:38
+#: ..\..\shipping\freezing.rst:38
 msgid ""
 "All solutions need MS Visual C++ dll to be installed on target machine, "
 "except py2app. Only Pyinstaller makes self-executable exe that bundles the "
 "dll when passing :option:`--onefile` to :file:`Configure.py`."
 msgstr ""
 
-#: ../../shipping/freezing.rst:48
+#: ..\..\shipping\freezing.rst:48
 msgid ""
 "Prerequisite is to install :ref:`Python, Setuptools and pywin32 dependency "
 "on Windows <install-windows>`."
 msgstr ""
 
-#: ../../shipping/freezing.rst:50
+#: ..\..\shipping\freezing.rst:50
 msgid "Write steps for most basic .exe"
 msgstr ""
 
-#: ../../shipping/freezing.rst:55
+#: ..\..\shipping\freezing.rst:55
 msgid "Prerequisite is to install :ref:`Python on Windows <install-windows>`."
 msgstr ""
 
-#: ../../shipping/freezing.rst:57
+#: ..\..\shipping\freezing.rst:57
 msgid ""
 "Download and install http://sourceforge.net/projects/py2exe/files/py2exe/"
 msgstr ""
 
-#: ../../shipping/freezing.rst:59
+#: ..\..\shipping\freezing.rst:59
 msgid ""
 "Write :file:`setup.py` (`List of configuration options "
 "<http://www.py2exe.org/index.cgi/ListOfOptions>`_)::"
 msgstr ""
 
-#: ../../shipping/freezing.rst:70
+#: ..\..\shipping\freezing.rst:70
 msgid ""
 "(Optionally) `include icon <http://www.py2exe.org/index.cgi/CustomIcons>`_"
 msgstr ""
 
-#: ../../shipping/freezing.rst:72
+#: ..\..\shipping\freezing.rst:72
 msgid ""
 "(Optionally) `one-file mode <http://stackoverflow.com/questions/112698"
 "/py2exe-generate-single-executable-file#113014>`_"
 msgstr ""
 
-#: ../../shipping/freezing.rst:74
+#: ..\..\shipping\freezing.rst:74
 msgid "Generate :file:`.exe` into :file:`dist` directory:"
 msgstr ""
 
-#: ../../shipping/freezing.rst:80
+#: ..\..\shipping\freezing.rst:80
 msgid ""
 "Provide the Microsoft Visual C runtime DLL. Two options: `globally install "
 "dll on target machine <https://www.microsoft.com/en-"
@@ -212,29 +212,33 @@ msgid ""
 "<http://www.py2exe.org/index.cgi/Tutorial#Step52>`_."
 msgstr ""
 
-#: ../../shipping/freezing.rst:83 ../../shipping/freezing.rst:99
-#: ../../shipping/freezing.rst:110
+#: ..\..\shipping\freezing.rst:83 ..\..\shipping\freezing.rst:99
+#: ..\..\shipping\freezing.rst:110
 msgid "PyInstaller"
 msgstr ""
 
-#: ../../shipping/freezing.rst:85
+#: ..\..\shipping\freezing.rst:85
 msgid ""
 "Prerequisite is to have installed :ref:`Python, Setuptools and pywin32 "
 "dependency on Windows <install-windows>`."
 msgstr ""
 
-#: ../../shipping/freezing.rst:87
+#: ..\..\shipping\freezing.rst:87
 msgid ""
 "`Most basic tutorial <http://bojan-komazec.blogspot.com/2011/08/how-to-"
 "create-windows-executable-from.html>`_"
 msgstr ""
 
-#: ../../shipping/freezing.rst:88
+#: ..\..\shipping\freezing.rst:88
 msgid ""
 "`Manual "
 "<http://www.pyinstaller.org/export/d3398dd79b68901ae1edd761f3fe0f4ff19cfb1a/project/doc/Manual.html?format=raw>`_"
 msgstr ""
 
-#: ../../shipping/freezing.rst:92
+#: ..\..\shipping\freezing.rst:92
 msgid "OS X"
+msgstr ""
+
+#: ..\..\shipping\freezing.rst:0 ..\..\shipping\freezing.rst:0
+msgid "Todo"
 msgstr ""

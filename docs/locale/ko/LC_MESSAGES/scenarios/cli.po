@@ -11,11 +11,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../scenarios/cli.rst:2
+#: ..\..\scenarios\cli.rst:2
 msgid "Command-line Applications"
 msgstr ""
 
-#: ../../scenarios/cli.rst:4
+#: ..\..\scenarios\cli.rst:4
 msgid ""
 "Command-line applications, also referred to as `Console Applications "
 "<http://en.wikipedia.org/wiki/Console_application>`_, are computer programs "
@@ -26,42 +26,42 @@ msgid ""
 "flags or switches."
 msgstr ""
 
-#: ../../scenarios/cli.rst:12
+#: ..\..\scenarios\cli.rst:12
 msgid "Some popular command-line applications include:"
 msgstr ""
 
-#: ../../scenarios/cli.rst:14
+#: ..\..\scenarios\cli.rst:14
 msgid ""
 "`Grep <http://en.wikipedia.org/wiki/Grep>`_ - A plain-text data search "
 "utility"
 msgstr ""
 
-#: ../../scenarios/cli.rst:15
+#: ..\..\scenarios\cli.rst:15
 msgid ""
 "`curl <http://curl.haxx.se/>`_ - A tool for data transfer with URL syntax"
 msgstr ""
 
-#: ../../scenarios/cli.rst:16
+#: ..\..\scenarios\cli.rst:16
 msgid ""
 "`httpie <https://github.com/jakubroztocil/httpie>`_ - A command line HTTP "
 "client, a user-friendly cURL replacement"
 msgstr ""
 
-#: ../../scenarios/cli.rst:18
+#: ..\..\scenarios\cli.rst:18
 msgid "`git <http://git-scm.com/>`_ - A distributed version control system"
 msgstr ""
 
-#: ../../scenarios/cli.rst:19
+#: ..\..\scenarios\cli.rst:19
 msgid ""
 "`mercurial <http://mercurial.selenic.com/>`_ - A distributed version control"
 " system primarily written in Python"
 msgstr ""
 
-#: ../../scenarios/cli.rst:23
+#: ..\..\scenarios\cli.rst:23
 msgid "Clint"
 msgstr ""
 
-#: ../../scenarios/cli.rst:25
+#: ..\..\scenarios\cli.rst:25
 msgid ""
 "`clint <https://pypi.python.org/pypi/clint/>`_ is a Python module which is "
 "filled with very useful tools for developing command-line applications. It "
@@ -69,11 +69,11 @@ msgid ""
 "column printer, iterator based progress bars and implicit argument handling."
 msgstr ""
 
-#: ../../scenarios/cli.rst:31
+#: ..\..\scenarios\cli.rst:31
 msgid "Click"
 msgstr ""
 
-#: ../../scenarios/cli.rst:33
+#: ..\..\scenarios\cli.rst:33
 msgid ""
 "`click <http://click.pocoo.org/>`_ is an upcoming Python package for "
 "creating command-line interfaces in a composable way with as little code as "
@@ -81,22 +81,22 @@ msgid ""
 "but comes with good defaults out of the box."
 msgstr ""
 
-#: ../../scenarios/cli.rst:39
+#: ..\..\scenarios\cli.rst:39
 msgid "docopt"
 msgstr ""
 
-#: ../../scenarios/cli.rst:41
+#: ..\..\scenarios\cli.rst:41
 msgid ""
 "`docopt <http://docopt.org/>`_ is a lightweight, highly Pythonic package "
 "that allows creating command-line interfaces easily and intuitively, by "
 "parsing POSIX-style usage instructions."
 msgstr ""
 
-#: ../../scenarios/cli.rst:46
+#: ..\..\scenarios\cli.rst:46
 msgid "Plac"
 msgstr ""
 
-#: ../../scenarios/cli.rst:48
+#: ..\..\scenarios\cli.rst:48
 msgid ""
 "`Plac <https://pypi.python.org/pypi/plac>`_ is a simple wrapper over the "
 "Python standard library `argparse "
@@ -108,11 +108,11 @@ msgid ""
 "command-line interface because it is quick and simple."
 msgstr ""
 
-#: ../../scenarios/cli.rst:57
+#: ..\..\scenarios\cli.rst:57
 msgid "Cliff"
 msgstr ""
 
-#: ../../scenarios/cli.rst:59
+#: ..\..\scenarios\cli.rst:59
 msgid ""
 "`Cliff <https://cliff.readthedocs.org/en/latest>`_  is a framework for "
 "building command-line programs. It uses setuptools entry points to provide "

@@ -11,37 +11,37 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../scenarios/imaging.rst:3
+#: ..\..\scenarios\imaging.rst:3
 msgid "Image Manipulation"
 msgstr ""
 
-#: ../../scenarios/imaging.rst:6
+#: ..\..\scenarios\imaging.rst:6
 msgid "Add introduction about image manipulation and its Python libraries."
 msgstr ""
 
-#: ../../scenarios/imaging.rst:9
+#: ..\..\scenarios\imaging.rst:9
 msgid "Python Imaging Library"
 msgstr ""
 
-#: ../../scenarios/imaging.rst:11
+#: ..\..\scenarios\imaging.rst:11
 msgid ""
 "The `Python Imaging Library <http://www.pythonware.com/products/pil/>`_, or "
 "PIL for short, is *the* library for image manipulation in Python. "
 "Unfortunately, its development has stagnated, with its last release in 2009."
 msgstr ""
 
-#: ../../scenarios/imaging.rst:15
+#: ..\..\scenarios\imaging.rst:15
 msgid ""
 "Luckily for you, there's an actively-developed fork of PIL called `Pillow "
 "<http://python-pillow.github.io/>`_ - it's easier to install, runs on all "
 "operating systems, and supports Python 3."
 msgstr ""
 
-#: ../../scenarios/imaging.rst:19
+#: ..\..\scenarios\imaging.rst:19
 msgid "Installation"
 msgstr ""
 
-#: ../../scenarios/imaging.rst:21
+#: ..\..\scenarios\imaging.rst:21
 msgid ""
 "Before installing Pillow, you'll have to install Pillow's prerequisites. "
 "Find the instructions for your platform `here "
@@ -49,6 +49,10 @@ msgid ""
 "instructions>`_."
 msgstr ""
 
-#: ../../scenarios/imaging.rst:24
+#: ..\..\scenarios\imaging.rst:24
 msgid "After that, it's straightforward:"
+msgstr ""
+
+#: ..\..\scenarios\imaging.rst:0
+msgid "Todo"
 msgstr ""

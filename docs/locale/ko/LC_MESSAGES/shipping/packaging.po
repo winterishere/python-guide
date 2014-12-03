@@ -11,53 +11,53 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../shipping/packaging.rst:2
+#: ..\..\shipping\packaging.rst:2
 msgid "Packaging Your Code"
 msgstr ""
 
-#: ../../shipping/packaging.rst:4
+#: ..\..\shipping\packaging.rst:4
 msgid "Packaging your code is important."
 msgstr ""
 
-#: ../../shipping/packaging.rst:6
+#: ..\..\shipping\packaging.rst:6
 msgid ""
 "You'll need to package your code first before sharing it with other "
 "developers."
 msgstr ""
 
-#: ../../shipping/packaging.rst:8
+#: ..\..\shipping\packaging.rst:8
 msgid ""
 "The `Python Packaging Guide <https://python-packaging-user-"
 "guide.readthedocs.org/en/latest/>`_ provides an extensive guide on creating "
 "and maintaining Python packages."
 msgstr ""
 
-#: ../../shipping/packaging.rst:11
+#: ..\..\shipping\packaging.rst:11
 msgid "For Python Developers"
 msgstr ""
 
-#: ../../shipping/packaging.rst:13
+#: ..\..\shipping\packaging.rst:13
 msgid ""
 "If you're writing an open source Python module, `PyPI "
 "<http://pypi.python.org>`_, more properly known as *The Cheeseshop*, is the "
 "place to host it."
 msgstr ""
 
-#: ../../shipping/packaging.rst:19
+#: ..\..\shipping\packaging.rst:19
 msgid "Pip vs. easy_install"
 msgstr ""
 
-#: ../../shipping/packaging.rst:21
+#: ..\..\shipping\packaging.rst:21
 msgid ""
 "Use `pip <http://pypi.python.org/pypi/pip>`_.  More details `here "
 "<http://stackoverflow.com/questions/3220404/why-use-pip-over-easy-install>`_"
 msgstr ""
 
-#: ../../shipping/packaging.rst:25
+#: ..\..\shipping\packaging.rst:25
 msgid "Personal PyPI"
 msgstr ""
 
-#: ../../shipping/packaging.rst:27
+#: ..\..\shipping\packaging.rst:27
 msgid ""
 "If you want to install packages from a source different from PyPI, (say, if "
 "your packages are *proprietary*), you can do it by hosting a simple http "
@@ -65,32 +65,32 @@ msgid ""
 "be installed."
 msgstr ""
 
-#: ../../shipping/packaging.rst:31
+#: ..\..\shipping\packaging.rst:31
 msgid "**Showing an example is always beneficial**"
 msgstr ""
 
-#: ../../shipping/packaging.rst:33
+#: ..\..\shipping\packaging.rst:33
 msgid ""
 "Say if you are after installing a package called :file:`MyPackage.tar.gz`,  "
 "and assuming this is your directory structure:"
 msgstr ""
 
-#: ../../shipping/packaging.rst:39
+#: ..\..\shipping\packaging.rst:39
 msgid "MyPackage.tar.gz"
 msgstr ""
 
-#: ../../shipping/packaging.rst:41
+#: ..\..\shipping\packaging.rst:41
 msgid "Go to your command prompt and type:"
 msgstr ""
 
-#: ../../shipping/packaging.rst:48
+#: ..\..\shipping\packaging.rst:48
 msgid ""
 "This runs a simple http server running on port 9000 and will list all "
 "packages (like **MyPackage**). Now you can install **MyPackage** using any "
 "Python package installer. Using Pip, you would do it like:"
 msgstr ""
 
-#: ../../shipping/packaging.rst:56
+#: ..\..\shipping\packaging.rst:56
 msgid ""
 "Having a folder with the same name as the package name is **crucial** here. "
 "I got fooled by that, one time. But if you feel that creating a folder "
@@ -98,11 +98,11 @@ msgid ""
 "is *redundant*, you can still install MyPackage using:"
 msgstr ""
 
-#: ../../shipping/packaging.rst:66
+#: ..\..\shipping\packaging.rst:66
 msgid "pypiserver"
 msgstr ""
 
-#: ../../shipping/packaging.rst:68
+#: ..\..\shipping\packaging.rst:68
 msgid ""
 "`Pypiserver <https://pypi.python.org/pypi/pypiserver>`_ is a minimal PyPI "
 "compatible server. It can be used to serve a set of packages to easy_install"
@@ -111,118 +111,126 @@ msgid ""
 "found on PyPI."
 msgstr ""
 
-#: ../../shipping/packaging.rst:75
+#: ..\..\shipping\packaging.rst:75
 msgid "S3-Hosted PyPi"
 msgstr ""
 
-#: ../../shipping/packaging.rst:77
+#: ..\..\shipping\packaging.rst:77
 msgid ""
 "One simple option for a personal PyPi server is to use Amazon S3. A "
 "prerequisite for this is that you have an Amazon AWS account with an S3 "
 "bucket."
 msgstr ""
 
-#: ../../shipping/packaging.rst:79
+#: ..\..\shipping\packaging.rst:79
 msgid "**Install all your requirements from PyPi or another source**"
 msgstr ""
 
-#: ../../shipping/packaging.rst:80
+#: ..\..\shipping\packaging.rst:80
 msgid "**Install pip2pi**"
 msgstr ""
 
-#: ../../shipping/packaging.rst:82
+#: ..\..\shipping\packaging.rst:82
 msgid ":code:`pip install git+https://github.com/wolever/pip2pi.git`"
 msgstr ""
 
-#: ../../shipping/packaging.rst:84
+#: ..\..\shipping\packaging.rst:84
 msgid "**Follow pip2pi README for pip2tgz and dir2pi commands**"
 msgstr ""
 
-#: ../../shipping/packaging.rst:86
+#: ..\..\shipping\packaging.rst:86
 msgid ""
 ":code:`pip2tgz packages/ YourPackage` (or :code:`pip2tgz packages/ -r "
 "requirements.txt`)"
 msgstr ""
 
-#: ../../shipping/packaging.rst:87
+#: ..\..\shipping\packaging.rst:87
 msgid ":code:`dir2pi packages/`"
 msgstr ""
 
-#: ../../shipping/packaging.rst:89
+#: ..\..\shipping\packaging.rst:89
 msgid "**Upload the new files**"
 msgstr ""
 
-#: ../../shipping/packaging.rst:91
+#: ..\..\shipping\packaging.rst:91
 msgid ""
 "Use a client like Cyberduck to sync the entire :file:`packages` folder to "
 "your s3 bucket"
 msgstr ""
 
-#: ../../shipping/packaging.rst:92
+#: ..\..\shipping\packaging.rst:92
 msgid ""
 "Make sure you upload :code:`packages/simple/index.html` as well as all new "
 "files and directories"
 msgstr ""
 
-#: ../../shipping/packaging.rst:94
+#: ..\..\shipping\packaging.rst:94
 msgid "**Fix new file permissions**"
 msgstr ""
 
-#: ../../shipping/packaging.rst:96
+#: ..\..\shipping\packaging.rst:96
 msgid ""
 "By default, when you upload new files to the S3 bucket, they will have the "
 "wrong permissions set."
 msgstr ""
 
-#: ../../shipping/packaging.rst:97
+#: ..\..\shipping\packaging.rst:97
 msgid ""
 "Use the Amazon web console to set the READ permission of the files to "
 "EVERYONE."
 msgstr ""
 
-#: ../../shipping/packaging.rst:98
+#: ..\..\shipping\packaging.rst:98
 msgid ""
 "If you get HTTP 403 when trying to install a package, make sure you've set "
 "the permissions correctly."
 msgstr ""
 
-#: ../../shipping/packaging.rst:100
+#: ..\..\shipping\packaging.rst:100
 msgid "**All done**"
 msgstr ""
 
-#: ../../shipping/packaging.rst:102
+#: ..\..\shipping\packaging.rst:102
 msgid ""
 "You can now install your package with :code:`pip install --index-"
 "url=http://your-s3-bucket/packages/simple/ YourPackage`"
 msgstr ""
 
-#: ../../shipping/packaging.rst:105
+#: ..\..\shipping\packaging.rst:105
 msgid "For Linux Distributions"
 msgstr ""
 
-#: ../../shipping/packaging.rst:107
+#: ..\..\shipping\packaging.rst:107
 msgid "`Fedora <https://fedoraproject.org/wiki/Packaging:Python>`_"
 msgstr ""
 
-#: ../../shipping/packaging.rst:108
+#: ..\..\shipping\packaging.rst:108
 msgid ""
 "`Debian and Ubuntu <http://www.debian.org/doc/packaging-manuals/python-"
 "policy/>`_"
 msgstr ""
 
-#: ../../shipping/packaging.rst:109
+#: ..\..\shipping\packaging.rst:109
 msgid ""
 "`Arch <https://wiki.archlinux.org/index.php/Python_Package_Guidelines>`_"
 msgstr ""
 
-#: ../../shipping/packaging.rst:112
+#: ..\..\shipping\packaging.rst:112
 msgid "Useful Tools"
 msgstr ""
 
-#: ../../shipping/packaging.rst:114
+#: ..\..\shipping\packaging.rst:114
 msgid "`fpm <https://github.com/jordansissel/fpm>`_"
 msgstr ""
 
-#: ../../shipping/packaging.rst:115
+#: ..\..\shipping\packaging.rst:115
 msgid "`alien <http://joeyh.name/code/alien/>`_"
+msgstr ""
+
+#: ..\..\shipping\packaging.rst:39
+msgid "archive"
+msgstr ""
+
+#: ..\..\shipping\packaging.rst:39
+msgid "MyPackage"
 msgstr ""
