@@ -5,17 +5,17 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-11-30 22:28\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Last-Translator: YoungSeon.Ahn <lovemewithoutall@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ..\..\starting\install\win.rst:4
+#: ../../starting/install/win.rst:4
 msgid "Installing Python on Windows"
-msgstr ""
+msgstr "Windows에 파이썬 설치하기"
 
-#: ..\..\starting\install\win.rst:6
+#: ../../starting/install/win.rst:6
 msgid ""
 "First, download the `latest version "
 "<http://python.org/ftp/python/2.7.6/python-2.7.6.msi>`_ of Python 2.7 from "
@@ -23,15 +23,23 @@ msgid ""
 "to-date version then use the \"Windows Installer\" link from the home page "
 "of the `Python.org web site <http://python.org>`_ ."
 msgstr ""
+"우선 공식 웹사이트에서 파이썬 2.7의 `최신 버전 "
+"<http://python.org/ftp/python/2.7.6/python-2.7.6.msi>`_ 을 다운로드 받아야 "
+"한다. 확실한 최신 버전으로 파이썬을 설치하고자 한다면, `Python.org web "
+"site <http://python.org>`_ 홈페이지의 "Windows Installer" 링크에서 다운받으면 "
+"된다."
 
-#: ..\..\starting\install\win.rst:11
+#: ../../starting/install/win.rst:11
 msgid ""
 "The Windows version is provided as an MSI package. To install it manually, "
 "just double-click the file. The MSI package format allows Windows "
 "administrators to automate installation with their standard tools."
 msgstr ""
+"Windows버전은 MSI 패키지 형태로 제공된다. 수동으로 설치하고자 한다면, 그냥 파일을 "
+"더블 클릭하면 된다. MSI 패키지 포맷은 Windows 관리자 계정 사용자로 하여금 Windows "
+"표준 도구를 자동 설치할 수 있게 해준다."
 
-#: ..\..\starting\install\win.rst:15
+#: ../../starting/install/win.rst:15
 msgid ""
 "By design, Python installs to a directory with the version number embedded, "
 "e.g. Python version 2.7 will install at :file:`C:\\\\Python27\\\\`, so that "
@@ -41,20 +49,28 @@ msgid ""
 ":envvar:`PATH` environment variable, so that you always have control over "
 "which copy of Python is run."
 msgstr ""
+"파이썬이 설치되는 디렉토리는 버전 숫자를 포함하도록 디자인되어 있다. 예를 들어 "
+"파이썬 2.7을 설치하면  :file:`C:\\Python27\\` 디렉토리에 설치되는 것이다. "
+"덕분에 하나의 시스템에서 충돌 없어 여러 버전의 파이썬을 사용할 수 있다. 물론 오직 "
+"하나의 인터프리터만 파이썬 파일 타입의 기본 설정이 될 수 있다.  :envvar:`PATH` "
+"환경 변수가 자동으로 변경되지도 않는다. 그러니 실해되는 파이썬의 버전을 늘 관리해야 한다."
 
-#: ..\..\starting\install\win.rst:23
+#: ../../starting/install/win.rst:23
 msgid ""
 "Typing the full path name for a Python interpreter each time quickly gets "
 "tedious, so add the directories for your default Python version to the "
 ":envvar:`PATH`. Assuming that your Python installation is in "
 ":file:`C:\\\\Python27\\\\`, add this to your :envvar:`PATH`:"
 msgstr ""
+"파이썬 인터프리터의 전체 경로명을 매번 입력하는 일은 금새 싫증난다. 그러니 컴퓨터의 "
+"기본 파이썬 버전이 있는 디렉토리에 envvar:`PATH` 를 추가하라. 파이썬이  "
+":file:`C:\\Python27\\` 에 설치되었다면 아래와 같이 추가하라."
 
-#: ..\..\starting\install\win.rst:32
+#: ../../starting/install/win.rst:32
 msgid "You can do this easily by running the following in ``powershell``:"
-msgstr ""
+msgstr "``powershell`` 에서 간단하게 설할 수도 있다."
 
-#: ..\..\starting\install\win.rst:38
+#: ../../starting/install/win.rst:38
 msgid ""
 "The second (:file:`Scripts`) directory receives command files when certain "
 "packages are installed, so it is a very useful addition. You do not need to "
@@ -64,12 +80,18 @@ msgid ""
 "use. In particular, you should always install Setuptools, as it makes it "
 "much easier for you to use other third-party Python libraries."
 msgstr ""
+"두번째 스크립트는 패키지가 설치될 때마다 디렉토리에 PATH를 설정하는 명령어를 "
+"실행시키기 때문에 아주 유용하다. 이제 파이썬을 사용하기 위해 달리 설치하거나 "
+"설정해줘야만 하는 것은 없다. 그렇기 해도 실제로 사용할 파이썬 어플리케이션을 "
+"만들기 전에 이 가이드에서 아래에 설명할 툴과 라이브러리들을 설치할 것을 강력 "
+"추천한다. 특히 Setuptools는 반드시 설치해야 한다. "
+"이것들은 다른 파이썬 서드파티 라이브러리들을 사용하기 편하게 해준다."
 
-#: ..\..\starting\install\win.rst:47
+#: ../../starting/install/win.rst:47
 msgid "Setuptools + Pip"
-msgstr ""
+msgstr "Setuptools + Pip"
 
-#: ..\..\starting\install\win.rst:49
+#: ../../starting/install/win.rst:49
 msgid ""
 "The most crucial third-party Python software of all is Setuptools, which "
 "extends the packaging and installation facilities provided by the distutils "
@@ -78,33 +100,46 @@ msgid ""
 " command. It also enables you to add this network installation capability to"
 " your own Python software with very little work."
 msgstr ""
+"Setuptools은 모든 파이썬 서드파티 소프트웨어 중 가장 중요하다. 표준 라이브러리인 "
+"distutils의 패키징과 설치 기능을 더욱 편하게 해주기 때문이다. Setuptools을 "
+"파이썬 시스템에 설치하면 어느 파이썬 소프트웨어 제품이라도 명령어 한 줄로 설치할 "
+"수 있다. 또한 최소한의 작업으로 당신이 만든 파이썬 소프트웨어의 네트워크 설치를 "
+"가능하게 한다."
 
-#: ..\..\starting\install\win.rst:56
+#: ../../starting/install/win.rst:56
 msgid ""
 "To obtain the latest version of Setuptools for Windows, run the Python "
 "script available here: `ez_setup.py "
 "<https://bitbucket.org/pypa/setuptools/raw/bootstrap/ez_setup.py>`_"
 msgstr ""
+"Windows에서 최신 버전의 Setuptoos를 설치하려면 아래 파이썬 스크립트를 실행하면 된다."
+"`ez_setup.py <https://bitbucket.org/pypa/setuptools/raw/bootstrap/ez_setup.py>`_"
 
-#: ..\..\starting\install\win.rst:60
+#: ../../starting/install/win.rst:60
 msgid ""
 "You'll now have a new command available to you: **easy_install**. It is "
 "considered by many to be deprecated, so we will install its replacement: "
 "**pip**. Pip allows for uninstallation of packages, and is actively "
 "maintained, unlike easy_install."
 msgstr ""
+"이제 새로운 명령을 내릴 수 있게 되었다: **easy_install** 이다. 하지만 이 "
+"명령어를 불편하게 생각하는 사람들도 많다. 그러니 이를 대체할 것을 설치해보자. "
+"**pip** 는 패키지의 설치 제거도 가능케 하고, easy_install와 달리 현재 "
+"활발히 유지 보수되고 있다."
 
-#: ..\..\starting\install\win.rst:65
+#: ../../starting/install/win.rst:65
 msgid ""
 "To install pip, run the Python script available here: `get-pip.py "
 "<https://raw.github.com/pypa/pip/master/contrib/get-pip.py>`_"
 msgstr ""
+"pip를 설치하려면 아래 파이썬 스크립트를 실행하면 된다. "
+"`get-pip.py <https://raw.github.com/pypa/pip/master/contrib/get-pip.py>`_"
 
-#: ..\..\starting\install\win.rst:70
+#: ../../starting/install/win.rst:70
 msgid "Virtual Environments"
-msgstr ""
+msgstr "Virtual Environments"
 
-#: ..\..\starting\install\win.rst:72
+#: ../../starting/install/win.rst:72
 msgid ""
 "A Virtual Environment is a tool to keep the dependencies required by "
 "different projects in separate places, by creating virtual Python "
@@ -112,23 +147,34 @@ msgid ""
 " Project Y needs 4.x\" dilemma, and keeps your global site-packages "
 "directory clean and manageable."
 msgstr ""
+"Virtual Environments은 파이썬 가상 환경을 만들어 독립된 위치의 다양한 "
+"프로젝트들 간의 독립성을 유지시켜주는 툴이다. 이는 \"프로젝트 X는 버전 "
+"1.x를 쓰는데, 프로젝트Y는 버전 4.x가 필요한\" 난국을 해결해준다. "
+"그리고 전역 패키지를 깨끗하게 관리할 수 있도록 해준다."
 
-#: ..\..\starting\install\win.rst:77
+#: ../../starting/install/win.rst:77
 msgid ""
 "For example, you can work on a project which requires Django 1.3 while also "
 "maintaining a project which requires Django 1.0."
 msgstr ""
+"예를 들면 장고 1.3을 쓰는 프로젝트에서 일하면서, 장고 1.0을 사용하는 "
+"프로젝트를 유지보수 할 수 있도록 해준다."
 
-#: ..\..\starting\install\win.rst:80
+#: ../../starting/install/win.rst:80
 msgid ""
 "To start using and see more information: `Virtual Environments "
 "<http://github.com/kennethreitz/python-"
 "guide/blob/master/docs/dev/virtualenvs.rst>`_ docs."
 msgstr ""
+"Virtual Environments을 사용하기 위해 더 많은 정보를 알고 싶다면"
+" `Virtual Environments <http://github.com/kennethreitz/python-guide/blob/master/docs/dev/virtualenvs.rst>`_ "
+"에서 볼 수 있다."
 
-#: ..\..\starting\install\win.rst:85
+#: ../../starting/install/win.rst:85
 msgid ""
 "This page is a remixed version of `another guide "
 "<http://www.stuartellis.eu/articles/python-development-windows/>`_, which is"
 " available under the same license."
 msgstr ""
+"이 페이지는 `다른 가이드 <http://www.stuartellis.eu/articles/python-development-windows/>`_ "
+"를 재배열한 버전이다. 라이선스는 동일하다."
