@@ -5,7 +5,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-11-30 22:28\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Last-Translator: YoungSeon.Ahn <lovemewithoutall@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -13,13 +13,13 @@ msgstr ""
 
 #: ..\..\starting\install\osx.rst:4
 msgid "Installing Python on Mac OS X"
-msgstr ""
+msgstr "맥 OS X에 파이썬 설치하기"
 
 #: ..\..\starting\install\osx.rst:6
 msgid ""
 "The latest version of Mac OS X, Mavericks, **comes with Python 2.7 out of "
 "the box**."
-msgstr ""
+msgstr "맥 OS X의 최신 버전인 요세미티에는 **훌륭하게도 파이썬 2.7이 딸려온다**."
 
 #: ..\..\starting\install\osx.rst:8
 msgid ""
@@ -30,6 +30,10 @@ msgid ""
 "Setuptools, as it makes it much easier for you to use other third-party "
 "Python libraries."
 msgstr ""
+"파이썬을 사용하기 위해 달리 설치하거나 설정을 할 필요는 없다."
+"그렇기 해도 실제로 사용할 파이썬 어플리케이션을 만들기 전에 이 가이드에서 아래에 "
+"설명할 툴과 라이브러리들을 설치할 것을 강력 추천한다. 특히 Setuptools는 반드시"
+" 설치해야 한다. 이것들은 다른 파이썬 서드파티 라이브러리들을 사용하기 편하게 해준다."
 
 #: ..\..\starting\install\osx.rst:14
 msgid ""
@@ -38,14 +42,17 @@ msgid ""
 "from the `official current Python release <https://www.python.org/downloads"
 "/mac-osx/>`_, which is considered the stable production version."
 msgstr ""
+"OS X에 포함된 파이썬의 버젼은 배우기에는 최고다. 하지만 개발에는 좋지 않다. "
+"OS X에 딸려온 버젼은 안정화된 `공식 릴리즈 된 파이썬"
+" <https://www.python.org/downloads/mac-osx/>`_ 보다 구버전일 것이다."
 
 #: ..\..\starting\install\osx.rst:20
 msgid "Doing it Right"
-msgstr ""
+msgstr "바로 시작하기"
 
 #: ..\..\starting\install\osx.rst:22
 msgid "Let's install a real version of Python."
-msgstr ""
+msgstr "진짜 파이썬을 설치해보자!"
 
 #: ..\..\starting\install\osx.rst:24
 msgid ""
@@ -55,12 +62,20 @@ msgid ""
 " Apple account) or the even smaller `OSX-GCC-Installer "
 "<https://github.com/kennethreitz/osx-gcc-installer#readme>`_ package."
 msgstr ""
+"파이썬을 설치하기 전에 GCC를 설치해야 한다. GCC는 "
+"`XCode <http://developer.apple.com/xcode/>`_ 를 설치하면서 얻을 수 있다. "
+"더 작은 버전인 `Command Line Tools <https://developer.apple.com/downloads/>`_ "
+"(애플 계정이 있어야 한다) 에서도 얻을 수 있고, 그보다도 더 작은 버젼인 "
+"`OSX-GCC-Installer <https://github.com/kennethreitz/osx-gcc-installer#readme>`_  "
+"패키지에서도 얻을 수 있다."
 
 #: ..\..\starting\install\osx.rst:31
 msgid ""
 "If you already have XCode installed, do not install OSX-GCC-Installer. In "
 "combination, the software can cause issues that are difficult to diagnose."
 msgstr ""
+"이미 XCode를 설치했으면 OSX-GCC-Installer는 설치하면 안된다."
+"두개를 모두 설치하면 원인을 밝히 어려운 문제를 일으킬 수 있다."
 
 #: ..\..\starting\install\osx.rst:35
 msgid ""
@@ -68,12 +83,18 @@ msgid ""
 "Linux systems will notice one key component missing: a decent package "
 "manager. `Homebrew <http://brew.sh>`_ fills this void."
 msgstr ""
+"OS X는 많은 UNIX 유틸리티를 갖고 있지만, 리눅스에 정통한 사람이라면 중요한 한가지가 "
+"빠져있다는 사실을 알아챌 것이다. 훌륭한 패키지 매니저가 없다는 것이다. 하지만 "
+"`Homebrew <http://brew.sh>`_ 가 그 빈자리를 채워준다."
 
 #: ..\..\starting\install\osx.rst:39
 msgid ""
 "To `install Homebrew "
 "<https://github.com/Homebrew/homebrew/wiki/installation>`_, simply run"
 msgstr ""
+"`Homebrew를 설치하기 위해서는 "
+"<https://github.com/Homebrew/homebrew/wiki/installation>`_, 아래 코드를 "
+"그냥 실행하기만 하면 된다."
 
 #: ..\..\starting\install\osx.rst:46
 msgid ""
@@ -83,22 +104,25 @@ msgid ""
 " this by adding the following line at the bottom of your :file:`~/.profile` "
 "file"
 msgstr ""
+"이 스크립트는 설치가 시작되기 전에 설치로 인해 변경되는 것들과 명령어를 설명해준다. "
+"Homebrew가 설치됐으면 Homebrew 디렉토리를  :envvar:`PATH` 환경 변수의 최상단에 넣자. "
+":file:`~/.profile` 파일의 마지막 줄에 다음과 같이 덧붙이면 된다."
 
 #: ..\..\starting\install\osx.rst:56
 msgid "Now, we can install Python 2.7:"
-msgstr ""
+msgstr "이제 우리는 파이썬 2.7을 설치할 수 있다."
 
 #: ..\..\starting\install\osx.rst:62
 msgid "This will take a minute or two."
-msgstr ""
+msgstr "1~2분 정도 걸릴 것이다."
 
 #: ..\..\starting\install\osx.rst:66
 msgid "Setuptools & Pip"
-msgstr ""
+msgstr "Setuptools & Pip"
 
 #: ..\..\starting\install\osx.rst:68
 msgid "Homebrew installs Setuptools and ``pip`` for you."
-msgstr ""
+msgstr "Homebrew는 Setuptools 과 ``pip`` 를 설치해준다."
 
 #: ..\..\starting\install\osx.rst:70
 msgid ""
@@ -107,6 +131,9 @@ msgid ""
 "(``easy_install``). It also enables you to add this network installation "
 "capability to your own Python software with very little work."
 msgstr ""
+"Setuptools는 네트워크 상에서(보통은 인터넷) 단 한 줄의 명령어(``easy_install``)로 "
+"편리한 파이썬 소프트웨어를 다운로드받고 설치할 수 있도록 해준다. 또한 최소한의 "
+"작업으로 당신이 만든 파이썬 소프트웨어의 네트워크 설치를 가능하게 한다."
 
 #: ..\..\starting\install\osx.rst:75
 msgid ""
@@ -115,10 +142,14 @@ msgid ""
 "`several ways <https://pip.pypa.io/en/1.5.X/other-tools.html#easy-"
 "install>`_, and is actively maintained."
 msgstr ""
+"``pip`` 는 파이썬 패키지를 손쉽게 설치하고 관리할 수 있게 해주는 툴이다. "
+"``easy_install`` 로 설치할 것을 추천한다. ``easy_install`` 는 "
+"`많은 면 <https://pip.pypa.io/en/1.5.X/other-tools.html#easy-install>`_ "
+"에서 탁월하고, 또한 활발히 유지 보수되고 있다."
 
 #: ..\..\starting\install\osx.rst:81
 msgid "Virtual Environments"
-msgstr ""
+msgstr "Virtual Environments"
 
 #: ..\..\starting\install\osx.rst:83
 msgid ""
@@ -128,12 +159,18 @@ msgid ""
 " Project Y needs 4.x\" dilemma, and keeps your global site-packages "
 "directory clean and manageable."
 msgstr ""
+"Virtual Environments은 파이썬 가상 환경을 만들어 독립된 위치의 다양한 프로젝트들 "
+"간의 독립성을 유지시켜주는 툴이다. 이는 \"프로젝트 X는 버전 1.x를 쓰는데, "
+"프로젝트Y는 버전 4.x가 필요한\" 난국을 해결해준다. 그리고 전역 패키지를 깨끗하게 "
+"관리할 수 있도록 해준다."
 
 #: ..\..\starting\install\osx.rst:88
 msgid ""
 "For example, you can work on a project which requires Django 1.3 while also "
 "maintaining a project which requires Django 1.0."
 msgstr ""
+"예를 들면 장고 1.3을 쓰는 프로젝트에서 일하면서, 장고 1.0을 사용하는 프로젝트를 "
+"유지보수 할 수 있도록 해준다."
 
 #: ..\..\starting\install\osx.rst:91
 msgid ""
@@ -141,6 +178,9 @@ msgid ""
 "<http://github.com/kennethreitz/python-"
 "guide/blob/master/docs/dev/virtualenvs.rst>`_ docs."
 msgstr ""
+"Virtual Environments을 사용하기 위해 더 많은 정보를 알고 싶다면 "
+"`Virtual Environments <http://github.com/kennethreitz/python-guide/blob/master/docs/dev/virtualenvs.rst>`_ "
+"에서 볼 수 있다."
 
 #: ..\..\starting\install\osx.rst:96
 msgid ""
@@ -148,3 +188,5 @@ msgid ""
 "<http://www.stuartellis.eu/articles/python-development-windows/>`_, which is"
 " available under the same license."
 msgstr ""
+"이 페이지는 `다른 가이드 <http://www.stuartellis.eu/articles/python-development-windows/>`_ "
+"를 재배열 버전이다. 라이선스는 동일하다."
