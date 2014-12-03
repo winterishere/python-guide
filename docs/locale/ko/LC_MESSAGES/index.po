@@ -78,7 +78,7 @@ msgstr "이 파트는 파이썬 코드 배포를 다룹니다"
 
 #: ..\..\contents.rst.inc:78
 msgid "Development Environment"
-msgstr "발 환경"
+msgstr "개발 환경"
 
 #: ..\..\contents.rst.inc:90
 msgid "Additional Notes"
