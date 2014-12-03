@@ -11,32 +11,32 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ..\..\scenarios\speed.rst:2
+#: ../../scenarios/speed.rst:2
 msgid "Speed"
 msgstr ""
 
-#: ..\..\scenarios\speed.rst:4
+#: ../../scenarios/speed.rst:4
 msgid ""
 "CPython, the most commonly used implementation of Python, is slow for CPU "
 "bound tasks. `PyPy`_ is fast."
 msgstr ""
 
-#: ..\..\scenarios\speed.rst:7
+#: ../../scenarios/speed.rst:7
 msgid ""
 "Using a slightly modified version of `David Beazleys`_ CPU bound test code "
 "(added loop for multiple tests), you can see the difference between CPython "
 "and PyPy's processing."
 msgstr ""
 
-#: ..\..\scenarios\speed.rst:37
+#: ../../scenarios/speed.rst:37
 msgid "Context"
 msgstr ""
 
-#: ..\..\scenarios\speed.rst:41 ..\..\scenarios\speed.rst:59
+#: ../../scenarios/speed.rst:41 ../../scenarios/speed.rst:59
 msgid "The GIL"
 msgstr ""
 
-#: ..\..\scenarios\speed.rst:43
+#: ../../scenarios/speed.rst:43
 msgid ""
 "`The GIL`_ (Global Interpreter Lock) is how Python allows multiple threads "
 "to operate at the same time. Python's memory management isn't entirely "
@@ -44,7 +44,7 @@ msgid ""
 " the same Python code at once."
 msgstr ""
 
-#: ..\..\scenarios\speed.rst:48
+#: ../../scenarios/speed.rst:48
 msgid ""
 "David Beazley has a great `guide`_ on how the GIL operates. He also covers "
 "the `new GIL`_ in Python 3.2. His results show that maximizing performance "
@@ -53,21 +53,21 @@ msgid ""
 "application bottlenecks are."
 msgstr ""
 
-#: ..\..\scenarios\speed.rst:55 ..\..\scenarios\speed.rst:65
+#: ../../scenarios/speed.rst:55 ../../scenarios/speed.rst:65
 msgid "C Extensions"
 msgstr ""
 
-#: ..\..\scenarios\speed.rst:61
+#: ../../scenarios/speed.rst:61
 msgid ""
 "`Special care`_ must be taken when writing C extensions to make sure you "
 "register your threads with the interpreter."
 msgstr ""
 
-#: ..\..\scenarios\speed.rst:69
+#: ../../scenarios/speed.rst:69
 msgid "Cython"
 msgstr ""
 
-#: ..\..\scenarios\speed.rst:71
+#: ../../scenarios/speed.rst:71
 msgid ""
 "`Cython <http://cython.org/>`_ implements a superset of the Python language "
 "with which you are able to write C and C++ modules for Python. Cython also "
@@ -75,24 +75,24 @@ msgid ""
 "you to take advantage of Python's strong typing of variables and operations."
 msgstr ""
 
-#: ..\..\scenarios\speed.rst:76
+#: ../../scenarios/speed.rst:76
 msgid "Here's an example of strong typing with Cython:"
 msgstr ""
 
-#: ..\..\scenarios\speed.rst:103
+#: ../../scenarios/speed.rst:103
 msgid ""
 "This implementation of an algorithm to find prime numbers has some "
 "additional keywords compared to the next one, which is implemented in pure "
 "Python:"
 msgstr ""
 
-#: ..\..\scenarios\speed.rst:128
+#: ../../scenarios/speed.rst:128
 msgid ""
 "Notice that in the Cython version you declare integers and integer arrays to"
 " be compiled into C types while also creating a Python list:"
 msgstr ""
 
-#: ..\..\scenarios\speed.rst:151
+#: ../../scenarios/speed.rst:151
 msgid ""
 "What is the difference? In the upper Cython version you can see the "
 "declaration of the variable types and the integer array in a similar way as "
@@ -102,15 +102,15 @@ msgid ""
 "saved in :file:`*.py` files, Cython code is saved in :file:`*.pyx` files."
 msgstr ""
 
-#: ..\..\scenarios\speed.rst:158
+#: ../../scenarios/speed.rst:158
 msgid "What's the difference in speed? Let's try it!"
 msgstr ""
 
-#: ..\..\scenarios\speed.rst:184
+#: ../../scenarios/speed.rst:184
 msgid "These lines both need a remark:"
 msgstr ""
 
-#: ..\..\scenarios\speed.rst:192
+#: ../../scenarios/speed.rst:192
 msgid ""
 "The `pyximport` module allows you to import :file:`*.pyx` files (e.g., "
 ":file:`primesCy.pyx`) with the Cython-compiled version of the `primes` "
@@ -123,40 +123,40 @@ msgid ""
 "(dual core AMD E-450 1.6 GHz), the measured values are:"
 msgstr ""
 
-#: ..\..\scenarios\speed.rst:209
+#: ../../scenarios/speed.rst:209
 msgid ""
 "And here the output of an embedded `ARM beaglebone "
 "<http://beagleboard.org/Products/BeagleBone>`_ machine:"
 msgstr ""
 
-#: ..\..\scenarios\speed.rst:219
+#: ../../scenarios/speed.rst:219
 msgid "Pyrex"
 msgstr ""
 
-#: ..\..\scenarios\speed.rst:223
+#: ../../scenarios/speed.rst:223
 msgid "Shedskin?"
 msgstr ""
 
-#: ..\..\scenarios\speed.rst:226
+#: ../../scenarios/speed.rst:226
 msgid "Numba"
 msgstr ""
 
-#: ..\..\scenarios\speed.rst:227
+#: ../../scenarios/speed.rst:227
 msgid "Write about Numba and the autojit compiler for NumPy"
 msgstr ""
 
-#: ..\..\scenarios\speed.rst:230 ..\..\scenarios\speed.rst:234
+#: ../../scenarios/speed.rst:230 ../../scenarios/speed.rst:234
 msgid "Threading"
 msgstr ""
 
-#: ..\..\scenarios\speed.rst:238
+#: ../../scenarios/speed.rst:238
 msgid "Spawning Processes"
 msgstr ""
 
-#: ..\..\scenarios\speed.rst:242
+#: ../../scenarios/speed.rst:242
 msgid "Multiprocessing"
 msgstr ""
 
-#: ..\..\scenarios\speed.rst:0
+#: ../../scenarios/speed.rst:0
 msgid "Todo"
 msgstr ""
