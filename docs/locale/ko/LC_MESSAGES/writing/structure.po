@@ -426,7 +426,7 @@ msgid ""
 msgstr ""
 "하지만 자바와는 달리 파이썬은 객체지향 프로그래밍을 프로그래밍 패러다임으로 도입하고 "
 "있지 않다. 객체지향으로 만들지 않은 파이썬 프로젝트도 완벽하게 실행 가능하다. "
-"즉, 클래스를 정의하지 않거나 거의 정의하지 않아도 사용할 수 있다."
+"즉 클래스를 정의하지 않거나 거의 정의하지 않아도 사용할 수 있다."
 "클래스 상속이나 객체지향 프로그래밍의 다른 특징적인 방법을 사용하지 않아도 마찬가지다."
 
 #: ..\..\writing\structure.rst:222
@@ -437,7 +437,10 @@ msgid ""
 " use object-orientation. Therefore, Python programmers have more latitude to"
 " not use object-orientation, when it is not required by the business model."
 msgstr ""
-"게다가 modules_ 섹션에서 볼 수 있듯이 "
+"게다가 modules_ 섹션에서 볼 수 있듯이 파이썬이 모듈과 명칭 공간(namespace)를 다루는 방식은"
+"개발자로 하여금 자연스럽게 캡슐화와 추상 레이어의 분리를 가능하게 해준다. 캡슐화와 추상 레이어의 "
+"분리는 둘 다 객체지향을 사용하는 가장 일반적인 이유다. 그러므로 파이썬 프로그래머는 비지니스 모델이"
+" 굳이 객체지향을 필요로 하지 않는다면 거기에 얽메이지 않아도 된다."
 
 #: ..\..\writing\structure.rst:229
 msgid ""
@@ -446,6 +449,9 @@ msgid ""
 "functionality. The problem, as pointed out by the discussions about "
 "functional programming, comes from the \"state\" part of the equation."
 msgstr ""
+"불필요한 객체지향을 피해야 할 이유는 여러가지가 있다. 어떤 구문과 기능은 한데 모아두는 편이 "
+"더 유용할 때가 있다. 이럴 때는 사용자 정의 클래스를 정의해서 쓰면 편리하다. 문제는 "
+"함수형 프로그래밍의 문제점으로 지적되는 등식 부분의 \"구문\" 에서 발생한다."
 
 #: ..\..\writing\structure.rst:234
 msgid ""
@@ -462,12 +468,18 @@ msgid ""
 " same time, it may happen that the deletion actually occurs after the first "
 "process loaded the item, and then we have to mark as read a deleted object."
 msgstr ""
+"어떤 아키텍쳐, 보통 웹 어플리케이션에서는 파이썬 프로세스에 복수의 인스턴스가 발생한다. 동시에 "
+"발생하는 외부의 요청에 응답하기 위해서다. 이런 경우에는 구문의 실행이 멈춰져 "
+" 예정된 오브젝트가 된다. "
+"즉 어떤 고정된 정보를 계속 잡고 있는 것이다. 이때문에 동시성의 문제나 경합 상황이 발생하기 쉽다."
 
 #: ..\..\writing\structure.rst:247
 msgid ""
 "This and other issues led to the idea that using stateless functions is a "
 "better programming paradigm."
 msgstr ""
+"이 문제 뿐만 아니라 다른 설명하지 않은 문제들이 발생하기도 한다. 이 때문에 구문없는 함수가 "
+"더 나은 프로그래밍 패러다임으로 생각되기도 한다."
 
 #: ..\..\writing\structure.rst:250
 msgid ""
