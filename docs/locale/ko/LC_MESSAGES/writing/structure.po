@@ -156,7 +156,11 @@ msgid ""
 "the interface file needs to import the low-level file. This is done with the"
 " ``import`` and ``from ... import`` statements."
 msgstr ""
-
+"예를 들어 프로젝트의 레이어 중 하나는 사용자 인터페이스를 담당하고, 다른 하나는 "
+"저수준의 데이터 처리를 담당할 수도 있다. 이 두 레이어를 분리시키는 가장 자연스러운"
+"방법은 인터페이스 기능과 저수준의 데이터 처리를 담당하는 기능을 각각 하나의 파일에 "
+"넣는 것이다. 이런 경우에 인터페이스 파일은 데이터 처리 파일을 불러와야 한다."
+"이는  ``import`` 와 ``from ... import`` 구문으로 가능하다."
 
 #: ..\..\writing\structure.rst:88
 msgid ""
@@ -164,6 +168,9 @@ msgid ""
 "built-in modules such as `os` and `sys`, third-party modules you have "
 "installed in your environment, or your project's internal modules."
 msgstr ""
+" `import` 구문을 사용하는 즉시 해당 모듈을 불러올 수 있다. 이는 내장 모듈인"
+" `os` , `sys` , 프로젝트에 포함시킨 모듈과 따로 설치한 서드파티 모듈도"
+"마찬가지다."
 
 #: ..\..\writing\structure.rst:92
 msgid ""
@@ -172,6 +179,9 @@ msgid ""
 " (?). So a file name like :file:`my.spam.py` is one you should avoid! Naming"
 " this way will interfere with the way Python looks for modules."
 msgstr ""
+"본 안내서의 스타일 가이드의 방침을 따르려면, 모듈의 이름은 소문자로 짧게 짓고, 점(.)이나"
+"물음표(?) 같은 특수 문자의 사용을 지양해야 한다. 그러니까 :file:`my.spam.py` 같은"
+"이름으로 만들면 안된다! 파이썬이 모듈을 찾는 걸 방해한다."
 
 #: ..\..\writing\structure.rst:97
 msgid ""
@@ -180,12 +190,18 @@ msgid ""
 "<http://docs.python.org/tutorial/modules.html#packages>`_ of how the dot "
 "notation should be used in the Python docs."
 msgstr ""
+" `my.spam.py` 의 경우, 파이썬은  :file:`my` 라는 이름의 폴더에서  :file:`spam.py` "
+"이라는 이름의 파일을 찾는다. 이는 잘못된 경우다. 아래 글을 참조하기 바란다."
+"파이썬 문서에서 점(.) 표시가 어떻게 사용되는지에 대한"
+" `예시 <http://docs.python.org/tutorial/modules.html#packages>`_ "
 
 #: ..\..\writing\structure.rst:102
 msgid ""
 "If you'd like you could name your module :file:`my_spam.py`, but even our "
 "friend the underscore should not be seen often in module names."
 msgstr ""
+" :file:`my_spam.py` 처럼 모듈 이름을 짓는 것도 가능하다. 하지만 우리의 친구"
+"밑줄(_)은 모듈 이름으로는 자주 쓰이지 않는다."
 
 #: ..\..\writing\structure.rst:105
 msgid ""
@@ -193,6 +209,9 @@ msgid ""
 "Python file to be a module, but you need to understand the import mechanism "
 "in order to use this concept properly and avoid some issues."
 msgstr ""
+"몇 가지 이름 짓기 규칙 외에는 파이썬 모듈을 만들기 위해 달리 특별히 필요한 것은 없다. "
+"하지만 모듈이라는 개념을 잘 사용하고 문제를 발생시키지 않기 위해서는, 모듈을 불러오는 "
+"방법을 이해할 필요가 있다."
 
 #: ..\..\writing\structure.rst:109
 msgid ""
@@ -202,6 +221,10 @@ msgid ""
 "in the \"path\" recursively and raise an ImportError exception if it is not "
 "found."
 msgstr ""
+"구체적으로 살펴보자. ``import modu`` 구문이 있으면 이는 호출자로서 같은 디렉토리 "
+"안에서 적절한 파일, 즉 :file:`modu.py` 라는 파일을 찾는다. 만약 해당 파일이"
+"발견되지 않는다면 파이썬 인터프리터는  :file:`modu.py` 파일을  \"path\" 에서"
+"재귀적으로 찾는다. 그래도 발견되지 않으면 ImportError exception을 띄운다."
 
 #: ..\..\writing\structure.rst:114
 msgid ""
@@ -210,6 +233,9 @@ msgid ""
 " be executed, including other imports if any. Function and class definitions"
 " are stored in the module's dictionary."
 msgstr ""
+"일단 :file:`modu.py` 이 발견되면, 파이썬 인터프리터는 독립적으로 그 모듈을 실행한다."
+" :file:`modu.py` 모듈 안의 모든 최상위 구문이 실행된다. 불러온 다른 모듈이 있다면"
+"그것도 함께 실행된다. 함수와 클래스 정의는 모듈의 디렉토리에 저장된다."
 
 #: ..\..\writing\structure.rst:119
 msgid ""
@@ -217,6 +243,9 @@ msgid ""
 "the caller through the module's namespace, a central concept in programming "
 "that is particularly helpful and powerful in Python."
 msgstr ""
+"그런 다음, 모듈의 변수와 함수, 그리고 클래스는 프로그래밍의 핵심적인 개념이자,"
+" 특히 파이썬에서는 더욱 유용하고 강력하게 쓰이는 모듈의 명칭 공간(namespace)"
+"을 통해 호출자가 사용할 수 있게 된다. "
 
 #: ..\..\writing\structure.rst:123
 msgid ""
@@ -227,6 +256,10 @@ msgid ""
 "included code could have unwanted effects, e.g. override an existing "
 "function with the same name."
 msgstr ""
+"많은 언어에서  ``include file`` 지시문은 전처리장치(preprocessor)가 해당 파일의 모든 코드를 가져와"
+"호출자에 '복사'해 넣는 명령어로 사용된다. 하지만 파이썬에서는 다르다. 모듈에 포함된"
+"코드는 명칭 공간에 독립적으로 실행된다. 이는 일반적으로 모듈에 포함된 코드가 오작동을"
+"하는 경우가 없다는 뜻이다. "
 
 #: ..\..\writing\structure.rst:129
 msgid ""
@@ -235,6 +268,10 @@ msgid ""
 "considered bad practice. **Using** ``import *`` **makes code harder to read "
 "and makes dependencies less compartmentalized**."
 msgstr ""
+"모듈을 불러오는 특별한 구문인 ``from modu import *`` 를 써서 파이썬이 어떻게 "
+"작동하는지 확인해보자. 일반적으로 이러한 구문은 잘못된 습관이다. "
+" **Using** ``import *`` ** 구문은 코드를 읽기 어렵게 만들고, "
+"코드의 독립성 여부를 판단하기 어렵게 한다."
 
 #: ..\..\writing\structure.rst:134
 msgid ""
@@ -244,18 +281,23 @@ msgid ""
 "namespace, its only advantage over a simpler ``import modu`` is that it will"
 " save a little typing."
 msgstr ""
+" ``from modu import func`` 구문은 모듈에서 딱 내가 원하는 함수만 불러와 "
+"전역 명칭 공간(global namespace)에 넣어둘 수 있는 좋은 방법이다. "
+"뿐만 아니라 이 구문은 전역 명칭 공간(global namespace)에 무엇을 불러올지를"
+"명확히 보여주기 때문에 ``import *`` 구문보다 덜 해롭다. 단순히 ``import *`` "
+"구문을 사용하는 것은 단지 타이핑을 덜 한다는 이점 뿐이다."
 
 #: ..\..\writing\structure.rst:139
 msgid "**Very bad**"
-msgstr ""
+msgstr "**최악**"
 
 #: ..\..\writing\structure.rst:148
 msgid "**Better**"
-msgstr ""
+msgstr "**최악보다는 낫다**"
 
 #: ..\..\writing\structure.rst:156 ..\..\writing\structure.rst:443
 msgid "**Best**"
-msgstr ""
+msgstr "**최고**"
 
 #: ..\..\writing\structure.rst:164
 msgid ""
@@ -267,16 +309,24 @@ msgid ""
 "from, as in the ``modu.func`` idiom, greatly improves code readability and "
 "understandability in all but the simplest single file projects."
 msgstr ""
+" :ref:`code_style` 섹션에서 언급한 것처럼, 가독성은 파이썬의 주요 특징 중 하나다."
+"가독성이란 쓸데없이 긴 본문과 잡동사니를 피한다는 뜻이다. 그러므로 어느 수준까지는"
+"간결성을 얻고자 하는 노력이 필요하다. 그러나 너무 간결한 나머지 모호해서는 안된다."
+" ``modu.func`` 처럼 클래스와 함수가 어디에서 왔는지 즉각 알려주는 구문은"
+"코드의 가독성과 이해용이성을 크게 놓여준다."
+"단 하나의 파일만 있는 아주 간단한 프로젝트가 아닌 한 그렇다."
 
 #: ..\..\writing\structure.rst:174
 msgid "Packages"
-msgstr ""
+msgstr "패키지"
 
 #: ..\..\writing\structure.rst:176
 msgid ""
 "Python provides a very straightforward packaging system, which is simply an "
 "extension of the module mechanism to a directory."
 msgstr ""
+"파이썬은 아주 간단한 패키지 만들기 시스템을 제공한다. 이 시스템은 단순히 "
+"파이썬 모듈 구조를 디렉토리로 확장한 것이다."
 
 #: ..\..\writing\structure.rst:179
 msgid ""
@@ -286,6 +336,10 @@ msgid ""
 ":file:`__init__.py` file, which is used to gather all package-wide "
 "definitions."
 msgstr ""
+" :file:`__init__.py` 가 있는 모든 디렉토리는 파이썬 패키지로 인식된다."
+"패키지의 여러 다른 모듈들은 일반적인 모듈과 비슷한 방법으로 불러와진다."
+"그러나 패키지는 일반 모듈과는 달리 :file:`__init__.py` 가 있다는 점이 특별하다."
+"이 파일은 패키지 전체의 모든 정의를 모아두는 용도로 쓰인다."
 
 #: ..\..\writing\structure.rst:184
 msgid ""
@@ -297,6 +351,11 @@ msgid ""
 "variable, function, or class defined in :file:`modu.py` is available in the "
 "pack.modu namespace."
 msgstr ""
+":file:`pack/` 디렉토리의  :file:`modu.py` 파일은  ``import pack.modu`` 구문으로"
+"불러와진다. 이 구문은  :file:`pack` 에서 :file:`__init__.py` 파일을 찾는다."
+"그리고 해당 패키지의 모든 상위 구문을 실행한다. 이 작업 후에  :file:`modu.py` "
+"파일에 정의된 모든 변수나 함수, 클래스를 pack.modu 명칭 공간(namespace)에서"
+" 쓸 수 있다."
 
 #: ..\..\writing\structure.rst:190
 msgid ""
@@ -306,6 +365,11 @@ msgid ""
 "item from a sub-sub-package will require executing all :file:`__init__.py` "
 "files met while traversing the tree."
 msgstr ""
+"일반적으로 보이는 문제는 :file:`__init__.py` 파일에 너무 많은 코드를 붙이는 경우다. "
+"프로젝트가 복잡해질수록 디렉토리 구조 깊숙히 서브-패키지와 서브-서브-패키지가 있을"
+" 수 있다. 이런 경우에는 서브-서브-패키지 안에 있는 단 한 줄을 불러오려고 했더니"
+" 패키지 디렉토리를 가로지르며 만나게 되는 모든 :file:`__init__.py` 파일을 "
+"실행하게 될 때가 있다."
 
 #: ..\..\writing\structure.rst:196
 msgid ""
@@ -313,6 +377,8 @@ msgid ""
 "good practice, if the package's modules and sub-packages do not need to "
 "share any code."
 msgstr ""
+"따라서 패키지의 모듈과 서브-패키지에서 코드를 서로 공유할 필요가 없다면 "
+":file:`__init__.py` 은 빈 파일로 남겨두는게 일반적일 뿐만 아니라 좋은 습관이다."
 
 #: ..\..\writing\structure.rst:199
 msgid ""
@@ -320,16 +386,21 @@ msgid ""
 "packages: ``import very.deep.module as mod``. This allows you to use `mod` "
 "in place of the verbose repetition of ``very.deep.module``."
 msgstr ""
+"마지막으로 패키지 안쪽 깊숙히 불러올 수 있는 편리한 구문이 있다."
+"``import very.deep.module as mod`` 이다. 이 구문은  ``very.deep.module``"
+"같은 장황한 구문을 반복하는 대신에  `mod` 만으로 패키지를 사용할 수 있게 해준다."
 
 #: ..\..\writing\structure.rst:204
 msgid "Object-oriented programming"
-msgstr ""
+msgstr "객체지향 프로그래밍"
 
 #: ..\..\writing\structure.rst:206
 msgid ""
 "Python is sometimes described as an object-oriented programming language. "
 "This can be somewhat misleading and needs to be clarified."
 msgstr ""
+"파이썬은 종종 객체지향 프로그래밍 언어라고 설명된다."
+"이는 다소 오해의 여지가 있기에 명확히 할 필요가 있다."
 
 #: ..\..\writing\structure.rst:209
 msgid ""
@@ -340,6 +411,7 @@ msgid ""
 "may have methods and properties. In this understanding, Python is an object-"
 "oriented language."
 msgstr ""
+"파이썬에서 모든 것은 객체다. 그리고 객체처럼 다룰 수 있다."
 
 #: ..\..\writing\structure.rst:216
 msgid ""
