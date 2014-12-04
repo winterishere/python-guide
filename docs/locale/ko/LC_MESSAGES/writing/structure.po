@@ -411,7 +411,10 @@ msgid ""
 "may have methods and properties. In this understanding, Python is an object-"
 "oriented language."
 msgstr ""
-"파이썬에서 모든 것은 객체다. 그리고 객체처럼 다룰 수 있다."
+"파이썬에서 모든 것은 객체다. 그리고 객체처럼 다룰 수 있다. 말하자면 first-class 객체를"
+" 예로 들 수 있다. 함수, 클래스, 문자열, 심지어 타입도 파이썬에서는 객체다. "
+"다른 객체처럼 파이썬의 객체도 타입이 있고 함수 인자값을 받을 수 있다. 또한 메소드와"
+"속성을 가질 수도 있다. 이러한 점을 고려하여 파이썬을 객체지향 언어라고 하는 것이다."
 
 #: ..\..\writing\structure.rst:216
 msgid ""
@@ -421,6 +424,10 @@ msgid ""
 "class inheritance, or any other mechanisms that are specific to object-"
 "oriented programming."
 msgstr ""
+"하지만 자바와는 달리 파이썬은 객체지향 프로그래밍을 프로그래밍 패러다임으로 도입하고 "
+"있지 않다. 객체지향으로 만들지 않은 파이썬 프로젝트도 완벽하게 실행 가능하다. "
+"즉, 클래스를 정의하지 않거나 거의 정의하지 않아도 사용할 수 있다."
+"클래스 상속이나 객체지향 프로그래밍의 다른 특징적인 방법을 사용하지 않아도 마찬가지다."
 
 #: ..\..\writing\structure.rst:222
 msgid ""
@@ -430,6 +437,7 @@ msgid ""
 " use object-orientation. Therefore, Python programmers have more latitude to"
 " not use object-orientation, when it is not required by the business model."
 msgstr ""
+"게다가 modules_ 섹션에서 볼 수 있듯이 "
 
 #: ..\..\writing\structure.rst:229
 msgid ""
