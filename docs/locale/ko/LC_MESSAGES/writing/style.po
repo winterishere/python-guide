@@ -56,25 +56,26 @@ msgstr ""
 
 #: ..\..\writing\style.rst:23
 msgid "General concepts"
-msgstr ""
+msgstr "일반적인 개념"
 
 #: ..\..\writing\style.rst:26
 msgid "Explicit code"
-msgstr ""
+msgstr "명쾌한 코드"
 
 #: ..\..\writing\style.rst:28
 msgid ""
 "While any kind of black magic is possible with Python, the most explicit and"
 " straightforward manner is preferred."
 msgstr ""
+"파이썬으로 어떤 마법을 부릴 수 있다면, 가장 명쾌하고 간단한 방법으로 할 것이다."
 
 #: ..\..\writing\style.rst:31 ..\..\writing\style.rst:58
 msgid "**Bad**"
-msgstr ""
+msgstr "**나쁜 예**"
 
 #: ..\..\writing\style.rst:39 ..\..\writing\style.rst:69
 msgid "**Good**"
-msgstr ""
+msgstr "**좋은 예**"
 
 #: ..\..\writing\style.rst:46
 msgid ""
@@ -83,10 +84,13 @@ msgid ""
 " exactly what to do by reading the first and last lines, which is not the "
 "case with the bad example."
 msgstr ""
+"위의 좋은 코드에서 x와 y는 호출자로부터 직접 값을 받아와 곧바로 딕셔너리로 반환한다. "
+"이 함수를 쓰는 개발자들은 첫 줄과 마지막 줄을 읽는 것만으로 무엇을 하는 함수인지 "
+"정확히 알 수 있다. 하지만 나쁜 예에서는 그렇지 않다."
 
 #: ..\..\writing\style.rst:52
 msgid "One statement per line"
-msgstr ""
+msgstr "한 줄에 한 구문"
 
 #: ..\..\writing\style.rst:54
 msgid ""
@@ -94,14 +98,17 @@ msgid ""
 "appreciated for their brevity and their expressiveness, it is bad practice "
 "to have two disjoint statements on the same line of code."
 msgstr ""
+"간결성과 표현성을 위해 리스트 컴프리헨션(list comprehension) 같은 복잡한 구문을 "
+"만드는 경우가 있다. 이렇게 한 줄의 코드에 두 개의 분리 가능한 코드를 "
+"넣는 것은 잘못된 습관이다. "
 
 #: ..\..\writing\style.rst:85
 msgid "Function arguments"
-msgstr ""
+msgstr "함수 인자"
 
 #: ..\..\writing\style.rst:87
 msgid "Arguments can be passed to functions in four different ways."
-msgstr ""
+msgstr "인자는 4가지 경로를 통해 함수로 전달될 수 있다."
 
 #: ..\..\writing\style.rst:89
 msgid ""
@@ -112,6 +119,7 @@ msgid ""
 "the user of the function has no difficulty remembering that those two "
 "functions require two arguments, and in which order."
 msgstr ""
+"1. **위치 매개 변수** 는 필수적이다. "
 
 #: ..\..\writing\style.rst:96
 msgid ""
