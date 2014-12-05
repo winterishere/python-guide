@@ -34,21 +34,21 @@ msgstr "이 문제의 기본적인 요지는 다음과 같다."
 
 #: ..\..\starting\which-python.rst:16
 msgid "Python 2.7 has been the standard for a *long* time."
-msgstr "1. 파이썬2.7이 *오랫동안* 표준이었다."
+msgstr "파이썬2.7이 *오랫동안* 표준이었다."
 
 #: ..\..\starting\which-python.rst:17
 msgid ""
 "Python 3 introduced major changes to the language, which many developers are"
 " unhappy with."
-msgstr "2. 파이썬3에 있었던 상당한 변화 때문에 파이썬3를 좋아하지 않는 개발자들이 많다."
+msgstr "파이썬3에 있었던 상당한 변화 때문에 파이썬3를 좋아하지 않는 개발자들이 많다."
 
 #: ..\..\starting\which-python.rst:18
 msgid "Python 2.7 will receive necessary security updates for a few years."
-msgstr "3. 파이썬2.7은 향후 몇년은 필수 보안 업데이트를 받을 것이다."
+msgstr "파이썬2.7은 향후 몇년은 필수 보안 업데이트를 받을 것이다."
 
 #: ..\..\starting\which-python.rst:19
 msgid "Python 3 is continually evolving, like Python 2 did in years past."
-msgstr "4. 파이썬3는 파이썬2가 지난 몇년간 그랬던 것처럼 계속 진화하고 있다."
+msgstr "파이썬3는 파이썬2가 지난 몇년간 그랬던 것처럼 계속 진화하고 있다."
 
 #: ..\..\starting\which-python.rst:21
 msgid "So, you can now see why this is not such an easy decision."
@@ -132,7 +132,7 @@ msgid ""
 "Check out `Can I Use Python 3? <https://caniusepython3.com/>`_ to see if any"
 " software you're depending on will block your adoption of Python 3."
 msgstr ""
-" `Can I Use Python 3? <https://caniusepython3.com/>`_ 에서 당신이 사용 중인소프트웨어에서 "
+"`Can I Use Python 3? <https://caniusepython3.com/>`_ 에서 당신이 사용 중인소프트웨어에서 "
 "파이썬3를 사용할 수 없게 만드는 장애물이 있지 않은가 확인해보시라."
 
 #: ..\..\starting\which-python.rst:59
@@ -147,9 +147,9 @@ msgid ""
 "writing; if you're a beginner there are far more important things to worry "
 "about."
 msgstr ""
-"`파이썬2.6, 2.7, 3.3에서 모두 돌아가는 코드를 작성하는 것도 "
-"가능하다.<http://lucumr.pocoo.org/2013/5/21/porting-to-python-3-redux/>`_ 이 "
-"가이드는사소한 것들로부터 시작해 당신이 작성하고 있는 소프트웨어의 종류에 따른 어려운 문제까지다루고 있다. 초보자라면 신경써야할 대단히 "
+"파이썬 2.6, 2.7, 3.3에서 모두 돌아가는 코드를 작성하는 것도 "
+" `가능하다 <http://lucumr.pocoo.org/2013/5/21/porting-to-python-3-redux/>`_. 이 "
+"가이드는 사소한 것들로부터 시작해 당신이 작성하고 있는 소프트웨어의 종류에 따른 어려운 문제까지 다루고 있다. 초보자라면 신경써야할 대단히 "
 "중요한 사항들도 있다."
 
 #: ..\..\starting\which-python.rst:68
