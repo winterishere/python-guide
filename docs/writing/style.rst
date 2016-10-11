@@ -3,17 +3,17 @@
 Code Style
 ==========
 
-If you ask Python programmers what they like most in Python, they will
-often say its high readability.  Indeed, a high level of readability
+If you ask Python programmers what they like most about Python, they will
+often cite its high readability.  Indeed, a high level of readability
 is at the heart of the design of the Python language, following the
-recognised fact that code is read much more often than it is written.
+recognized fact that code is read much more often than it is written.
 
-One reason for Python code to be easily read and understood is its relatively
+One reason for the high readability of Python code is its relatively
 complete set of Code Style guidelines and "Pythonic" idioms.
 
-Moreover, when a veteran Python developer (a Pythonista) points to portions of code
-and says they are not "Pythonic", it usually means that these lines
-of code do not follow the common guidelines and fail to express the intent in
+When a veteran Python developer (a Pythonista) calls portions of
+code not "Pythonic", they usually mean that these lines
+of code do not follow the common guidelines and fail to express its intent in
 what is considered the best (hear: most readable) way.
 
 On some border cases, no best way has been agreed upon on how to express
@@ -53,7 +53,7 @@ One statement per line
 
 While some compound statements such as list comprehensions are
 allowed and appreciated for their brevity and their expressiveness,
-it is bad practice to have two disjoint statements on the same line of code.
+it is bad practice to have two disjointed statements on the same line of code.
 
 **Bad**
 
@@ -86,49 +86,51 @@ Function arguments
 
 Arguments can be passed to functions in four different ways.
 
-1. **Positional arguments** are mandatory and have no default values. They are the
-simplest form of arguments and they can be used for the few function arguments
-that are fully part of the functions meaning and their order is natural. For
-instance, in ``send(message, recipient)`` or ``point(x, y)`` the user of the
-function has no difficulty remembering that those two functions require two
-arguments, and in which order.
+1. **Positional arguments** are mandatory and have no default values. They are
+   the simplest form of arguments and they can be used for the few function
+   arguments that are fully part of the function's meaning and their order is
+   natural. For instance, in ``send(message, recipient)`` or ``point(x, y)``
+   the user of the function has no difficulty remembering that those two
+   functions require two arguments, and in which order.
 
-In those two cases, it is possible to use argument names when calling the functions
-and, doing so, it is possible to switch the order of arguments, calling for instance
-``send(recipient='World', message='Hello')`` and ``point(y=2, x=1)`` but this
-reduces readability and is unnecessarily verbose, compared to the more straightforward
-calls to ``send('Hello', 'World')`` and ``point(1, 2)``.
+In those two cases, it is possible to use argument names when calling the
+functions and, doing so, it is possible to switch the order of arguments,
+calling for instance ``send(recipient='World', message='Hello')`` and
+``point(y=2, x=1)`` but this reduces readability and is unnecessarily verbose,
+compared to the more straightforward calls to ``send('Hello', 'World')`` and
+``point(1, 2)``.
 
-2. **Keyword arguments** are not mandatory and have default values. They are often
-used for optional parameters sent to the function. When a function has more than
-two or three positional parameters, its signature is more difficult to remember
-and using keyword argument with default values is helpful. For instance, a more
-complete ``send`` function could be defined as ``send(message, to, cc=None, bcc=None)``.
-Here ``cc`` and ``bcc`` are optional, and evaluate to ``None`` when they are not
-passed another value.
+2. **Keyword arguments** are not mandatory and have default values. They are
+   often used for optional parameters sent to the function. When a function has
+   more than two or three positional parameters, its signature is more difficult
+   to remember and using keyword arguments with default values is helpful. For
+   instance, a more complete ``send`` function could be defined as
+   ``send(message, to, cc=None, bcc=None)``. Here ``cc`` and ``bcc`` are
+   optional, and evaluate to ``None`` when they are not passed another value.
 
-Calling a function with keyword arguments can be done in multiple ways in Python,
-for example it is possible to follow the order of arguments in the definition without
-explicitly naming the arguments, like in ``send('Hello', 'World', 'Cthulhu', 'God')``,
-sending a blind carbon copy to God. It would also be possible to name arguments in
-another order, like in ``send('Hello again', 'World', bcc='God', cc='Cthulhu')``.
-Those two possibilities are better avoided without any strong reason to not
-follow the syntax that is the closest to the function definition: ``send('Hello',
-'World', cc='Cthulhu', bcc='God')``.
+Calling a function with keyword arguments can be done in multiple ways in
+Python, for example it is possible to follow the order of arguments in the
+definition without explicitly naming the arguments, like in
+``send('Hello', 'World', 'Cthulhu', 'God')``, sending a blind carbon copy to
+God. It would also be possible to name arguments in another order, like in
+``send('Hello again', 'World', bcc='God', cc='Cthulhu')``. Those two
+possibilities are better avoided without any strong reason to not follow the
+syntax that is the closest to the function definition:
+``send('Hello', 'World', cc='Cthulhu', bcc='God')``.
 
 As a side note, following `YAGNI <http://en.wikipedia.org/wiki/You_ain't_gonna_need_it>`_
-principle, it is often harder to remove an optional argument (and its logic inside the
-function) that was added "just in case" and is seemingly never used, than to add a
-new optional argument and its logic when needed.
+principle, it is often harder to remove an optional argument (and its logic
+inside the function) that was added "just in case" and is seemingly never used,
+than to add a new optional argument and its logic when needed.
 
 3. The **arbitrary argument list** is the third way to pass arguments to a
-function.  If the function intention is better expressed by a signature with an
-extensible number of positional arguments, it can be defined with the ``*args``
-constructs.  In the function body, ``args`` will be a tuple of all the
-remaining positional arguments. For example, ``send(message, *args)`` can be
-called with each recipient as an argument: ``send('Hello', 'God', 'Mom',
-'Cthulhu')``, and in the function body ``args`` will be equal to ``('God',
-'Mom', 'Cthulhu')``.
+   function. If the function intention is better expressed by a signature with
+   an extensible number of positional arguments, it can be defined with the
+   ``*args`` constructs. In the function body, ``args`` will be a tuple of all
+   the remaining positional arguments. For example, ``send(message, *args)``
+   can be called with each recipient as an argument:``send('Hello', 'God',
+   'Mom', 'Cthulhu')``, and in the function body ``args`` will be equal to
+   ``('God', 'Mom', 'Cthulhu')``.
 
 However, this construct has some drawbacks and should be used with caution. If a
 function receives a list of arguments of the same nature, it is often more
@@ -139,11 +141,12 @@ it explicitly: ``send(message, recipients)`` and call it with ``send('Hello',
 the recipient list as a list beforehand, and it opens the possibility to pass
 any sequence, including iterators, that cannot be unpacked as other sequences.
 
-4. The **arbitrary keyword argument dictionary** is the last way to pass arguments
-to functions. If the function requires an undetermined series of named
-arguments, it is possible to use the ``**kwargs`` construct. In the function
-body, ``kwargs`` will be a dictionary of all the passed named arguments that
-have not been caught by other keyword arguments in the function signature.
+4. The **arbitrary keyword argument dictionary** is the last way to pass
+   arguments to functions. If the function requires an undetermined series of
+   named arguments, it is possible to use the ``**kwargs`` construct. In the
+   function body, ``kwargs`` will be a dictionary of all the passed named
+   arguments that have not been caught by other keyword arguments in the
+   function signature.
 
 The same caution as in the case of *arbitrary argument list* is necessary, for
 similar reasons: these powerful techniques are to be used when there is a
@@ -158,14 +161,14 @@ Python functions that are:
 
 * easy to read (the name and arguments need no explanations)
 
-* easy to change (adding a new keyword argument does not break other parts of the
-  code)
+* easy to change (adding a new keyword argument does not break other parts of
+  the code)
 
 Avoid the magical wand
 ~~~~~~~~~~~~~~~~~~~~~~
 
 A powerful tool for hackers, Python comes with a very rich set of hooks and
-tools allowing to do almost any kind of tricky tricks. For instance, it is
+tools allowing you to do almost any kind of tricky tricks. For instance, it is
 possible to do each of the following:
 
 * change how objects are created and instantiated
@@ -187,7 +190,7 @@ them is very important.
 Like a kung fu master, a Pythonista knows how to kill with a single finger, and
 never to actually do it.
 
-We are all consenting adults
+We are all responsible users
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 As seen above, Python allows many tricks, and some of them are potentially
@@ -195,11 +198,11 @@ dangerous. A good example is that any client code can override an object's
 properties and methods: there is no "private" keyword in Python. This
 philosophy, very different from highly defensive languages like Java, which
 give a lot of mechanisms to prevent any misuse, is expressed by the saying: "We
-are all consenting adults".
+are all responsible users".
 
 This doesn't mean that, for example, no properties are considered private, and
-that no proper encapsulation is possible in Python. Rather, instead of relying on
-concrete walls erected by the developers between their code and other's, the
+that no proper encapsulation is possible in Python. Rather, instead of relying
+on concrete walls erected by the developers between their code and other's, the
 Python community prefers to rely on a set of conventions indicating that these
 elements should not be accessed directly.
 
@@ -212,32 +215,34 @@ Using this convention generously is encouraged: any method or property that is
 not intended to be used by client code should be prefixed with an underscore.
 This will guarantee a better separation of duties and easier modification of
 existing code; it will always be possible to publicize a private property,
-while privatising a public property might be a much harder operation.
+but making a public property private might be a much harder operation.
 
 Returning values
 ~~~~~~~~~~~~~~~~
 
-When a function grows in complexity it is not uncommon to use multiple return statements
-inside the function's body. However, in order to keep a clear intent and a sustainable
-readability level, it is preferable to avoid returning meaningful values from many
-output points in the body.
+When a function grows in complexity it is not uncommon to use multiple return
+statements inside the function's body. However, in order to keep a clear intent
+and a sustainable readability level, it is preferable to avoid returning
+meaningful values from many output points in the body.
 
-There are two main cases for returning values in a function: the result of the function
-return when it has been processed normally, and the error cases that indicate a wrong
-input parameter or any other reason for the function to not be able to complete its
-computation or task.
+There are two main cases for returning values in a function: the result of the
+function return when it has been processed normally, and the error cases that
+indicate a wrong input parameter or any other reason for the function to not be
+able to complete its computation or task.
 
-If you do not wish to raise exceptions for the second case, then returning a value, such
-as None or False, indicating that the function could not perform correctly might be needed. In this
-case, it is better to return as early as the incorrect context has been detected. It will
-help to flatten the structure of the function: all the code after the return-because-of-error
-statement can assume the condition is met to further compute the function's main result.
+If you do not wish to raise exceptions for the second case, then returning a
+value, such as None or False, indicating that the function could not perform
+correctly might be needed. In this case, it is better to return as early as the
+incorrect context has been detected. It will help to flatten the structure of
+the function: all the code after the return-because-of-error statement can
+assume the condition is met to further compute the function's main result.
 Having multiple such return statements is often necessary.
 
-However, when a function has multiple main exit points for its normal course, it becomes
-difficult to debug the returned result, so it may be preferable to keep a single exit
-point. This will also help factoring out some code paths, and the multiple exit points
-are a probable indication that such a refactoring is needed.
+However, when a function has multiple main exit points for its normal course,
+it becomes difficult to debug the returned result, so it may be preferable to
+keep a single exit point. This will also help factoring out some code paths,
+and the multiple exit points are a probable indication that such a refactoring
+is needed.
 
 .. code-block:: python
 
@@ -256,14 +261,15 @@ are a probable indication that such a refactoring is needed.
 Idioms
 ------
 
-A programming idiom, put simply, is a *way* to write code. The notion of programming idioms
-is discussed amply at `c2 <http://c2.com/cgi/wiki?ProgrammingIdiom>`_ and at `Stack Overflow <http://stackoverflow.com/questions/302459/what-is-a-programming-idiom>`_.
+A programming idiom, put simply, is a *way* to write code. The notion of
+programming idioms is discussed amply at `c2 <http://c2.com/cgi/wiki?ProgrammingIdiom>`_
+and at `Stack Overflow <http://stackoverflow.com/questions/302459/what-is-a-programming-idiom>`_.
 
 Idiomatic Python code is often referred to as being *Pythonic*.
 
-Although there usually is one --- and preferably only one --- obvious way to do it;
-*the* way to write idiomatic Python code can be non-obvious to Python beginners. So,
-good idioms must be consciously acquired.
+Although there usually is one --- and preferably only one --- obvious way to do
+it; *the* way to write idiomatic Python code can be non-obvious to Python
+beginners. So, good idioms must be consciously acquired.
 
 Some common Python idioms follow:
 
@@ -345,38 +351,69 @@ Instead, use a list comprehension:
 
     four_lists = [[] for __ in xrange(4)]
 
+Note: Use range() instead of xrange() in Python 3
 
-A common idiom for creating strings is to use :py:meth:`str.join` on an empty string.
+Create a string from a list
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+A common idiom for creating strings is to use :py:meth:`str.join` on an empty
+string.
 
 .. code-block:: python
 
     letters = ['s', 'p', 'a', 'm']
     word = ''.join(letters)
 
-This will set the value of the variable *word* to 'spam'. This idiom can be applied to lists and tuples.
+This will set the value of the variable *word* to 'spam'. This idiom can be
+applied to lists and tuples.
 
-Sometimes we need to search through a collection of things. Let's look at two options: lists and dictionaries.
+Searching for an item in a collection
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Sometimes we need to search through a collection of things. Let's look at two
+options: lists and sets.
 
 Take the following code for example:
 
 .. code-block:: python
 
-    d = {'s': [], 'p': [], 'a': [], 'm': []}
+    s = set(['s', 'p', 'a', 'm'])
     l = ['s', 'p', 'a', 'm']
 
-    def lookup_dict(d):
-        return 's' in d
+    def lookup_set(s):
+        return 's' in s
 
     def lookup_list(l):
         return 's' in l
 
-Even though both functions look identical, because *lookup_dict* is utilizing
-the fact that dictionaries in Python are hashtables, the lookup performance
-between the two is very different. Python will have to go through each item
-in the list to find a matching case, which is time consuming. By analysing
-the hash of the dictionary, finding keys in the dict can be done very quickly.
-For more information see this `StackOverflow <http://stackoverflow.com/questions/513882/python-list-vs-dict-for-look-up-table>`_
-page.
+Even though both functions look identical, because *lookup_set* is utilizing
+the fact that sets in Python are hashtables, the lookup performance
+between the two is very different. To determine whether an item is in a list,
+Python will have to go through each item until it finds a matching item.
+This is time consuming, especially for long lists. In a set, on the other
+hand, the hash of the item will tell Python where in the set to look for
+a matching item. As a result, the search can be done quickly, even if the
+set is large. Searching in dictionaries works the same way. For
+more information see this
+`StackOverflow <http://stackoverflow.com/questions/513882/python-list-vs-dict-for-look-up-table>`_
+page. For detailed information on the amount of time various common operations
+take on each of these data structures, see
+`this page <https://wiki.python.org/moin/TimeComplexity?>`_.
+
+Because of these differences in performance, it is often a good idea to use
+sets or dictionaries instead of lists in cases where:
+
+* The collection will contain a large number of items
+
+* You will be repeatedly searching for items in the collection
+
+* You do not have duplicate items.
+
+For small collections, or collections which you will not frequently be
+searching through, the additional time and memory required to set up the
+hashtable will often be greater than the time saved by the improved search
+speed.
+
 
 Zen of Python
 -------------
@@ -408,21 +445,25 @@ Also known as :pep:`20`, the guiding principles for Python's design.
     If the implementation is easy to explain, it may be a good idea.
     Namespaces are one honking great idea -- let's do more of those!
 
-For some examples of good Python style, see `this Stack Overflow question
-<http://stackoverflow.com/questions/228181/the-zen-of-python>`_ or `these
-slides from a Python user group
-<http://artifex.org/~hblanks/talks/2011/pep20_by_example.pdf>`_.
+For some examples of good Python style, see `these slides from a Python user
+group <http://artifex.org/~hblanks/talks/2011/pep20_by_example.pdf>`_.
 
 PEP 8
 -----
 
-:pep:`8` is the de-facto code style guide for Python.
+:pep:`8` is the de-facto code style guide for Python. A high quality,
+easy-to-read version of PEP 8 is also available at `pep8.org <http://pep8.org/>`_.
 
-Conforming your Python code to PEP 8 is generally a good idea and helps make
-code more consistent when working on projects with other developers. There
-is a command-line program, `pep8 <https://github.com/jcrocholl/pep8>`_,
+This is highly recommended reading. The entire Python community does their
+best to adhere to the guidelines laid out within this document. Some project
+may sway from it from time to time, while others may
+`amend its recommendations <http://docs.python-requests.org/en/master/dev/contributing/#kenneth-reitz-s-code-style>`_.
+
+That being said, conforming your Python code to PEP 8 is generally a good
+idea and helps make code more consistent when working on projects with other
+developers. There is a command-line program, `pep8 <https://github.com/jcrocholl/pep8>`_,
 that can check your code for conformance. Install it by running the following
-command in your Terminal:
+command in your terminal:
 
 
 .. code-block:: console
@@ -443,6 +484,23 @@ Then run it on a file or series of files to get a report of any violations.
     optparse.py:357:17: E201 whitespace after '{'
     optparse.py:472:29: E221 multiple spaces before operator
     optparse.py:544:21: W601 .has_key() is deprecated, use 'in'
+
+The program `autopep8 <https://pypi.python.org/pypi/autopep8/>`_ can be used to
+automatically reformat code in the PEP 8 style. Install the program with:
+
+.. code-block:: console
+
+    $ pip install autopep8
+
+Use it to format a file in-place with:
+
+.. code-block:: console
+
+    $ autopep8 --in-place optparse.py
+
+Excluding the ``--in-place`` flag will cause the program to output the modified
+code directly to the console for review. The ``--aggressive`` flag will perform
+more substantial changes and can be applied multiple times for greater effect.
 
 Conventions
 ----------------
@@ -604,11 +662,11 @@ Line Continuations
 ~~~~~~~~~~~~~~~~~~
 
 When a logical line of code is longer than the accepted limit, you need to
-split it over multiple physical lines. The Python interpreter will join consecutive
-lines if the last character of the line is a backslash. This is helpful
-in some cases, but should usually be avoided because of its fragility: a white space
-added to the end of the line, after the backslash, will break the code and may
-have unexpected results.
+split it over multiple physical lines. The Python interpreter will join
+consecutive lines if the last character of the line is a backslash. This is
+helpful in some cases, but should usually be avoided because of its fragility:
+a white space added to the end of the line, after the backslash, will break the
+code and may have unexpected results.
 
 A better solution is to use parentheses around your elements. Left with an
 unclosed parenthesis on an end-of-line the Python interpreter will join the
@@ -639,6 +697,6 @@ and square braces.
     from some.deep.module.inside.a.module import (
         a_nice_function, another_nice_function, yet_another_nice_function)
 
-However, more often than not having to split long logical line is a sign that
+However, more often than not, having to split a long logical line is a sign that
 you are trying to do too many things at the same time, which may hinder
 readability.

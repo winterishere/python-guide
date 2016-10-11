@@ -13,7 +13,7 @@ to both users and maintainers of a project. It should be raw text or
 written in some very easy to read markup, such as :ref:`reStructuredText-ref`
 or Markdown. It should contain a few lines explaining the purpose of the
 project or library (without assuming the user knows anything about the
-project), the url of the main source for the software, and some basic credit
+project), the URL of the main source for the software, and some basic credit
 information. This file is the main entry point for readers of the code.
 
 An :file:`INSTALL` file is less necessary with Python.  The installation
@@ -40,12 +40,12 @@ of the following components:
   done with the product, using one or two extremely simplified use
   cases. This is the thirty-second pitch for your project.
 
-- A *tutorial* should show some primary use cases in more detail. The reader will
-  follow a step-by-step procedure to set-up a working prototype.
+- A *tutorial* should show some primary use cases in more detail. The reader
+  will follow a step-by-step procedure to set-up a working prototype.
 
 - An *API reference* is typically generated from the code (see
-  :ref:`docstrings <docstring-ref>`). It will list all publicly available interfaces,
-  parameters, and return values.
+  :ref:`docstrings <docstring-ref>`). It will list all publicly available
+  interfaces, parameters, and return values.
 
 - *Developer documentation* is intended for potential contributors. This can
   include code convention and general design strategy of the project.
@@ -107,7 +107,8 @@ In Python, *docstrings* describe modules, classes, and functions:
         """Returns the square root of self times self."""
         ...
 
-In general, follow the comment section of :pep:`8#comments` (the "Python Style Guide").
+In general, follow the comment section of :pep:`8#comments` (the "Python Style
+Guide"). More information about docstrings can be found at :pep:`0257#specification` (The Docstring Conventions Guide).
 
 Commenting Sections of Code
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -140,7 +141,7 @@ comment block is a programmer's note. The docstring describes the
         """Returns the square root of self times self."""
 	...
 
-.. seealso:: Further reading on docstrings: :pep:`257`
+.. see also:: Further reading on docstrings: :pep:`257`
 
 
 Other Tools
@@ -153,11 +154,11 @@ Pycco_
     and is a port of the node.js Docco_. It makes code into a
     side-by-side HTML code and documentation.
 
-.. _Pycco: http://fitzgen.github.com/pycco
+.. _Pycco: https://pycco-docs.github.io/pycco/
 .. _Docco: http://jashkenas.github.com/docco
 
 Ronn_
-    Ronn builds unix manuals. It converts human readable textfiles to roff
+    Ronn builds Unix manuals. It converts human readable textfiles to roff
     for terminal display, and also to HTML for the web.
 
 .. _Ronn: https://github.com/rtomayko/ronn

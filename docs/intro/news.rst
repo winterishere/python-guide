@@ -35,7 +35,22 @@ new releases, jobs, etc. related to Python.
 Python News
 ~~~~~~~~~~~~~
 
-News section in the official Python web site (www.python.org). It briefly
-highlights the news from Python community.
+Python News is the news section in the official Python web site
+(www.python.org). It briefly highlights the news from the Python community.
 
     `Python News <http://www.python.org/news/>`_
+
+Import Python Weekly
+~~~~~~~~~~~~~~~~~~~~
+
+Weekly Python Newsletter containing Python Articles, Projects, Videos, Tweets
+delivered in your inbox.  Keep Your Python Programming Skills Updated.
+
+    `Import Python Weekly Newsletter <http://www.importpython.com/newsletter/>`_
+
+Awesome Python Newsletter
+~~~~~~~~~~~~~~~~~~~~
+
+A weekly overview of the most popular Python news, articles and packages.
+
+    `Awesome Python Newsletter <https://python.libhunt.com/newsletter>`_

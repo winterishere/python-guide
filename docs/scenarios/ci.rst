@@ -31,22 +31,11 @@ Buildbot
 automate the compile/test cycle to validate code changes.
 
 
-Mule
------
-
-`Mule <http://www.mulesoft.org/documentation/display/current/Mule+Fundamentals>`_
-is a lightweight integration platform that enables you to connect anything,
-anywhere. You can use Mule to intelligently manage message routing, data
-mapping, orchestration, reliability, security and scalability between nodes.
-Plug other systems and applications into Mule and let it handle all the
-communication between systems, enabling you to track and monitor everything
-that happens.
-
 
 Tox
 ---
 
-`tox <http://tox.readthedocs.org/en/latest/>`_ is an automation tool providing
+`tox <https://tox.readthedocs.io/en/latest/>`_ is an automation tool providing
 packaging, testing and deployment of Python software right from the console or
 CI server. It is a generic virtualenv management and test command line tool
 which provides the following features:
@@ -62,15 +51,15 @@ which provides the following features:
 Travis-CI
 ---------
 
-`Travis-CI <https://travis-ci.org/>`_ is a distributed CI server which builds tests
-for open source projects for free. It provides multiple workers to run Python tests
-on and seamlessly integrates with GitHub. You can even have it comment on your Pull
-Requests whether this particular changeset breaks the build or not. So if you are
-hosting your code on GitHub, travis-ci is a great and easy way to get started with
-Continuous Integration.
+`Travis-CI <https://travis-ci.org/>`_ is a distributed CI server which builds
+tests for open source projects for free. It provides multiple workers to run
+Python tests on and seamlessly integrates with GitHub. You can even have it
+comment on your Pull Requests whether this particular changeset breaks the
+build or not. So if you are hosting your code on GitHub, travis-ci is a great
+and easy way to get started with Continuous Integration.
 
-In order to get started, add a :file:`.travis.yml` file to your repository with this
-example content::
+In order to get started, add a :file:`.travis.yml` file to your repository with
+this example content::
 
     language: python
     python:

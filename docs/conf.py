@@ -46,7 +46,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'pythonguide'
-copyright = u'2014. A <a href="http://kennethreitz.com/pages/open-projects.html">Kenneth Reitz</a> Project. <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/"> Creative Commons Share-Alike 3.0</a>'
+copyright = u'2016. A <a href="http://kennethreitz.com/pages/open-projects.html">Kenneth Reitz</a> Project. <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY-NC-SA 3.0</a>'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -69,7 +69,10 @@ release = '0.0.1'
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
-exclude_patterns = ['_build']
+exclude_patterns = [
+    '_build',
+    '_themes/*.rst',  # Excluded due to README.rst in _themes/
+]
 
 # The reST default role (used for this markup: `text`) to use for all documents.
 #default_role = None
@@ -96,12 +99,18 @@ pygments_style = 'flask_theme_support.FlaskyStyle'
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
-html_theme = 'kr'
+html_theme = 'alabaster'
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
-#html_theme_options = {}
+html_theme_options = {
+    'show_powered_by': False,
+    'github_user': 'kennethreitz',
+    'github_repo': 'python-guide',
+    'github_banner': True,
+    'show_related': False
+}
 
 # Add any paths that contain custom themes here, relative to this directory.
 html_theme_path = ['_themes']
@@ -137,9 +146,9 @@ html_static_path = ['_static']
 
 # Custom sidebar templates, maps document names to template names.
 html_sidebars = {
-    'index':    ['sidebarintro.html', 'sourcelink.html', 'searchbox.html'],
+    'index':    ['sidebarintro.html', 'sourcelink.html', 'searchbox.html', 'hacks.html'],
     '**':       ['sidebarlogo.html', 'localtoc.html', 'relations.html',
-                 'sourcelink.html', 'searchbox.html']
+                 'sourcelink.html', 'searchbox.html', 'hacks.html']
 }
 
 # Additional templates that should be rendered to pages, maps page names to
@@ -156,7 +165,7 @@ html_sidebars = {
 #html_split_index = False
 
 # If true, links to the reST sources are added to the pages.
-html_show_sourcelink = True
+html_show_sourcelink = False
 
 # If true, "Created using Sphinx" is shown in the HTML footer. Default is True.
 html_show_sphinx = False
@@ -231,7 +240,7 @@ man_pages = [
 epub_title = u'pythonguide'
 epub_author = u'Kenneth Reitz'
 epub_publisher = u'Kenneth Reitz'
-epub_copyright = u'2014, Kenneth Reitz'
+epub_copyright = u'2016, Kenneth Reitz'
 
 # The language of the text. It defaults to the language option
 # or en if the language is not set.
@@ -251,7 +260,7 @@ epub_copyright = u'2014, Kenneth Reitz'
 # The format is a list of tuples containing the path and title.
 #epub_pre_files = []
 
-# HTML files shat should be inserted after the pages created by sphinx.
+# HTML files that should be inserted after the pages created by sphinx.
 # The format is a list of tuples containing the path and title.
 #epub_post_files = []
 

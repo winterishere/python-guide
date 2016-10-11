@@ -1,10 +1,12 @@
+.. _virtualenvironments-ref:
+
 Virtual Environments
 ====================
 
-A Virtual Environment is a tool to keep the dependencies required by different projects 
-in separate places, by creating virtual Python environments for them. It solves the 
-"Project X depends on version 1.x but, Project Y needs 4.x" dilemma, and keeps 
-your global site-packages directory clean and manageable.
+A Virtual Environment is a tool to keep the dependencies required by different
+projects in separate places, by creating virtual Python environments for them.
+It solves the "Project X depends on version 1.x but, Project Y needs 4.x"
+dilemma, and keeps your global site-packages directory clean and manageable.
 
 For example, you can work on a project which requires Django 1.3 while also
 maintaining a project which requires Django 1.0.
@@ -32,10 +34,11 @@ Basic Usage
    $ cd my_project_folder
    $ virtualenv venv
 
-``virtualenv venv`` will create a folder in the current directory which will contain 
-the Python executable files, and a copy of the ``pip`` library which you can use to 
-install other packages. The name of the virtual environment (in this case, it was ``venv``) 
-can be anything; omitting the name will place the files in the current directory instead.
+``virtualenv venv`` will create a folder in the current directory which will
+contain the Python executable files, and a copy of the ``pip`` library which you
+can use to install other packages. The name of the virtual environment (in this
+case, it was ``venv``) can be anything; omitting the name will place the files
+in the current directory instead.
 
 This creates a copy of Python in whichever directory you ran the command in,
 placing it in a folder named :file:`venv`.
@@ -99,9 +102,10 @@ the current state of the environment packages. To do this, run
 
 This will create a :file:`requirements.txt` file, which contains a simple
 list of all the packages in the current environment, and their respective
-versions. Later it will be easier for a different developer (or you, if you
-need to re-create the environment) to install the same packages using the
-same versions:
+versions. You can see the list of installed packages without the requirements 
+format using "pip list". Later it will be easier for a different developer 
+(or you, if you need to re-create the environment) to install the same packages
+using the same versions:
 
 .. code-block:: console
 
@@ -118,7 +122,7 @@ control by adding it to the ignore list.
 virtualenvwrapper
 -----------------
 
-`virtualenvwrapper <http://virtualenvwrapper.readthedocs.org/en/latest/index.html>`_
+`virtualenvwrapper <https://virtualenvwrapper.readthedocs.io/en/latest/index.html>`_
 provides a set of commands which makes working with virtual environments much
 more pleasant. It also places all your virtual environments in one place.
 
@@ -130,18 +134,17 @@ To install (make sure **virtualenv** is already installed):
   $ export WORKON_HOME=~/Envs
   $ source /usr/local/bin/virtualenvwrapper.sh
 
-(`Full virtualenvwrapper install instructions <http://virtualenvwrapper.readthedocs.org/en/latest/install.html>`_.)
+(`Full virtualenvwrapper install instructions <https://virtualenvwrapper.readthedocs.io/en/latest/install.html>`_.)
 
-For Windows, you can use the `virtualenvwrapper-powershell <https://bitbucket.org/guillermooo/virtualenvwrapper-powershell>`_ clone.
+For Windows, you can use the `virtualenvwrapper-win <https://github.com/davidmarble/virtualenvwrapper-win/>`_.
 
 To install (make sure **virtualenv** is already installed):
 
 .. code-block:: console
 
-  PS> pip install virtualenvwrapper-powershell
-  PS> $env:WORKON_HOME="~/Envs"
-  PS> mkdir $env:WORKON_HOME
-  PS> import-module virtualenvwrapper
+  $ pip install virtualenvwrapper-win
+  
+In Windows, the default path for WORKON_HOME is %USERPROFILE%\Envs
 
 Basic Usage
 ~~~~~~~~~~~
@@ -159,6 +162,14 @@ This creates the :file:`venv` folder inside :file:`~/Envs`.
 .. code-block:: console
 
    $ workon venv
+
+Alternatively, you can make a project, which creates the virtual environment,
+and also a project directory inside ``$PROJECT_HOME``, which is ``cd`` -ed into
+when you ``workon myproject``.
+
+.. code-block:: console
+
+   $ mkproject myproject
 
 **virtualenvwrapper** provides tab-completion on environment names. It really
 helps when you have a lot of environments and have trouble remembering their
@@ -195,7 +206,13 @@ Other useful commands
 ``lssitepackages``
   Shows contents of :file:`site-packages` directory.
 
-`Full list of virtualenvwrapper commands <http://virtualenvwrapper.readthedocs.org/en/latest/command_ref.html>`_.
+`Full list of virtualenvwrapper commands <https://virtualenvwrapper.readthedocs.io/en/latest/command_ref.html>`_.
+
+virtualenv-burrito
+------------------
+
+With `virtualenv-burrito <https://github.com/brainsik/virtualenv-burrito>`_, you
+can have a working virtualenv + virtualenvwrapper environment in a single command.
 
 autoenv
 -------
