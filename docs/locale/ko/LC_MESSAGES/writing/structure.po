@@ -1,334 +1,674 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: pythonguide 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-11-30 22:28\n"
+"POT-Creation-Date: 2016-10-11 08:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: YoungSeon.Ahn <lovemewithoutall@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
 
-#: ..\..\writing\structure.rst:2
+#: ../../writing/structure.rst:2
 msgid "Structuring Your Project"
 msgstr "프로젝트 구성하기"
 
-#: ..\..\writing\structure.rst:4
+#: ../../writing/structure.rst:4
 msgid ""
-"By \"structure\" we mean the decisions you make concerning how your project "
-"best meets its objective. We need to consider how to best leverage Python's "
-"features to create clean, effective code. In practical terms, \"structure\" "
-"means making clean code whose logic and dependencies are clear as well as "
-"how the files and folders are organized in the filesystem."
+"By \"structure\" we mean the decisions you make concerning how your "
+"project best meets its objective. We need to consider how to best "
+"leverage Python's features to create clean, effective code. In practical "
+"terms, \"structure\" means making clean code whose logic and dependencies"
+" are clear as well as how the files and folders are organized in the "
+"filesystem."
 msgstr ""
-"여기서 \"구성\"이란 어떻게 하면 목표한 바에 가장 부합하도록 프로젝트를 수행하기 위한 의사결정을 의미한다. 우리는 깔끔하고 효율적인 "
-"코드라는 파이썬의 특성을 극대화 할 수 있는 방법을 고민할 필요가 있다. 일반적으로 \"구성\"이란 로직과 의존성이 깔끔한 코드를 만드는"
-" 것을 의미할 뿐만 아니라, 파일시스템에 어떻게 파일과 폴더들을 구성하느냐의 문제다."
+"여기서 \"구성\"이란 어떻게 하면 목표한 바에 가장 부합하도록 프로젝트를 수행하기 위한 의사결정을 의미한다. 우리는 깔끔하고 "
+"효율적인 코드라는 파이썬의 특성을 극대화 할 수 있는 방법을 고민할 필요가 있다. 일반적으로 \"구성\"이란 로직과 의존성이 깔끔한"
+" 코드를 만드는 것을 의미할 뿐만 아니라, 파일시스템에 어떻게 파일과 폴더들을 구성하느냐의 문제다."
 
-#: ..\..\writing\structure.rst:11
+#: ../../writing/structure.rst:11
 msgid ""
-"Which functions should go into which modules? How does data flow through the"
-" project? What features and functions can be grouped together and isolated? "
-"By answering questions like these you can begin to plan, in a broad sense, "
-"what your finished product will look like."
+"Which functions should go into which modules? How does data flow through "
+"the project? What features and functions can be grouped together and "
+"isolated? By answering questions like these you can begin to plan, in a "
+"broad sense, what your finished product will look like."
 msgstr ""
-"어느 모듈에 어느 기능이 들어가야 할까? 프로젝트에서 데이터는 어덯게 흘러가야 할까? 어떤 특징과 기능이 통합되거나 분리되어야 할까? "
-"이러한 질문에 답함으로써 프로젝트의 계획을 시작할 수 있고, 더 나아가 최종적인 제품이 어떤 모습일지를 그릴 수 있다."
+"어느 모듈에 어느 기능이 들어가야 할까? 프로젝트에서 데이터는 어덯게 흘러가야 할까? 어떤 특징과 기능이 통합되거나 분리되어야 "
+"할까? 이러한 질문에 답함으로써 프로젝트의 계획을 시작할 수 있고, 더 나아가 최종적인 제품이 어떤 모습일지를 그릴 수 있다."
 
-#: ..\..\writing\structure.rst:16
+#: ../../writing/structure.rst:16
 msgid ""
-"In this section we take a closer look at Python's module and import systems "
-"as they are the central elements to enforcing structure in your project. We "
-"then discuss various perspectives on how to build code which can be extended"
-" and tested reliably."
+"In this section we take a closer look at Python's module and import "
+"systems as they are the central elements to enforcing structure in your "
+"project. We then discuss various perspectives on how to build code which "
+"can be extended and tested reliably."
 msgstr ""
 "이 섹션에서 우리는 파이썬의 모듈과 임포트 시스템을 자세히 살펴볼 것이다. 이 2가지가 프로젝트를 위한 강력한 구조를 만들기 위한 "
-"핵심적인 요소이기 때문이다. 그런 다음, 확장하기 쉽고 확실하게 테스트 할 수 있는 코드를 짜기 위한 방법에 관하여 다양환 관점에서 "
-"검토할 것이다."
+"핵심적인 요소이기 때문이다. 그런 다음, 확장하기 쉽고 확실하게 테스트 할 수 있는 코드를 짜기 위한 방법에 관하여 다양환 관점에서"
+" 검토할 것이다."
 
-#: ..\..\writing\structure.rst:23
-msgid "Structure is Key"
+#: ../../writing/structure.rst:24
+msgid "Structure of the Repository"
+msgstr ""
+
+#: ../../writing/structure.rst:27
+msgid "It's Important."
+msgstr ""
+
+#: ../../writing/structure.rst:29
+msgid ""
+"Just as Code Style, API Design, and Automation are essential for a "
+"healthy development cycle, Repository structure is a crucial part of your"
+" project's `architecture "
+"<http://www.amazon.com/gp/product/1257638017/ref=as_li_ss_tl?ie=UTF8&tag=bookforkind-20&linkCode=as2&camp=1789&creative=39095&creativeASIN=1257638017>`__."
+msgstr ""
+
+#: ../../writing/structure.rst:34
+msgid ""
+"When a potential user or contributor lands on your repository's page, "
+"they see a few things:"
+msgstr ""
+
+#: ../../writing/structure.rst:37
+msgid "Project Name"
+msgstr ""
+
+#: ../../writing/structure.rst:38
+msgid "Project Description"
+msgstr ""
+
+#: ../../writing/structure.rst:39
+msgid "Bunch O' Files"
+msgstr ""
+
+#: ../../writing/structure.rst:41
+msgid ""
+"Only when they scroll below the fold will the user see your project's "
+"README."
+msgstr ""
+
+#: ../../writing/structure.rst:44
+msgid ""
+"If your repo is a massive dump of files or a nested mess of directories, "
+"they might look elsewhere before even reading your beautiful "
+"documentation."
+msgstr ""
+
+#: ../../writing/structure.rst:48
+msgid "Dress for the job you want, not the job you have."
+msgstr ""
+
+#: ../../writing/structure.rst:50
+msgid ""
+"Of course, first impressions aren't everything. You and your colleagues "
+"will spend countless hours working with this repository, eventually "
+"becoming intimately familiar with every nook and cranny. The layout of it"
+" is important."
+msgstr ""
+
+#: ../../writing/structure.rst:56
+msgid "Sample Repository"
+msgstr ""
+
+#: ../../writing/structure.rst:58
+msgid ""
+"**tl;dr**: This is what `Kenneth Reitz <http://kennethreitz.org>`_ "
+"recommends."
+msgstr ""
+
+#: ../../writing/structure.rst:60
+msgid ""
+"This repository is `available on GitHub "
+"<https://github.com/kennethreitz/samplemod>`__."
+msgstr ""
+
+#: ../../writing/structure.rst:77
+msgid "Let's get into some specifics."
+msgstr ""
+
+#: ../../writing/structure.rst:80
+msgid "The Actual Module"
+msgstr ""
+
+#: ../../writing/structure.rst:1
+msgid "Location"
+msgstr ""
+
+#: ../../writing/structure.rst:1
+msgid "``./sample/`` or ``./sample.py``"
+msgstr ""
+
+#: ../../writing/structure.rst:1
+msgid "Purpose"
+msgstr ""
+
+#: ../../writing/structure.rst:1
+msgid "The code of interest"
+msgstr ""
+
+#: ../../writing/structure.rst:89
+msgid ""
+"Your module package is the core focus of the repository. It should not be"
+" tucked away:"
+msgstr ""
+
+#: ../../writing/structure.rst:96
+msgid ""
+"If your module consists of only a single file, you can place it directly "
+"in the root of your repository:"
+msgstr ""
+
+#: ../../writing/structure.rst:103
+msgid "Your library does not belong in an ambiguous src or python subdirectory."
+msgstr ""
+
+#: ../../writing/structure.rst:106
+msgid "License"
+msgstr ""
+
+#: ../../writing/structure.rst:1
+msgid "``./LICENSE``"
+msgstr ""
+
+#: ../../writing/structure.rst:1
+msgid "Lawyering up."
+msgstr ""
+
+#: ../../writing/structure.rst:116
+msgid ""
+"This is arguably the most important part of your repository, aside from "
+"the source code itself. The full license text and copyright claims should"
+" exist in this file."
+msgstr ""
+
+#: ../../writing/structure.rst:120
+msgid ""
+"If you aren't sure which license you should use for your project, check "
+"out `choosealicense.com <http://choosealicense.com>`_."
+msgstr ""
+
+#: ../../writing/structure.rst:123
+msgid ""
+"Of course, you are also free to publish code without a license, but this "
+"would prevent many people from potentially using your code."
+msgstr ""
+
+#: ../../writing/structure.rst:127
+msgid "Setup.py"
+msgstr ""
+
+#: ../../writing/structure.rst:1
+msgid "``./setup.py``"
+msgstr ""
+
+#: ../../writing/structure.rst:1
+msgid "Package and distribution management."
+msgstr ""
+
+#: ../../writing/structure.rst:136
+msgid ""
+"If your module package is at the root of your repository, this should "
+"obviously be at the root as well."
+msgstr ""
+
+#: ../../writing/structure.rst:140
+msgid "Requirements File"
+msgstr ""
+
+#: ../../writing/structure.rst:1
+msgid "``./requirements.txt``"
+msgstr ""
+
+#: ../../writing/structure.rst:1
+msgid "Development dependencies."
+msgstr ""
+
+#: ../../writing/structure.rst:149
+msgid ""
+"A `pip requirements file <https://pip.pypa.io/en/stable/user_guide"
+"/#requirements-files>`__ should be placed at the root of the repository. "
+"It should specify the dependencies required to contribute to the project:"
+" testing, building, and generating documentation."
+msgstr ""
+
+#: ../../writing/structure.rst:155
+msgid ""
+"If your project has no development dependencies, or you prefer "
+"development environment setup via ``setup.py``, this file may be "
+"unnecessary."
+msgstr ""
+
+#: ../../writing/structure.rst:160
+msgid "Documentation"
+msgstr ""
+
+#: ../../writing/structure.rst:1
+msgid "``./docs/``"
+msgstr ""
+
+#: ../../writing/structure.rst:1
+msgid "Package reference documentation."
+msgstr ""
+
+#: ../../writing/structure.rst:169
+msgid "There is little reason for this to exist elsewhere."
+msgstr ""
+
+#: ../../writing/structure.rst:172
+msgid "Test Suite"
+msgstr ""
+
+#: ../../writing/structure.rst:1
+msgid "``./test_sample.py`` or ``./tests``"
+msgstr ""
+
+#: ../../writing/structure.rst:1
+msgid "Package integration and unit tests."
+msgstr ""
+
+#: ../../writing/structure.rst:181
+msgid "Starting out, a small test suite will often exist in a single file:"
+msgstr ""
+
+#: ../../writing/structure.rst:187
+msgid "Once a test suite grows, you can move your tests to a directory, like so:"
+msgstr ""
+
+#: ../../writing/structure.rst:195
+msgid ""
+"Obviously, these test modules must import your packaged module to test "
+"it. You can do this a few ways:"
+msgstr ""
+
+#: ../../writing/structure.rst:198
+msgid "Expect the package to be installed in site-packages."
+msgstr ""
+
+#: ../../writing/structure.rst:199
+msgid ""
+"Use a simple (but *explicit*) path modification to resolve the package "
+"properly."
+msgstr ""
+
+#: ../../writing/structure.rst:202
+msgid ""
+"I highly recommend the latter. Requiring a developer to run `setup.py "
+"<http://setup.py>`__ develop to test an actively changing codebase also "
+"requires them to have an isolated environment setup for each instance of "
+"the codebase."
+msgstr ""
+
+#: ../../writing/structure.rst:207
+msgid ""
+"To give the individual tests import context, create a tests/context.py "
+"file:"
+msgstr ""
+
+#: ../../writing/structure.rst:218
+msgid "Then, within the individual test modules, import the module like so:"
+msgstr ""
+
+#: ../../writing/structure.rst:224
+msgid "This will always work as expected, regardless of installation method."
+msgstr ""
+
+#: ../../writing/structure.rst:226
+msgid ""
+"Some people will assert that you should distribute your tests within your"
+" module itself -- I disagree. It often increases complexity for your "
+"users; many test suites often require additional dependencies and runtime"
+" contexts."
+msgstr ""
+
+#: ../../writing/structure.rst:232
+msgid "Makefile"
+msgstr ""
+
+#: ../../writing/structure.rst:1
+msgid "``./Makefile``"
+msgstr ""
+
+#: ../../writing/structure.rst:1
+msgid "Generic management tasks."
+msgstr ""
+
+#: ../../writing/structure.rst:242
+msgid ""
+"If you look at most of my projects or any Pocoo project, you'll notice a "
+"Makefile laying around. Why? These projects aren't written in C... In "
+"short, make is a incredibly useful tool for defining generic tasks for "
+"your project."
+msgstr ""
+
+#: ../../writing/structure.rst:247
+msgid "**Sample Makefile:**"
+msgstr ""
+
+#: ../../writing/structure.rst:259
+msgid ""
+"Other generic management scripts (e.g. ``manage.py`` or ``fabfile.py``) "
+"belong at the root of the repository as well."
+msgstr ""
+
+#: ../../writing/structure.rst:263
+msgid "Regarding Django Applications"
+msgstr ""
+
+#: ../../writing/structure.rst:265
+msgid ""
+"I've noticed a new trend in Django applications since the release of "
+"Django 1.4. Many developers are structuring their repositories poorly due"
+" to the new bundled application templates."
+msgstr ""
+
+#: ../../writing/structure.rst:269
+msgid ""
+"How? Well, they go to their bare and fresh repository and run the "
+"following, as they always have:"
+msgstr ""
+
+#: ../../writing/structure.rst:276
+msgid "The resulting repository structure looks like this:"
+msgstr ""
+
+#: ../../writing/structure.rst:286
+msgid "Don't do this."
+msgstr ""
+
+#: ../../writing/structure.rst:288
+msgid ""
+"Repetitive paths are confusing for both your tools and your developers. "
+"Unnecessary nesting doesn't help anybody (unless they're nostalgic for "
+"monolithic SVN repos)."
+msgstr ""
+
+#: ../../writing/structure.rst:292
+msgid "Let's do it properly:"
+msgstr ""
+
+#: ../../writing/structure.rst:298
+msgid "Note the \"``.``\"."
+msgstr ""
+
+#: ../../writing/structure.rst:300
+msgid "The resulting structure:"
+msgstr ""
+
+#: ../../writing/structure.rst:314
+#, fuzzy
+msgid "Structure of Code is Key"
 msgstr "구성이 중요하다"
 
-#: ..\..\writing\structure.rst:25
+#: ../../writing/structure.rst:316
 msgid ""
 "Thanks to the way imports and modules are handled in Python, it is "
-"relatively easy to structure a Python project. Easy, here, means that you do"
-" not have many constraints and that the module importing model is easy to "
-"grasp. Therefore, you are left with the pure architectural task of crafting "
-"the different parts of your project and their interactions."
+"relatively easy to structure a Python project. Easy, here, means that you"
+" do not have many constraints and that the module importing model is easy"
+" to grasp. Therefore, you are left with the pure architectural task of "
+"crafting the different parts of your project and their interactions."
 msgstr ""
-"파이썬의 임포트 방식과 잘 만들어진 모듈 덕분에 파이썬 프로젝트의 구성은 비교적 쉽다. 여기서 쉽다는 말은 제약이 많지 않고, 모듈을 "
-"불러오는 방식이 이해하기 쉽다는 뜻이다. 따라서 프로젝트의 서로 다른 파트와 그 사이의 상호작용을 다듬는 아키텍처 작업만을 하면 된다."
+"파이썬의 임포트 방식과 잘 만들어진 모듈 덕분에 파이썬 프로젝트의 구성은 비교적 쉽다. 여기서 쉽다는 말은 제약이 많지 않고, "
+"모듈을 불러오는 방식이 이해하기 쉽다는 뜻이다. 따라서 프로젝트의 서로 다른 파트와 그 사이의 상호작용을 다듬는 아키텍처 작업만을 "
+"하면 된다."
 
-#: ..\..\writing\structure.rst:32
+#: ../../writing/structure.rst:323
 msgid ""
-"Easy structuring of a project means it is also easy to do it poorly. Some "
-"signs of a poorly structured project include:"
-msgstr ""
-"프로젝트를 구성하기 쉽다는 말은 또한 엉망이 되기도 쉽다는 뜻이다. 프로젝트가 엉망으로 구성되었다는 신호를 몇 가지 찾아보았다."
+"Easy structuring of a project means it is also easy to do it poorly. Some"
+" signs of a poorly structured project include:"
+msgstr "프로젝트를 구성하기 쉽다는 말은 또한 엉망이 되기도 쉽다는 뜻이다. 프로젝트가 엉망으로 구성되었다는 신호를 몇 가지 찾아보았다."
 
-#: ..\..\writing\structure.rst:36
+#: ../../writing/structure.rst:327
 msgid ""
-"Multiple and messy circular dependencies: if your classes Table and Chair in"
-" :file:`furn.py` need to import Carpenter from :file:`workers.py` to answer "
-"a question such as ``table.isdoneby()``, and if conversely the class "
-"Carpenter needs to import Table and Chair, to answer the question "
-"``carpenter.whatdo()``, then you have a circular dependency. In this case "
-"you will have to resort to fragile hacks such as using import statements "
-"inside methods or functions."
+"Multiple and messy circular dependencies: if your classes Table and Chair"
+" in :file:`furn.py` need to import Carpenter from :file:`workers.py` to "
+"answer a question such as ``table.isdoneby()``, and if conversely the "
+"class Carpenter needs to import Table and Chair, to answer the question "
+"``carpenter.whatdo()``, then you have a circular dependency. In this case"
+" you will have to resort to fragile hacks such as using import statements"
+" inside methods or functions."
 msgstr ""
 "복잡한 순환 참조: ``책상.누가 만들었나()`` 같은 질문에 답하려면 :file:`가구.py` 의 탁자와 의자가 "
 ":file:`작업자.py` 에서 목수를 불러와야 하는데, 반대로 ``목수.뭐하니()`` 같은 질문에 답하려면 목수가 책상과 의자를 "
-"불러와야만 하는 경우가 있다. 이것이 순환 참조다. 이런 경우에는 메소드나 펑션 안에 있는 임포트 구문을 사용하는 것 같은 난도질스러운 "
-"방법에 의존하는 수 밖에 없다."
+"불러와야만 하는 경우가 있다. 이것이 순환 참조다. 이런 경우에는 메소드나 펑션 안에 있는 임포트 구문을 사용하는 것 같은 "
+"난도질스러운 방법에 의존하는 수 밖에 없다."
 
-#: ..\..\writing\structure.rst:45
+#: ../../writing/structure.rst:336
 msgid ""
-"Hidden coupling: each and every change in Table's implementation breaks 20 "
-"tests in unrelated test cases because it breaks Carpenter's code, which "
-"requires very careful surgery to adapt the change. This means you have too "
-"many assumptions about Table in Carpenter's code or the reverse."
+"Hidden coupling: each and every change in Table's implementation breaks "
+"20 tests in unrelated test cases because it breaks Carpenter's code, "
+"which requires very careful surgery to adapt the change. This means you "
+"have too many assumptions about Table in Carpenter's code or the reverse."
 msgstr ""
-"숨겨진 연결고리: 책상을 구현하는 코드의 모든 변경이 책상과 관련없는 다른 테스트들을 안돌아가게 한다. 책상의 코드 변경이 목수의 코드를"
-" 무너뜨리기 때문이다. 이럴 때 코드 변경을 하려면 아주 신중한 수술을 해야한다. 이 말인즉, 목수의 코드 안에 있는 책상의 코드를 "
-"변경하거나 그 반대의 경우에 아주 많은 경우의 수를 상정해야만 한다는 뜻이다."
+"숨겨진 연결고리: 책상을 구현하는 코드의 모든 변경이 책상과 관련없는 다른 테스트들을 안돌아가게 한다. 책상의 코드 변경이 목수의 "
+"코드를 무너뜨리기 때문이다. 이럴 때 코드 변경을 하려면 아주 신중한 수술을 해야한다. 이 말인즉, 목수의 코드 안에 있는 책상의 "
+"코드를 변경하거나 그 반대의 경우에 아주 많은 경우의 수를 상정해야만 한다는 뜻이다."
 
-#: ..\..\writing\structure.rst:51
+#: ../../writing/structure.rst:342
 msgid ""
 "Heavy usage of global state or context: instead of explicitly passing "
-"``(height, width, type, wood)`` to each other, Table and Carpenter rely on "
-"global variables that can be modified and are modified on the fly by "
+"``(height, width, type, wood)`` to each other, Table and Carpenter rely "
+"on global variables that can be modified and are modified on the fly by "
 "different agents. You need to scrutinize all access to these global "
 "variables to understand why a rectangular table became a square, and "
-"discover that remote template code is also modifying this context, messing "
-"with table dimensions."
+"discover that remote template code is also modifying this context, "
+"messing with table dimensions."
 msgstr ""
-"전역 구문의 과다 사용:  ``(높이, 너비, 타입, 나무)`` 같은 말로 대상을 명확하게 정의하지 않는 경우다. 목수가 언제든 아무나 "
-"바꿀 수 있는 전역 변수를 사용하기 시작하면, 원형 책상이 사각 책상으로 되어버리는 경우가 생긴다. 어쩌다가 이런 일이 벌어졌는지를 "
-"조사하기 위해 꼼꼼히 살피다 보면, 엉뚱한 견본 코드가 문맥을 변경하고 책상의 모양을 바꾸고 있다는 사실을 발견할 것이다."
+"전역 구문의 과다 사용:  ``(높이, 너비, 타입, 나무)`` 같은 말로 대상을 명확하게 정의하지 않는 경우다. 목수가 언제든 "
+"아무나 바꿀 수 있는 전역 변수를 사용하기 시작하면, 원형 책상이 사각 책상으로 되어버리는 경우가 생긴다. 어쩌다가 이런 일이 "
+"벌어졌는지를 조사하기 위해 꼼꼼히 살피다 보면, 엉뚱한 견본 코드가 문맥을 변경하고 책상의 모양을 바꾸고 있다는 사실을 발견할 "
+"것이다."
 
-#: ..\..\writing\structure.rst:60
+#: ../../writing/structure.rst:351
 msgid ""
-"Spaghetti code: multiple pages of nested if clauses and for loops with a lot"
-" of copy-pasted procedural code and no proper segmentation are known as "
-"spaghetti code. Python's meaningful indentation (one of its most "
-"controversial features) make it very hard to maintain this kind of code. So "
-"the good news is that you might not see too much of it."
+"Spaghetti code: multiple pages of nested if clauses and for loops with a "
+"lot of copy-pasted procedural code and no proper segmentation are known "
+"as spaghetti code. Python's meaningful indentation (one of its most "
+"controversial features) make it very hard to maintain this kind of code. "
+"So the good news is that you might not see too much of it."
 msgstr ""
-"스파게티 코드: 복사 & 붙여넣기가 몇 페이지나 계속되고, 그 안에서 if조건문과 for반복문이 어지럽게 반복되며, 적절하게 나눠지지도 "
-"않은 코드를 스파게티 코드라고 한다. 파이썬의 (가장 논란이 분분한 특징일)들여쓰기에는 의미가 있기 때문에 이런 복잡하고 어지러운 코드는"
-" 유지 보수하기가 어렵다. 다행히 이런 난장판을 많이 볼 일은 없을 것이다."
+"스파게티 코드: 복사 & 붙여넣기가 몇 페이지나 계속되고, 그 안에서 if조건문과 for반복문이 어지럽게 반복되며, 적절하게 "
+"나눠지지도 않은 코드를 스파게티 코드라고 한다. 파이썬의 (가장 논란이 분분한 특징일)들여쓰기에는 의미가 있기 때문에 이런 복잡하고"
+" 어지러운 코드는 유지 보수하기가 어렵다. 다행히 이런 난장판을 많이 볼 일은 없을 것이다."
 
-#: ..\..\writing\structure.rst:67
+#: ../../writing/structure.rst:358
 msgid ""
-"Ravioli code is more likely in Python: it consists of hundreds of similar "
-"little pieces of logic, often classes or objects, without proper structure. "
-"If you never can remember if you have to use FurnitureTable, AssetTable or "
-"Table, or even TableNew for your task at hand, you might be swimming in "
-"ravioli code."
+"Ravioli code is more likely in Python: it consists of hundreds of similar"
+" little pieces of logic, often classes or objects, without proper "
+"structure. If you never can remember if you have to use FurnitureTable, "
+"AssetTable or Table, or even TableNew for your task at hand, you might be"
+" swimming in ravioli code."
 msgstr ""
 "라비올리 코드: 파이썬에는 스파게티 코드보다도 라비올리 코드를 더 자주 볼 수 있다. 구조화도 되어있지 않으면서 수 백개의 비슷한 "
-"로직이나 작은 클래스, 또는 오브젝트로 이루어져 있는 코드를 라비올리 코드라고 한다. 식탁을 써야하는지, 탁자를 써야하는지, 그도 아니면"
-" 새 책상이 필요한건지 도무지 기억할 수 없는 순간, 당신은 라비올리 코드 속에서 헤엄치고 있을 것이다."
+"로직이나 작은 클래스, 또는 오브젝트로 이루어져 있는 코드를 라비올리 코드라고 한다. 식탁을 써야하는지, 탁자를 써야하는지, 그도 "
+"아니면 새 책상이 필요한건지 도무지 기억할 수 없는 순간, 당신은 라비올리 코드 속에서 헤엄치고 있을 것이다."
 
-#: ..\..\writing\structure.rst:75
+#: ../../writing/structure.rst:366
 msgid "Modules"
 msgstr "모듈"
 
-#: ..\..\writing\structure.rst:77
+#: ../../writing/structure.rst:368
 msgid ""
-"Python modules are one of the main abstraction layers available and probably"
-" the most natural one. Abstraction layers allow separating code into parts "
-"holding related data and functionality."
+"Python modules are one of the main abstraction layers available and "
+"probably the most natural one. Abstraction layers allow separating code "
+"into parts holding related data and functionality."
 msgstr ""
-"파이썬 모듈은 사용 가능한 주요 추상 레이어 중 하나이자, 추상 레이어의 가장 자연스러운"
-"모습이다. 추상 레이어는 코드를 기능 파트와 데이터 저장 파트로 나눌 수 있도록 해준다."
+"파이썬 모듈은 사용 가능한 주요 추상 레이어 중 하나이자, 추상 레이어의 가장 자연스러운모습이다. 추상 레이어는 코드를 기능 파트와"
+" 데이터 저장 파트로 나눌 수 있도록 해준다."
 
-#: ..\..\writing\structure.rst:81
+#: ../../writing/structure.rst:372
 msgid ""
-"For example, a layer of a project can handle interfacing with user actions, "
-"while another would handle low-level manipulation of data. The most natural "
-"way to separate these two layers is to regroup all interfacing functionality"
-" in one file, and all low-level operations in another file. In this case, "
-"the interface file needs to import the low-level file. This is done with the"
-" ``import`` and ``from ... import`` statements."
+"For example, a layer of a project can handle interfacing with user "
+"actions, while another would handle low-level manipulation of data. The "
+"most natural way to separate these two layers is to regroup all "
+"interfacing functionality in one file, and all low-level operations in "
+"another file. In this case, the interface file needs to import the low-"
+"level file. This is done with the ``import`` and ``from ... import`` "
+"statements."
 msgstr ""
-"예를 들어 프로젝트의 레이어 중 하나는 사용자 인터페이스를 담당하고, 다른 하나는 "
-"저수준의 데이터 처리를 담당할 수도 있다. 이 두 레이어를 분리시키는 가장 자연스러운"
-"방법은 인터페이스 기능과 저수준의 데이터 처리를 담당하는 기능을 각각 하나의 파일에 "
-"넣는 것이다. 이런 경우에 인터페이스 파일은 데이터 처리 파일을 불러와야 한다."
-"이는  ``import`` 와 ``from ... import`` 구문으로 가능하다."
+"예를 들어 프로젝트의 레이어 중 하나는 사용자 인터페이스를 담당하고, 다른 하나는 저수준의 데이터 처리를 담당할 수도 있다. 이 두"
+" 레이어를 분리시키는 가장 자연스러운방법은 인터페이스 기능과 저수준의 데이터 처리를 담당하는 기능을 각각 하나의 파일에 넣는 "
+"것이다. 이런 경우에 인터페이스 파일은 데이터 처리 파일을 불러와야 한다.이는  ``import`` 와 ``from ... "
+"import`` 구문으로 가능하다."
 
-#: ..\..\writing\structure.rst:88
+#: ../../writing/structure.rst:379
 msgid ""
-"As soon as you use `import` statements you use modules. These can be either "
-"built-in modules such as `os` and `sys`, third-party modules you have "
-"installed in your environment, or your project's internal modules."
+"As soon as you use `import` statements you use modules. These can be "
+"either built-in modules such as `os` and `sys`, third-party modules you "
+"have installed in your environment, or your project's internal modules."
 msgstr ""
-"`import` 구문을 사용하는 즉시 해당 모듈을 불러올 수 있다. 이는 내장 모듈인"
-"`os`, `sys`, 프로젝트에 포함시킨 모듈과 따로 설치한 서드파티 모듈도 마찬가지다."
+"`import` 구문을 사용하는 즉시 해당 모듈을 불러올 수 있다. 이는 내장 모듈인`os`, `sys`, 프로젝트에 포함시킨 "
+"모듈과 따로 설치한 서드파티 모듈도 마찬가지다."
 
-
-#: ..\..\writing\structure.rst:92
+#: ../../writing/structure.rst:383
 msgid ""
-"To keep in line with the style guide, keep module names short, lowercase, "
-"and be sure to avoid using special symbols like the dot (.) or question mark"
-" (?). So a file name like :file:`my.spam.py` is one you should avoid! Naming"
-" this way will interfere with the way Python looks for modules."
+"To keep in line with the style guide, keep module names short, lowercase,"
+" and be sure to avoid using special symbols like the dot (.) or question "
+"mark (?). So a file name like :file:`my.spam.py` is one you should avoid!"
+" Naming this way will interfere with the way Python looks for modules."
 msgstr ""
-"본 안내서의 스타일 가이드의 방침을 따르려면, 모듈의 이름은 소문자로 짧게 짓고, 점(.)이나"
-"물음표(?) 같은 특수 문자의 사용을 지양해야 한다. 그러니까 :file:`my.spam.py` 같은"
-"이름으로 만들면 안된다! 파이썬이 모듈을 찾는 걸 방해한다."
+"본 안내서의 스타일 가이드의 방침을 따르려면, 모듈의 이름은 소문자로 짧게 짓고, 점(.)이나물음표(?) 같은 특수 문자의 사용을 "
+"지양해야 한다. 그러니까 :file:`my.spam.py` 같은이름으로 만들면 안된다! 파이썬이 모듈을 찾는 걸 방해한다."
 
-#: ..\..\writing\structure.rst:97
+#: ../../writing/structure.rst:388
 msgid ""
-"In the case of `my.spam.py` Python expects to find a :file:`spam.py` file in"
-" a folder named :file:`my` which is not the case. There is an `example "
-"<http://docs.python.org/tutorial/modules.html#packages>`_ of how the dot "
-"notation should be used in the Python docs."
+"In the case of `my.spam.py` Python expects to find a :file:`spam.py` file"
+" in a folder named :file:`my` which is not the case. There is an `example"
+" <http://docs.python.org/tutorial/modules.html#packages>`_ of how the dot"
+" notation should be used in the Python docs."
 msgstr ""
-"`my.spam.py` 의 경우, 파이썬은  :file:`my` 라는 이름의 폴더에서  :file:`spam.py` "
-"이라는 이름의 파일을 찾는다. 이는 잘못된 경우다. 아래 글을 참조하기 바란다."
-"파이썬 문서에서 점(.) 표시가 어떻게 사용되는지에 대한"
-" `예시 <http://docs.python.org/tutorial/modules.html#packages>`_ "
+"`my.spam.py` 의 경우, 파이썬은  :file:`my` 라는 이름의 폴더에서  :file:`spam.py` 이라는 이름의 "
+"파일을 찾는다. 이는 잘못된 경우다. 아래 글을 참조하기 바란다.파이썬 문서에서 점(.) 표시가 어떻게 사용되는지에 대한 `예시 "
+"<http://docs.python.org/tutorial/modules.html#packages>`_ "
 
-#: ..\..\writing\structure.rst:102
+#: ../../writing/structure.rst:393
 msgid ""
-"If you'd like you could name your module :file:`my_spam.py`, but even our "
-"friend the underscore should not be seen often in module names."
+"If you'd like you could name your module :file:`my_spam.py`, but even our"
+" friend the underscore should not be seen often in module names."
 msgstr ""
-":file:`my_spam.py` 처럼 모듈 이름을 짓는 것도 가능하다. 하지만 우리의 친구"
-"밑줄(_)은 모듈 이름으로는 자주 쓰이지 않는다."
+":file:`my_spam.py` 처럼 모듈 이름을 짓는 것도 가능하다. 하지만 우리의 친구밑줄(_)은 모듈 이름으로는 자주 쓰이지"
+" 않는다."
 
-#: ..\..\writing\structure.rst:105
+#: ../../writing/structure.rst:396
 msgid ""
 "Aside from some naming restrictions, nothing special is required for a "
-"Python file to be a module, but you need to understand the import mechanism "
-"in order to use this concept properly and avoid some issues."
+"Python file to be a module, but you need to understand the import "
+"mechanism in order to use this concept properly and avoid some issues."
 msgstr ""
-"몇 가지 이름 짓기 규칙 외에는 파이썬 모듈을 만들기 위해 달리 특별히 필요한 것은 없다. "
-"하지만 모듈이라는 개념을 잘 사용하고 문제를 발생시키지 않기 위해서는, 모듈을 불러오는 "
-"방법을 이해할 필요가 있다."
+"몇 가지 이름 짓기 규칙 외에는 파이썬 모듈을 만들기 위해 달리 특별히 필요한 것은 없다. 하지만 모듈이라는 개념을 잘 사용하고 "
+"문제를 발생시키지 않기 위해서는, 모듈을 불러오는 방법을 이해할 필요가 있다."
 
-#: ..\..\writing\structure.rst:109
+#: ../../writing/structure.rst:400
 msgid ""
 "Concretely, the ``import modu`` statement will look for the proper file, "
-"which is :file:`modu.py` in the same directory as the caller if it exists.  "
-"If it is not found, the Python interpreter will search for :file:`modu.py` "
-"in the \"path\" recursively and raise an ImportError exception if it is not "
-"found."
+"which is :file:`modu.py` in the same directory as the caller if it "
+"exists.  If it is not found, the Python interpreter will search for "
+":file:`modu.py` in the \"path\" recursively and raise an ImportError "
+"exception if it is not found."
 msgstr ""
-"구체적으로 살펴보자. ``import modu`` 구문이 있으면 이는 호출자로서 같은 디렉토리 "
-"안에서 적절한 파일, 즉 :file:`modu.py` 라는 파일을 찾는다. 만약 해당 파일이"
-"발견되지 않는다면 파이썬 인터프리터는  :file:`modu.py` 파일을  \"path\" 에서"
-"재귀적으로 찾는다. 그래도 발견되지 않으면 ImportError exception을 띄운다."
+"구체적으로 살펴보자. ``import modu`` 구문이 있으면 이는 호출자로서 같은 디렉토리 안에서 적절한 파일, 즉 "
+":file:`modu.py` 라는 파일을 찾는다. 만약 해당 파일이발견되지 않는다면 파이썬 인터프리터는  "
+":file:`modu.py` 파일을  \"path\" 에서재귀적으로 찾는다. 그래도 발견되지 않으면 ImportError "
+"exception을 띄운다."
 
-#: ..\..\writing\structure.rst:114
+#: ../../writing/structure.rst:405
 msgid ""
 "Once :file:`modu.py` is found, the Python interpreter will execute the "
-"module in an isolated scope. Any top-level statement in :file:`modu.py` will"
-" be executed, including other imports if any. Function and class definitions"
-" are stored in the module's dictionary."
+"module in an isolated scope. Any top-level statement in :file:`modu.py` "
+"will be executed, including other imports if any. Function and class "
+"definitions are stored in the module's dictionary."
 msgstr ""
-"일단 :file:`modu.py` 이 발견되면, 파이썬 인터프리터는 독립적으로 그 모듈을 실행한다."
-" :file:`modu.py` 모듈 안의 모든 최상위 구문이 실행된다. 불러온 다른 모듈이 있다면"
-"그것도 함께 실행된다. 함수와 클래스 정의는 모듈의 디렉토리에 저장된다."
+"일단 :file:`modu.py` 이 발견되면, 파이썬 인터프리터는 독립적으로 그 모듈을 실행한다. :file:`modu.py` "
+"모듈 안의 모든 최상위 구문이 실행된다. 불러온 다른 모듈이 있다면그것도 함께 실행된다. 함수와 클래스 정의는 모듈의 디렉토리에 "
+"저장된다."
 
-#: ..\..\writing\structure.rst:119
+#: ../../writing/structure.rst:410
 msgid ""
-"Then, the module's variables, functions, and classes will be available to "
-"the caller through the module's namespace, a central concept in programming "
-"that is particularly helpful and powerful in Python."
+"Then, the module's variables, functions, and classes will be available to"
+" the caller through the module's namespace, a central concept in "
+"programming that is particularly helpful and powerful in Python."
 msgstr ""
-"그런 다음, 모듈의 변수와 함수, 그리고 클래스는 프로그래밍의 핵심적인 개념이자,"
-" 특히 파이썬에서는 더욱 유용하고 강력하게 쓰이는 모듈의 명칭 공간(namespace)"
-"을 통해 호출자가 사용할 수 있게 된다. "
+"그런 다음, 모듈의 변수와 함수, 그리고 클래스는 프로그래밍의 핵심적인 개념이자, 특히 파이썬에서는 더욱 유용하고 강력하게 쓰이는 "
+"모듈의 명칭 공간(namespace)을 통해 호출자가 사용할 수 있게 된다. "
 
-#: ..\..\writing\structure.rst:123
+#: ../../writing/structure.rst:414
 msgid ""
-"In many languages, an ``include file`` directive is used by the preprocessor"
-" to take all code found in the file and 'copy' it into the caller's code. It"
-" is different in Python: the included code is isolated in a module "
-"namespace, which means that you generally don't have to worry that the "
-"included code could have unwanted effects, e.g. override an existing "
-"function with the same name."
+"In many languages, an ``include file`` directive is used by the "
+"preprocessor to take all code found in the file and 'copy' it into the "
+"caller's code. It is different in Python: the included code is isolated "
+"in a module namespace, which means that you generally don't have to worry"
+" that the included code could have unwanted effects, e.g. override an "
+"existing function with the same name."
 msgstr ""
-"많은 언어에서  ``include file`` 지시문은 전처리장치(preprocessor)가 해당 파일의 모든 코드를 가져와"
-"호출자에 '복사'해 넣는 명령어로 사용된다. 하지만 파이썬에서는 다르다. 모듈에 포함된"
-"코드는 명칭 공간에 독립적으로 실행된다. 이는 일반적으로 모듈에 포함된 코드가 오작동을"
-"하는 경우가 없다는 뜻이다. "
+"많은 언어에서  ``include file`` 지시문은 전처리장치(preprocessor)가 해당 파일의 모든 코드를 가져와호출자에"
+" '복사'해 넣는 명령어로 사용된다. 하지만 파이썬에서는 다르다. 모듈에 포함된코드는 명칭 공간에 독립적으로 실행된다. 이는 "
+"일반적으로 모듈에 포함된 코드가 오작동을하는 경우가 없다는 뜻이다. "
 
-#: ..\..\writing\structure.rst:129
+#: ../../writing/structure.rst:420
 msgid ""
 "It is possible to simulate the more standard behavior by using a special "
-"syntax of the import statement: ``from modu import *``. This is generally "
-"considered bad practice. **Using** ``import *`` **makes code harder to read "
-"and makes dependencies less compartmentalized**."
+"syntax of the import statement: ``from modu import *``. This is generally"
+" considered bad practice. **Using** ``import *`` **makes code harder to "
+"read and makes dependencies less compartmentalized**."
 msgstr ""
-"모듈을 불러오는 특별한 구문인 ``from modu import *`` 를 써서 파이썬이 어떻게 "
-"작동하는지 확인해보자. 일반적으로 이러한 구문은 잘못된 습관이다. "
-" **Using** ``import *`` ** 구문은 코드를 읽기 어렵게 만들고, "
-"코드의 독립성 여부를 판단하기 어렵게 한다."
+"모듈을 불러오는 특별한 구문인 ``from modu import *`` 를 써서 파이썬이 어떻게 작동하는지 확인해보자. 일반적으로 "
+"이러한 구문은 잘못된 습관이다.  **Using** ``import *`` ** 구문은 코드를 읽기 어렵게 만들고, 코드의 독립성 "
+"여부를 판단하기 어렵게 한다."
 
-#: ..\..\writing\structure.rst:134
+#: ../../writing/structure.rst:425
 msgid ""
-"Using ``from modu import func`` is a way to pinpoint the function you want "
-"to import and put it in the global namespace. While much less harmful than "
-"``import *`` because it shows explicitly what is imported in the global "
-"namespace, its only advantage over a simpler ``import modu`` is that it will"
-" save a little typing."
+"Using ``from modu import func`` is a way to pinpoint the function you "
+"want to import and put it in the global namespace. While much less "
+"harmful than ``import *`` because it shows explicitly what is imported in"
+" the global namespace, its only advantage over a simpler ``import modu`` "
+"is that it will save a little typing."
 msgstr ""
-"``from modu import func`` 구문은 모듈에서 딱 내가 원하는 함수만 불러와 "
-"전역 명칭 공간(global namespace)에 넣어둘 수 있는 좋은 방법이다. "
-"뿐만 아니라 이 구문은 전역 명칭 공간(global namespace)에 무엇을 불러올지를"
-"명확히 보여주기 때문에 ``import *`` 구문보다 덜 해롭다. 단순히 ``import *`` "
-"구문을 사용하는 것은 단지 타이핑을 덜 한다는 이점 뿐이다."
+"``from modu import func`` 구문은 모듈에서 딱 내가 원하는 함수만 불러와 전역 명칭 공간(global "
+"namespace)에 넣어둘 수 있는 좋은 방법이다. 뿐만 아니라 이 구문은 전역 명칭 공간(global namespace)에 "
+"무엇을 불러올지를명확히 보여주기 때문에 ``import *`` 구문보다 덜 해롭다. 단순히 ``import *`` 구문을 사용하는 "
+"것은 단지 타이핑을 덜 한다는 이점 뿐이다."
 
-#: ..\..\writing\structure.rst:139
+#: ../../writing/structure.rst:431
 msgid "**Very bad**"
 msgstr "**최악**"
 
-#: ..\..\writing\structure.rst:148
+#: ../../writing/structure.rst:440
 msgid "**Better**"
 msgstr "**최악보다는 낫다**"
 
-#: ..\..\writing\structure.rst:156 ..\..\writing\structure.rst:443
+#: ../../writing/structure.rst:448 ../../writing/structure.rst:810
 msgid "**Best**"
 msgstr "**최고**"
 
-#: ..\..\writing\structure.rst:164
+#: ../../writing/structure.rst:456
 msgid ""
 "As mentioned in the :ref:`code_style` section, readability is one of the "
-"main features of Python. Readability means to avoid useless boilerplate text"
-" and clutter, therefore some efforts are spent trying to achieve a certain "
-"level of brevity. But terseness and obscurity are the limits where brevity "
-"should stop. Being able to tell immediately where a class or function comes "
-"from, as in the ``modu.func`` idiom, greatly improves code readability and "
-"understandability in all but the simplest single file projects."
+"main features of Python. Readability means to avoid useless boilerplate "
+"text and clutter, therefore some efforts are spent trying to achieve a "
+"certain level of brevity. But terseness and obscurity are the limits "
+"where brevity should stop. Being able to tell immediately where a class "
+"or function comes from, as in the ``modu.func`` idiom, greatly improves "
+"code readability and understandability in all but the simplest single "
+"file projects."
 msgstr ""
-":ref:`code_style` 섹션에서 언급한 것처럼, 가독성은 파이썬의 주요 특징 중 하나다."
-"가독성이란 쓸데없이 긴 본문과 잡동사니를 피한다는 뜻이다. 그러므로 어느 수준까지는"
-"간결성을 얻고자 하는 노력이 필요하다. 그러나 너무 간결한 나머지 모호해서는 안된다."
-" ``modu.func`` 처럼 클래스와 함수가 어디에서 왔는지 즉각 알려주는 구문은"
-"코드의 가독성과 이해용이성을 크게 놓여준다."
-"단 하나의 파일만 있는 아주 간단한 프로젝트가 아닌 한 그렇다."
+":ref:`code_style` 섹션에서 언급한 것처럼, 가독성은 파이썬의 주요 특징 중 하나다.가독성이란 쓸데없이 긴 본문과 "
+"잡동사니를 피한다는 뜻이다. 그러므로 어느 수준까지는간결성을 얻고자 하는 노력이 필요하다. 그러나 너무 간결한 나머지 모호해서는 "
+"안된다. ``modu.func`` 처럼 클래스와 함수가 어디에서 왔는지 즉각 알려주는 구문은코드의 가독성과 이해용이성을 크게 "
+"놓여준다.단 하나의 파일만 있는 아주 간단한 프로젝트가 아닌 한 그렇다."
 
-#: ..\..\writing\structure.rst:174
+#: ../../writing/structure.rst:466
 msgid "Packages"
 msgstr "패키지"
 
-#: ..\..\writing\structure.rst:176
+#: ../../writing/structure.rst:468
 msgid ""
-"Python provides a very straightforward packaging system, which is simply an "
-"extension of the module mechanism to a directory."
-msgstr ""
-"파이썬은 아주 간단한 패키지 만들기 시스템을 제공한다. 이 시스템은 단순히 "
-"파이썬 모듈 구조를 디렉토리로 확장한 것이다."
+"Python provides a very straightforward packaging system, which is simply "
+"an extension of the module mechanism to a directory."
+msgstr "파이썬은 아주 간단한 패키지 만들기 시스템을 제공한다. 이 시스템은 단순히 파이썬 모듈 구조를 디렉토리로 확장한 것이다."
 
-#: ..\..\writing\structure.rst:179
+#: ../../writing/structure.rst:471
 msgid ""
 "Any directory with an :file:`__init__.py` file is considered a Python "
 "package. The different modules in the package are imported in a similar "
@@ -336,464 +676,500 @@ msgid ""
 ":file:`__init__.py` file, which is used to gather all package-wide "
 "definitions."
 msgstr ""
-":file:`__init__.py` 가 있는 모든 디렉토리는 파이썬 패키지로 인식된다."
-"패키지의 여러 다른 모듈들은 일반적인 모듈과 비슷한 방법으로 불러와진다."
-"그러나 패키지는 일반 모듈과는 달리 :file:`__init__.py` 가 있다는 점이 특별하다."
-"이 파일은 패키지 전체의 모든 정의를 모아두는 용도로 쓰인다."
+":file:`__init__.py` 가 있는 모든 디렉토리는 파이썬 패키지로 인식된다.패키지의 여러 다른 모듈들은 일반적인 모듈과 "
+"비슷한 방법으로 불러와진다.그러나 패키지는 일반 모듈과는 달리 :file:`__init__.py` 가 있다는 점이 특별하다.이 "
+"파일은 패키지 전체의 모든 정의를 모아두는 용도로 쓰인다."
 
-#: ..\..\writing\structure.rst:184
+#: ../../writing/structure.rst:476
 msgid ""
-"A file :file:`modu.py` in the directory :file:`pack/` is imported with the "
-"statement ``import pack.modu``. This statement will look for an "
+"A file :file:`modu.py` in the directory :file:`pack/` is imported with "
+"the statement ``import pack.modu``. This statement will look for an "
 ":file:`__init__.py` file in :file:`pack`, execute all of its top-level "
 "statements. Then it will look for a file named :file:`pack/modu.py` and "
 "execute all of its top-level statements. After these operations, any "
-"variable, function, or class defined in :file:`modu.py` is available in the "
-"pack.modu namespace."
+"variable, function, or class defined in :file:`modu.py` is available in "
+"the pack.modu namespace."
 msgstr ""
-":file:`pack/` 디렉토리의  :file:`modu.py` 파일은  ``import pack.modu`` 구문으로"
-"불러와진다. 이 구문은  :file:`pack` 에서 :file:`__init__.py` 파일을 찾는다."
-"그리고 해당 패키지의 모든 상위 구문을 실행한다. 이 작업 후에  :file:`modu.py` "
-"파일에 정의된 모든 변수나 함수, 클래스를 pack.modu 명칭 공간(namespace)에서"
-" 쓸 수 있다."
+":file:`pack/` 디렉토리의  :file:`modu.py` 파일은  ``import pack.modu`` 구문으로불러와진다."
+" 이 구문은  :file:`pack` 에서 :file:`__init__.py` 파일을 찾는다.그리고 해당 패키지의 모든 상위 구문을"
+" 실행한다. 이 작업 후에  :file:`modu.py` 파일에 정의된 모든 변수나 함수, 클래스를 pack.modu 명칭 "
+"공간(namespace)에서 쓸 수 있다."
 
-#: ..\..\writing\structure.rst:190
+#: ../../writing/structure.rst:484
 msgid ""
-"A commonly seen issue is to add too much code to :file:`__init__.py` files. "
-"When the project complexity grows, there may be sub-packages and sub-sub-"
-"packages in a deep directory structure. In this case, importing a single "
-"item from a sub-sub-package will require executing all :file:`__init__.py` "
-"files met while traversing the tree."
+"A commonly seen issue is to add too much code to :file:`__init__.py` "
+"files. When the project complexity grows, there may be sub-packages and "
+"sub-sub-packages in a deep directory structure. In this case, importing a"
+" single item from a sub-sub-package will require executing all "
+":file:`__init__.py` files met while traversing the tree."
 msgstr ""
-"일반적으로 보이는 문제는 :file:`__init__.py` 파일에 너무 많은 코드를 붙이는 경우다. "
-"프로젝트가 복잡해질수록 디렉토리 구조 깊숙히 서브-패키지와 서브-서브-패키지가 있을"
-" 수 있다. 이런 경우에는 서브-서브-패키지 안에 있는 단 한 줄을 불러오려고 했더니"
-" 패키지 디렉토리를 가로지르며 만나게 되는 모든 :file:`__init__.py` 파일을 "
-"실행하게 될 때가 있다."
+"일반적으로 보이는 문제는 :file:`__init__.py` 파일에 너무 많은 코드를 붙이는 경우다. 프로젝트가 복잡해질수록 "
+"디렉토리 구조 깊숙히 서브-패키지와 서브-서브-패키지가 있을 수 있다. 이런 경우에는 서브-서브-패키지 안에 있는 단 한 줄을 "
+"불러오려고 했더니 패키지 디렉토리를 가로지르며 만나게 되는 모든 :file:`__init__.py` 파일을 실행하게 될 때가 있다."
 
-#: ..\..\writing\structure.rst:196
+#: ../../writing/structure.rst:490
 msgid ""
-"Leaving an :file:`__init__.py` file empty is considered normal and even a "
-"good practice, if the package's modules and sub-packages do not need to "
+"Leaving an :file:`__init__.py` file empty is considered normal and even a"
+" good practice, if the package's modules and sub-packages do not need to "
 "share any code."
 msgstr ""
-"따라서 패키지의 모듈과 서브-패키지에서 코드를 서로 공유할 필요가 없다면 "
-":file:`__init__.py` 은 빈 파일로 남겨두는게 일반적일 뿐만 아니라 좋은 습관이다."
+"따라서 패키지의 모듈과 서브-패키지에서 코드를 서로 공유할 필요가 없다면 :file:`__init__.py` 은 빈 파일로 "
+"남겨두는게 일반적일 뿐만 아니라 좋은 습관이다."
 
-#: ..\..\writing\structure.rst:199
+#: ../../writing/structure.rst:494
 msgid ""
 "Lastly, a convenient syntax is available for importing deeply nested "
-"packages: ``import very.deep.module as mod``. This allows you to use `mod` "
-"in place of the verbose repetition of ``very.deep.module``."
+"packages: ``import very.deep.module as mod``. This allows you to use "
+"`mod` in place of the verbose repetition of ``very.deep.module``."
 msgstr ""
-"마지막으로 패키지 안쪽 깊숙히 불러올 수 있는 편리한 구문이 있다."
-"``import very.deep.module as mod`` 이다. 이 구문은  ``very.deep.module``"
-"같은 장황한 구문을 반복하는 대신에  `mod` 만으로 패키지를 사용할 수 있게 해준다."
+"마지막으로 패키지 안쪽 깊숙히 불러올 수 있는 편리한 구문이 있다.``import very.deep.module as mod`` "
+"이다. 이 구문은  ``very.deep.module``같은 장황한 구문을 반복하는 대신에  `mod` 만으로 패키지를 사용할 수 "
+"있게 해준다."
 
-#: ..\..\writing\structure.rst:204
+#: ../../writing/structure.rst:499
 msgid "Object-oriented programming"
 msgstr "객체지향 프로그래밍"
 
-#: ..\..\writing\structure.rst:206
+#: ../../writing/structure.rst:501
 msgid ""
-"Python is sometimes described as an object-oriented programming language. "
-"This can be somewhat misleading and needs to be clarified."
-msgstr ""
-"파이썬은 종종 객체지향 프로그래밍 언어라고 설명된다."
-"이는 다소 오해의 여지가 있기에 명확히 할 필요가 있다."
+"Python is sometimes described as an object-oriented programming language."
+" This can be somewhat misleading and needs to be clarified."
+msgstr "파이썬은 종종 객체지향 프로그래밍 언어라고 설명된다.이는 다소 오해의 여지가 있기에 명확히 할 필요가 있다."
 
-#: ..\..\writing\structure.rst:209
+#: ../../writing/structure.rst:504
+#, fuzzy
 msgid ""
-"In Python, everything is an object, and can be handled as such. This is what"
-" is meant when we say, for example, that functions are first-class objects. "
-"Functions, classes, strings, and even types are objects in Python: like any "
-"objects, they have a type, they can be passed as function arguments, they "
-"may have methods and properties. In this understanding, Python is an object-"
-"oriented language."
+"In Python, everything is an object, and can be handled as such. This is "
+"what is meant when we say, for example, that functions are first-class "
+"objects. Functions, classes, strings, and even types are objects in "
+"Python: like any object, they have a type, they can be passed as function"
+" arguments, and they may have methods and properties. In this "
+"understanding, Python is an object-oriented language."
 msgstr ""
-"파이썬에서 모든 것은 객체다. 그리고 객체처럼 다룰 수 있다. 말하자면 first-class 객체를"
-" 예로 들 수 있다. 함수, 클래스, 문자열, 심지어 타입도 파이썬에서는 객체다. "
-"다른 객체처럼 파이썬의 객체도 타입이 있고 함수 인자값을 받을 수 있다. 또한 메소드와"
-"속성을 가질 수도 있다. 이러한 점을 고려하여 파이썬을 객체지향 언어라고 하는 것이다."
+"파이썬에서 모든 것은 객체다. 그리고 객체처럼 다룰 수 있다. 말하자면 first-class 객체를 예로 들 수 있다. 함수, "
+"클래스, 문자열, 심지어 타입도 파이썬에서는 객체다. 다른 객체처럼 파이썬의 객체도 타입이 있고 함수 인자값을 받을 수 있다. 또한"
+" 메소드와속성을 가질 수도 있다. 이러한 점을 고려하여 파이썬을 객체지향 언어라고 하는 것이다."
 
-#: ..\..\writing\structure.rst:216
+#: ../../writing/structure.rst:511
 msgid ""
-"However, unlike Java, Python does not impose object-oriented programming as "
-"the main programming paradigm. It is perfectly viable for a Python project "
-"to not be object-oriented, i.e. to use no or very few class definitions, "
-"class inheritance, or any other mechanisms that are specific to object-"
-"oriented programming."
+"However, unlike Java, Python does not impose object-oriented programming "
+"as the main programming paradigm. It is perfectly viable for a Python "
+"project to not be object-oriented, i.e. to use no or very few class "
+"definitions, class inheritance, or any other mechanisms that are specific"
+" to object-oriented programming."
 msgstr ""
-"하지만 자바와는 달리 파이썬은 객체지향 프로그래밍을 프로그래밍 패러다임으로 도입하고 "
-"있지 않다. 객체지향으로 만들지 않은 파이썬 프로젝트도 완벽하게 실행 가능하다. "
-"즉 클래스를 정의하지 않거나 거의 정의하지 않아도 사용할 수 있다."
-"클래스 상속이나 객체지향 프로그래밍의 다른 특징적인 방법을 사용하지 않아도 마찬가지다."
+"하지만 자바와는 달리 파이썬은 객체지향 프로그래밍을 프로그래밍 패러다임으로 도입하고 있지 않다. 객체지향으로 만들지 않은 파이썬 "
+"프로젝트도 완벽하게 실행 가능하다. 즉 클래스를 정의하지 않거나 거의 정의하지 않아도 사용할 수 있다.클래스 상속이나 객체지향 "
+"프로그래밍의 다른 특징적인 방법을 사용하지 않아도 마찬가지다."
 
-#: ..\..\writing\structure.rst:222
+#: ../../writing/structure.rst:517
 msgid ""
-"Moreover, as seen in the modules_ section, the way Python handles modules "
-"and namespaces gives the developer a natural way to ensure the encapsulation"
-" and separation of abstraction layers, both being the most common reasons to"
-" use object-orientation. Therefore, Python programmers have more latitude to"
-" not use object-orientation, when it is not required by the business model."
+"Moreover, as seen in the modules_ section, the way Python handles modules"
+" and namespaces gives the developer a natural way to ensure the "
+"encapsulation and separation of abstraction layers, both being the most "
+"common reasons to use object-orientation. Therefore, Python programmers "
+"have more latitude to not use object-orientation, when it is not required"
+" by the business model."
 msgstr ""
-"게다가 modules 섹션에서 볼 수 있듯이 파이썬이 모듈과 명칭 공간(namespace)를 다루는 방식은"
-"개발자로 하여금 자연스럽게 캡슐화와 추상 레이어의 분리를 가능하게 해준다. 캡슐화와 추상 레이어의 "
-"분리는 둘 다 객체지향을 사용하는 가장 일반적인 이유다. 그러므로 파이썬 프로그래머는 비지니스 모델이"
-" 굳이 객체지향을 필요로 하지 않는다면 거기에 얽메이지 않아도 된다."
+"게다가 modules 섹션에서 볼 수 있듯이 파이썬이 모듈과 명칭 공간(namespace)를 다루는 방식은개발자로 하여금 자연스럽게"
+" 캡슐화와 추상 레이어의 분리를 가능하게 해준다. 캡슐화와 추상 레이어의 분리는 둘 다 객체지향을 사용하는 가장 일반적인 이유다. "
+"그러므로 파이썬 프로그래머는 비지니스 모델이 굳이 객체지향을 필요로 하지 않는다면 거기에 얽메이지 않아도 된다."
 
-#: ..\..\writing\structure.rst:229
+#: ../../writing/structure.rst:524
 msgid ""
 "There are some reasons to avoid unnecessary object-orientation. Defining "
-"custom classes is useful when we want to glue together some state and some "
-"functionality. The problem, as pointed out by the discussions about "
+"custom classes is useful when we want to glue together some state and "
+"some functionality. The problem, as pointed out by the discussions about "
 "functional programming, comes from the \"state\" part of the equation."
 msgstr ""
-"불필요한 객체지향을 피해야 할 이유는 여러가지가 있다. 어떤 구문과 기능은 한데 모아두는 편이 "
-"더 유용할 때가 있다. 이럴 때는 사용자 정의 클래스를 정의해서 쓰면 편리하다. 문제는 "
-"함수형 프로그래밍의 문제점으로 지적되는 등식 부분의 \"구문\" 에서 발생한다."
+"불필요한 객체지향을 피해야 할 이유는 여러가지가 있다. 어떤 구문과 기능은 한데 모아두는 편이 더 유용할 때가 있다. 이럴 때는 "
+"사용자 정의 클래스를 정의해서 쓰면 편리하다. 문제는 함수형 프로그래밍의 문제점으로 지적되는 등식 부분의 \"구문\" 에서 "
+"발생한다."
 
-#: ..\..\writing\structure.rst:234
+#: ../../writing/structure.rst:529
 msgid ""
 "In some architectures, typically web applications, multiple instances of "
-"Python processes are spawned to respond to external requests that can happen"
-" at the same time. In this case, holding some state into instantiated "
-"objects, which means keeping some static information about the world, is "
-"prone to concurrency problems or race-conditions. Sometimes, between the "
-"initialization of the state of an object (usually done with the "
-"``__init__()`` method) and the actual use of the object state through one of"
-" its methods, the world may have changed, and the retained state may be "
-"outdated. For example, a request may load an item in memory and mark it as "
-"read by a user. If another request requires the deletion of this item at the"
-" same time, it may happen that the deletion actually occurs after the first "
-"process loaded the item, and then we have to mark as read a deleted object."
+"Python processes are spawned to respond to external requests that can "
+"happen at the same time. In this case, holding some state into "
+"instantiated objects, which means keeping some static information about "
+"the world, is prone to concurrency problems or race-conditions. "
+"Sometimes, between the initialization of the state of an object (usually "
+"done with the ``__init__()`` method) and the actual use of the object "
+"state through one of its methods, the world may have changed, and the "
+"retained state may be outdated. For example, a request may load an item "
+"in memory and mark it as read by a user. If another request requires the "
+"deletion of this item at the same time, it may happen that the deletion "
+"actually occurs after the first process loaded the item, and then we have"
+" to mark as read a deleted object."
 msgstr ""
-"어떤 아키텍쳐, 보통 웹 어플리케이션에서는 파이썬 프로세스에 복수의 인스턴스가 발생한다. 동시에 "
-"발생하는 외부의 요청에 응답하기 위해서다. 이런 경우에는 구문의 실행이 멈춰져 "
-" 예정된 오브젝트가 된다. "
-"즉 어떤 고정된 정보를 계속 잡고 있는 것이다. 이때문에 동시성의 문제나 경합 상황이 발생하기 쉽다."
+"어떤 아키텍쳐, 보통 웹 어플리케이션에서는 파이썬 프로세스에 복수의 인스턴스가 발생한다. 동시에 발생하는 외부의 요청에 응답하기 "
+"위해서다. 이런 경우에는 구문의 실행이 멈춰져  예정된 오브젝트가 된다. 즉 어떤 고정된 정보를 계속 잡고 있는 것이다. 이때문에 "
+"동시성의 문제나 경합 상황이 발생하기 쉽다."
 
-#: ..\..\writing\structure.rst:247
+#: ../../writing/structure.rst:542
 msgid ""
-"This and other issues led to the idea that using stateless functions is a "
-"better programming paradigm."
+"This and other issues led to the idea that using stateless functions is a"
+" better programming paradigm."
 msgstr ""
-"이 문제 뿐만 아니라 다른 설명하지 않은 문제들이 발생하기도 한다. 이 때문에 구문없는 함수가 "
-"더 나은 프로그래밍 패러다임으로 생각되기도 한다."
+"이 문제 뿐만 아니라 다른 설명하지 않은 문제들이 발생하기도 한다. 이 때문에 구문없는 함수가 더 나은 프로그래밍 패러다임으로 "
+"생각되기도 한다."
 
-#: ..\..\writing\structure.rst:250
+#: ../../writing/structure.rst:545
 msgid ""
 "Another way to say the same thing is to suggest using functions and "
 "procedures with as few implicit contexts and side-effects as possible. A "
 "function's implicit context is made up of any of the global variables or "
-"items in the persistence layer that are accessed from within the function. "
-"Side-effects are the changes that a function makes to its implicit context. "
-"If a function saves or deletes data in a global variable or in the "
-"persistence layer, it is said to have a side-effect."
+"items in the persistence layer that are accessed from within the "
+"function. Side-effects are the changes that a function makes to its "
+"implicit context. If a function saves or deletes data in a global "
+"variable or in the persistence layer, it is said to have a side-effect."
 msgstr ""
-"위 문제를 피하기 위한 또다른 방법은 가능한 한 모호한 문맥과 부작용을 최소화 한 함수와"
-" 프로시저를 사용하는 것이다. 전역 변수를 아무렇게나 사용하거나, 함수 내부에 있는 "
-"퍼시스턴스 레이어의 항목을 남용하면 함수의 의미가 모호해진다. 여기서 부작용이란"
-" 함수가 함수 자체의 의미를 바꿔버리는 변화를 의미한다. 만약 함수가 퍼시스턴스 레이어에 "
-"있는 데이터나 전역 변수에 있는 데이터를 날려버리거나 저장하는 경우를 말한다."
+"위 문제를 피하기 위한 또다른 방법은 가능한 한 모호한 문맥과 부작용을 최소화 한 함수와 프로시저를 사용하는 것이다. 전역 변수를 "
+"아무렇게나 사용하거나, 함수 내부에 있는 퍼시스턴스 레이어의 항목을 남용하면 함수의 의미가 모호해진다. 여기서 부작용이란 함수가 "
+"함수 자체의 의미를 바꿔버리는 변화를 의미한다. 만약 함수가 퍼시스턴스 레이어에 있는 데이터나 전역 변수에 있는 데이터를 "
+"날려버리거나 저장하는 경우를 말한다."
 
-#: ..\..\writing\structure.rst:257
+#: ../../writing/structure.rst:553
 msgid ""
-"Carefully isolating functions with context and side-effects from functions "
-"with logic (called pure functions) allow the following benefits:"
-msgstr ""
-"함수가 잘 분리되어 있고 부작용도 없는 순수 함수라면 다음과 같은 장점이 있다."
+"Carefully isolating functions with context and side-effects from "
+"functions with logic (called pure functions) allow the following "
+"benefits:"
+msgstr "함수가 잘 분리되어 있고 부작용도 없는 순수 함수라면 다음과 같은 장점이 있다."
 
-#: ..\..\writing\structure.rst:260
+#: ../../writing/structure.rst:556
 msgid ""
 "Pure functions are deterministic: given a fixed input, the output will "
 "always be the same."
-msgstr ""
-""
-"순수 함수는 결정성이 있다. 즉, 같은 입력값이 있으면 언제나 같은 출력값을 낸다. "
+msgstr "순수 함수는 결정성이 있다. 즉, 같은 입력값이 있으면 언제나 같은 출력값을 낸다. "
 
-#: ..\..\writing\structure.rst:263
+#: ../../writing/structure.rst:559
 msgid ""
 "Pure functions are much easier to change or replace if they need to be "
 "refactored or optimized."
-msgstr ""
-"순수 함수는 수정하거나 최적화 작업이 필요할 때 쉽게 수정 및 변경할 수 있다."
+msgstr "순수 함수는 수정하거나 최적화 작업이 필요할 때 쉽게 수정 및 변경할 수 있다."
 
-#: ..\..\writing\structure.rst:266
+#: ../../writing/structure.rst:562
 msgid ""
-"Pure functions are easier to test with unit-tests: There is less need for "
-"complex context setup and data cleaning afterwards."
-msgstr ""
-"순수 함수는 단위 테스트를 하기 쉽다. 즉, 복잡한 테스트 셋업 작업과 데이터 삭제 "
-"작업에 손이 덜 간다."
+"Pure functions are easier to test with unit-tests: There is less need for"
+" complex context setup and data cleaning afterwards."
+msgstr "순수 함수는 단위 테스트를 하기 쉽다. 즉, 복잡한 테스트 셋업 작업과 데이터 삭제 작업에 손이 덜 간다."
 
-#: ..\..\writing\structure.rst:269
-msgid "Pure functions are easier to manipulate, decorate, and pass-around."
-msgstr ""
-"순수 함수는 다루기 쉽고, 기능을 더하기도 쉽고, 없애기도 쉽다."
+#: ../../writing/structure.rst:565
+#, fuzzy
+msgid "Pure functions are easier to manipulate, decorate, and pass around."
+msgstr "순수 함수는 다루기 쉽고, 기능을 더하기도 쉽고, 없애기도 쉽다."
 
-#: ..\..\writing\structure.rst:271
+#: ../../writing/structure.rst:567
+#, fuzzy
 msgid ""
-"In summary, pure functions, without any context or side-effects, are more "
-"efficient building blocks than classes and objects for some architectures."
-msgstr ""
-"요약하자면, 독립적이고 부작용도 없는 순수 함수는 다른 어떠한 아키텍처의 클래스나 "
-"객체보다도 효과적인 구성 요소라고 할 수 있다."
+"In summary, pure functions are more efficient building blocks than "
+"classes and objects for some architectures because they have no context "
+"or side-effects."
+msgstr "요약하자면, 독립적이고 부작용도 없는 순수 함수는 다른 어떠한 아키텍처의 클래스나 객체보다도 효과적인 구성 요소라고 할 수 있다."
 
-#: ..\..\writing\structure.rst:274
+#: ../../writing/structure.rst:570
 msgid ""
-"Obviously, object-orientation is useful and even necessary in many cases, "
-"for example when developing graphical desktop applications or games, where "
-"the things that are manipulated (windows, buttons, avatars, vehicles) have a"
-" relatively long life of their own in the computer's memory."
+"Obviously, object-orientation is useful and even necessary in many cases,"
+" for example when developing graphical desktop applications or games, "
+"where the things that are manipulated (windows, buttons, avatars, "
+"vehicles) have a relatively long life of their own in the computer's "
+"memory."
 msgstr ""
-"분명히 객체지향은 유용하다. 그리고 꼭 필요한 경우가 많다. 예를 들면 "
-"데스크톱 어플리케이션이라든가, 조작 가능한 창, 버튼, 아바타, 탈것이 있는 게임같은 "
-"경우다. 이런 것들은 컴퓨터의 메모리에 비교적 오랫동안 남아있기 때문이다."
+"분명히 객체지향은 유용하다. 그리고 꼭 필요한 경우가 많다. 예를 들면 데스크톱 어플리케이션이라든가, 조작 가능한 창, 버튼, "
+"아바타, 탈것이 있는 게임같은 경우다. 이런 것들은 컴퓨터의 메모리에 비교적 오랫동안 남아있기 때문이다."
 
-#: ..\..\writing\structure.rst:281
+#: ../../writing/structure.rst:577
 msgid "Decorators"
 msgstr "데코레이터"
 
-#: ..\..\writing\structure.rst:283
+#: ../../writing/structure.rst:579
 msgid ""
 "The Python language provides a simple yet powerful syntax called "
-"'decorators'. A decorator is a function or a class that wraps (or decorates)"
-" a function or a method. The 'decorated' function or method will replace the"
-" original 'undecorated' function or method. Because functions are first-"
-"class objects in Python, this can be done 'manually', but using the "
-"@decorator syntax is clearer and thus preferred."
+"'decorators'. A decorator is a function or a class that wraps (or "
+"decorates) a function or a method. The 'decorated' function or method "
+"will replace the original 'undecorated' function or method. Because "
+"functions are first-class objects in Python, this can be done 'manually',"
+" but using the @decorator syntax is clearer and thus preferred."
 msgstr ""
-"파이썬 언어에는 데코레이터라는 이름의 단순하지만 강력한 문법이 있다."
-"데코레이터는 함수나 메소드를 감싸는(장식하는) 함수나 클래스다. "
-"'장식된' 함수나 메소드는 원래의 '장식되지 않은' 함수나 메소드를 대체한다."
-"함수는 파이썬에서 first-class 객체이기 때문이다. 이 작업은 '수작업'으로도 가능하지만 "
-"@decorator 문법을 쓰면 깔끔하게 쓸 수 있다. 그래서 많이들 쓴다."
+"파이썬 언어에는 데코레이터라는 이름의 단순하지만 강력한 문법이 있다.데코레이터는 함수나 메소드를 감싸는(장식하는) 함수나 클래스다."
+" '장식된' 함수나 메소드는 원래의 '장식되지 않은' 함수나 메소드를 대체한다.함수는 파이썬에서 first-class 객체이기 "
+"때문이다. 이 작업은 '수작업'으로도 가능하지만 @decorator 문법을 쓰면 깔끔하게 쓸 수 있다. 그래서 많이들 쓴다."
 
-#: ..\..\writing\structure.rst:306
+#: ../../writing/structure.rst:602
+#, fuzzy
 msgid ""
-"This mechanism is useful for separating concerns and avoiding external un-"
-"related logic 'polluting' the core logic of the function or method. A good "
-"example of a piece of functionality that is better handled with decoration "
-"is memoization or caching: you want to store the results of an expensive "
-"function in a table and use them directly instead of recomputing them when "
-"they have already been computed. This is clearly not part of the function "
-"logic."
+"This mechanism is useful for separating concerns and avoiding external "
+"un-related logic 'polluting' the core logic of the function or method. A "
+"good example of a piece of functionality that is better handled with "
+"decoration is `memoization "
+"<https://en.wikipedia.org/wiki/Memoization#Overview>` or caching: you "
+"want to store the results of an expensive function in a table and use "
+"them directly instead of recomputing them when they have already been "
+"computed. This is clearly not part of the function logic."
 msgstr ""
-"이 방법으로 함수나 메소드의 핵심 로직을 외부의 관련없는 로직이 오염시키는 일을 피할 "
-"수 있기 때문에 유용하다. 예를 들면 데코레이션을 써서 다루는 편이 좋은 기능으로 "
-"메모이제이션과 캐싱을 들 수 있다. 무거운 함수의 결과값을 테이블에 저장한 다음, "
-"이미 처리가 끝난 그 결과값을 재처리 없이 바로 쓸 수 있도록 하는 것이다. 이는 "
-"함수에서 자체적으로 가지고 있어야 할 기능은 아니다."
+"이 방법으로 함수나 메소드의 핵심 로직을 외부의 관련없는 로직이 오염시키는 일을 피할 수 있기 때문에 유용하다. 예를 들면 "
+"데코레이션을 써서 다루는 편이 좋은 기능으로 메모이제이션과 캐싱을 들 수 있다. 무거운 함수의 결과값을 테이블에 저장한 다음, 이미"
+" 처리가 끝난 그 결과값을 재처리 없이 바로 쓸 수 있도록 하는 것이다. 이는 함수에서 자체적으로 가지고 있어야 할 기능은 아니다."
 
-#: ..\..\writing\structure.rst:315
+#: ../../writing/structure.rst:611
+msgid "Context Managers"
+msgstr ""
+
+#: ../../writing/structure.rst:613
+msgid ""
+"A context manager is a Python object that provides extra contextual "
+"information to an action. This extra information takes the form of "
+"running a callable upon initiating the context using the ``with`` "
+"statement, as well as running a callable upon completing all the code "
+"inside the ``with`` block. The most well known example of using a context"
+" manager is shown here, opening on a file:"
+msgstr ""
+
+#: ../../writing/structure.rst:624
+msgid ""
+"Anyone familiar with this pattern knows that invoking ``open`` in this "
+"fashion ensures that ``f``'s ``close`` method will be called at some "
+"point. This reduces a developer's cognitive load and makes the code "
+"easier to read."
+msgstr ""
+
+#: ../../writing/structure.rst:628
+msgid ""
+"There are two easy ways to implement this functionality yourself: using a"
+" class or using a generator. Let's implement the above functionality "
+"ourselves, starting with the class approach:"
+msgstr ""
+
+#: ../../writing/structure.rst:647
+msgid ""
+"This is just a regular Python object with two extra methods that are used"
+" by the ``with`` statement. CustomOpen is first instantiated and then its"
+" ``__enter__`` method is called and whatever ``__enter__`` returns is "
+"assigned to ``f`` in the ``as f`` part of the statement. When the "
+"contents of the ``with`` block is finished executing, the ``__exit__`` "
+"method is then called."
+msgstr ""
+
+#: ../../writing/structure.rst:653
+msgid ""
+"And now the generator approach using Python's own `contextlib "
+"<https://docs.python.org/2/library/contextlib.html>`_:"
+msgstr ""
+
+#: ../../writing/structure.rst:671
+msgid ""
+"This works in exactly the same way as the class example above, albeit "
+"it's more terse. The ``custom_open`` function executes until it reaches "
+"the ``yield`` statement. It then gives control back to the ``with`` "
+"statement, which assigns whatever was ``yield``'ed to `f` in the ``as f``"
+" portion. The ``finally`` clause ensures that ``close()`` is called "
+"whether or not there was an exception inside the ``with``."
+msgstr ""
+
+#: ../../writing/structure.rst:678
+msgid ""
+"Since the two approaches appear the same, we should follow the Zen of "
+"Python to decide when to use which. The class approach might be better if"
+" there's a considerable amount of logic to encapsulate. The function "
+"approach might be better for situations where we're dealing with a simple"
+" action."
+msgstr ""
+
+#: ../../writing/structure.rst:684
 msgid "Dynamic typing"
 msgstr "동적 타입"
 
-#: ..\..\writing\structure.rst:317
+#: ../../writing/structure.rst:686
+#, fuzzy
 msgid ""
-"Python is said to be dynamically typed, which means that variables do not "
-"have a fixed type. In fact, in Python, variables are very different from "
-"what they are in many other languages, specifically statically-typed "
-"languages. Variables are not a segment of the computer's memory where some "
-"value is written, they are 'tags' or 'names' pointing to objects. It is "
-"therefore possible for the variable 'a' to be set to the value 1, then to "
-"the value 'a string', then to a function."
+"Python is dynamically typed, which means that variables do not have a "
+"fixed type. In fact, in Python, variables are very different from what "
+"they are in many other languages, specifically statically-typed "
+"languages. Variables are not a segment of the computer's memory where "
+"some value is written, they are 'tags' or 'names' pointing to objects. It"
+" is therefore possible for the variable 'a' to be set to the value 1, "
+"then to the value 'a string', then to a function."
 msgstr ""
-"파이썬은 동적 타입이 되는 언어라고 불린다. 이 말은 변수가 고정된 타입을 가지고 있지 "
-"않다는 뜻이다. 사실 파이썬의 변수는 다른 수많은 언어, 특히 정적 타입 언어의"
-" 변수와는 아주 다르다. 파이썬의 변수는 어떤 값이 쓰여지면 '태그'나 '이름'이 그 객체를"
-" 가리키는 컴퓨터 메모리의 한 조각이 아니다. 그렇기 때문에 변수 'a'가 값 1을 가진 다음, "
-"값 'a string'을 가지고, 또 함수가 될 수도 있는 것이다."
+"파이썬은 동적 타입이 되는 언어라고 불린다. 이 말은 변수가 고정된 타입을 가지고 있지 않다는 뜻이다. 사실 파이썬의 변수는 다른 "
+"수많은 언어, 특히 정적 타입 언어의 변수와는 아주 다르다. 파이썬의 변수는 어떤 값이 쓰여지면 '태그'나 '이름'이 그 객체를 "
+"가리키는 컴퓨터 메모리의 한 조각이 아니다. 그렇기 때문에 변수 'a'가 값 1을 가진 다음, 값 'a string'을 가지고, 또"
+" 함수가 될 수도 있는 것이다."
 
-#: ..\..\writing\structure.rst:325
+#: ../../writing/structure.rst:693
 msgid ""
 "The dynamic typing of Python is often considered to be a weakness, and "
-"indeed it can lead to complexities and hard-to-debug code. Something named "
-"'a' can be set to many different things, and the developer or the maintainer"
-" needs to track this name in the code to make sure it has not been set to a "
-"completely unrelated object."
+"indeed it can lead to complexities and hard-to-debug code. Something "
+"named 'a' can be set to many different things, and the developer or the "
+"maintainer needs to track this name in the code to make sure it has not "
+"been set to a completely unrelated object."
 msgstr ""
-"동적 타입은 종종 파이썬의 약점으로 여겨지기도 한다. 실제로 동적 타입은 코드를 "
-"복잡하게 만들고 디버깅하기 어렵게 만든다. 'a'라는 이름이 너무나 많은 것이 될 수 "
-"있기 때문에 개발자나 유지보수 담당자는 이 이름이 어떻게 쓰이는지, 문제와 "
-"무관한 객체인지를 확인하기 위해 코드 전체를 뒤져야 한다."
+"동적 타입은 종종 파이썬의 약점으로 여겨지기도 한다. 실제로 동적 타입은 코드를 복잡하게 만들고 디버깅하기 어렵게 만든다. "
+"'a'라는 이름이 너무나 많은 것이 될 수 있기 때문에 개발자나 유지보수 담당자는 이 이름이 어떻게 쓰이는지, 문제와 무관한 "
+"객체인지를 확인하기 위해 코드 전체를 뒤져야 한다."
 
-#: ..\..\writing\structure.rst:331
+#: ../../writing/structure.rst:699
 msgid "Some guidelines help to avoid this issue:"
-msgstr ""
-"이러한 문제를 피하기 위한 가이드라인을 소개한다."
+msgstr "이러한 문제를 피하기 위한 가이드라인을 소개한다."
 
-#: ..\..\writing\structure.rst:333
+#: ../../writing/structure.rst:701
 msgid "Avoid using the same variable name for different things."
 msgstr "다른 것에 같은 변수명을 붙이지 마라."
 
-#: ..\..\writing\structure.rst:335 ..\..\writing\structure.rst:359
-#: ..\..\writing\structure.rst:423
+#: ../../writing/structure.rst:703 ../../writing/structure.rst:727
+#: ../../writing/structure.rst:790
 msgid "**Bad**"
 msgstr "**나쁜 예**"
 
-#: ..\..\writing\structure.rst:344 ..\..\writing\structure.rst:433
+#: ../../writing/structure.rst:712 ../../writing/structure.rst:800
 msgid "**Good**"
 msgstr "**좋은 예**"
 
-#: ..\..\writing\structure.rst:353
+#: ../../writing/structure.rst:721
 msgid ""
 "Using short functions or methods helps reduce the risk of using the same "
 "name for two unrelated things."
-msgstr ""
-"메소드나 함수를 짧게 쓰는 방법은 상관없는 것들에게 같은 이름을 붙이는 위험을 줄일 "
-"수 있다."
+msgstr "메소드나 함수를 짧게 쓰는 방법은 상관없는 것들에게 같은 이름을 붙이는 위험을 줄일 수 있다."
 
-#: ..\..\writing\structure.rst:356
+#: ../../writing/structure.rst:724
 msgid ""
-"It is better to use different names even for things that are related, when "
-"they have a different type:"
-msgstr ""
-"관련된 것이라고 해도 다른 타입을 가진다면 다른 이름을 붙이는 편이 좋다."
+"It is better to use different names even for things that are related, "
+"when they have a different type:"
+msgstr "관련된 것이라고 해도 다른 타입을 가진다면 다른 이름을 붙이는 편이 좋다."
 
-#: ..\..\writing\structure.rst:367
+#: ../../writing/structure.rst:735
 msgid ""
-"There is no efficiency gain when reusing names: the assignments will have to"
-" create new objects anyway. However, when the complexity grows and each "
-"assignment is separated by other lines of code, including 'if' branches and "
-"loops, it becomes harder to ascertain what a given variable's type is."
+"There is no efficiency gain when reusing names: the assignments will have"
+" to create new objects anyway. However, when the complexity grows and "
+"each assignment is separated by other lines of code, including 'if' "
+"branches and loops, it becomes harder to ascertain what a given "
+"variable's type is."
 msgstr ""
-"한 번 쓴 이름을 재활용 하는 것은 비효율적이다. 대입문은 반드시 새로운 객체를 만들어야 "
-"한다. 하지만 너무 복잡해지고, 'if' 분기와 반복절이 들어가서 코드가 여러 줄로 쪼개지면 "
-"변수가 어떤 타입인지 확인하기 어려워진다."
+"한 번 쓴 이름을 재활용 하는 것은 비효율적이다. 대입문은 반드시 새로운 객체를 만들어야 한다. 하지만 너무 복잡해지고, 'if' "
+"분기와 반복절이 들어가서 코드가 여러 줄로 쪼개지면 변수가 어떤 타입인지 확인하기 어려워진다."
 
-#: ..\..\writing\structure.rst:373
+#: ../../writing/structure.rst:741
 msgid ""
 "Some coding practices, like functional programming, recommend never "
 "reassigning a variable. In Java this is done with the `final` keyword. "
 "Python does not have a `final` keyword and it would be against its "
-"philosophy anyway. However, it may be a good discipline to avoid assigning "
-"to a variable more than once, and it helps in grasping the concept of "
-"mutable and immutable types."
+"philosophy anyway. However, it may be a good discipline to avoid "
+"assigning to a variable more than once, and it helps in grasping the "
+"concept of mutable and immutable types."
 msgstr ""
-"함수형 프로그래밍의 코딩 습관처럼 재할당이 불가능한 변수의 사용을 추천한다. "
-"자바에서는 `final` 키워드로 가능하다. 파이썬은 `final` 키워드가 없고, "
-"또한 이러한 방법은 파이썬의 철학에 반하는 일이다. 하지만 변수를 한 번 이상 "
-"재할당하지 않는 것은 좋은 습관이며, 가변 타입과 불변 타입을 이해하는데 "
-"도움이 될 것이다."
+"함수형 프로그래밍의 코딩 습관처럼 재할당이 불가능한 변수의 사용을 추천한다. 자바에서는 `final` 키워드로 가능하다. 파이썬은 "
+"`final` 키워드가 없고, 또한 이러한 방법은 파이썬의 철학에 반하는 일이다. 하지만 변수를 한 번 이상 재할당하지 않는 것은 "
+"좋은 습관이며, 가변 타입과 불변 타입을 이해하는데 도움이 될 것이다."
 
-#: ..\..\writing\structure.rst:380
+#: ../../writing/structure.rst:748
 msgid "Mutable and immutable types"
 msgstr "가변 타입과 불변 타입"
 
-#: ..\..\writing\structure.rst:382
+#: ../../writing/structure.rst:750
 msgid "Python has two kinds of built-in or user-defined types."
 msgstr "파이썬에는 내장 타입과 사용자 정의 타입이 있다."
 
-#: ..\..\writing\structure.rst:384
+#: ../../writing/structure.rst:752
 msgid ""
 "Mutable types are those that allow in-place modification of the content. "
 "Typical mutables are lists and dictionaries: All lists have mutating "
 "methods, like :py:meth:`list.append` or :py:meth:`list.pop`, and can be "
 "modified in place. The same goes for dictionaries."
 msgstr ""
-"가변 타입은 내부에서 자체적으로 변경이 가능하다. "
-"일반적인 가변 타입은 리스트와 딕셔너리다. 모든 리스트에는 "
-" :py:meth:`list.append` 나 :py:meth:`list.pop` 처럼 자체적으로 변경 가능한 "
-"메소드가 있다. 딕셔너리도 마찬가지다. "
+"가변 타입은 내부에서 자체적으로 변경이 가능하다. 일반적인 가변 타입은 리스트와 딕셔너리다. 모든 리스트에는  "
+":py:meth:`list.append` 나 :py:meth:`list.pop` 처럼 자체적으로 변경 가능한 메소드가 있다. "
+"딕셔너리도 마찬가지다. "
 
-#: ..\..\writing\structure.rst:389
+#: ../../writing/structure.rst:757
 msgid ""
-"Immutable types provide no method for changing their content. For instance, "
-"the variable x set to the integer 6 has no \"increment\" method. If you want"
-" to compute x + 1, you have to create another integer and give it a name."
+"Immutable types provide no method for changing their content. For "
+"instance, the variable x set to the integer 6 has no \"increment\" "
+"method. If you want to compute x + 1, you have to create another integer "
+"and give it a name."
 msgstr ""
-"불변 타입은 자체적으로 내용을 바꾸는 메소드를 제공하지 않는다. 예를 들면 "
-"integer 6으로 설정된 변수 x에는  \"increment\" 가 없다. 만약 x에 1을 더하고 "
-"싶다면 다른 integer 변수를 만들어서 이름을 부여해야 한다. "
+"불변 타입은 자체적으로 내용을 바꾸는 메소드를 제공하지 않는다. 예를 들면 integer 6으로 설정된 변수 x에는  "
+"\"increment\" 가 없다. 만약 x에 1을 더하고 싶다면 다른 integer 변수를 만들어서 이름을 부여해야 한다. "
 
-#: ..\..\writing\structure.rst:403
+#: ../../writing/structure.rst:770
 msgid ""
-"One consequence of this difference in behavior is that mutable types are not"
-" \"stable\", and therefore cannot be used as dictionary keys."
-msgstr ""
-"이러한 차이 때문에 가변 타입은  \"안정적\" 이지 못해서 딕셔너리 키로 쓸 수 없다."
+"One consequence of this difference in behavior is that mutable types are "
+"not \"stable\", and therefore cannot be used as dictionary keys."
+msgstr "이러한 차이 때문에 가변 타입은  \"안정적\" 이지 못해서 딕셔너리 키로 쓸 수 없다."
 
-#: ..\..\writing\structure.rst:407
+#: ../../writing/structure.rst:774
 msgid ""
 "Using properly mutable types for things that are mutable in nature and "
 "immutable types for things that are fixed in nature helps to clarify the "
 "intent of the code."
 msgstr ""
-"원래부터 가변적인 것에는 가변 타입을 적절히 사용하고, "
-"원래부터 변하지 않는 것에는 불변 타입을 적절히 사용하는 방법이 "
-"코드의 목적을 명확히 하는데 도움이 된다."
+"원래부터 가변적인 것에는 가변 타입을 적절히 사용하고, 원래부터 변하지 않는 것에는 불변 타입을 적절히 사용하는 방법이 코드의 "
+"목적을 명확히 하는데 도움이 된다."
 
-#: ..\..\writing\structure.rst:411
+#: ../../writing/structure.rst:778
 msgid ""
-"For example, the immutable equivalent of a list is the tuple, created with "
-"``(1, 2)``. This tuple is a pair that cannot be changed in-place, and can be"
-" used as a key for a dictionary."
+"For example, the immutable equivalent of a list is the tuple, created "
+"with ``(1, 2)``. This tuple is a pair that cannot be changed in-place, "
+"and can be used as a key for a dictionary."
 msgstr ""
-"예를 들면, 튜플은 리스트와 비슷하지만 변경이 불가능하다. ``(1, 2)`` 로 만든다. "
-"튜플은 자체적으로 변경이 불가능하면서, 딕셔너리의 키로 사용할 수 있다."
+"예를 들면, 튜플은 리스트와 비슷하지만 변경이 불가능하다. ``(1, 2)`` 로 만든다. 튜플은 자체적으로 변경이 불가능하면서, "
+"딕셔너리의 키로 사용할 수 있다."
 
-#: ..\..\writing\structure.rst:415
+#: ../../writing/structure.rst:782
 msgid ""
-"One peculiarity of Python that can surprise beginners is that strings are "
-"immutable. This means that when constructing a string from its parts, it is "
-"much more efficient to accumulate the parts in a list, which is mutable, and"
-" then glue ('join') the parts together when the full string is needed. One "
-"thing to notice, however, is that list comprehensions are better and faster "
-"than constructing a list in a loop with calls to ``append()``."
+"One peculiarity of Python that can surprise beginners is that strings are"
+" immutable. This means that when constructing a string from its parts, it"
+" is much more efficient to accumulate the parts in a list, which is "
+"mutable, and then glue ('join') the parts together when the full string "
+"is needed. One thing to notice, however, is that list comprehensions are "
+"better and faster than constructing a list in a loop with calls to "
+"``append()``."
 msgstr ""
-"초보자가 깜짝 놀랄만한 파이썬의 특이한 점은 문자열이 변경 불가능하다는 점이다."
-"이는 문자열의 일부를 다시 만들고 싶을 때, 애시당초 리스트로 만들어서 그 일부를 "
-"변경하는 편이 효율적이라는 뜻이다. 리스트는 변경 가능하고, 전체 문자열이 필요하면 "
-"('join')을 사용하여 한데 이어 붙일 수 있기 때문이다. 하지만 한가지 알아둬야 할 점은 "
-"반복문에서 ``append()`` 메소드를 호출해 리스트를 만드는 것보다 "
-"리스트 컴프리헨션(list comprehension)을 쓰는 편이 더 좋고 빠르다는 것이다."
+"초보자가 깜짝 놀랄만한 파이썬의 특이한 점은 문자열이 변경 불가능하다는 점이다.이는 문자열의 일부를 다시 만들고 싶을 때, 애시당초"
+" 리스트로 만들어서 그 일부를 변경하는 편이 효율적이라는 뜻이다. 리스트는 변경 가능하고, 전체 문자열이 필요하면 ('join')을"
+" 사용하여 한데 이어 붙일 수 있기 때문이다. 하지만 한가지 알아둬야 할 점은 반복문에서 ``append()`` 메소드를 호출해 "
+"리스트를 만드는 것보다 리스트 컴프리헨션(list comprehension)을 쓰는 편이 더 좋고 빠르다는 것이다."
 
-#: ..\..\writing\structure.rst:451
+#: ../../writing/structure.rst:818
 msgid ""
 "One final thing to mention about strings is that using ``join()`` is not "
 "always best. In the instances where you are creating a new string from a "
-"pre-determined number of strings, using the addition operator is actually "
-"faster, but in cases like above or in cases where you are adding to an "
+"pre-determined number of strings, using the addition operator is actually"
+" faster, but in cases like above or in cases where you are adding to an "
 "existing string, using ``join()`` should be your preferred method."
 msgstr ""
-"문자열에 대해 마지막으로 말할 것은  ``join()`` 을 쓰는게 항상 좋지는 않다는 것이다."
-" 문자열이 몇 개 있을지 미리 정해져 있는 상태에서 새로운 문자열을 만들 때는 "
-"더하기 연산자를 쓰는 편이 실제로 더 빠르다."
-" 하지만 문자열이 몇 개 있을지 정해져 있지 않거나, 이미 만들어진 문자열에 추가로 "
-"문자열을 더할 때는  ``join()`` 을 쓰는 편을 선호하게 될 것이다. "
+"문자열에 대해 마지막으로 말할 것은  ``join()`` 을 쓰는게 항상 좋지는 않다는 것이다. 문자열이 몇 개 있을지 미리 정해져"
+" 있는 상태에서 새로운 문자열을 만들 때는 더하기 연산자를 쓰는 편이 실제로 더 빠르다. 하지만 문자열이 몇 개 있을지 정해져 있지"
+" 않거나, 이미 만들어진 문자열에 추가로 문자열을 더할 때는  ``join()`` 을 쓰는 편을 선호하게 될 것이다. "
 
-#: ..\..\writing\structure.rst:467
+#: ../../writing/structure.rst:834
+#, fuzzy
 msgid ""
-"You can also use the :ref:`% <python:string-formatting>` formatting operator"
-" to concatenate a pre-determined number of strings besides "
-":py:meth:`str.join` and ``+``. However, according to :pep:`3101`, the ``%`` "
-"operator became deprecated in Python 3.1 and will be replaced by the "
-":py:meth:`str.format` method in the later versions."
+"You can also use the :ref:`% <python:string-formatting>` formatting "
+"operator to concatenate a pre-determined number of strings besides "
+":py:meth:`str.join` and ``+``. However, :pep:`3101`, discourages the "
+"usage of the ``%`` operator in favor of the :py:meth:`str.format` method."
 msgstr ""
-"또한 :py:meth:`str.join` 와   ``+`` 외에 "
-"포맷 연산자 :ref:`% <python:string-formatting>` 를 써서 "
-"미리 정해진 숫자의 문자열에 붙이는 방법을 쓸 수도 있다. "
-"하지만  :pep:`3101` 에 따르면  ``%`` 연산자는 파이썬 3.1에서는 사라졌고 "
-"최신 버전에서는 :py:meth:`str.format` 로 대체될 것이라고 한다."
+"또한 :py:meth:`str.join` 와   ``+`` 외에 포맷 연산자 :ref:`% <python:string-"
+"formatting>` 를 써서 미리 정해진 숫자의 문자열에 붙이는 방법을 쓸 수도 있다. 하지만  :pep:`3101` 에 따르면"
+"  ``%`` 연산자는 파이썬 3.1에서는 사라졌고 최신 버전에서는 :py:meth:`str.format` 로 대체될 것이라고 "
+"한다."
 
-#: ..\..\writing\structure.rst:484
+#: ../../writing/structure.rst:850
 msgid "Vendorizing Dependencies"
 msgstr "Vendorizing Dependencies"
 
-#: ..\..\writing\structure.rst:488
+#: ../../writing/structure.rst:854
 msgid "Runners"
 msgstr "Runners"
 
-#: ..\..\writing\structure.rst:492
+#: ../../writing/structure.rst:858
 msgid "Further Reading"
 msgstr "더 알아보기"
 
-#: ..\..\writing\structure.rst:494
+#: ../../writing/structure.rst:860
 msgid "http://docs.python.org/2/library/"
 msgstr "http://docs.python.org/2/library/"
 
-#: ..\..\writing\structure.rst:495
+#: ../../writing/structure.rst:861
 msgid "http://www.diveintopython.net/toc/index.html"
 msgstr "http://www.diveintopython.net/toc/index.html"
+

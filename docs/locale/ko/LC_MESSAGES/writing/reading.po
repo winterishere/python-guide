@@ -1,103 +1,123 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: pythonguide 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-11-30 22:28\n"
+"POT-Creation-Date: 2016-10-11 08:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
 
-#: ..\..\writing\reading.rst:2
+#: ../../writing/reading.rst:2
 msgid "Reading Great Code"
 msgstr ""
 
-#: ..\..\writing\reading.rst:4
+#: ../../writing/reading.rst:4
 msgid ""
-"One of the core tenants behind the design of Python is creating readable "
-"code. The motivation behind this design is simple: The number one thing that"
-" Python programmers do is read code."
+"One of the core tenets behind the design of Python is creating readable "
+"code. The motivation behind this design is simple: The number one thing "
+"that Python programmers do is read code."
 msgstr ""
 
-#: ..\..\writing\reading.rst:8
+#: ../../writing/reading.rst:8
 msgid ""
 "One of the secrets of becoming a great Python programmer is to read, "
 "understand, and comprehend excellent code."
 msgstr ""
 
-#: ..\..\writing\reading.rst:11
+#: ../../writing/reading.rst:19
 msgid ""
 "Excellent code typically follows the guidelines outlined in "
-":ref:`code_style`, and does its best to express a clear and concise intent "
-"to the reader."
+":ref:`code_style`, and does its best to express a clear and concise "
+"intent to the reader."
 msgstr ""
 
-#: ..\..\writing\reading.rst:15
+#: ../../writing/reading.rst:23
 msgid ""
-"Included below is a list of recommended Python projects for reading. Each "
-"one of these projects is a paragon of Python coding."
+"Included below is a list of recommended Python projects for reading. Each"
+" one of these projects is a paragon of Python coding."
 msgstr ""
 
-#: ..\..\writing\reading.rst:18
+#: ../../writing/reading.rst:26
 msgid ""
-"`Howdoi <https://github.com/gleitz/howdoi>`_ Howdoi is a code search tool, "
-"written in Python."
+"`Howdoi <https://github.com/gleitz/howdoi>`_ Howdoi is a code search "
+"tool, written in Python."
 msgstr ""
 
-#: ..\..\writing\reading.rst:21
+#: ../../writing/reading.rst:29
 msgid ""
-"`Flask <https://github.com/mitsuhiko/flask>`_ Flask is a microframework for "
-"Python based on Werkzeug and Jinja2. It's intended for getting started very "
-"quickly and was developed with best intentions in mind."
+"`Flask <https://github.com/mitsuhiko/flask>`_ Flask is a microframework "
+"for Python based on Werkzeug and Jinja2. It's intended for getting "
+"started very quickly and was developed with best intentions in mind."
 msgstr ""
 
-#: ..\..\writing\reading.rst:26
+#: ../../writing/reading.rst:34
+msgid ""
+"`Diamond <https://github.com/python-diamond/Diamond>`_ Diamond is a "
+"python daemon that collects metrics and publishes them to Graphite or "
+"other backends. It is capable of collecting cpu, memory, network, i/o, "
+"load and disk metrics. Additionally, it features an API for implementing "
+"custom collectors for gathering metrics from almost any source."
+msgstr ""
+
+#: ../../writing/reading.rst:41
 msgid ""
 "`Werkzeug <https://github.com/mitsuhiko/werkzeug>`_ Werkzeug started as "
-"simple collection of various utilities for WSGI applications and has become "
-"one of the most advanced WSGI utility modules. It includes a powerful "
-"debugger, full-featured request and response objects, HTTP utilities to "
-"handle entity tags, cache control headers, HTTP dates, cookie handling, file"
-" uploads, a powerful URL routing system and a bunch of community-contributed"
-" addon modules."
+"simple collection of various utilities for WSGI applications and has "
+"become one of the most advanced WSGI utility modules. It includes a "
+"powerful debugger, full-featured request and response objects, HTTP "
+"utilities to handle entity tags, cache control headers, HTTP dates, "
+"cookie handling, file uploads, a powerful URL routing system and a bunch "
+"of community-contributed addon modules."
 msgstr ""
 
-#: ..\..\writing\reading.rst:34
+#: ../../writing/reading.rst:49
 msgid ""
 "`Requests <https://github.com/kennethreitz/requests>`_ Requests is an "
 "Apache2 Licensed HTTP library, written in Python, for human beings."
 msgstr ""
 
-#: ..\..\writing\reading.rst:38
+#: ../../writing/reading.rst:53
 msgid ""
 "`Tablib <https://github.com/kennethreitz/tablib>`_ Tablib is a format-"
 "agnostic tabular dataset library, written in Python."
 msgstr ""
 
-#: ..\..\writing\reading.rst:41
-msgid ""
-"Embed and explain YouTube video showing python code reading: "
-"http://www.youtube.com/watch?v=Jc8M9-LoEuo This may require installing a "
-"Sphinx plugin. https://bitbucket.org/birkenfeld/sphinx-"
-"contrib/src/a09f29fc16970f34350ca36ac7f229e00b1b1674/youtube?at=default"
+#: ../../writing/reading.rst
+msgid "Todo"
 msgstr ""
 
-#: ..\..\writing\reading.rst:43
+#: ../../writing/reading.rst:57
 msgid ""
-"Include code examples of exemplary code from each of the projects listed. "
-"Explain why it is excellent code. Use complex examples."
+"Include code examples of exemplary code from each of the projects listed."
+" Explain why it is excellent code. Use complex examples."
 msgstr ""
 
-#: ..\..\writing\reading.rst:45
+#: ../../writing/reading.rst:59
 msgid ""
 "Explain techniques to rapidly identify data structures, algorithms and "
 "determine what the code is doing."
 msgstr ""
 
-#: ..\..\writing\reading.rst:0 ..\..\writing\reading.rst:0
-#: ..\..\writing\reading.rst:0
-msgid "Todo"
-msgstr ""
+#~ msgid ""
+#~ "One of the core tenants behind the"
+#~ " design of Python is creating "
+#~ "readable code. The motivation behind "
+#~ "this design is simple: The number "
+#~ "one thing that Python programmers do "
+#~ "is read code."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Embed and explain YouTube video showing"
+#~ " python code reading: "
+#~ "http://www.youtube.com/watch?v=Jc8M9-LoEuo This may "
+#~ "require installing a Sphinx plugin. "
+#~ "https://bitbucket.org/birkenfeld/sphinx-"
+#~ "contrib/src/a09f29fc16970f34350ca36ac7f229e00b1b1674/youtube?at=default"
+#~ msgstr ""
+
