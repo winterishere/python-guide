@@ -1,15 +1,16 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: pythonguide 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-11-30 22:28\n"
+"POT-Creation-Date: 2016-10-11 08:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
 
 #: ../../scenarios/cli.rst:2
 msgid "Command-line Applications"
@@ -18,12 +19,12 @@ msgstr ""
 #: ../../scenarios/cli.rst:4
 msgid ""
 "Command-line applications, also referred to as `Console Applications "
-"<http://en.wikipedia.org/wiki/Console_application>`_, are computer programs "
-"designed to be used from a text interface, such as a `shell "
+"<http://en.wikipedia.org/wiki/Console_application>`_, are computer "
+"programs designed to be used from a text interface, such as a `shell "
 "<http://en.wikipedia.org/wiki/Shell_(computing)>`_. Command-line "
-"applications usually accept various inputs as arguments, often referred to "
-"as parameters or sub-commands, as well as options, often referred to as "
-"flags or switches."
+"applications usually accept various inputs as arguments, often referred "
+"to as parameters or sub-commands, as well as options, often referred to "
+"as flags or switches."
 msgstr ""
 
 #: ../../scenarios/cli.rst:12
@@ -37,14 +38,13 @@ msgid ""
 msgstr ""
 
 #: ../../scenarios/cli.rst:15
-msgid ""
-"`curl <http://curl.haxx.se/>`_ - A tool for data transfer with URL syntax"
+msgid "`curl <http://curl.haxx.se/>`_ - A tool for data transfer with URL syntax"
 msgstr ""
 
 #: ../../scenarios/cli.rst:16
 msgid ""
-"`httpie <https://github.com/jakubroztocil/httpie>`_ - A command line HTTP "
-"client, a user-friendly cURL replacement"
+"`httpie <https://github.com/jakubroztocil/httpie>`_ - A command line HTTP"
+" client, a user-friendly cURL replacement"
 msgstr ""
 
 #: ../../scenarios/cli.rst:18
@@ -53,8 +53,8 @@ msgstr ""
 
 #: ../../scenarios/cli.rst:19
 msgid ""
-"`mercurial <http://mercurial.selenic.com/>`_ - A distributed version control"
-" system primarily written in Python"
+"`mercurial <http://mercurial.selenic.com/>`_ - A distributed version "
+"control system primarily written in Python"
 msgstr ""
 
 #: ../../scenarios/cli.rst:23
@@ -63,10 +63,11 @@ msgstr ""
 
 #: ../../scenarios/cli.rst:25
 msgid ""
-"`clint <https://pypi.python.org/pypi/clint/>`_ is a Python module which is "
-"filled with very useful tools for developing command-line applications. It "
-"supports features such as; CLI colors and indents, simple and powerful "
-"column printer, iterator based progress bars and implicit argument handling."
+"`clint <https://pypi.python.org/pypi/clint/>`_ is a Python module which "
+"is filled with very useful tools for developing command-line "
+"applications. It supports features such as; CLI colors and indents, "
+"simple and powerful column printer, iterator based progress bars and "
+"implicit argument handling."
 msgstr ""
 
 #: ../../scenarios/cli.rst:31
@@ -76,9 +77,9 @@ msgstr ""
 #: ../../scenarios/cli.rst:33
 msgid ""
 "`click <http://click.pocoo.org/>`_ is an upcoming Python package for "
-"creating command-line interfaces in a composable way with as little code as "
-"possible. This “Command-line Interface Creation Kit” is highly configurable "
-"but comes with good defaults out of the box."
+"creating command-line interfaces in a composable way with as little code "
+"as possible. This “Command-line Interface Creation Kit” is highly "
+"configurable but comes with good defaults out of the box."
 msgstr ""
 
 #: ../../scenarios/cli.rst:39
@@ -100,12 +101,12 @@ msgstr ""
 msgid ""
 "`Plac <https://pypi.python.org/pypi/plac>`_ is a simple wrapper over the "
 "Python standard library `argparse "
-"<http://docs.python.org/2/library/argparse.html>`_, which hides most of its "
-"complexity by using a declarative interface: the argument parser is inferred"
-" rather than written down by imperatively. This module targets especially "
-"unsophisticated users, programmers, sys-admins, scientists and in general "
-"people writing throw-away scripts for themselves, who choose to create a "
-"command-line interface because it is quick and simple."
+"<http://docs.python.org/2/library/argparse.html>`_, which hides most of "
+"its complexity by using a declarative interface: the argument parser is "
+"inferred rather than written down by imperatively. This module targets "
+"especially unsophisticated users, programmers, sys-admins, scientists and"
+" in general people writing throw-away scripts for themselves, who choose "
+"to create a command-line interface because it is quick and simple."
 msgstr ""
 
 #: ../../scenarios/cli.rst:57
@@ -114,10 +115,25 @@ msgstr ""
 
 #: ../../scenarios/cli.rst:59
 msgid ""
-"`Cliff <https://cliff.readthedocs.org/en/latest>`_  is a framework for "
-"building command-line programs. It uses setuptools entry points to provide "
-"subcommands, output formatters, and other extensions. The framework is meant"
-" to be used to create multi-level commands such as subversion and git, where"
-" the main program handles some basic argument parsing and then invokes a "
-"sub-command to do the work."
+"`Cliff <http://docs.openstack.org/developer/cliff/>`_  is a framework for"
+" building command-line programs. It uses setuptools entry points to "
+"provide subcommands, output formatters, and other extensions. The "
+"framework is meant to be used to create multi-level commands such as "
+"subversion and git, where the main program handles some basic argument "
+"parsing and then invokes a sub-command to do the work."
 msgstr ""
+
+#~ msgid ""
+#~ "`Cliff <https://cliff.readthedocs.org/en/latest>`_  is "
+#~ "a framework for building command-line"
+#~ " programs. It uses setuptools entry "
+#~ "points to provide subcommands, output "
+#~ "formatters, and other extensions. The "
+#~ "framework is meant to be used to"
+#~ " create multi-level commands such as"
+#~ " subversion and git, where the main"
+#~ " program handles some basic argument "
+#~ "parsing and then invokes a sub-"
+#~ "command to do the work."
+#~ msgstr ""
+
