@@ -6,9 +6,10 @@ avoids surprises. However, there are a few cases that can be confusing to
 newcomers.
 
 Some of these cases are intentional but can be potentially surprising. Some
-could arguably be considered language warts. In general though, what follows is a collection
-of potentially tricky behavior that might seem strange at first glance, but is
-generally sensible once you're aware of the underlying cause for the surprise.
+could arguably be considered language warts. In general, what follows
+is a collection of potentially tricky behavior that might seem strange at first
+glance, but is generally sensible once you're aware of the underlying cause for
+the surprise.
 
 
 .. _default_args:
@@ -22,7 +23,7 @@ Python's treatment of mutable default arguments in function definitions.
 What You Wrote
 ~~~~~~~~~~~~~~
 
-.. testcode::
+.. code-block:: python
 
     def append_to(element, to=[]):
         to.append(element)
@@ -31,7 +32,7 @@ What You Wrote
 What You Might Have Expected to Happen
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. testcode::
+.. code-block:: python
 
     my_list = append_to(12)
     print my_list
@@ -139,7 +140,8 @@ completed and ``i`` is left with its final value of 4.
 What's particularly nasty about this gotcha is the seemingly prevalent
 misinformation that this has something to do with :ref:`lambdas <python:lambda>`
 in Python. Functions created with a ``lambda`` expression are in no way special,
-and in fact the same exact behavior is exhibited by just using an ordinary ``def``:
+and in fact the same exact behavior is exhibited by just using an ordinary
+``def``:
 
 .. code-block:: python
 
@@ -179,6 +181,61 @@ Alternatively, you can use the functools.partial function:
 When the Gotcha Isn't a Gotcha
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Sometimes you want your closures to behave this way. Late binding is good in lots of
-situations. Looping to create unique functions is unfortunately a case where
-they can cause hiccups.
+Sometimes you want your closures to behave this way. Late binding is good in
+lots of situations. Looping to create unique functions is unfortunately a case
+where they can cause hiccups.
+
+
+
+Bytecode (.pyc) Files Everywhere!
+---------------------------------
+
+By default, when executing Python code from files, the Python interpreter
+will automatically write a bytecode version of that file to disk, e.g.
+``module.pyc``.
+
+These ``.pyc`` files should not be checked into your source code repositories.
+
+Theoretically, this behavior is on by default, for performance reasons.
+Without these bytecode files present, Python would re-generate the bytecode
+every time the file is loaded.
+
+
+Disabling Bytecode (.pyc) Files
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Luckily, the process of generating the bytecode is extremely fast, and isn't
+something you need to worry about while developing your code.
+
+Those files are annoying, so let's get rid of them!
+
+::
+
+    $ export PYTHONDONTWRITEBYTECODE=1
+
+With the ``$PYTHONDONTWRITEBYTECODE`` environment variable set, Python will
+no longer write these files to disk, and your development environment will
+remain nice and clean.
+
+I recommend setting this environment variable in your ``~/.profile``.
+
+Removing Bytecode (.pyc) Files
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Here's nice trick for removing all of these files, if they already exist::
+
+    $ find . -name "*.pyc" -delete
+
+Run that from the root directory of your project, and all ``.pyc`` files
+will suddenly vanish. Much better.
+
+
+
+
+
+
+
+
+
+
+

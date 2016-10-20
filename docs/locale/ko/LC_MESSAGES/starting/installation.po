@@ -1,15 +1,16 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: pythonguide 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-11-30 22:28\n"
+"POT-Creation-Date: 2016-10-11 08:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: YoungSeon.Ahn <lovemewithoutall@lgcns.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
 
 #: ../../starting/installation.rst:2
 msgid "Properly Installing Python"
@@ -17,45 +18,48 @@ msgstr "올바른 파이썬 설치"
 
 #: ../../starting/installation.rst:4
 msgid ""
-"There's a good chance that you already have Python on your operating system."
-msgstr "운좋게도 이미 파이썬이 당신의 운영체제에 설치되어 있을 수도 있다."
+"There's a good chance that you already have Python on your operating "
+"system."
+msgstr "운좋게도 이미 파이썬이 당신의 운영체제에 설치되어 있을 수도 있습니다."
 
 #: ../../starting/installation.rst:6
 msgid ""
-"If so, you do not need to install or configure anything else to use Python. "
-"Having said that, I would strongly recommend that you install the tools and "
-"libraries described in the guides below before you start building Python "
-"applications for real-world use. In particular, you should always install "
-"Setuptools, Pip, and Virtualenv — they make it much easier for you to use "
-"other third-party Python libraries."
+"If so, you do not need to install or configure anything else to use "
+"Python. Having said that, I would strongly recommend that you install the"
+" tools and libraries described in the guides below before you start "
+"building Python applications for real-world use. In particular, you "
+"should always install Setuptools, Pip, and Virtualenv — they make it much"
+" easier for you to use other third-party Python libraries."
 msgstr ""
-"만일 그렇다면 파이썬을 사용하기 위해 달리 설치하거나 설정을 할 필요는 없다.그렇긴 해도 실제로 사용할 파이썬 어플리케이션을 만들기 "
-"전에이 가이드에서 아래에 설명할 툴과 라이브러리들을 설치할 것을 강력 추천한다.특히 Setuptools, Pip, Virtualenv는 "
-"반드시 설치해야 한다.이것들은 다른 파이썬 서드파티 라이브러리들을 사용하기 편하게 해준다."
+"그렇다면 파이썬을 사용하기 위해 달리 설치하거나 설정을 할 필요는 없습니다. "
+"그렇긴 해도 실제로 사용할 파이썬 어플리케이션을 만들기"
+" 전에 이 안내서에서 앞으로 설명할 툴과 라이브러리들을 먼저 설치할 것을 강력 추천합니다. "
+"특히 Setuptools, Pip, "
+"Virtualenv는 반드시 설치해야 합니다. "
+"이것들은 다른 파이썬 서드파티 라이브러리들을 사용하기 편하게 해줍니다. "
 
 #: ../../starting/installation.rst:14
 msgid "Installation Guides"
-msgstr "설치 가이드"
+msgstr "설치 안내"
 
-#: ../../starting/installation.rst:17
+#: ../../starting/installation.rst:16
 msgid ""
-"for development purposes, as well as setuptools, pip, and virtualenv setup."
-msgstr "이 가이드는 파이썬 개발을 위한 설치 뿐만 아니라 setuptools, pip, and virtualenv의 설치도 다룬다."
+"These guides go over the proper installation of :ref:`Python 2.7 <which-"
+"python>` for development purposes, as well as setuptools, pip, and "
+"virtualenv setup."
+msgstr "" 
+"이 안내서는 개발을 위한 :ref:`파이썬 2.7 <which-python>` 의 적절한 설치 뿐 아니라 "
+"setuptools, pip, and virtualenv의 설치도 다룹니다."
 
 #: ../../starting/installation.rst:19
 msgid ":ref:`Mac OS X <install-osx>`."
 msgstr ":ref:`Mac OS X <install-osx>`."
 
 #: ../../starting/installation.rst:20
-msgid ":ref:`Microsoft Windows<install-windows>`."
-msgstr ":ref:`Microsoft Windows<install-windows>`."
+msgid ":ref:`Microsoft Windows <install-windows>`."
+msgstr ":ref:`Microsoft Windows <install-windows>`."
 
 #: ../../starting/installation.rst:21
 msgid ":ref:`Ubuntu Linux <install-linux>`."
 msgstr ":ref:`Ubuntu Linux <install-linux>`."
 
-#: ../../starting/installation.rst:17
-msgid ""
-"These guides go over the proper installation of :ref:`Python 2.7 <which-"
-"python>`"
-msgstr ""

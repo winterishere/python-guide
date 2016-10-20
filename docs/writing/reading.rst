@@ -1,12 +1,20 @@
 Reading Great Code
 ==================
 
-One of the core tenants behind the design of Python is creating
+One of the core tenets behind the design of Python is creating
 readable code. The motivation behind this design is simple: The number
 one thing that Python programmers do is read code.
 
 One of the secrets of becoming a great Python programmer is to read,
 understand, and comprehend excellent code.
+
+.. raw:: html
+
+    <iframe width="560" 
+            height="315" 
+            src="https://www.youtube.com/embed/Jc8M9-LoEuo" 
+            frameborder="0" allowfullscreen></iframe>
+
 
 Excellent code typically follows the guidelines outlined in
 :ref:`code_style`, and does its best to express a clear and concise
@@ -23,6 +31,13 @@ reading. Each one of these projects is a paragon of Python coding.
   It's intended for getting started very quickly and was developed with
   best intentions in mind.
 
+- `Diamond <https://github.com/python-diamond/Diamond>`_
+  Diamond is a python daemon that collects metrics
+  and publishes them to Graphite or other backends.
+  It is capable of collecting cpu, memory, network, i/o, load and disk metrics.
+  Additionally, it features an API for implementing custom collectors
+  for gathering metrics from almost any source.
+
 - `Werkzeug <https://github.com/mitsuhiko/werkzeug>`_
   Werkzeug started as simple collection of various utilities for WSGI
   applications and has become one of the most advanced WSGI utility modules.
@@ -38,7 +53,6 @@ reading. Each one of these projects is a paragon of Python coding.
 - `Tablib <https://github.com/kennethreitz/tablib>`_
   Tablib is a format-agnostic tabular dataset library, written in Python.
 
-.. todo:: Embed and explain YouTube video showing python code reading: http://www.youtube.com/watch?v=Jc8M9-LoEuo This may require installing a Sphinx plugin. https://bitbucket.org/birkenfeld/sphinx-contrib/src/a09f29fc16970f34350ca36ac7f229e00b1b1674/youtube?at=default
 
 .. todo:: Include code examples of exemplary code from each of the projects listed. Explain why it is excellent code. Use complex examples.
 

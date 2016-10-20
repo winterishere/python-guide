@@ -26,7 +26,7 @@ IPython
 
 `IPython <http://ipython.org/>`_ is an enhanced version of Python interpreter,
 which provides features of great interest to scientists. The `inline mode`
-allow graphics and plots to be displayed in the terminal (Qt based version).
+allows graphics and plots to be displayed in the terminal (Qt based version).
 Moreover, the `notebook` mode supports literate programming and reproducible
 science generating a web-based Python notebook. This notebook allows you to
 store chunks of Python code along side the results and additional comments
@@ -55,9 +55,9 @@ NumPy is compatible with Python versions 2.4 through to 2.7.2 and 3.1+.
 Numba
 -----
 
-`Numba <http://numba.pydata.org>`_ is an Numpy aware Python compiler
+`Numba <http://numba.pydata.org>`_ is a NumPy aware Python compiler
 (just-in-time (JIT) specializing compiler) which compiles annotated Python (and
-Numpy) code to LLVM (Low Level Virtual Machine) through special decorators.
+NumPy) code to LLVM (Low Level Virtual Machine) through special decorators.
 Briefly, Numba uses a system that compiles Python code with LLVM to code which
 can be natively executed at runtime.
 
@@ -94,10 +94,11 @@ auto-alignment of data.
 Rpy2
 ----
 
-`Rpy2 <http://rpy.sourceforge.net/rpy2.html>`_ is a Python binding for the R
-statistical package allowing the execution of R functions from Python and passing
-data back and forth between the two environments. Rpy2 is the object oriented
-implementation of the `Rpy <http://rpy.sourceforge.net/rpy.html>`_ bindings.
+`Rpy2 <http://rpy2.bitbucket.org>`_ is a Python binding for the R
+statistical package allowing the execution of R functions from Python and
+passing data back and forth between the two environments. Rpy2 is the object
+oriented implementation of the `Rpy <http://rpy.sourceforge.net/rpy.html>`_
+bindings.
 
 PsychoPy
 --------
@@ -121,11 +122,12 @@ Unofficial Windows Binaries for Python Extension Packages
 ---------------------------------------------------------
 
 Many people who do scientific computing are on Windows, yet many of the
-scientific computing packages are notoriously difficult to build and install
-on this platform. `Christoph Gohlke <http://www.lfd.uci.edu/~gohlke/pythonlibs/>`_
-however, has compiled a list of Windows binaries for many useful Python packages.
-The list of packages has grown from a mainly scientific Python resource to a more
-general list. If you're on Windows, you may want to check it out.
+scientific computing packages are notoriously difficult to build and install on
+this platform. `Christoph Gohlke <http://www.lfd.uci.edu/~gohlke/pythonlibs/>`_
+however, has compiled a list of Windows binaries for many useful Python
+packages.  The list of packages has grown from a mainly scientific Python
+resource to a more general list. If you're on Windows, you may want to check it
+out.
 
 Anaconda
 --------

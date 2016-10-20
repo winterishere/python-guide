@@ -19,8 +19,299 @@ project. We then discuss various perspectives on how to build code which
 can be extended and tested reliably.
 
 
-Structure is Key
-----------------
+
+Structure of the Repository
+---------------------------
+
+It's Important.
+:::::::::::::::
+
+Just as Code Style, API Design, and Automation are essential for a
+healthy development cycle, Repository structure is a crucial part of
+your project's
+`architecture <http://www.amazon.com/gp/product/1257638017/ref=as_li_ss_tl?ie=UTF8&tag=bookforkind-20&linkCode=as2&camp=1789&creative=39095&creativeASIN=1257638017>`__.
+
+When a potential user or contributor lands on your repository's page,
+they see a few things:
+
+-  Project Name
+-  Project Description
+-  Bunch O' Files
+
+Only when they scroll below the fold will the user see your project's
+README.
+
+If your repo is a massive dump of files or a nested mess of directories,
+they might look elsewhere before even reading your beautiful
+documentation.
+
+    Dress for the job you want, not the job you have.
+
+Of course, first impressions aren't everything. You and your colleagues
+will spend countless hours working with this repository, eventually
+becoming intimately familiar with every nook and cranny. The layout of
+it is important.
+
+Sample Repository
+:::::::::::::::::
+
+**tl;dr**: This is what `Kenneth Reitz <http://kennethreitz.org>`_ recommends.
+
+This repository is `available on
+GitHub <https://github.com/kennethreitz/samplemod>`__.
+
+::
+
+    README.rst
+    LICENSE
+    setup.py
+    requirements.txt
+    sample/__init__.py
+    sample/core.py
+    sample/helpers.py
+    docs/conf.py
+    docs/index.rst
+    tests/test_basic.py
+    tests/test_advanced.py
+
+Let's get into some specifics.
+
+The Actual Module
+:::::::::::::::::
+
+.. csv-table::
+   :widths: 20, 40
+
+   "Location", "``./sample/`` or ``./sample.py``"
+   "Purpose", "The code of interest"
+
+
+Your module package is the core focus of the repository. It should not
+be tucked away:
+
+::
+
+    ./sample/
+
+If your module consists of only a single file, you can place it directly
+in the root of your repository:
+
+::
+
+    ./sample.py
+
+Your library does not belong in an ambiguous src or python subdirectory.
+
+License
+:::::::
+
+
+.. csv-table::
+   :widths: 20, 40
+
+   "Location", "``./LICENSE``"
+   "Purpose", "Lawyering up."
+
+
+This is arguably the most important part of your repository, aside from
+the source code itself. The full license text and copyright claims
+should exist in this file.
+
+If you aren't sure which license you should use for your project, check
+out `choosealicense.com <http://choosealicense.com>`_.
+
+Of course, you are also free to publish code without a license, but this
+would prevent many people from potentially using your code.
+
+Setup.py
+::::::::
+
+.. csv-table::
+   :widths: 20, 40
+
+   "Location", "``./setup.py``"
+   "Purpose", "Package and distribution management."
+
+
+If your module package is at the root of your repository, this should
+obviously be at the root as well.
+
+Requirements File
+:::::::::::::::::
+
+.. csv-table::
+   :widths: 20, 40
+
+   "Location", "``./requirements.txt``"
+   "Purpose", "Development dependencies."
+
+
+A `pip requirements
+file <https://pip.pypa.io/en/stable/user_guide/#requirements-files>`__
+should be placed at the root of the repository. It should specify the
+dependencies required to contribute to the project: testing, building,
+and generating documentation.
+
+If your project has no development dependencies, or you prefer
+development environment setup via ``setup.py``, this file may be
+unnecessary.
+
+Documentation
+:::::::::::::
+
+
+.. csv-table::
+   :widths: 20, 40
+
+   "Location", "``./docs/``"
+   "Purpose", "Package reference documentation."
+
+There is little reason for this to exist elsewhere.
+
+Test Suite
+::::::::::
+
+
+.. csv-table::
+   :widths: 20, 40
+
+   "Location", "``./test_sample.py`` or ``./tests``"
+   "Purpose", "Package integration and unit tests."
+
+Starting out, a small test suite will often exist in a single file:
+
+::
+
+    ./test_sample.py
+
+Once a test suite grows, you can move your tests to a directory, like
+so:
+
+::
+
+    tests/test_basic.py
+    tests/test_advanced.py
+
+Obviously, these test modules must import your packaged module to test
+it. You can do this a few ways:
+
+-  Expect the package to be installed in site-packages.
+-  Use a simple (but *explicit*) path modification to resolve the
+   package properly.
+
+I highly recommend the latter. Requiring a developer to run
+`setup.py <http://setup.py>`__ develop to test an actively changing
+codebase also requires them to have an isolated environment setup for
+each instance of the codebase.
+
+To give the individual tests import context, create a tests/context.py
+file:
+
+::
+
+    import os
+    import sys
+    sys.path.insert(0, os.path.abspath('..'))
+
+    import sample
+
+Then, within the individual test modules, import the module like so:
+
+::
+
+    from .context import sample
+
+This will always work as expected, regardless of installation method.
+
+Some people will assert that you should distribute your tests within
+your module itself -- I disagree. It often increases complexity for your
+users; many test suites often require additional dependencies and
+runtime contexts.
+
+Makefile
+::::::::
+
+
+.. csv-table::
+   :widths: 20, 40
+
+   "Location", "``./Makefile``"
+   "Purpose", "Generic management tasks."
+
+
+If you look at most of my projects or any Pocoo project, you'll notice a
+Makefile laying around. Why? These projects aren't written in C... In
+short, make is a incredibly useful tool for defining generic tasks for
+your project.
+
+**Sample Makefile:**
+
+::
+
+    init:
+        pip install -r requirements.txt
+
+    test:
+        py.test tests
+
+    .PHONY: init test
+
+Other generic management scripts (e.g. ``manage.py``
+or ``fabfile.py``) belong at the root of the repository as well.
+
+Regarding Django Applications
+:::::::::::::::::::::::::::::
+
+I've noticed a new trend in Django applications since the release of
+Django 1.4. Many developers are structuring their repositories poorly
+due to the new bundled application templates.
+
+How? Well, they go to their bare and fresh repository and run the
+following, as they always have:
+
+::
+
+    $ django-admin.py startproject samplesite
+
+The resulting repository structure looks like this:
+
+::
+
+    README.rst
+    samplesite/manage.py
+    samplesite/samplesite/settings.py
+    samplesite/samplesite/wsgi.py
+    samplesite/samplesite/sampleapp/models.py
+
+Don't do this.
+
+Repetitive paths are confusing for both your tools and your developers.
+Unnecessary nesting doesn't help anybody (unless they're nostalgic for
+monolithic SVN repos).
+
+Let's do it properly:
+
+::
+
+    $ django-admin.py startproject samplesite .
+
+Note the "``.``".
+
+The resulting structure:
+
+::
+
+    README.rst
+    manage.py
+    samplesite/settings.py
+    samplesite/wsgi.py
+    samplesite/sampleapp/models.py
+
+
+
+
+Structure of Code is Key
+------------------------
 
 Thanks to the way imports and modules are handled in Python, it is
 relatively easy to structure a Python project. Easy, here, means
@@ -34,8 +325,8 @@ to do it poorly. Some signs of a poorly structured project
 include:
 
 - Multiple and messy circular dependencies: if your classes
-  Table and Chair in :file:`furn.py` need to import Carpenter from :file:`workers.py`
-  to answer a question such as ``table.isdoneby()``,
+  Table and Chair in :file:`furn.py` need to import Carpenter from
+  :file:`workers.py` to answer a question such as ``table.isdoneby()``,
   and if conversely the class Carpenter needs to import Table and Chair,
   to answer the question ``carpenter.whatdo()``, then you
   have a circular dependency. In this case you will have to resort to
@@ -85,17 +376,17 @@ in one file, and all low-level operations in another file. In this case,
 the interface file needs to import the low-level file. This is done with the
 ``import`` and ``from ... import`` statements.
 
-As soon as you use `import` statements you use modules. These can be either built-in
-modules such as `os` and `sys`, third-party modules you have installed in your
-environment, or your project's internal modules.
+As soon as you use `import` statements you use modules. These can be either
+built-in modules such as `os` and `sys`, third-party modules you have installed
+in your environment, or your project's internal modules.
 
 To keep in line with the style guide, keep module names short, lowercase, and
 be sure to avoid using special symbols like the dot (.) or question mark (?).
 So a file name like :file:`my.spam.py` is one you should avoid! Naming this way
 will interfere with the way Python looks for modules.
 
-In the case of `my.spam.py` Python expects to find a :file:`spam.py` file in a folder named :file:`my`
-which is not the case. There is an
+In the case of `my.spam.py` Python expects to find a :file:`spam.py` file in a
+folder named :file:`my` which is not the case. There is an
 `example <http://docs.python.org/tutorial/modules.html#packages>`_ of how the
 dot notation should be used in the Python docs.
 
@@ -106,18 +397,18 @@ Aside from some naming restrictions, nothing special is required for a Python
 file to be a module, but you need to understand the import mechanism in order
 to use this concept properly and avoid some issues.
 
-Concretely, the ``import modu`` statement will look for the proper file, which is
-:file:`modu.py` in the same directory as the caller if it exists.  If it is not
-found, the Python interpreter will search for :file:`modu.py` in the "path"
+Concretely, the ``import modu`` statement will look for the proper file, which
+is :file:`modu.py` in the same directory as the caller if it exists.  If it is
+not found, the Python interpreter will search for :file:`modu.py` in the "path"
 recursively and raise an ImportError exception if it is not found.
 
-Once :file:`modu.py` is found, the Python interpreter will execute the module in an
-isolated scope. Any top-level statement in :file:`modu.py` will be executed,
+Once :file:`modu.py` is found, the Python interpreter will execute the module in
+an isolated scope. Any top-level statement in :file:`modu.py` will be executed,
 including other imports if any. Function and class definitions are stored in
 the module's dictionary.
 
-Then, the module's variables, functions, and classes will be available to the caller
-through the module's namespace, a central concept in programming that is
+Then, the module's variables, functions, and classes will be available to the
+caller through the module's namespace, a central concept in programming that is
 particularly helpful and powerful in Python.
 
 In many languages, an ``include file`` directive is used by the preprocessor to
@@ -127,14 +418,15 @@ means that you generally don't have to worry that the included code could have
 unwanted effects, e.g. override an existing function with the same name.
 
 It is possible to simulate the more standard behavior by using a special syntax
-of the import statement: ``from modu import *``. This is generally considered bad
-practice. **Using** ``import *`` **makes code harder to read and makes dependencies less
-compartmentalized**.
+of the import statement: ``from modu import *``. This is generally considered
+bad practice. **Using** ``import *`` **makes code harder to read and makes
+dependencies less compartmentalized**.
 
 Using ``from modu import func`` is a way to pinpoint the function you want to
 import and put it in the global namespace. While much less harmful than ``import
 *`` because it shows explicitly what is imported in the global namespace, its
-only advantage over a simpler ``import modu`` is that it will save a little typing.
+only advantage over a simpler ``import modu`` is that it will save a little
+typing.
 
 **Very bad**
 
@@ -176,29 +468,32 @@ Packages
 Python provides a very straightforward packaging system, which is simply an
 extension of the module mechanism to a directory.
 
-Any directory with an :file:`__init__.py` file is considered a Python package. The
-different modules in the package are imported in a similar manner as plain
-modules, but with a special behavior for the :file:`__init__.py` file, which is used to
-gather all package-wide definitions.
+Any directory with an :file:`__init__.py` file is considered a Python package.
+The different modules in the package are imported in a similar manner as plain
+modules, but with a special behavior for the :file:`__init__.py` file, which is
+used to gather all package-wide definitions.
 
-A file :file:`modu.py` in the directory :file:`pack/` is imported with the statement ``import
-pack.modu``. This statement will look for an :file:`__init__.py` file in :file:`pack`, execute
-all of its top-level statements. Then it will look for a file named :file:`pack/modu.py` and
+A file :file:`modu.py` in the directory :file:`pack/` is imported with the
+statement ``import pack.modu``. This statement will look for an
+:file:`__init__.py` file in :file:`pack`, execute all of its top-level
+statements. Then it will look for a file named :file:`pack/modu.py` and
 execute all of its top-level statements. After these operations, any variable,
-function, or class defined in :file:`modu.py` is available in the pack.modu namespace.
+function, or class defined in :file:`modu.py` is available in the pack.modu
+namespace.
 
 A commonly seen issue is to add too much code to :file:`__init__.py`
 files. When the project complexity grows, there may be sub-packages and
-sub-sub-packages in a deep directory structure. In this case, importing a single item
-from a sub-sub-package will require executing all :file:`__init__.py` files met while
-traversing the tree.
+sub-sub-packages in a deep directory structure. In this case, importing a
+single item from a sub-sub-package will require executing all
+:file:`__init__.py` files met while traversing the tree.
 
-Leaving an :file:`__init__.py` file empty is considered normal and even a good practice,
-if the package's modules and sub-packages do not need to share any code.
+Leaving an :file:`__init__.py` file empty is considered normal and even a good
+practice, if the package's modules and sub-packages do not need to share any
+code.
 
 Lastly, a convenient syntax is available for importing deeply nested packages:
-``import very.deep.module as mod``. This allows you to use `mod` in place of the verbose
-repetition of ``very.deep.module``.
+``import very.deep.module as mod``. This allows you to use `mod` in place of the
+verbose repetition of ``very.deep.module``.
 
 Object-oriented programming
 ---------------------------
@@ -209,8 +504,8 @@ can be somewhat misleading and needs to be clarified.
 In Python, everything is an object, and can be handled as such. This is what is
 meant when we say, for example, that functions are first-class objects.
 Functions, classes, strings, and even types are objects in Python: like any
-objects, they have a type, they can be passed as function arguments, they may
-have methods and properties. In this understanding, Python is an
+object, they have a type, they can be passed as function arguments, and they
+may have methods and properties. In this understanding, Python is an
 object-oriented language.
 
 However, unlike Java, Python does not impose object-oriented programming as the
@@ -232,27 +527,28 @@ functionality. The problem, as pointed out by the discussions about functional
 programming, comes from the "state" part of the equation.
 
 In some architectures, typically web applications, multiple instances of Python
-processes are spawned to respond to external requests that can
-happen at the same time. In this case, holding some state into instantiated
-objects, which means keeping some static information about the world, is prone
-to concurrency problems or race-conditions. Sometimes, between the initialization of
-the state of an object (usually done with the ``__init__()`` method) and the actual use
+processes are spawned to respond to external requests that can happen at the
+same time. In this case, holding some state into instantiated objects, which
+means keeping some static information about the world, is prone to concurrency
+problems or race-conditions. Sometimes, between the initialization of the state
+of an object (usually done with the ``__init__()`` method) and the actual use
 of the object state through one of its methods, the world may have changed, and
 the retained state may be outdated. For example, a request may load an item in
 memory and mark it as read by a user. If another request requires the deletion
-of this item at the same time, it may happen that the deletion actually occurs after
-the first process loaded the item, and then we have to mark as read a deleted
-object.
+of this item at the same time, it may happen that the deletion actually occurs
+after the first process loaded the item, and then we have to mark as read a
+deleted object.
 
 This and other issues led to the idea that using stateless functions is a
 better programming paradigm.
 
 Another way to say the same thing is to suggest using functions and procedures
 with as few implicit contexts and side-effects as possible. A function's
-implicit context is made up of any of the global variables or items in the persistence layer
-that are accessed from within the function. Side-effects are the changes that a function makes
-to its implicit context. If a function saves or deletes data in a global variable or
-in the persistence layer, it is said to have a side-effect.
+implicit context is made up of any of the global variables or items in the
+persistence layer that are accessed from within the function. Side-effects are
+the changes that a function makes to its implicit context. If a function saves
+or deletes data in a global variable or in the persistence layer, it is said to
+have a side-effect.
 
 Carefully isolating functions with context and side-effects from functions with
 logic (called pure functions) allow the following benefits:
@@ -266,10 +562,10 @@ logic (called pure functions) allow the following benefits:
 - Pure functions are easier to test with unit-tests: There is less
   need for complex context setup and data cleaning afterwards.
 
-- Pure functions are easier to manipulate, decorate, and pass-around.
+- Pure functions are easier to manipulate, decorate, and pass around.
 
-In summary, pure functions, without any context or side-effects, are more
-efficient building blocks than classes and objects for some architectures.
+In summary, pure functions are more efficient building blocks than classes
+and objects for some architectures because they have no context or side-effects.
 
 Obviously, object-orientation is useful and even necessary in many cases, for
 example when developing graphical desktop applications or games, where the
@@ -306,27 +602,99 @@ clearer and thus preferred.
 This mechanism is useful for separating concerns and avoiding
 external un-related logic 'polluting' the core logic of the function
 or method. A good example of a piece of functionality that is better handled
-with decoration is memoization or caching: you want to store the results of an
+with decoration is `memoization <https://en.wikipedia.org/wiki/Memoization#Overview>` or caching: you want to store the results of an
 expensive function in a table and use them directly instead of recomputing
 them when they have already been computed. This is clearly not part
 of the function logic.
 
+Context Managers
+----------------
+
+A context manager is a Python object that provides extra contextual information
+to an action. This extra information takes the form of running a callable upon
+initiating the context using the ``with`` statement, as well as running a callable
+upon completing all the code inside the ``with`` block. The most well known
+example of using a context manager is shown here, opening on a file:
+
+.. code-block:: python
+
+    with open('file.txt') as f:
+        contents = f.read()
+
+Anyone familiar with this pattern knows that invoking ``open`` in this fashion
+ensures that ``f``'s ``close`` method will be called at some point. This reduces
+a developer's cognitive load and makes the code easier to read.
+
+There are two easy ways to implement this functionality yourself: using a class
+or using a generator. Let's implement the above functionality ourselves, starting
+with the class approach:
+
+.. code-block:: python
+
+    class CustomOpen(object):
+        def __init__(self, filename):
+          self.file = open(filename)
+
+        def __enter__(self):
+            return self.file
+
+        def __exit__(self, ctx_type, ctx_value, ctx_traceback):
+            self.file.close()
+
+    with CustomOpen('file') as f:
+        contents = f.read()
+
+This is just a regular Python object with two extra methods that are used
+by the ``with`` statement. CustomOpen is first instantiated and then its
+``__enter__`` method is called and whatever ``__enter__`` returns is assigned to
+``f`` in the ``as f`` part of the statement. When the contents of the ``with`` block
+is finished executing, the ``__exit__`` method is then called.
+
+And now the generator approach using Python's own
+`contextlib <https://docs.python.org/2/library/contextlib.html>`_:
+
+.. code-block:: python
+
+    from contextlib import contextmanager
+
+    @contextmanager
+    def custom_open(filename):
+        f = open(filename)
+        try:
+            yield f
+        finally:
+            f.close()
+
+    with custom_open('file') as f:
+        contents = f.read()
+
+This works in exactly the same way as the class example above, albeit it's
+more terse. The ``custom_open`` function executes until it reaches the ``yield``
+statement. It then gives control back to the ``with`` statement, which assigns
+whatever was ``yield``'ed to `f` in the ``as f`` portion. The ``finally`` clause
+ensures that ``close()`` is called whether or not there was an exception inside
+the ``with``.
+
+Since the two approaches appear the same, we should follow the Zen of Python
+to decide when to use which. The class approach might be better if there's
+a considerable amount of logic to encapsulate. The function approach
+might be better for situations where we're dealing with a simple action.
+
 Dynamic typing
 --------------
 
-Python is said to be dynamically typed, which means that variables
-do not have a fixed type. In fact, in Python, variables are very
-different from what they are in many other languages, specifically
-statically-typed languages. Variables are not a segment of the computer's
-memory where some value is written, they are 'tags' or 'names' pointing
-to objects. It is therefore possible for the variable 'a' to be set to
-the value 1, then to the value 'a string', then to a function.
+Python is dynamically typed, which means that variables do not have a fixed
+type. In fact, in Python, variables are very different from what they are in
+many other languages, specifically statically-typed languages. Variables are not
+a segment of the computer's memory where some value is written, they are 'tags'
+or 'names' pointing to objects. It is therefore possible for the variable 'a' to
+be set to the value 1, then to the value 'a string', then to a function.
 
 The dynamic typing of Python is often considered to be a weakness, and indeed
-it can lead to complexities and hard-to-debug code. Something
-named 'a' can be set to many different things, and the developer or the
-maintainer needs to track this name in the code to make sure it has not
-been set to a completely unrelated object.
+it can lead to complexities and hard-to-debug code. Something named 'a' can be
+set to many different things, and the developer or the maintainer needs to track
+this name in the code to make sure it has not been set to a completely unrelated
+object.
 
 Some guidelines help to avoid this issue:
 
@@ -370,26 +738,25 @@ grows and each assignment is separated by other lines of code, including
 'if' branches and loops, it becomes harder to ascertain what a given
 variable's type is.
 
-Some coding practices, like functional programming, recommend never reassigning a variable.
-In Java this is done with the `final` keyword. Python does not have a `final` keyword
-and it would be against its philosophy anyway. However, it may be a good
-discipline to avoid assigning to a variable more than once, and it helps
-in grasping the concept of mutable and immutable types.
+Some coding practices, like functional programming, recommend never reassigning
+a variable. In Java this is done with the `final` keyword. Python does not have
+a `final` keyword and it would be against its philosophy anyway. However, it may
+be a good discipline to avoid assigning to a variable more than once, and it
+helps in grasping the concept of mutable and immutable types.
 
 Mutable and immutable types
 ---------------------------
 
 Python has two kinds of built-in or user-defined types.
 
-Mutable types are those that allow in-place modification
-of the content. Typical mutables are lists and dictionaries:
-All lists have mutating methods, like :py:meth:`list.append` or :py:meth:`list.pop`, and
-can be modified in place. The same goes for dictionaries.
+Mutable types are those that allow in-place modification of the content. Typical
+mutables are lists and dictionaries: All lists have mutating methods, like
+:py:meth:`list.append` or :py:meth:`list.pop`, and can be modified in place.
+The same goes for dictionaries.
 
-Immutable types provide no method for changing their content.
-For instance, the variable x set to the integer 6 has no "increment" method. If you
-want to compute x + 1, you have to create another integer and give it
-a name.
+Immutable types provide no method for changing their content. For instance, the
+variable x set to the integer 6 has no "increment" method. If you want to
+compute x + 1, you have to create another integer and give it a name.
 
 .. code-block:: python
 
@@ -451,8 +818,8 @@ with calls to ``append()``.
 One final thing to mention about strings is that using ``join()`` is not always
 best. In the instances where you are creating a new string from a pre-determined
 number of strings, using the addition operator is actually faster, but in cases
-like above or in cases where you are adding to an existing string, using ``join()``
-should be your preferred method.
+like above or in cases where you are adding to an existing string, using
+``join()`` should be your preferred method.
 
 .. code-block:: python
 
@@ -466,9 +833,8 @@ should be your preferred method.
 .. note::
     You can also use the :ref:`% <python:string-formatting>` formatting operator
     to concatenate a pre-determined number of strings besides :py:meth:`str.join`
-    and ``+``. However, according to :pep:`3101`, the ``%`` operator became
-    deprecated in Python 3.1 and will be replaced by the :py:meth:`str.format`
-    method in the later versions.
+    and ``+``. However, :pep:`3101`, discourages the usage of the ``%`` operator
+    in favor of the :py:meth:`str.format` method.
 
 .. code-block:: python
 

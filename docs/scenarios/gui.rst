@@ -15,15 +15,22 @@ and the mailing list https://groups.google.com/forum/#!forum/project-camelot
 
 Cocoa
 -----
-.. note:: The Cocoa framework is only available on OS X. Don't pick this if you're writing a cross-platform application!
+.. note:: The Cocoa framework is only available on OS X. Don't pick this if you're writing a cross-platform application!
 
 GTk
 ---
 PyGTK provides Python bindings for the GTK+ toolkit. Like the GTK+ library
 itself, it is currently licensed under the GNU LGPL. It is worth noting that
 PyGTK only currently supports the Gtk-2.X API (NOT Gtk-3.0). It is currently
-recommended that PyGTK not be used for new projects and that existing applications
-be ported from PyGTK to PyGObject.
+recommended that PyGTK not be used for new projects and that existing
+applications be ported from PyGTK to PyGObject.
+
+PyGObject aka (PyGi)
+--------------------
+`PyGObject <https://wiki.gnome.org/Projects/PyGObject>`_ provides Python bindings, which gives access to the entire GNOME software platform.
+It is fully compatible with GTK+ 3. Here is a tutorial to get started with `Python GTK+ 3 Tutorial <https://python-gtk-3-tutorial.readthedocs.io/en/latest/>`_.
+
+`API Reference <http://lazka.github.io/pgi-docs/>`_
 
 Kivy
 ----
@@ -33,25 +40,28 @@ interaction design and rapid prototyping, while making your code reusable
 and deployable.
 
 Kivy is written in Python, based on OpenGL and supports different input devices
-such as: Mouse, Dual Mouse, TUIO, WiiMote, WM_TOUCH, HIDtouch, Apple's products and so on.
+such as: Mouse, Dual Mouse, TUIO, WiiMote, WM_TOUCH, HIDtouch, Apple's products
+and so on.
 
-Kivy is actively being developed by a community and free to use. It operates
+Kivy is actively being developed by a community and is free to use. It operates
 on all major platforms (Linux, OSX, Windows, Android).
 
 The main resource for information is the website: http://kivy.org
 
 PyObjC
-~~~~~~
+------
 .. note:: Only available on OS X. Don't pick this if you're writing a cross-platform application.
 
 PySide
-~~~~~~
+------
 PySide is a Python binding of the cross-platform GUI toolkit Qt.
 
-http://developer.qt.nokia.com/wiki/PySideDownloads/
+  pip install pyside
+
+https://wiki.qt.io/Category:LanguageBindings::PySide::Downloads
 
 PyQt
-~~~~
+----
 .. note:: If your software does not fully comply with the GPL you will need a commercial license!
 
 PyQt provides Python bindings for the Qt Framework (see below).
@@ -62,8 +72,8 @@ PyjamasDesktop (pyjs Desktop)
 -----------------------------
 PyjamasDesktop is a port of Pyjamas. PyjamasDesktop is application widget set
 for desktop and a cross-platform framework. (After release v0.6 PyjamasDesktop
-is a part of Pyjamas (Pyjs)). Briefly, it allows the exact same Python web application
-source code to be executed as a standalone desktop application.
+is a part of Pyjamas (Pyjs)). Briefly, it allows the exact same Python web
+application source code to be executed as a standalone desktop application.
 
 `Python Wiki for PyjamasDesktop <http://wiki.python.org/moin/PyjamasDesktop>`_.
 

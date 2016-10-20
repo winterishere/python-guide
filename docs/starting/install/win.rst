@@ -3,9 +3,9 @@
 Installing Python on Windows
 ============================
 
-First, download the `latest version <https://www.python.org/ftp/python/2.7.8/python-2.7.8.msi>`_
+First, download the `latest version <https://www.python.org/ftp/python/2.7.10/python-2.7.10.msi>`_
 of Python 2.7 from the official Website. If you want to be sure you are installing a fully
-up-to-date version then use the "Windows Installer" link from the home page of the
+up-to-date version, click the Downloads > Windows link from the home page of the
 `Python.org web site <http://python.org>`_ .
 
 The Windows version is provided as an MSI package. To install it manually, just
@@ -77,7 +77,7 @@ your global site-packages directory clean and manageable.
 For example, you can work on a project which requires Django 1.3 while also
 maintaining a project which requires Django 1.0.
 
-To start using and see more information: `Virtual Environments <http://github.com/kennethreitz/python-guide/blob/master/docs/dev/virtualenvs.rst>`_ docs. 
+To start using this and see more information: :ref:`Virtual Environments <virtualenvironments-ref>` docs. 
 
 
 --------------------------------

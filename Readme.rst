@@ -9,7 +9,7 @@ Hitchhiker's Guide to Python
 be done.**
 
 This guide is currently under heavy development. This opinionated guide
-exists to provide both novice and expert Python developers a best-practice
+exists to provide both novice and expert Python developers a best practice
 handbook to the installation, configuration, and usage of Python on a daily
 basis.
 
@@ -19,8 +19,9 @@ Topics include:
 - Platform- and version-specific installations
 - Py2app, Py2exe, bbfreeze, pyInstaller
 - Pip
+- Numpy, scipy, statpy, pyplot, matplotlib
 - Virtualenv
-- fabric
+- Fabric
 - Exhaustive module recommendations, grouped by topic/purpose
 - Which libraries to use for what
 - Server configurations & tools for various web frameworks
