@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pythonguide 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-10-11 08:03+0000\n"
+"POT-Creation-Date: 2016-11-17 01:45+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: YoungSeon.Ahn <lovemewithoutall@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,9 +31,9 @@ msgid ""
 "install Setuptools, as it makes it much easier for you to use other "
 "third-party Python libraries."
 msgstr ""
-"파이썬을 사용하기 위해 달리 설치하거나 설정을 할 필요는 없습니다. 그렇기는 해도 실제로 사용할 파이썬 어플리케이션을 만들기 전에 이 "
-"안내서에서 앞으로 설명할 툴과 라이브러리들을 먼저 설치할 것을 강력 추천합니다. 특히 Setuptools는 반드시 설치해야 합니다. 이것들은"
-" 다른 파이썬 서드파티 라이브러리들을 사용하기 편하게 해줍니다. "
+"파이썬을 사용하기 위해 달리 설치하거나 설정을 할 필요는 없습니다. 그렇기는 해도 실제로 사용할 파이썬 어플리케이션을 만들기 전에 "
+"이 안내서에서 앞으로 설명할 툴과 라이브러리들을 먼저 설치할 것을 강력 추천합니다. 특히 Setuptools는 반드시 설치해야 "
+"합니다. 이것들은 다른 파이썬 서드파티 라이브러리들을 사용하기 편하게 해줍니다. "
 
 #: ../../starting/install/osx.rst:14
 msgid ""
@@ -43,9 +43,8 @@ msgid ""
 "<https://www.python.org/downloads/mac-osx/>`_, which is considered the "
 "stable production version."
 msgstr ""
-"OS X에 포함된 파이썬의 버전은 학습에는 최고입니다. 하지만 개발하기에는 좋지 않습니다. "
-"OS X에 딸려온 버전은 안정화된 `공식 릴리즈 "
-"된 파이썬 <https://www.python.org/downloads/mac-osx/>`_ 보다 구버전일 것입니다."
+"OS X에 포함된 파이썬의 버전은 학습에는 최고입니다. 하지만 개발하기에는 좋지 않습니다. OS X에 딸려온 버전은 안정화된 `공식"
+" 릴리즈 된 파이썬 <https://www.python.org/downloads/mac-osx/>`_ 보다 구버전일 것입니다."
 
 #: ../../starting/install/osx.rst:20
 msgid "Doing it Right"
@@ -57,54 +56,52 @@ msgstr "진짜 파이썬을 설치해보자!"
 
 #: ../../starting/install/osx.rst:24
 msgid ""
-"Before installing Python, you'll need to install GCC. GCC can be obtained"
-" by downloading `Xcode <http://developer.apple.com/xcode/>`_, the smaller"
-" `Command Line Tools <https://developer.apple.com/downloads/>`_ (must "
-"have an Apple account) or the even smaller `OSX-GCC-Installer "
+"Before installing Python, you'll need to install a C compiler. The "
+"fastest way is to install the Xcode Command Line Tools by running "
+"``xcode-select --install``. You can also download the full version of "
+"`Xcode <http://developer.apple.com/xcode/>`_ from the Mac App Store, or "
+"the minimal but unofficial `OSX-GCC-Installer "
 "<https://github.com/kennethreitz/osx-gcc-installer#readme>`_ package."
 msgstr ""
-"파이썬을 설치하기 전에 우선 GCC를 설치해야 합니다. GCC는 `XCode "
-"<http://developer.apple.com/xcode/>`_ 를 설치하면서 얻을 수 있습니다. 더 작은 버전인 `Command "
-"Line Tools <https://developer.apple.com/downloads/>`_ (애플 계정이 있어야 한다) 에서도"
-" 얻을 수 있고, 그보다도 더 작은 버젼인 `OSX-GCC-Installer "
-"<https://github.com/kennethreitz/osx-gcc-installer#readme>`_  패키지에서도 얻을 수"
-" 있습니다."
+"파이썬을 설치하기 전에 C 컴파일러를 설치해야 합니다. "
+"이를 위해서는 Xcode Command Line Tools을 설치하는 방법이 가장 빠릅니다. "
+"``xcode-select --install`` 을 돌리시면 됩니다. "
+"맥 앱스토어에서 `Xcode <http://developer.apple.com/xcode/>`_ 의 "
+"풀 버전을 다운로드 받을 수도 있습니다. "
+"비공식 버전이지만 아주 작은"
+" `OSX-GCC-Installer <https://github.com/kennethreitz/osx-gcc-installer#readme>`_ "
+"패키지를 설치해도 됩니다. "
 
-#: ../../starting/install/osx.rst:31
+#: ../../starting/install/osx.rst:33
 msgid ""
-"If you already have Xcode installed, do not install OSX-GCC-Installer. In"
-" combination, the software can cause issues that are difficult to "
-"diagnose."
+"If you already have Xcode installed or plan to use Homebrew, do not "
+"install OSX-GCC-Installer. In combination, the software can cause issues "
+"that are difficult to diagnose."
 msgstr ""
-"이미 XCode를 설치했으면 OSX-GCC-Installer는 설치하면 안됩니다. 두 개를 모두 설치하면 원인을 밝히 어려운 문제를 "
+"이미 XCode를 설치했거나 Homebrew를 사용할 계획이라면, "
+"OSX-GCC-Installer는 설치하지 마세요. "
+"두 개를 모두 설치하면 원인을 밝히 어려운 문제를 "
 "일으킬 수 있습니다. "
 
-#: ../../starting/install/osx.rst:36
-msgid ""
-"If you perform a fresh install of Xcode, you will also need to add the "
-"commandline tools by running ``xcode-select --install`` on the terminal."
-msgstr ""
-"Xcode를 새로 설치했다면 터미널에서 ``xcode-select --install`` 를 실행시켜 커맨드라인 툴을 추가할 필요가 있습니다. "
-
-#: ../../starting/install/osx.rst:39
+#: ../../starting/install/osx.rst:37
 msgid ""
 "While OS X comes with a large number of UNIX utilities, those familiar "
 "with Linux systems will notice one key component missing: a decent "
 "package manager. `Homebrew <http://brew.sh>`_ fills this void."
 msgstr ""
-"OS X는 많은 UNIX 유틸리티를 갖고 있지만, 리눅스에 정통한 사람이라면 중요한 요소 하나가 빠져있다는 사실을 알아차릴 것입니다. "
-"바로 훌륭한 패키지 매니저가 없다는 것입니다. 하지만 `Homebrew <http://brew.sh>`_ 가 그 빈자리를 채워줍니다."
+"OS X는 많은 UNIX 유틸리티를 갖고 있지만, 리눅스에 정통한 사람이라면 중요한 요소 하나가 빠져있다는 사실을 알아차릴 "
+"것입니다. 바로 훌륭한 패키지 매니저가 없다는 것입니다. 하지만 `Homebrew <http://brew.sh>`_ 가 그 빈자리를"
+" 채워줍니다."
 
-#: ../../starting/install/osx.rst:43
+#: ../../starting/install/osx.rst:41
 msgid ""
 "To `install Homebrew <http://brew.sh/#install>`_, open :file:`Terminal` "
 "or your favorite OSX terminal emulator and run"
 msgstr ""
-"`Homebrew <http://brew.sh/#install>`_ 를 설치하려면 "
-" :file:`터미널` 을 열거나 마음에 드는 OSX 터미널 에뮬레이터를 열고 "
-"아래 코드를 그냥 실행하기만 하면 됩니다."
+"`Homebrew <http://brew.sh/#install>`_ 를 설치하려면  :file:`터미널` 을 열거나 마음에 드는 "
+"OSX 터미널 에뮬레이터를 열고 아래 코드를 그냥 실행하기만 하면 됩니다."
 
-#: ../../starting/install/osx.rst:50
+#: ../../starting/install/osx.rst:48
 msgid ""
 "The script will explain what changes it will make and prompt you before "
 "the installation begins. Once you've installed Homebrew, insert the "
@@ -113,36 +110,41 @@ msgid ""
 "your :file:`~/.profile` file"
 msgstr ""
 "이 스크립트는 설치가 시작되기 전에 설치로 인해 변경되는 것들과 명령어를 알려줍니다. Homebrew가 설치됐으면 Homebrew "
-"디렉토리를  :envvar:`PATH` 환경 변수의 최상단에 넣으세요. :file:`~/.profile` 파일의 마지막 줄에 다음과 "
-"같이 덧붙이면 됩니다."
+"디렉토리를  :envvar:`PATH` 환경 변수의 최상단에 넣으세요. :file:`~/.profile` 파일의 마지막 줄에 다음과"
+" 같이 덧붙이면 됩니다."
 
-#: ../../starting/install/osx.rst:60
+#: ../../starting/install/osx.rst:58
 msgid "Now, we can install Python 2.7:"
 msgstr "이제 우리는 파이썬 2.7을 설치할 수 있습니다."
 
-#: ../../starting/install/osx.rst:66
+#: ../../starting/install/osx.rst:64
+msgid "or Python 3:"
+msgstr "파이썬 3도 됩니다: "
+
+#: ../../starting/install/osx.rst:70
 msgid "This will take a minute or two."
 msgstr "1~2분 정도 걸릴 것입니다."
 
-#: ../../starting/install/osx.rst:70
+#: ../../starting/install/osx.rst:74
 msgid "Setuptools & Pip"
 msgstr "Setuptools & Pip"
 
-#: ../../starting/install/osx.rst:72
+#: ../../starting/install/osx.rst:76
 msgid "Homebrew installs Setuptools and ``pip`` for you."
 msgstr "Homebrew는 Setuptools 과 ``pip`` 를 설치해줍니다."
 
-#: ../../starting/install/osx.rst:74
+#: ../../starting/install/osx.rst:78
 msgid ""
 "Setuptools enables you to download and install any compliant Python "
 "software over a network (usually the Internet) with a single command "
 "(``easy_install``). It also enables you to add this network installation "
 "capability to your own Python software with very little work."
 msgstr ""
-"Setuptools는 네트워크 상에서(보통은 인터넷) 단 한 줄의 명령어(``easy_install``)로 파이썬 "
-"소프트웨어를 다운로드받고 설치할 수 있도록 해줍니다. 또한 최소한의 작업으로 당신이 만든 파이썬 소프트웨어의 네트워크 설치를 가능하게 해줍니다. "
+"Setuptools는 네트워크 상에서(보통은 인터넷) 단 한 줄의 명령어(``easy_install``)로 파이썬 소프트웨어를 "
+"다운로드받고 설치할 수 있도록 해줍니다. 또한 최소한의 작업으로 당신이 만든 파이썬 소프트웨어의 네트워크 설치를 가능하게 해줍니다."
+" "
 
-#: ../../starting/install/osx.rst:79
+#: ../../starting/install/osx.rst:83
 msgid ""
 "``pip`` is a tool for easily installing and managing Python packages, "
 "that is recommended over ``easy_install``. It is superior to "
@@ -154,11 +156,11 @@ msgstr ""
 "추천한다. ``easy_install`` 는 `많은 면 <https://pip.pypa.io/en/1.5.X/other-"
 "tools.html#easy-install>`_ 에서 탁월하고, 활발히 운영되고 있습니다."
 
-#: ../../starting/install/osx.rst:85
+#: ../../starting/install/osx.rst:89
 msgid "Virtual Environments"
 msgstr "Virtual Environments"
 
-#: ../../starting/install/osx.rst:87
+#: ../../starting/install/osx.rst:91
 msgid ""
 "A Virtual Environment is a tool to keep the dependencies required by "
 "different projects in separate places, by creating virtual Python "
@@ -170,13 +172,15 @@ msgstr ""
 "툴입니다. 이는 \"프로젝트 X는 버전 1.x를 쓰는데, 프로젝트Y는 버전 4.x가 필요한\" 난국을 해결해줍니다. 그리고 전역 "
 "패키지 디렉토리를 깨끗하게 관리할 수 있도록 해줍니다."
 
-#: ../../starting/install/osx.rst:92
+#: ../../starting/install/osx.rst:96
 msgid ""
-"For example, you can work on a project which requires Django 1.3 while "
-"also maintaining a project which requires Django 1.0."
-msgstr "예를 들면 장고 1.3을 쓰는 프로젝트에서 일하면서, 장고 1.0을 사용하는 프로젝트를 유지보수 할 수 있도록 해줍니다."
+"For example, you can work on a project which requires Django 1.10 while "
+"also maintaining a project which requires Django 1.8."
+msgstr ""
+"예를 들면 장고 1.10을 쓰는 프로젝트에서 일하면서, "
+"장고 1.8을 사용하는 프로젝트를 유지보수 할 수 있도록 해줍니다."
 
-#: ../../starting/install/osx.rst:95
+#: ../../starting/install/osx.rst:99
 msgid ""
 "To start using this and see more information: :ref:`Virtual Environments "
 "<virtualenvironments-ref>` docs."
@@ -185,7 +189,7 @@ msgstr ""
 "<http://github.com/kennethreitz/python-"
 "guide/blob/master/docs/dev/virtualenvs.rst>`_ 문서에서 볼 수 있습니다."
 
-#: ../../starting/install/osx.rst:100
+#: ../../starting/install/osx.rst:104
 msgid ""
 "This page is a remixed version of `another guide "
 "<http://www.stuartellis.eu/articles/python-development-windows/>`_, which"
