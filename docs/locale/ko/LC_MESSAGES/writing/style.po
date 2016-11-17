@@ -17,40 +17,45 @@ msgid "Code Style"
 msgstr "코드 스타일"
 
 #: ../../writing/style.rst:6
-#, fuzzy
 msgid ""
 "If you ask Python programmers what they like most about Python, they will"
 " often cite its high readability.  Indeed, a high level of readability is"
 " at the heart of the design of the Python language, following the "
 "recognized fact that code is read much more often than it is written."
 msgstr ""
-"파이썬에서 뭐가 가장 좋냐고 파이썬 프로그래머들에게 묻는다면, 파이썬 프로그래머들은 파이썬의 높은 가독성이 좋다고 말할 것이다. "
-"실제로 높은 수준의 가독성은 파이썬 언어 디자인의 심장이다. 코드는 쓰여지기 보다는 읽혀지는 경우가 더 많다는 사실 때문이다."
+"파이썬 프로그래머에게 파이썬의 어떤 점을 가장 좋아하냐고 묻는다면, "
+"뛰어난 가독성이 좋다고들 할 것입니다. "
+"실제로 높은 수준의 가독성은 파이썬 언어 디자인의 핵심입니다. "
+"코드 작성은 한 번이겠지만, 코드를 읽을 일은 훨씬 더 많기 때문입니다. "
 
 #: ../../writing/style.rst:11
-#, fuzzy
 msgid ""
 "One reason for the high readability of Python code is its relatively "
 "complete set of Code Style guidelines and \"Pythonic\" idioms."
-msgstr "파이썬 코드가 쉽게 읽히고 잘 이해되는 한가지 이유는 비교적 완벽한 코드 스타일 가이드라인과 \"파이썬스러운\" 관용구 때문이다."
+msgstr ""
+"파이썬 코드가 쉽게 읽히고 잘 이해되는 이유는 "
+"비교적 완벽한 코드 스타일 가이드라인과 \"파이썬스러운\" 이디엄 때문입니다. "
 
 #: ../../writing/style.rst:14
-#, fuzzy
 msgid ""
 "When a veteran Python developer (a Pythonista) calls portions of code not"
 " \"Pythonic\", they usually mean that these lines of code do not follow "
 "the common guidelines and fail to express its intent in what is "
 "considered the best (hear: most readable) way."
 msgstr ""
-"뿐만 아니라 베테랑 파이썬 개발자(파이써니스타)들이 코드의 어느 부분을 지적하며 이건 \"파이썬스럽지\" 않아, 라고 한다면 이는 "
-"보통 파이썬의 일반적인 가이드라인을 따르지 않았고, 가장 좋은 방법(대부분 가독성)을 따르지 않아 코드의 의도를 표현하는데 "
-"실패했다는 뜻이다."
+"뿐만 아니라 베테랑 파이썬 개발자(파이써니스타)들이 코드의 어느 부분을 지적하며 "
+"이건 \"파이썬스럽지\" 않아, 라고 한다면 이는 "
+"보통 파이썬의 일반적인 가이드라인을 따르지 않았다는 뜻이며, "
+"가장 좋은 방법(명심하세요: 최고의 가독성)을 따르지 않아 코드의 의도를 표현하는데 "
+"실패했다는 뜻입니다. "
 
 #: ../../writing/style.rst:19
 msgid ""
 "On some border cases, no best way has been agreed upon on how to express "
 "an intent in Python code, but these cases are rare."
-msgstr "어떤 경우에는 파이썬 코드의 의도를 표현하기 위한 최선의 방법을 합의하기 어려울 때도 있지만, 이런 경우는 드물다."
+msgstr ""
+"어떤 경우에는 파이썬 코드의 의도를 표현하기 위한 최선의 방법을 합의하기 어려울 때도 있습니다. "
+"하지만 이런 경우는 거의 없습니다. "
 
 #: ../../writing/style.rst:23
 msgid "General concepts"
@@ -64,7 +69,9 @@ msgstr "명쾌한 코드"
 msgid ""
 "While any kind of black magic is possible with Python, the most explicit "
 "and straightforward manner is preferred."
-msgstr "파이썬으로 어떤 마법을 부릴 수 있다면, 가장 명쾌하고 간단한 방법으로 할 것이다."
+msgstr ""
+"파이썬으로 어둡의 마법을 부릴 수 있다면, "
+"가장 명쾌하고 간단한 방법을 추천합니다. "
 
 #: ../../writing/style.rst:31 ../../writing/style.rst:58
 msgid "**Bad**"
@@ -81,22 +88,25 @@ msgid ""
 " knows exactly what to do by reading the first and last lines, which is "
 "not the case with the bad example."
 msgstr ""
-"위의 좋은 코드에서 x와 y는 호출자로부터 직접 값을 받아와 곧바로 딕셔너리로 반환한다. 이 함수를 쓰는 개발자들은 첫 줄과 마지막"
-" 줄을 읽는 것만으로 무엇을 하는 함수인지 정확히 알 수 있다. 하지만 나쁜 예에서는 그렇지 않다."
+"위의 좋은 코드 예시에서 "
+"x와 y는 호출자로부터 직접 값을 받아와 곧바로 딕셔너리로 반환합니다. "
+"이 함수를 쓰는 개발자들은 첫 줄과 마지막 "
+"줄을 읽는 것만으로 무엇을 하는 함수인지 정확히 알 수 있습니다. "
+"하지만 나쁜 예에서는 그렇지 않습니다. "
 
 #: ../../writing/style.rst:52
 msgid "One statement per line"
 msgstr "한 줄에 한 구문"
 
 #: ../../writing/style.rst:54
-#, fuzzy
 msgid ""
 "While some compound statements such as list comprehensions are allowed "
 "and appreciated for their brevity and their expressiveness, it is bad "
 "practice to have two disjointed statements on the same line of code."
 msgstr ""
-"간결성과 표현성을 위해 리스트 컴프리헨션(list comprehension) 같은 복잡한 구문을 만드는 경우가 있다. 이렇게 한 "
-"줄의 코드에 두 개의 분리 가능한 코드를 넣는 것은 잘못된 습관이다. "
+"간결성과 표현성을 위해 리스트 컴프리헨션(list comprehension) 같은 "
+"복잡한 구문을 만드는 경우가 있습니다. 이렇게 한 "
+"줄의 코드에 두 개의 분리 가능한 코드를 넣는 것은 잘못된 습관입니다. "
 
 #: ../../writing/style.rst:85
 msgid "Function arguments"
@@ -104,10 +114,9 @@ msgstr "함수 인자"
 
 #: ../../writing/style.rst:87
 msgid "Arguments can be passed to functions in four different ways."
-msgstr "인자는 4가지 경로를 통해 함수로 전달될 수 있다."
+msgstr "인자는 4가지 경로를 통해 함수로 전달될 수 있습니다."
 
 #: ../../writing/style.rst:89
-#, fuzzy
 msgid ""
 "**Positional arguments** are mandatory and have no default values. They "
 "are the simplest form of arguments and they can be used for the few "
@@ -115,7 +124,16 @@ msgid ""
 "their order is natural. For instance, in ``send(message, recipient)`` or "
 "``point(x, y)`` the user of the function has no difficulty remembering "
 "that those two functions require two arguments, and in which order."
-msgstr "1. **위치 매개 변수** 는 필수적이다. "
+msgstr ""
+"**위치 인자** 는 필수입니다. "
+"그리고 디폴트 값을 가지면 안됩니다. "
+"위치 인자는 인자의 가장 간단한 형태이자, "
+"함수의 의미를 완전히 담고있는 함수 자체를 전달하기도 합니다. "
+"인자의 순서는 넣은대로 들어갑니다. "
+"예를 들어 "
+"``send(message, recipient)`` 혹은 ``point(x, y)`` 에서 "
+"함수를 사용하는 사람은 이 함수들이 인자를 몇 개 필요로 하는지, "
+"어느 순서로 들어가야 하는지 기억하려고 고민할 필요가 없습니다. "
 
 #: ../../writing/style.rst:96
 msgid ""
@@ -126,6 +144,11 @@ msgid ""
 "and is unnecessarily verbose, compared to the more straightforward calls "
 "to ``send('Hello', 'World')`` and ``point(1, 2)``."
 msgstr ""
+"위의 예시에서 함수를 호출할 때 인자명을 명시하는 것도 가능합니다. "
+"``send(recipient='World',message='Hello')`` , ``point(y=2, x=1)`` "
+"이렇게 하면 인자의 순서를 바꿔도 상관없습니다. "
+"하지만 위 방법은 ``send('Hello', 'World')`` , ``point(1, 2)`` "
+"에 비하여 가독성이 떨어지고, 코드가 쓸데없이 장황해집니다. "
 
 #: ../../writing/style.rst:103
 msgid ""
@@ -138,6 +161,15 @@ msgid ""
 " optional, and evaluate to ``None`` when they are not passed another "
 "value."
 msgstr ""
+"**키워드 인자** 는 필수값은 아니지만 디폴트값을 가집니다. "
+"키워드 인자는 선택적인 파라미터로서 함수에 전달됩니다. "
+"함수가 2개 혹은 3개 이상의 위치 인자를 가지면 "
+"여기에 무슨 값을 넣어야할지 기억하기 어렵습니다. "
+"이 때 디폴트값을 가진 키워드 인자가 도움이 됩니다. "
+"예를 들어 이렇게 하면 ``send`` 함수를 더 명확하게 정의할 수 있습니다. "
+"``send(message, to, cc=None, bcc=None)`` ."
+"여기서 ``cc`` 와 ``bcc`` 는 선택적인 값입니다. "
+"그리고 다른 값을 넣지 않으면 ``None`` 으로 해석됩니다. "
 
 #: ../../writing/style.rst:111
 msgid ""
@@ -151,6 +183,17 @@ msgid ""
 "follow the syntax that is the closest to the function definition: "
 "``send('Hello', 'World', cc='Cthulhu', bcc='God')``."
 msgstr ""
+"파이썬에서는 키워드 인자가 있는 함수를 다양한 방식으로 호출할 수 있습니다. "
+"예를 들면 ``send('Hello', 'World', 'Cthulhu', 'God')`` 처럼 "
+"인자명을 명시하지 않고 함수를 정의할 때의 순서에 따라 인자들을 보낼 수 있습니다. "
+"이렇게 하면 God에게 blind carbon copy를 보내게 됩니다. "
+"다른 방법도 가능합니다. "
+"``send('Hello again', 'World', bcc='God', cc='Cthulhu')`` 처럼 "
+"순서를 다르게해도 인자명을 명시적으로 넣어주면 됩니다. "
+"그래도 위 두 방식처럼 함수 정의시의 인자 순서를 어그러뜨리는 방식은 "
+"가급적 피하는 편이 좋습니다. "
+"즉 이렇게 하는게 제일 좋습니다: "
+"``send('Hello', 'World', cc='Cthulhu', bcc='God')``."
 
 #: ../../writing/style.rst:121
 msgid ""
@@ -160,6 +203,12 @@ msgid ""
 "function) that was added \"just in case\" and is seemingly never used, "
 "than to add a new optional argument and its logic when needed."
 msgstr ""
+"첨언 하나. "
+"`YAGNI <http://en.wikipedia.org/wiki/You_ain't_gonna_need_it>`_ 원칙에 따르면, "
+"\"만약을 위해서\" 추가했고 두 번 다시 사용하지 않은 "
+"선택적인 인자(그리고 함수 안에 포함된 관련 로직)을 "
+"삭제하기란, 필요할 때 새로운 선택적인 인자와 관련 로직을 추가하기보다 "
+"훨씬 어렵습니다. "
 
 #: ../../writing/style.rst:126
 msgid ""
@@ -172,6 +221,13 @@ msgid ""
 " 'God', 'Mom', 'Cthulhu')``, and in the function body ``args`` will be "
 "equal to ``('God', 'Mom', 'Cthulhu')``."
 msgstr ""
+"**임의 인자 리스트** 는 함수에 인자를 보내는 세번째 방법입니다. "
+"위치 인자에 추가적인 번호를 달아야 함수의 의도가 보다 잘 설명되는 경우에는 "
+"``*args`` 생성자를 쓰면 됩니다. "
+"함수 본문에서 ``args`` 는 나머지 모든 위치 인자의 튜플이 됩니다. "
+"예를 들어 ``send(message, *args)`` 는 이런 식으로 인자가 호출됩니다: "
+"``send('Hello', 'God', 'Mom', 'Cthulhu')`` 를 호출하면, "
+"함수 본문에서 ``args`` 는 ``('God', 'Mom', 'Cthulhu')`` 와 같습니다. "
 
 #: ../../writing/style.rst:135
 msgid ""
@@ -186,6 +242,16 @@ msgid ""
 " any sequence, including iterators, that cannot be unpacked as other "
 "sequences."
 msgstr ""
+"하지만 이 생성자에는 문제점이 있으니 주의하셔야 합니다. "
+"만약 함수가 같은 속성을 가진 인자의 리스트를 받는다면 ,"
+"이 리스트는 리스트나 시퀀스의 형태를 가진 하나의 "
+"인자로 정의하는 편이 보다 명확할 때가 많습니다. "
+"예를 들어 ``send`` 가 복수의 수신자를 가진다면 "
+"이런 식으로 명확하게 정의하는 편이 좋습니다: "
+"``send(message, recipients)`` 로 정의하고, "
+"``send('Hello', ['God', 'Mom', 'Cthulhu'])`` 로 호출합니다. "
+"이 방식에서는 함수를 사용하는 사람들이 미리 수신자 명단을 리스트로 가공할 수 있고, "
+"어느 시퀀스를 넘겨받든 이터레이터만 있으면 원하는 방식으로 풀 수 있습니다. "
 
 #: ../../writing/style.rst:144
 msgid ""
@@ -196,6 +262,11 @@ msgid ""
 "named arguments that have not been caught by other keyword arguments in "
 "the function signature."
 msgstr ""
+"**임의 키워드 인자 딕셔너리** 는 함수에 인자를 넘기는 마지막 방식입니다. "
+"만약 함수가 필요로 하는 인자가 몇 개가 들어올지 알 수 없으되 이름이 붙어있다면, "
+"``kwargs`` 생성자를 사용할 수 있습니다. "
+"함수 본문에서 ``kwargs`` 는 이름붙은 모든 인자의 딕셔너리가 되는데 "
+"이러한 인자들은 오로지 ``kwargs`` 로만 받을 수 있습니다. "
 
 #: ../../writing/style.rst:151
 msgid ""
@@ -205,6 +276,10 @@ msgid ""
 " if the simpler and clearer construct is sufficient to express the "
 "function's intention."
 msgstr ""
+"비슷한 이유로 *임의 인자 리스트* 를 쓸 때도 조심해야합니다: "
+"이런 강력한 테크닉은 꼭 필요한 경우에만 써야합니다. "
+"그리고 다른 간단하고 명쾌한 생성자로도 함수의 의도를 표현하기에 충분하다면 "
+"절대 쓰면 안됩니다. "
 
 #: ../../writing/style.rst:156
 msgid ""
@@ -214,20 +289,24 @@ msgid ""
 "arbitrary argument passing. If the advice above is followed wisely, it is"
 " possible and enjoyable to write Python functions that are:"
 msgstr ""
+"어느 인자를 위치 인자로 쓸지, 어느 인자를 선택적 키워드 인자로 쓸지, "
+"임의 인자를 넘기는 고급 기술을 쓸지 말지를 결정하는 것은 "
+"전적으로 함수를 작성하는 프로그래머에게 달렸습니다. "
+"지금까지의 조언이 현명하게 쓰인다면, 파이썬 함수를 이렇게 즐겁게 작성할 수 있습니다: "
 
 #: ../../writing/style.rst:162
 msgid "easy to read (the name and arguments need no explanations)"
-msgstr ""
+msgstr "읽기 쉽다(이름과 인자를 설명할 필요가 없다)"
 
 #: ../../writing/style.rst:164
 msgid ""
 "easy to change (adding a new keyword argument does not break other parts "
 "of the code)"
-msgstr ""
+msgstr "변경하기 쉽다(새 키워드 인자를 추가해도 코드의 다른 부분을 망가뜨리지 않는다)"
 
 #: ../../writing/style.rst:168
 msgid "Avoid the magical wand"
-msgstr ""
+msgstr "마법의 지팡이를 피하기"
 
 #: ../../writing/style.rst:170
 msgid ""
@@ -235,20 +314,23 @@ msgid ""
 "and tools allowing you to do almost any kind of tricky tricks. For "
 "instance, it is possible to do each of the following:"
 msgstr ""
+"파이썬은 해커를 위한 막강한 도구입니다. "
+"파이썬에는 어떠한 종류의 교묘한 트릭이라도 가능하게 해주는 다양한 도구들이 있습니다. "
+"예를 들자면 이런 것들입니다: "
 
 #: ../../writing/style.rst:174
 msgid "change how objects are created and instantiated"
-msgstr ""
+msgstr "객체들이 어떻게 생성되고 초기화되었는지를 변경"
 
 #: ../../writing/style.rst:176
 msgid "change how the Python interpreter imports modules"
-msgstr ""
+msgstr "파이썬 인터프리터가 모듈을 임포트 하는 방법을 변경"
 
 #: ../../writing/style.rst:178
 msgid ""
 "it is even possible (and recommended if needed) to embed C routines in "
 "Python."
-msgstr ""
+msgstr "파이썬에 C 루틴을 넣는 것도 가능(필요하면 추천하기도)"
 
 #: ../../writing/style.rst:180
 msgid ""
@@ -258,6 +340,10 @@ msgid ""
 "code analysis tools, such as pylint or pyflakes, will be unable to parse "
 "this \"magic\" code."
 msgstr ""
+"하지만 이 모든 방법은 결점이 있습니다. "
+"그리고 목표를 향해 곧바로 나아가는 방법이 늘 더 좋습니다. "
+"가장 중요한 문제점은 이러한 생성자를 쓰면 가독성이 엄청나게 훼손된다는 점입니다. "
+"파이린트나 파이플레이크 같은 많은 코드 분석 툴이 이런 \"마법\" 코드를 파싱하지 못합니다. "
 
 #: ../../writing/style.rst:185
 msgid ""
@@ -266,16 +352,21 @@ msgid ""
 " problem will be on the way. However, knowing how and particularly when "
 "**not** to use them is very important."
 msgstr ""
+"우리는 파이썬 개발자들이 이러한 무한한 가능성을 알았으면 좋겠습니다. "
+"해결불가능한 문제는 없다는 자신감을 심어주기 때문입니다. "
+"하지만 어떻게, 특히 어느 시점에 이런 마법의 지팡이를 **사용하지 말아야 하는지** 를 아는 것은 대단히 중요합니다. "
 
 #: ../../writing/style.rst:190
 msgid ""
 "Like a kung fu master, a Pythonista knows how to kill with a single "
 "finger, and never to actually do it."
 msgstr ""
+"쿵푸의 달인처럼, 파이써니스타는 한 손가락으로 사람을 죽일 수 있지만 "
+"절대 실전에서 그것을 사용하지 않습니다. "
 
 #: ../../writing/style.rst:194
 msgid "We are all responsible users"
-msgstr ""
+msgstr "우리는 모두 책임감 있는 사용자다"
 
 #: ../../writing/style.rst:196
 msgid ""
@@ -286,6 +377,11 @@ msgid ""
 "languages like Java, which give a lot of mechanisms to prevent any "
 "misuse, is expressed by the saying: \"We are all responsible users\"."
 msgstr ""
+"위에서 본대로 파이썬에서는 많은 트릭이 가능하지만 이런 것들은 위험할 수 있습니다. "
+"어느 클라이언트 코드가 객체의 속성과 메소드를 오버라이드 할 수 있다는 것은 "
+"이 위험성에 대한 좋은 예시입니다. 파이썬에는 \"private\" 키워드가 없습니다. "
+"이는 자바처럼 오류를 막기 위한 많은 메커니즘을 가지고 있는 방어적인 언어와는 아주 다릅니다. "
+"이러한 철학은 다음과 같이 표현할 수 있습니다: \"우리는 모두 책임감 있는 사용자다\"."
 
 #: ../../writing/style.rst:203
 msgid ""
@@ -296,6 +392,11 @@ msgid ""
 "conventions indicating that these elements should not be accessed "
 "directly."
 msgstr ""
+"이 말의 의미인즉 이런 경우를 말하는 것입니다. "
+"파이썬에는 private로 인식되는 속성이 없습니다. 캡슐화도 불가능합니다. "
+"파이썬에서는 개발자가 자신이 만든 코드와 다른 코드들 사이에 콘트리트 장벽을 세우고 "
+"거기에 의지하지 않습니다. 대신에 파이썬 커뮤니티에는 코딩 컨벤션이 있습니다. "
+"코딩 컨벤션을 통해서 직접 접근해서는 안 될 엘리먼트들을 알려줍니다. "
 
 #: ../../writing/style.rst:209
 msgid ""
@@ -305,6 +406,10 @@ msgid ""
 "problems encountered if the code is modified is the responsibility of the"
 " client code."
 msgstr ""
+"private 속성과 그 상세한 구현을 위한 코딩 컨벤션은 "
+"\"내부적으로 사용하는\" 모든 변수 앞에 언더스코어(_)를 붙이는 것입니다. "
+"만약 클라이언트 코드가 이 룰을 무시하고 어떤 엘리먼트에 접근하려고 한다면 "
+"그 코드가 겪을지도 모를 모든 문제와 오용은 전적으로 클라이언트 코드의 책임입니다. "
 
 #: ../../writing/style.rst:214
 msgid ""
@@ -315,10 +420,17 @@ msgid ""
 " private property, but making a public property private might be a much "
 "harder operation."
 msgstr ""
+"이 컨벤션을 따를 것을 추천드립니다: "
+"클라이언트 코드에서 가져다 쓰라고 만든 메소드나 속성이 아니라면 "
+"반드시 앞에 언더스코어(_)를 붙이세요. "
+"이렇게 하면 각 코드의 역할을 더 명확히 분리시켜줄 뿐만 아니라, "
+"기존 코드의 수정도 쉬워집니다. "
+"그리고 private 속성으로 표시하는 것은 언제든지 가능하지만, "
+"public 속성을 private로 바꾸기란 훨씬 더 어려운 작업이 될겁니다. "
 
 #: ../../writing/style.rst:221
 msgid "Returning values"
-msgstr ""
+msgstr "반환값"
 
 #: ../../writing/style.rst:223
 msgid ""
@@ -327,6 +439,9 @@ msgid ""
 " clear intent and a sustainable readability level, it is preferable to "
 "avoid returning meaningful values from many output points in the body."
 msgstr ""
+"함수가 점점 더 복잡해지는 경우, 함수 본문에 여러 개의 리턴 구문이 들어가는 것이 보통입니다. "
+"하지만 코드의 의도를 명확히 하면서 가독성의 수준을 유지하기 위하여, "
+"함수 본문 안에 여러 개의 리턴문을 넣는 것은 피할 것을 추천합니다. "
 
 #: ../../writing/style.rst:228
 msgid ""
@@ -335,6 +450,11 @@ msgid ""
 " cases that indicate a wrong input parameter or any other reason for the "
 "function to not be able to complete its computation or task."
 msgstr ""
+"다음은 함수가 값을 리턴하는 주요 케이스입니다: "
+"함수가 정상적으로 실행되었을 때의 리턴값, "
+"그리고 잘못된 입력 파라미터나 들어가거나 "
+"다른 이유로 인하여 함수의 계산이나 작업을 완료할 수 없어 "
+"에러가 발생하는 경우가 있습니다. "  
 
 #: ../../writing/style.rst:233
 msgid ""
@@ -347,6 +467,13 @@ msgid ""
 "further compute the function's main result. Having multiple such return "
 "statements is often necessary."
 msgstr ""
+"두번째 경우에서 예외를 발생시키고 싶지 않다면, "
+"None 이나 False 같이 함수를 정상적으로 수행할 수 없다는 의미의 리턴값이 필요할 것입니다. "
+"이런 경우에는 가능한 한 일찍 부정확한 구문이 발견되었음을 알리는 편이 좋습니다. "
+"이 방법이 함수의 구조를 매끈하게 하는데 도움이 될 것입니다: "
+"에러 때문에 리턴하는 구문 아래의 모든 코드는 "
+"해당 함수의 주요 결과물을 계산하기 위한 조건을 만족한다고 볼 수 있습니다. "
+"이런 경우에는 여러 개의 리턴 구문이 필요합니다. "
 
 #: ../../writing/style.rst:241
 msgid ""
@@ -356,10 +483,15 @@ msgid ""
 " some code paths, and the multiple exit points are a probable indication "
 "that such a refactoring is needed."
 msgstr ""
+"하지만 정상적으로 코드가 돌아가는 부분에도 함수에 여러 개의 종료 지점이 있는 경우, "
+"리턴하는 결과물을 디버깅하기 어렵습니다. "
+"따라서 함수에 하나의 종료점만 두는 편을 추천합니다. "
+"이렇게 하면 코드의 경로를 뽑아내기에 좋습니다. "
+"그러니 여러 개의 종료점이 있으면 이는 곧 리팩토링이 필요한 지점일지도 모릅니다. "
 
 #: ../../writing/style.rst:262
 msgid "Idioms"
-msgstr ""
+msgstr "이디엄"
 
 #: ../../writing/style.rst:264
 msgid ""
@@ -369,10 +501,14 @@ msgid ""
 "<http://stackoverflow.com/questions/302459/what-is-a-programming-"
 "idiom>`_."
 msgstr ""
+"프로그래밍 이디엄이란 간단히 말하자면 코드를 작성하는 *방법* 입니다. "
+"이 개념은 `c2 <http://c2.com/cgi/wiki?ProgrammingIdiom>`_ 와 "
+"`Stack Overflow <http://stackoverflow.com/questions/302459/what-is-a-programming-"idiom>`_ 에서 "
+"광범위하게 논의된 바 있습니다. "
 
 #: ../../writing/style.rst:268
 msgid "Idiomatic Python code is often referred to as being *Pythonic*."
-msgstr ""
+msgstr "자연스러운 파이썬 코드를 흔히들 *파이써닉* 스럽다고 말합니다. "
 
 #: ../../writing/style.rst:270
 msgid ""
@@ -380,14 +516,17 @@ msgid ""
 " to do it; *the* way to write idiomatic Python code can be non-obvious to"
 " Python beginners. So, good idioms must be consciously acquired."
 msgstr ""
+"이를 위한 명백한 방법(그리고 유일한 방법이라고 말하고 싶습니다)이 있지만, "
+"파이썬 초보자에게는 이상적인 파이썬 코드 작성법이 와닿지 않을 수도 있습니다. "
+"그러니 좋은 이디엄들을 의식적으로 숙지해야 합니다. "
 
 #: ../../writing/style.rst:274
 msgid "Some common Python idioms follow:"
-msgstr ""
+msgstr "다음은 몇 가지 일반적인 파이썬 이디엄들입니다: "
 
 #: ../../writing/style.rst:279
 msgid "Unpacking"
-msgstr ""
+msgstr "언패킹"
 
 #: ../../writing/style.rst:281
 msgid ""
@@ -395,30 +534,36 @@ msgid ""
 "elements with unpacking. For example, since ``enumerate()`` will provide "
 "a tuple of two elements for each item in list:"
 msgstr ""
+"리스트나 튜플의 길이를 알고 있다면, 언패킹을 하면서 각 엘리먼트마다 이름을 붙여줄 수 있습니다. "
+"예를 들면 ``enumerate()`` 는 리스트 내부에 있는 각각의 아이템에 "
+"2개의 엘리먼트가 있는 튜플을 만들어줍니다: "
 
 #: ../../writing/style.rst:290
 msgid "You can use this to swap variables as well:"
-msgstr ""
+msgstr "이런 식으로 변수들을 스왑할 수도 있습니다. "
 
 #: ../../writing/style.rst:296
 msgid "Nested unpacking works too:"
-msgstr ""
+msgstr "중첩 언패킹도 됩니다: "
 
 #: ../../writing/style.rst:302
 msgid ""
 "In Python 3, a new method of extended unpacking was introduced by "
 ":pep:`3132`:"
 msgstr ""
+"파이썬3에서는 :pep:`3132` 에서 언패킹을 하는 새로운 방법이 소개되었습니다: "
 
 #: ../../writing/style.rst:313
 msgid "Create an ignored variable"
-msgstr ""
+msgstr "사용하지 않을 변수 만들기"
 
 #: ../../writing/style.rst:315
 msgid ""
 "If you need to assign something (for instance, in :ref:`unpacking-ref`) "
 "but will not need that variable, use ``__``:"
 msgstr ""
+"사용하지 않을 변수를 가져다가 어딘가에 할당하는 경우 (예를 들면 :ref:`unpacking-ref` 할 경우) "
+"``__`` 를 사용하세요: "
 
 #: ../../writing/style.rst:325
 msgid ""
@@ -431,18 +576,25 @@ msgid ""
 "and eliminates the risk of accidentally interfering with either of these "
 "other use cases."
 msgstr ""
+"이 안내서에서는 쓸모없는 변수를 치워버리는데 언더스코어 두 줄 \"``__``\" 을 사용할 것을 추천하지만, "
+"다른 많은 파이썬 스타일 안내서에서는 언더스코어 한 줄 \"``_``\" 을 사용하라고 합니다. "
+"하지만 \"``_``\" 에는 문제가 있습니다. "
+"\"``_``\" 이 일반적으로 :func:`~gettext.gettext` 함수의 별칭(alias)로 쓰일 뿐 아니라, "
+"대화형 프롬프트상에서 이전 명령어의 결과값을 가지고 있는 변수로 쓰이기 때문입니다. "
+"그 대신 언더스코어 두 줄을 사용하면 아주 깔끔하고 편리할 뿐만 아니라, "
+"위에서 이야기한 경우가 돌발적으로 나타나 코드를 간섭하는 리스크를 제거할 수 있습니다. "
 
 #: ../../writing/style.rst:335
 msgid "Create a length-N list of the same thing"
-msgstr ""
+msgstr "동일한 내용물을 가진 길이 N의 리스트 만들기"
 
 #: ../../writing/style.rst:337
 msgid "Use the Python list ``*`` operator:"
-msgstr ""
+msgstr "파이썬 리스트의 ``*`` 연산자를 사용하세요. "
 
 #: ../../writing/style.rst:344
 msgid "Create a length-N list of lists"
-msgstr ""
+msgstr "길이가 N인 리스트가 들어있는 리스트 만들기"
 
 #: ../../writing/style.rst:346
 msgid ""
@@ -450,40 +602,52 @@ msgid ""
 "list of N references to the `same` list, which is not likely what you "
 "want. Instead, use a list comprehension:"
 msgstr ""
+"리스트는 변경 가능하기 때문에, ``*`` 연산자는 (위에서처럼) "
+"N개의 리퍼런스가 있는 `같은` 리스트를 만들 것입니다. "
+"하지만 아마 이렇게 만들고 싶지는 않았을 것입니다. "
+"대신에 리스트 컴프리헨션(list comprehension)을 사용하세요: "
+"(역주: 번역이 마땅치 않아 영문 그대로 사용하였습니다. "
+"타 번역서에서는 리스트 축약, 리스트 해석, 리스트 내장, 리스트 내포 등으로 번역되어 있습니다. )"
 
 #: ../../writing/style.rst:354
 msgid "Note: Use range() instead of xrange() in Python 3"
-msgstr ""
+msgstr "주석: 파이썬3에서는 xrange() 대신에 range()를 쓰세요. "
 
 #: ../../writing/style.rst:357
 msgid "Create a string from a list"
-msgstr ""
+msgstr "리스트로 문자열 만들기"
 
 #: ../../writing/style.rst:359
 msgid ""
 "A common idiom for creating strings is to use :py:meth:`str.join` on an "
 "empty string."
 msgstr ""
+"문자열을 만드는 일반적인 이디엄은 빈 문자열 변수에 :py:meth:`str.join` "
+"을 사용하는 것입니다. "
 
 #: ../../writing/style.rst:367
 msgid ""
 "This will set the value of the variable *word* to 'spam'. This idiom can "
 "be applied to lists and tuples."
 msgstr ""
+"이것은 변수의 *글자* 의 값을 붙여줍니다. "
+"이 이디엄은 리스트와 튜플에도 적용 가능합니다. "
 
 #: ../../writing/style.rst:371
 msgid "Searching for an item in a collection"
-msgstr ""
+msgstr "컬렉션에서 아이템 찾기"
 
 #: ../../writing/style.rst:373
 msgid ""
 "Sometimes we need to search through a collection of things. Let's look at"
 " two options: lists and sets."
 msgstr ""
+"컬렉션에서 무언가를 찾아야 할 때가 있습니다. "
+"두 가지 옵션을 살펴봅시다. 리스트와 셋(set)입니다: "
 
 #: ../../writing/style.rst:376
 msgid "Take the following code for example:"
-msgstr ""
+msgstr "예시 삼아 다음의 코드를 작성해봅시다: "
 
 #: ../../writing/style.rst:389
 msgid ""
@@ -501,24 +665,40 @@ msgid ""
 "common operations take on each of these data structures, see `this page "
 "<https://wiki.python.org/moin/TimeComplexity?>`_."
 msgstr ""
+"두 함수는 똑같아 보입니다. 하지만 검색 성능은 확연히 다릅니다. "
+"*lookup_set* 함수가 파이썬에서 셋(set)은 해시테이블이라는 사실을 이용하기 때문입니다. "
+"리스트 안에 어떤 아이템이 존재하는지 확인하려면 "
+"파이썬은 그 아이템과 매칭되는 것을 찾을 때까지 각각의 아이템을 모두 검사해야만 합니다. "
+"이 작업에는 시간이 걸립니다. 리스트가 긴 경우에는 더욱 그렇습니다. "
+"반면에 셋(set)에서는 각 아이템의 해시가 "
+"셋 안에의 어느 곳에 매칭되는 아이템이 위치하는지 알려줍니다. "
+"결과적으로 셋(set)이 크더라도 검색이 빠르게 완료됩니다. "
+"딕셔너리(dictionary)에서의 검색도 마찬가지로 수행됩니다. "
+"더 많은 정보를 윈하시면 "
+" `StackOverflow <http://stackoverflow.com/questions/513882/python-list-vs-dict-for-look-up-table>`_ "
+"를 참조하세요. " 
+"데이터 구조에 따라 각 연산자들이 어느 정도의 시간을 소모하는지에 대한 자세한 정보는 "
+" `이 페이지 <https://wiki.python.org/moin/TimeComplexity?>`_ 를 참고하세요. "  
 
 #: ../../writing/style.rst:403
 msgid ""
 "Because of these differences in performance, it is often a good idea to "
 "use sets or dictionaries instead of lists in cases where:"
 msgstr ""
+"이러한 성능의 차이 때문에 다음과 같은 경우에는 "
+"리스트 대신 셋(set)이나 딕셔너리(dictionary)를 사용하는 편이 좋습니다: "
 
 #: ../../writing/style.rst:406
 msgid "The collection will contain a large number of items"
-msgstr ""
+msgstr "컬렉션이 아이템을 많이 가질 경우"
 
 #: ../../writing/style.rst:408
 msgid "You will be repeatedly searching for items in the collection"
-msgstr ""
+msgstr "컬렉션 안의 아이템을 반복적으로 검색할 경우"
 
 #: ../../writing/style.rst:410
 msgid "You do not have duplicate items."
-msgstr ""
+msgstr "중복 아이템이 없는 경우"
 
 #: ../../writing/style.rst:412
 msgid ""
@@ -527,14 +707,17 @@ msgid ""
 "hashtable will often be greater than the time saved by the improved "
 "search speed."
 msgstr ""
+"크기가 작거나 검색을 자주 하지 않는 컬렉션의 경우에는 "
+"오히려 해시테이블을 만드는데 필요한 추가적인 시간과 메모리가 "
+"검색할 때 절약되는 시간에 비해 더 큰 경우도 많습니다. " 
 
 #: ../../writing/style.rst:419
 msgid "Zen of Python"
-msgstr ""
+msgstr "파이썬의 선(禪)"
 
 #: ../../writing/style.rst:421
 msgid "Also known as :pep:`20`, the guiding principles for Python's design."
-msgstr ""
+msgstr ":pep:`20` 으로도 알려진 파이썬 디자인의 기본 원칙"
 
 #: ../../writing/style.rst:448
 msgid ""
@@ -542,10 +725,13 @@ msgid ""
 "user group "
 "<http://artifex.org/~hblanks/talks/2011/pep20_by_example.pdf>`_."
 msgstr ""
+"좋은 파이썬 스타일의 예시를 보고 싶다면, "
+"`파이썬 유저 그룹의 이 슬라이드 <http://artifex.org/~hblanks/talks/2011/pep20_by_example.pdf>`_ "
+"를 읽어보세요. "
 
 #: ../../writing/style.rst:452
 msgid "PEP 8"
-msgstr ""
+msgstr "PEP 8"
 
 #: ../../writing/style.rst:454
 msgid ""
@@ -553,6 +739,9 @@ msgid ""
 "easy-to-read version of PEP 8 is also available at `pep8.org "
 "<http://pep8.org/>`_."
 msgstr ""
+":pep:`8` 은 사실상 파이썬을 위한 코드 스타일 안내서입니다. "
+"질 좋고 읽기 쉬운 버전의 PEP 8도 있습니다: "
+"`pep8.org <http://pep8.org/>`_ "
 
 #: ../../writing/style.rst:457
 msgid ""
@@ -562,6 +751,11 @@ msgid ""
 "its recommendations <http://docs.python-"
 "requests.org/en/master/dev/contributing/#kenneth-reitz-s-code-style>`_."
 msgstr ""
+"읽어볼 것을 강력 추천합니다. 모든 파이썬 커뮤니티가 이 문서의 가이드라인을 "
+"준수하려고 노력합니다. "
+"시간이 흐름에 따라 여기서 멀어지는 프로젝트도 있을겁니다. "
+"그렇지 않은 분들은 "
+"`이 추천사항을 수정해주세요 <http://docs.python-requests.org/en/master/dev/contributing/#kenneth-reitz-s-code-style>`_."
 
 #: ../../writing/style.rst:462
 msgid ""
@@ -572,12 +766,18 @@ msgid ""
 "conformance. Install it by running the following command in your "
 "terminal:"
 msgstr ""
+"이 말인즉, PEP 8에 파이썬 코드를 맞추는 편이 대체로 좋은 생각이며, "
+"프로젝트에서 다른 개발자와 함께 일할 경우 코드의 일관성을 유지하는데 도움이 된다는 뜻입니다. "
+"이를 위해 여러분의 코드가 PEP 8을 지키는지를 체크하는 "
+"`pep8 <https://github.com/jcrocholl/pep8>`_ 라는 커맨드라인 프로그램이 있습니다. "
+"터미널에서 아래의 명령어를 돌려 설치해보세요. "
 
 #: ../../writing/style.rst:474
 msgid ""
 "Then run it on a file or series of files to get a report of any "
 "violations."
-msgstr ""
+msgstr "그런 다음 파일 하나 혹은 여러 개의 파일에다 "
+"돌리면 PEP 8 위반 여부 보고서를 얻을 수 있습니다. "
 
 #: ../../writing/style.rst:488
 msgid ""
@@ -585,10 +785,13 @@ msgid ""
 "used to automatically reformat code in the PEP 8 style. Install the "
 "program with:"
 msgstr ""
+"`autopep8 <https://pypi.python.org/pypi/autopep8/>`_ 프로그램도 "
+"코드를 PEP 8 스타일로 자동 재포맷하는데 쓰일 수 있습니다. "
+"이렇게 설치하시면 됩니다: "
 
 #: ../../writing/style.rst:495
 msgid "Use it to format a file in-place with:"
-msgstr ""
+msgstr "포맷할 파일에다가 이렇게 사용하시며 됩니다: "
 
 #: ../../writing/style.rst:501
 msgid ""
@@ -597,20 +800,24 @@ msgid ""
 "flag will perform more substantial changes and can be applied multiple "
 "times for greater effect."
 msgstr ""
+"``--in-place`` 플래그를 빼면 프로그램이 콘솔에 바로 뽑아준 "
+"변경된 코드로 리뷰를 할 수 있습니다. "
+"``--aggressive`` 플래그는 더 많은 변화를 수행하고, "
+"여러 번 수행해서 더 많은 효과를 볼 수도 있습니다. "
 
 #: ../../writing/style.rst:506
 msgid "Conventions"
-msgstr ""
+msgstr "컨벤션(convention)"
 
 #: ../../writing/style.rst:508
 msgid ""
 "Here are some conventions you should follow to make your code easier to "
 "read."
-msgstr ""
+msgstr "읽기 쉬운 코드 작성을 위한 코딩 컨벤션을 소개합니다. "
 
 #: ../../writing/style.rst:511
 msgid "Check if variable equals a constant"
-msgstr ""
+msgstr "변수와 상수가 같은지 여부를 체크하기"
 
 #: ../../writing/style.rst:513
 msgid ""
@@ -619,6 +826,10 @@ msgid ""
 "<http://docs.python.org/library/stdtypes.html#truth-value-testing>`_ for "
 "a list of what is considered false."
 msgstr ""
+"값이 True인지, None인지, 0인지를 확실하게 비교할 필요는 없습니다 - "
+"그냥 if문만 붙이면 됩니다. "
+"`Truth Value Testing <http://docs.python.org/library/stdtypes.html#truth-value-testing>`_ 을 "
+"보시면 어느 것이 false인지 알 수 있습니다. "
 
 #: ../../writing/style.rst:518 ../../writing/style.rst:550
 #: ../../writing/style.rst:582 ../../writing/style.rst:602
@@ -634,17 +845,19 @@ msgstr ""
 
 #: ../../writing/style.rst:545
 msgid "Access a Dictionary Element"
-msgstr ""
+msgstr "딕셔너리의 엘리먼트에 접근하기"
 
 #: ../../writing/style.rst:547
 msgid ""
 "Don't use the :py:meth:`dict.has_key` method. Instead, use ``x in d`` "
 "syntax, or pass a default argument to :py:meth:`dict.get`."
 msgstr ""
+":py:meth:`dict.has_key` 메소드를 쓰지 마세요. "
+"대신에 ``x in d`` 문법을 쓰거나, :py:meth:`dict.get` 에 디폴트값을 넣어 쓰세요. "
 
 #: ../../writing/style.rst:574
 msgid "Short Ways to Manipulate Lists"
-msgstr ""
+msgstr "리스트를 조작하는 지름길"
 
 #: ../../writing/style.rst:576
 msgid ""
@@ -653,36 +866,46 @@ msgid ""
 "lists. Also, the :py:func:`map` and :py:func:`filter` functions can "
 "perform operations on lists using a different, more concise syntax."
 msgstr ""
+"`리스트 컴프리헨션(list comprehension) <http://docs.python.org/tutorial/datastructures.html#list-comprehensions>`_ 은 "
+"리스트로 작업하는 강력하고도 간결한 방법입니다. "
+":py:func:`map` 과 :py:func:`filter` 함수 또한 " 
+"리스트에 명령을 수행하는 또다른 간결한 문법입니다. "
 
 #: ../../writing/style.rst:620
 msgid "Use :py:func:`enumerate` keep a count of your place in the list."
-msgstr ""
+msgstr ":py:func:`enumerate` 를 사용하면 리스트 안의 순서를 세어 기억시켜둘 수 있습니다. "
 
 #: ../../writing/style.rst:632
 msgid ""
 "The :py:func:`enumerate` function has better readability than handling a "
 "counter manually. Moreover, it is better optimized for iterators."
 msgstr ""
+":py:func:`enumerate` 함수는 직접 번호를 매기는 코드를 다루는 방법보다 "
+"가독성이 좋습니다. "
 
 #: ../../writing/style.rst:636
 msgid "Read From a File"
-msgstr ""
+msgstr "파일에서 읽기"
 
 #: ../../writing/style.rst:638
 msgid ""
 "Use the ``with open`` syntax to read from files. This will automatically "
 "close files for you."
 msgstr ""
+"``with open`` 문법으로 파일을 읽으세요. "
+"파일을 자동으로 닫아줍니다. "
 
 #: ../../writing/style.rst:658
 msgid ""
 "The ``with`` statement is better because it will ensure you always close "
 "the file, even if an exception is raised inside the ``with`` block."
 msgstr ""
+"``with`` 문은 파일을 반드시 닫아주기 때문에 더 좋습니다. "
+"심지어 ``with`` 블럭 안에서 예외(exception)이 발생해도 그렇습니다. " 
 
 #: ../../writing/style.rst:662
 msgid "Line Continuations"
-msgstr ""
+msgstr "줄 잇기"
 
 #: ../../writing/style.rst:664
 msgid ""
@@ -693,6 +916,11 @@ msgid ""
 "its fragility: a white space added to the end of the line, after the "
 "backslash, will break the code and may have unexpected results."
 msgstr ""
+"코드의 논리적 줄이 어느 정도를 넘어서면 몇 개의 물리적 줄로 쪼갤 필요가 있습니다. "
+"파이썬 인터프리터는 줄의 마지막 문자가 역슬래시(\)일 경우 "
+"자동으로 줄을 이어줍니다. "
+"이는 많은 경우에 도움이 되지만 망가지기 쉬운 경우가 있기에 일반적으로 피해야합니다: "
+"역슬래시 뒤에 빈 칸(white space)가 있는 경우, 코드가 망가지고 예상치 못한 결과가 나옵니다. "
 
 #: ../../writing/style.rst:671
 msgid ""
@@ -701,6 +929,10 @@ msgid ""
 "join the next line until the parentheses are closed. The same behavior "
 "holds for curly and square braces."
 msgstr ""
+"더 나은 해결책은 괄호()를 두르는 것입니다. "
+"파이썬 인터프리터는 왼쪽의 열린 괄호에서부터 오른쪽의 닫힌 괄호까지의 줄을 "
+"자동으로 연결합니다. "
+"중괄호{}와 대괄호[]에서도 동일하게 동작합니다. "
 
 #: ../../writing/style.rst:700
 msgid ""
@@ -708,151 +940,6 @@ msgid ""
 "sign that you are trying to do too many things at the same time, which "
 "may hinder readability."
 msgstr ""
-
-#~ msgid ""
-#~ "2. **Keyword arguments** are not "
-#~ "mandatory and have default values. They"
-#~ " are often used for optional "
-#~ "parameters sent to the function. When"
-#~ " a function has more than two "
-#~ "or three positional parameters, its "
-#~ "signature is more difficult to remember"
-#~ " and using keyword argument with "
-#~ "default values is helpful. For instance,"
-#~ " a more complete ``send`` function "
-#~ "could be defined as ``send(message, to,"
-#~ " cc=None, bcc=None)``. Here ``cc`` and "
-#~ "``bcc`` are optional, and evaluate to"
-#~ " ``None`` when they are not passed"
-#~ " another value."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "3. The **arbitrary argument list** is"
-#~ " the third way to pass arguments "
-#~ "to a function.  If the function "
-#~ "intention is better expressed by a "
-#~ "signature with an extensible number of"
-#~ " positional arguments, it can be "
-#~ "defined with the ``*args`` constructs.  "
-#~ "In the function body, ``args`` will "
-#~ "be a tuple of all the remaining"
-#~ " positional arguments. For example, "
-#~ "``send(message, *args)`` can be called "
-#~ "with each recipient as an argument: "
-#~ "``send('Hello', 'God', 'Mom', 'Cthulhu')``, "
-#~ "and in the function body ``args`` "
-#~ "will be equal to ``('God', 'Mom', "
-#~ "'Cthulhu')``."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "4. The **arbitrary keyword argument "
-#~ "dictionary** is the last way to "
-#~ "pass arguments to functions. If the "
-#~ "function requires an undetermined series "
-#~ "of named arguments, it is possible "
-#~ "to use the ``**kwargs`` construct. In"
-#~ " the function body, ``kwargs`` will "
-#~ "be a dictionary of all the passed"
-#~ " named arguments that have not been"
-#~ " caught by other keyword arguments in"
-#~ " the function signature."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "A powerful tool for hackers, Python "
-#~ "comes with a very rich set of "
-#~ "hooks and tools allowing to do "
-#~ "almost any kind of tricky tricks. "
-#~ "For instance, it is possible to do"
-#~ " each of the following:"
-#~ msgstr ""
-
-#~ msgid "We are all consenting adults"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "As seen above, Python allows many "
-#~ "tricks, and some of them are "
-#~ "potentially dangerous. A good example is"
-#~ " that any client code can override"
-#~ " an object's properties and methods: "
-#~ "there is no \"private\" keyword in "
-#~ "Python. This philosophy, very different "
-#~ "from highly defensive languages like "
-#~ "Java, which give a lot of "
-#~ "mechanisms to prevent any misuse, is "
-#~ "expressed by the saying: \"We are "
-#~ "all consenting adults\"."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Using this convention generously is "
-#~ "encouraged: any method or property that"
-#~ " is not intended to be used by"
-#~ " client code should be prefixed with"
-#~ " an underscore. This will guarantee a"
-#~ " better separation of duties and "
-#~ "easier modification of existing code; it"
-#~ " will always be possible to publicize"
-#~ " a private property, while privatising "
-#~ "a public property might be a much"
-#~ " harder operation."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Sometimes we need to search through "
-#~ "a collection of things. Let's look "
-#~ "at two options: lists and dictionaries."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Even though both functions look "
-#~ "identical, because *lookup_dict* is utilizing"
-#~ " the fact that dictionaries in Python"
-#~ " are hashtables, the lookup performance "
-#~ "between the two is very different. "
-#~ "Python will have to go through "
-#~ "each item in the list to find "
-#~ "a matching case, which is time "
-#~ "consuming. By analysing the hash of "
-#~ "the dictionary, finding keys in the "
-#~ "dict can be done very quickly. For"
-#~ " more information see this `StackOverflow"
-#~ " <http://stackoverflow.com/questions/513882/python-list-"
-#~ "vs-dict-for-look-up-table>`_ page."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "For some examples of good Python "
-#~ "style, see `this Stack Overflow question"
-#~ " <http://stackoverflow.com/questions/228181/the-zen-"
-#~ "of-python>`_ or `these slides from a"
-#~ " Python user group "
-#~ "<http://artifex.org/~hblanks/talks/2011/pep20_by_example.pdf>`_."
-#~ msgstr ""
-
-#~ msgid ":pep:`8` is the de-facto code style guide for Python."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Conforming your Python code to PEP "
-#~ "8 is generally a good idea and "
-#~ "helps make code more consistent when "
-#~ "working on projects with other "
-#~ "developers. There is a command-line "
-#~ "program, `pep8 <https://github.com/jcrocholl/pep8>`_, "
-#~ "that can check your code for "
-#~ "conformance. Install it by running the"
-#~ " following command in your Terminal:"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "However, more often than not having "
-#~ "to split long logical line is a"
-#~ " sign that you are trying to do"
-#~ " too many things at the same "
-#~ "time, which may hinder readability."
-#~ msgstr ""
-
+"그러나 대부분의 경우 긴 논리적 줄을 나누는 짓은 동시에 너무 많은 일을 "
+"하려고 한다는 신호입니다. "
+"이는 가독성을 해칩니다. "
