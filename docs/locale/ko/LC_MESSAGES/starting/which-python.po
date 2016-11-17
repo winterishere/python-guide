@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pythonguide 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-10-11 08:03+0000\n"
+"POT-Creation-Date: 2016-11-17 01:45+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: YoungSeon.Ahn <lovemewithoutall@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,8 +26,8 @@ msgid ""
 "present: \"Should I choose Python 2 or Python 3\"? The answer is not as "
 "obvious as one might think."
 msgstr ""
-"파이썬 인터프리터를 고를 때면 항상 한가지 문제가 떠오릅니다. \"파이썬2를 써야할까 아니면 파이썬3를 써야할까?\" 답은 생각처럼 "
-"간단하지 않습니다."
+"파이썬 인터프리터를 고를 때면 항상 한가지 문제가 떠오릅니다. \"파이썬2를 써야할까 아니면 파이썬3를 써야할까?\" 답은 생각처럼"
+" 간단하지 않습니다."
 
 #: ../../starting/which-python.rst:14
 msgid "The basic gist of the state of things is as follows:"
@@ -47,9 +47,7 @@ msgstr "파이썬3에 있었던 상당한 변화 때문에 파이썬3를 좋아�
 msgid ""
 "Python 2.7 will receive necessary security updates until 2020 "
 "[#pep373_eol]_."
-msgstr ""
-"파이썬2.7은 2020년까지는 필수 보안 업데이트를 받을 것이다. "
-"[#pep373_eol]_."
+msgstr "파이썬2.7은 2020년까지는 필수 보안 업데이트를 받을 것이다. [#pep373_eol]_."
 
 #: ../../starting/which-python.rst:19
 msgid "Python 3 is continually evolving, like Python 2 did in years past."
@@ -120,8 +118,8 @@ msgid ""
 "brings new and improved standard library modules, security and bug fixes."
 " Progress is progress."
 msgstr ""
-"파이썬 인터프리터를 고르는 중이라면, 그리고 따로 생각이 있는게 아니라면, 최신 버젼의 파이썬3.x 사용을 추천합니다. 모든 버젼이 "
-"새롭고 향상된 표준 라이브러리 모듈과 보안, 그리고 버그 수정을 제공하고 있기 때문입니다. 개선도 진행 중입니다."
+"파이썬 인터프리터를 고르는 중이라면, 그리고 따로 생각이 있는게 아니라면, 최신 버젼의 파이썬3.x 사용을 추천합니다. 모든 버젼이"
+" 새롭고 향상된 표준 라이브러리 모듈과 보안, 그리고 버그 수정을 제공하고 있기 때문입니다. 개선도 진행 중입니다."
 
 #: ../../starting/which-python.rst:52
 msgid ""
@@ -130,16 +128,16 @@ msgid ""
 "alternative, or you (like me) absolutely love and are inspired by Python "
 "2."
 msgstr ""
-"하지만 파이썬3에서는 적절히 쓸 수 있는 다른 대안이 없고, 오로지 파이썬2에서만 돌아가는 라이브러리라든가 아니면 파이썬 2를 너무나도"
-" 사랑한다면(나처럼), 파이썬2를 사용할 수밖에 없을 것입니다."
+"하지만 파이썬3에서는 적절히 쓸 수 있는 다른 대안이 없고, 오로지 파이썬2에서만 돌아가는 라이브러리라든가 아니면 파이썬 2를 "
+"너무나도 사랑한다면(나처럼), 파이썬2를 사용할 수밖에 없을 것입니다."
 
 #: ../../starting/which-python.rst:56
 msgid ""
 "Check out `Can I Use Python 3? <https://caniusepython3.com/>`_ to see if "
 "any software you're depending on will block your adoption of Python 3."
 msgstr ""
-"`Can I Use Python 3? <https://caniusepython3.com/>`_ 에서 확인해보시면, 당신이 사용 중인 소프트웨어가 "
-"파이썬3를 사용할 수 없게 만드는 장애물이 있지 않은가 알 수 있습니다. "
+"`Can I Use Python 3? <https://caniusepython3.com/>`_ 에서 확인해보시면, 당신이 사용 중인"
+" 소프트웨어가 파이썬3를 사용할 수 없게 만드는 장애물이 있지 않은가 알 수 있습니다. "
 
 #: ../../starting/which-python.rst:59
 msgid "`Further Reading <http://wiki.python.org/moin/Python2orPython3>`_"
@@ -154,7 +152,8 @@ msgid ""
 msgstr ""
 "파이썬 2.6, 2.7, 3에서 모두 돌아가는 코드를 작성하는 것도  `가능합니다 "
 "<http://lucumr.pocoo.org/2013/5/21/porting-to-python-3-redux/>`_. 이 안내서는 "
-"사소한 것들로부터 시작해 당신이 작성하고 있는 소프트웨어의 종류에 따른 어려운 문제까지 다루고 있습니다. 초보자라면 반드시 신경써야할 대단히 중요한 사항들도 있습니다."
+"사소한 것들로부터 시작해 당신이 작성하고 있는 소프트웨어의 종류에 따른 어려운 문제까지 다루고 있습니다. 초보자라면 반드시 "
+"신경써야할 대단히 중요한 사항들도 있습니다."
 
 #: ../../starting/which-python.rst:68
 msgid "Implementations"
@@ -166,8 +165,8 @@ msgid ""
 "also the CPython implementation. *Python* is actually a specification for"
 " a language that can be implemented in many different ways."
 msgstr ""
-"사람들이 파이썬을 이야기할 때는 *파이썬* 뿐만 아니라 CPython 구현을 의미할 때가 많습니다. *파이썬* 은 실제로 다양한 방법으로"
-" 구현될 수 있는 언어를 위한 명세서입니다."
+"사람들이 파이썬을 이야기할 때는 *파이썬* 뿐만 아니라 CPython 구현을 의미할 때가 많습니다. *파이썬* 은 실제로 다양한 "
+"방법으로 구현될 수 있는 언어를 위한 명세서입니다."
 
 #: ../../starting/which-python.rst:75
 msgid "CPython"
@@ -181,8 +180,9 @@ msgid ""
 "highest level of compatibility with Python packages and C extension "
 "modules."
 msgstr ""
-"`CPython <http://www.python.org>`_ 은 C로 작성된 파이썬 구현의 리퍼런스로서, 파이썬 코드를 가상 머신에 "
-"의해 해석되는 중간 바이트코드로 컴파일합니다. CPython은 파이썬 패키지와 C언어의 확장 모듈간에 최고 레벨의 호환성을 제공합니다. "
+"`CPython <http://www.python.org>`_ 은 C로 작성된 파이썬 구현의 리퍼런스로서, 파이썬 코드를 가상 "
+"머신에 의해 해석되는 중간 바이트코드로 컴파일합니다. CPython은 파이썬 패키지와 C언어의 확장 모듈간에 최고 레벨의 호환성을 "
+"제공합니다. "
 
 #: ../../starting/which-python.rst:82
 msgid ""
@@ -190,8 +190,8 @@ msgid ""
 "possible audience, targeting CPython is best. To use packages which rely "
 "on C extensions to function, CPython is your only implementation option."
 msgstr ""
-"오픈 소스 파이썬 코드를 작성 중이고 폭넓은 사용자 기반을 갖고 싶다면 CPython이 최고입니다. C언어 확장 기능을 쓰는 패키지를 "
-"사용하려면 CPython이 유일한 구현 방법입니다."
+"오픈 소스 파이썬 코드를 작성 중이고 폭넓은 사용자 기반을 갖고 싶다면 CPython이 최고입니다. C언어 확장 기능을 쓰는 "
+"패키지를 사용하려면 CPython이 유일한 구현 방법입니다."
 
 #: ../../starting/which-python.rst:86
 msgid ""
@@ -210,8 +210,9 @@ msgid ""
 " The interpreter features a just-in-time compiler and supports multiple "
 "back-ends (C, CLI, JVM)."
 msgstr ""
-"`PyPy <http://pypy.org/>`_ 는 파이썬 언어의 정적 타입으로만 구현된 파이썬 "
-"인터프리터로서 통칭 RPython이라 불립니다. 이 인터프리터의 특징은 just-in-time 컴파일러와 복수의 백엔드(C, CLI, JVM)를 지원한다는 것입니다."
+"`PyPy <http://pypy.org/>`_ 는 파이썬 언어의 정적 타입으로만 구현된 파이썬 인터프리터로서 통칭 "
+"RPython이라 불립니다. 이 인터프리터의 특징은 just-in-time 컴파일러와 복수의 백엔드(C, CLI, JVM)를 "
+"지원한다는 것입니다."
 
 #: ../../starting/which-python.rst:96
 msgid ""
@@ -270,8 +271,8 @@ msgid ""
 "libraries, and can also expose Python code to other languages in the .NET"
 " framework."
 msgstr ""
-"`IronPython <http://ironpython.net/>`_  은 닷넷 프레임워크를 위한 파이썬 구현입니다. 파이썬과 닷넷 "
-"프레임워크 라이브러리 둘 다 쓸 수 있고, 파이썬 코드를 닷넷 프레임워크의 다른 언어로 바꿀 수 있습니다. "
+"`IronPython <http://ironpython.net/>`_  은 닷넷 프레임워크를 위한 파이썬 구현입니다. 파이썬과 닷넷"
+" 프레임워크 라이브러리 둘 다 쓸 수 있고, 파이썬 코드를 닷넷 프레임워크의 다른 언어로 바꿀 수 있습니다. "
 
 #: ../../starting/which-python.rst:125
 msgid ""
@@ -279,8 +280,8 @@ msgid ""
 "integrates IronPython directly into the Visual Studio development "
 "environment, making it an ideal choice for Windows developers."
 msgstr ""
-"`Python Tools for Visual Studio <http://ironpython.net/tools/>`_ "
-"는 IronPython을 직접 비쥬얼 스튜디오 개발 환경으로 통합할 수 있습니다. 이는 Windows 개발자들에게 좋은 선택입니다."
+"`Python Tools for Visual Studio <http://ironpython.net/tools/>`_ 는 "
+"IronPython을 직접 비쥬얼 스튜디오 개발 환경으로 통합할 수 있습니다. 이는 Windows 개발자들에게 좋은 선택입니다."
 
 #: ../../starting/which-python.rst:129
 msgid "IronPython supports Python 2.7. [#iron_ver]_"
@@ -299,22 +300,24 @@ msgid ""
 "more complementary than competing with."
 msgstr ""
 "`Python for .NET <http://pythonnet.github.io/>`_ 은 순정 버젼의 파이썬 설치본과 닷넷 공통 "
-"언어 런타임(CLR)을 말끔하게 통합시켜주는 패키지입니다. 이는 위의 IronPython이 취한 방식을 역으로 접근한 것으로, 보다 "
-"상호 보완적입니다."
+"언어 런타임(CLR)을 말끔하게 통합시켜주는 패키지입니다. 이는 위의 IronPython이 취한 방식을 역으로 접근한 것으로, 보다"
+" 상호 보완적입니다."
 
 #: ../../starting/which-python.rst:140
 msgid ""
-"In conjunction with Mono, PythonNet enables native Python installations "
+"In conjunction with Mono, pythonnet enables native Python installations "
 "on non-Windows operating systems, such as OS X and Linux, to operate "
 "within the .NET framework.  It can be run in addition to IronPython "
 "without conflict."
 msgstr ""
-"Mono와 함께 사용하면 PythonNet은 OS X와 리눅스처럼 비Windows 운영체제에 설치된 순정 버젼의 파이썬을 닷넷 "
+"Mono와 함께 사용하면 pythonnet OS X와 리눅스처럼 비Windows 운영체제에 설치된 순정 버젼의 파이썬을 닷넷 "
 "프레임워크 안에서 수행될 수 있도록 해줍니다. IronPython과 같이 사용해도 충돌하지 않습니다."
 
 #: ../../starting/which-python.rst:145
-msgid "PythonNet supports from Python 2.3 up to Python 2.7. [#pythonnet_ver]_"
-msgstr "PythonNet은 파이썬 2.3부터 2.7버젼까지 지원합니다. [#pythonnet_ver]_"
+msgid ""
+"Pythonnet supports from Python 2.6 up to Python 3.5. [#pythonnet_ver1]_ "
+"[#pythonnet_ver2]_"
+msgstr "Pythonnet은 파이썬 2.3부터 2.7버젼까지 지원합니다. [#pythonnet_ver]_"
 
 #: ../../starting/which-python.rst:147
 msgid "http://pypy.org/compat.html"
@@ -329,9 +332,15 @@ msgid "http://ironpython.codeplex.com/releases/view/81726"
 msgstr "http://ironpython.codeplex.com/releases/view/81726"
 
 #: ../../starting/which-python.rst:153
-msgid "http://pythonnet.github.io/readme.html"
-msgstr "http://pythonnet.github.io/readme.html"
+msgid "https://travis-ci.org/pythonnet/pythonnet"
+msgstr "https://travis-ci.org/pythonnet/pythonnet"
 
 #: ../../starting/which-python.rst:155
+msgid "https://ci.appveyor.com/project/TonyRoberts/pythonnet-480xs"
+msgstr "https://ci.appveyor.com/project/TonyRoberts/pythonnet-480xs"
+
+#: ../../starting/which-python.rst:157
 msgid "https://www.python.org/dev/peps/pep-0373/#id2"
 msgstr "https://www.python.org/dev/peps/pep-0373/#id2"
+
+

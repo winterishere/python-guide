@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pythonguide 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-10-11 08:03+0000\n"
+"POT-Creation-Date: 2016-11-17 01:45+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -141,26 +141,14 @@ msgid "Shedskin?"
 msgstr ""
 
 #: ../../scenarios/speed.rst:226
-msgid "Numba"
-msgstr ""
-
-#: ../../scenarios/speed.rst
-msgid "Todo"
-msgstr ""
-
-#: ../../scenarios/speed.rst:227
-msgid "Write about Numba and the autojit compiler for NumPy"
-msgstr ""
-
-#: ../../scenarios/speed.rst:230
 msgid "Concurrency"
 msgstr ""
 
-#: ../../scenarios/speed.rst:234
+#: ../../scenarios/speed.rst:230
 msgid "Concurrent.futures"
 msgstr ""
 
-#: ../../scenarios/speed.rst:236
+#: ../../scenarios/speed.rst:232
 msgid ""
 "The `concurrent.futures`_ module is a module in the standard library that"
 " provides a \"high-level interface for asynchronously executing "
@@ -169,7 +157,7 @@ msgid ""
 " user to focus on accomplishing the task at hand."
 msgstr ""
 
-#: ../../scenarios/speed.rst:242
+#: ../../scenarios/speed.rst:238
 msgid ""
 "The `concurrent.futures`_ module exposes two main classes, the "
 "`ThreadPoolExecutor` and the `ProcessPoolExecutor`. The "
@@ -178,7 +166,7 @@ msgid ""
 "the next worker thread becomes available."
 msgstr ""
 
-#: ../../scenarios/speed.rst:248
+#: ../../scenarios/speed.rst:244
 msgid ""
 "The ProcessPoolExecutor works in the same way, except instead of using "
 "multiple threads for its workers, it will use multiple processes. This "
@@ -187,7 +175,7 @@ msgid ""
 "and returned."
 msgstr ""
 
-#: ../../scenarios/speed.rst:253
+#: ../../scenarios/speed.rst:249
 msgid ""
 "Because of the way the GIL works, a good rule of thumb is to use a "
 "ThreadPoolExecutor when the task being executed involves a lot of "
@@ -195,7 +183,7 @@ msgid ""
 "ProcessPoolExecutor executor when the task is computationally expensive."
 msgstr ""
 
-#: ../../scenarios/speed.rst:258
+#: ../../scenarios/speed.rst:254
 msgid ""
 "There are two main ways of executing things in parallel using the two "
 "Executors. One way is with the `map(func, iterables)` method. This works "
@@ -203,129 +191,129 @@ msgid ""
 "everything in parallel. :"
 msgstr ""
 
-#: ../../scenarios/speed.rst:280
+#: ../../scenarios/speed.rst:276
 msgid ""
 "For even more control, the `submit(func, *args, **kwargs)` method will "
 "schedule a callable to be executed ( as `func(*args, **kwargs)`) and "
 "returns a `Future`_ object that represents the execution of the callable."
 msgstr ""
 
-#: ../../scenarios/speed.rst:284
+#: ../../scenarios/speed.rst:280
 msgid ""
 "The Future object provides various methods that can be used to check on "
 "the progress of the scheduled callable. These include:"
 msgstr ""
 
-#: ../../scenarios/speed.rst:287
+#: ../../scenarios/speed.rst:283
 msgid "cancel()"
 msgstr ""
 
-#: ../../scenarios/speed.rst:288
+#: ../../scenarios/speed.rst:284
 msgid "Attempt to cancel the call."
 msgstr ""
 
-#: ../../scenarios/speed.rst:289
+#: ../../scenarios/speed.rst:285
 msgid "cancelled()"
 msgstr ""
 
-#: ../../scenarios/speed.rst:290
+#: ../../scenarios/speed.rst:286
 msgid "Return True if the call was successfully cancelled."
 msgstr ""
 
-#: ../../scenarios/speed.rst:292
+#: ../../scenarios/speed.rst:288
 msgid "running()"
 msgstr ""
 
-#: ../../scenarios/speed.rst:292
+#: ../../scenarios/speed.rst:288
 msgid ""
 "Return True if the call is currently being executed and cannot be "
 "cancelled."
 msgstr ""
 
-#: ../../scenarios/speed.rst:294
+#: ../../scenarios/speed.rst:290
 msgid "done()"
 msgstr ""
 
-#: ../../scenarios/speed.rst:295
+#: ../../scenarios/speed.rst:291
 msgid "Return True if the call was successfully cancelled or finished running."
 msgstr ""
 
-#: ../../scenarios/speed.rst:297
+#: ../../scenarios/speed.rst:293
 msgid "result()"
 msgstr ""
 
-#: ../../scenarios/speed.rst:297
+#: ../../scenarios/speed.rst:293
 msgid ""
 "Return the value returned by the call. Note that this call will block "
 "until the scheduled callable returns by default."
 msgstr ""
 
-#: ../../scenarios/speed.rst:300
+#: ../../scenarios/speed.rst:296
 msgid "exception()"
 msgstr ""
 
-#: ../../scenarios/speed.rst:300
+#: ../../scenarios/speed.rst:296
 msgid ""
 "Return the exception raised by the call. If no exception was raised then "
 "this returns `None`. Note that this will block just like `result()`."
 msgstr ""
 
-#: ../../scenarios/speed.rst:305
+#: ../../scenarios/speed.rst:301
 msgid "add_done_callback(fn)"
 msgstr ""
 
-#: ../../scenarios/speed.rst:303
+#: ../../scenarios/speed.rst:299
 msgid ""
 "Attach a callback function that will be executed (as `fn(future)`) when "
 "the scheduled callable returns."
 msgstr ""
 
-#: ../../scenarios/speed.rst:344
+#: ../../scenarios/speed.rst:340
 msgid ""
 "The `concurrent.futures`_ module contains two helper functions for "
 "working with Futures. The `as_completed(futures)` function returns an "
 "iterator over the list of futures, yielding the futures as they complete."
 msgstr ""
 
-#: ../../scenarios/speed.rst:348
+#: ../../scenarios/speed.rst:344
 msgid ""
 "The `wait(futures)` function will simply block until all futures in the "
 "list of futures provided have completed."
 msgstr ""
 
-#: ../../scenarios/speed.rst:351
+#: ../../scenarios/speed.rst:347
 msgid ""
 "For more information, on using the `concurrent.futures`_ module, consult "
 "the official documentation."
 msgstr ""
 
-#: ../../scenarios/speed.rst:355
+#: ../../scenarios/speed.rst:351
 msgid "Threading"
 msgstr ""
 
-#: ../../scenarios/speed.rst:357
+#: ../../scenarios/speed.rst:353
 msgid ""
 "The standard library comes with a `threading`_ module that allows a user "
 "to work with multiple threads manually."
 msgstr ""
 
-#: ../../scenarios/speed.rst:360
+#: ../../scenarios/speed.rst:356
 msgid ""
 "Running a function in another thread is as simple as passing a callable "
 "and it's arguments to `Thread`'s constructor and then calling `start()`:"
 msgstr ""
 
-#: ../../scenarios/speed.rst:375
+#: ../../scenarios/speed.rst:371
 msgid "To wait until the thread has terminated, call `join()`:"
 msgstr ""
 
-#: ../../scenarios/speed.rst:381
+#: ../../scenarios/speed.rst:377
 msgid ""
 "After calling `join()`, it is always a good idea to check whether the "
 "thread is still alive (because the join call timed out):"
 msgstr ""
 
-#: ../../scenarios/speed.rst:391
+#: ../../scenarios/speed.rst:387
 msgid ""
 "Because multiple threads have access to the same section of memory, "
 "sometimes there might be situations where two or more threads are trying "
@@ -336,7 +324,7 @@ msgid ""
 "good example is this `stackoverflow post`_."
 msgstr ""
 
-#: ../../scenarios/speed.rst:398
+#: ../../scenarios/speed.rst:394
 msgid ""
 "The way this can be avoided is by using a `Lock`_ that each thread needs "
 "to acquire before writing to a shared resource. Locks can be acquired and"
@@ -345,7 +333,7 @@ msgid ""
 "contrived) example:"
 msgstr ""
 
-#: ../../scenarios/speed.rst:430
+#: ../../scenarios/speed.rst:426
 msgid ""
 "Here, we have a bunch of threads checking for changes on a list of sites "
 "and whenever there are any changes, they attempt to write those changes "
@@ -354,19 +342,23 @@ msgid ""
 " time, only one thread is writing to the file."
 msgstr ""
 
-#: ../../scenarios/speed.rst:437
+#: ../../scenarios/speed.rst:433
 msgid "Spawning Processes"
 msgstr ""
 
-#: ../../scenarios/speed.rst:441
+#: ../../scenarios/speed.rst:437
 msgid "Multiprocessing"
 msgstr ""
 
 #~ msgid ""
-#~ "Using a slightly modified version of "
-#~ "`David Beazleys`_ CPU bound test code"
-#~ " (added loop for multiple tests), you"
-#~ " can see the difference between "
-#~ "CPython and PyPy's processing."
+#~ msgstr ""
+
+#~ msgid "Numba"
+#~ msgstr ""
+
+#~ msgid "Todo"
+#~ msgstr ""
+
+#~ msgid "Write about Numba and the autojit compiler for NumPy"
 #~ msgstr ""
 
