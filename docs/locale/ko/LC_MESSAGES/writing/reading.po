@@ -5,8 +5,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-11 08:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Last-Translator: YoungSeon.Ahn LoveMeWithoutAll@Gmail.com\n"
+"Language-Team: Korean <https://github.com/winterishere/python-guide>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -14,7 +14,7 @@ msgstr ""
 
 #: ../../writing/reading.rst:2
 msgid "Reading Great Code"
-msgstr ""
+msgstr "훌륭한 코드를 읽기"
 
 #: ../../writing/reading.rst:4
 msgid ""
@@ -22,12 +22,16 @@ msgid ""
 "code. The motivation behind this design is simple: The number one thing "
 "that Python programmers do is read code."
 msgstr ""
+"파이썬 디자인의 기저에 깔린 핵심 교리 중 하나는 가독성 좋은 코드 만들기입니다. "
+"이유는 단순합니다: 파이썬 프로그래머가 가장 많이 하는 일이 바로 코드 읽기이기 때문입니다. "
 
 #: ../../writing/reading.rst:8
 msgid ""
 "One of the secrets of becoming a great Python programmer is to read, "
 "understand, and comprehend excellent code."
 msgstr ""
+"위대한 파이썬 프로그래머가 되기 위한 비밀 중 하나는 바로 "
+"탁월한 코드를 읽고, 알아듣고, 이해하는 것입니다. "
 
 #: ../../writing/reading.rst:19
 msgid ""
@@ -35,18 +39,24 @@ msgid ""
 ":ref:`code_style`, and does its best to express a clear and concise "
 "intent to the reader."
 msgstr ""
+"탁월한 코드란 문자 그대로 :ref:`code_style` 의 가이드라인을 따르는 것이며, "
+"명쾌하고 간결하게 코드의 의도를 독자에게 표현하기 위해 최선을 다하는 것입니다. "
 
 #: ../../writing/reading.rst:23
 msgid ""
 "Included below is a list of recommended Python projects for reading. Each"
 " one of these projects is a paragon of Python coding."
 msgstr ""
+"아래에 삽입한 목록은 읽어보시길 추천하는 파이썬 프로젝트들입니다. "
+"각각의 프로젝트는 파이썬 코딩의 모범입니다. "
 
 #: ../../writing/reading.rst:26
 msgid ""
 "`Howdoi <https://github.com/gleitz/howdoi>`_ Howdoi is a code search "
 "tool, written in Python."
 msgstr ""
+"`Howdoi <https://github.com/gleitz/howdoi>`_ Howdoi는 "
+"파이썬으로 쓰여진 코드를 검색하는 도구입니다. "
 
 #: ../../writing/reading.rst:29
 msgid ""
@@ -54,6 +64,10 @@ msgid ""
 "for Python based on Werkzeug and Jinja2. It's intended for getting "
 "started very quickly and was developed with best intentions in mind."
 msgstr ""
+"`Flask <https://github.com/mitsuhiko/flask>`_ Flask는 "
+"Werkzeug와 Jinja2를 기반으로 하는 파이썬 마이크로 프레임워크입니다. "
+"아주 빠르게 시작할 수 있도록 만들어졌으며, "
+"이러한 취지에 따라 개발되었습니다. "
 
 #: ../../writing/reading.rst:34
 msgid ""
@@ -63,6 +77,11 @@ msgid ""
 "load and disk metrics. Additionally, it features an API for implementing "
 "custom collectors for gathering metrics from almost any source."
 msgstr ""
+"`Diamond <https://github.com/python-diamond/Diamond>`_ Diamond는 "
+"Graphite나 다른 백엔드에 지표를 수집하고 퍼블리싱하는 파이썬 데몬입니다. "
+"cpu, 메모리, 네트워크, i/o, 로딩, 디스크 지표를 수집할 수 있습니다. "
+"추가적으로 거의 어느 소스에서라도 지표를 수집하는 "
+"커스텀 수집기를 구현하기 위한 API가 특장점입니다. "
 
 #: ../../writing/reading.rst:41
 msgid ""
@@ -74,18 +93,30 @@ msgid ""
 "cookie handling, file uploads, a powerful URL routing system and a bunch "
 "of community-contributed addon modules."
 msgstr ""
+"`Werkzeug <https://github.com/mitsuhiko/werkzeug>`_ Werkzeug는 "
+"WSGI 어플리케이션을 위한 간단한 유틸리티 모음집으로 시작되었습니다. "
+"하지만 이제는 가장 발전한 WSGI 유틸리티 모듈 중 하나가 되었습니다. 
+"강력한 디버거, 리퀘스트와 리스폰스 오브젝트의 모든 기능을 갖추었으며, "
+"엔티티 태그를 조작할 HTTP 유틸리티와 캐시 컨트롤 헤더, HTTP dates, "
+"쿠키 조작, 파일 업로드, 강력한 URL 라우팅 시스템, 그리고 "
+"커뮤니티에서 기여한 애드온 모듈 꾸러미가 포함되어 있습니다. "
 
 #: ../../writing/reading.rst:49
 msgid ""
 "`Requests <https://github.com/kennethreitz/requests>`_ Requests is an "
 "Apache2 Licensed HTTP library, written in Python, for human beings."
 msgstr ""
+"`Requests <https://github.com/kennethreitz/requests>`_ Requests는 "
+"파이썬으로 작성된 Apache2 라이선스의 HTTP 라이브러리입니다. 인류를 위해 만들었습니다. "
 
 #: ../../writing/reading.rst:53
 msgid ""
 "`Tablib <https://github.com/kennethreitz/tablib>`_ Tablib is a format-"
 "agnostic tabular dataset library, written in Python."
 msgstr ""
+"`Tablib <https://github.com/kennethreitz/tablib>`_ Tablib은 "
+"포맷에 구속받지 않는 tabular 데이터셋 라이브러리입니다. 파이썬으로 작성했습니다. "
+"(역주: Requests, Tablib은 저자 본인의 프로젝트)"
 
 #: ../../writing/reading.rst
 msgid "Todo"
@@ -96,28 +127,12 @@ msgid ""
 "Include code examples of exemplary code from each of the projects listed."
 " Explain why it is excellent code. Use complex examples."
 msgstr ""
+"리스트에 올라간 프로젝트의 코드 샘플 추가 필요"
+"왜 좋은 코드인지 복잡한 예를 들어 설명할 것"
 
 #: ../../writing/reading.rst:59
 msgid ""
 "Explain techniques to rapidly identify data structures, algorithms and "
 "determine what the code is doing."
 msgstr ""
-
-#~ msgid ""
-#~ "One of the core tenants behind the"
-#~ " design of Python is creating "
-#~ "readable code. The motivation behind "
-#~ "this design is simple: The number "
-#~ "one thing that Python programmers do "
-#~ "is read code."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Embed and explain YouTube video showing"
-#~ " python code reading: "
-#~ "http://www.youtube.com/watch?v=Jc8M9-LoEuo This may "
-#~ "require installing a Sphinx plugin. "
-#~ "https://bitbucket.org/birkenfeld/sphinx-"
-#~ "contrib/src/a09f29fc16970f34350ca36ac7f229e00b1b1674/youtube?at=default"
-#~ msgstr ""
-
+"데이터 구조와 알고리즘을 빠르게 분석하고 코드가 뭘 하고 있는지 밝히는 기술을 설명할 것"
