@@ -43,7 +43,7 @@ msgid ""
 "of every Python web framework available here. Rather, you'll find a nice "
 "concise list of highly recommended options."
 msgstr ""
-"이 안내서는 거의 **독단적**입니다. 하지만 파이썬 공식 문서만큼 완벽하게 독단적이지는 않습니다. "
+"이 안내서는 거의 **독단적** 입니다. 하지만 파이썬 공식 문서만큼 완벽하게 독단적이지는 않습니다. "
 "여기서 사용 가능한 세상의 모든 파이썬 웹 프레임워크의 목록을 찾을 수 있다는 것은 아닙니다. "
 "그보다는 강력 추천하는 여러 선택 사항들의 간결하고 멋진 목록을 보게 될 것입니다. "
 

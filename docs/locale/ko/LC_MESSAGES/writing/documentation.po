@@ -5,8 +5,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-11-17 01:45+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Last-Translator: YoungSeon.Ahn LoveMeWithoutAll@Gmail.com\n"
+"Language-Team:  <https://github.com/winterishere/python-guide>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -14,7 +14,7 @@ msgstr ""
 
 #: ../../writing/documentation.rst:2
 msgid "Documentation"
-msgstr ""
+msgstr "문서화"
 
 #: ../../writing/documentation.rst:4
 msgid ""
@@ -22,10 +22,14 @@ msgid ""
 " code documentation. Following some simple best practices can save both "
 "you and others a lot of time."
 msgstr ""
+"가독성은 파이썬 개발자의 기본적인 관심사입니다. "
+"이는 프로젝트와 코드 문서화 모두 해당됩니다. "
+"몇 가지 간단한 우수 사례를 따라해봅시다. "
+"당신 뿐 아니라 다른 모두의 시간을 절약해줄 것입니다. "
 
 #: ../../writing/documentation.rst:9
 msgid "Project Documentation"
-msgstr ""
+msgstr "프로젝트 문서화"
 
 #: ../../writing/documentation.rst:11
 msgid ""
@@ -38,6 +42,15 @@ msgid ""
 "the software, and some basic credit information. This file is the main "
 "entry point for readers of the code."
 msgstr ""
+"최상위 디렉토리의 :file:`README` 파일에는 해당 프로젝트의 사용자와 "
+"유지보수 담당자 모두에게 도움이 되는 일반적인 정보가 있어야 합니다. "
+"순수한 텍스트로 작성하시거나, "
+"읽기 아주 쉬운 마크업 문서로 작성하세요. "
+":ref:`reStructuredText-ref` 나 마크다운 같은 것이면 됩니다. "
+"여기에는 반드시 프로젝트나 라이브러리"
+"(사용자가 이 프로젝트의 모든 것을 알고 있을거라고 생각하면 안됩니다)의 "
+"목적을 설명하는 몇 줄의 글, 소프트웨어를 위한 주요 소스의 URL, "
+"몇 가지 기본적인 신용 정보를 포함해야 합니다. "
 
 #: ../../writing/documentation.rst:19
 msgid ""
@@ -46,34 +59,45 @@ msgid ""
 "module`` or ``python setup.py install`` and added to the :file:`README` "
 "file."
 msgstr ""
+":file:`INSTALL` 파일은 파이썬에서는 필수적이지는 않습니다. "
+"설치 명령어는 ``pip install module`` 이나 ``python setup.py install`` 같이 "
+"한 줄의 커맨드 명령어로 끝난 후,  :file:`README` 파일에 추가되는 경우가 많습니다. "
 
 #: ../../writing/documentation.rst:24
 msgid ""
 "A :file:`LICENSE` file should *always* be present and specify the license"
 " under which the software is made available to the public."
 msgstr ""
+":file:`LICENSE` 파일은 *반드시* 있어야만 합니다. "
+"그리고 소프트웨어가 공개 가능한지 여부를 명시하는 라이선스를 명시해야 합니다. "
 
 #: ../../writing/documentation.rst:27
 msgid ""
 "A :file:`TODO` file or a ``TODO`` section in :file:`README` should list "
 "the planned development for the code."
 msgstr ""
+":file:`README` 안의 :file:`TODO` 파일이나 ``TODO`` 섹션에는 "
+"개발할 코드의 목록을 나열해야 합니다. "
 
 #: ../../writing/documentation.rst:30
 msgid ""
 "A :file:`CHANGELOG` file or section in :file:`README` should compile a "
 "short overview of the changes in the code base for the latest versions."
 msgstr ""
+":file:`CHANGELOG` 파일이나 :file:`README` 안의 섹션에는 "
+"반드시 최신 버전의 코드에서 일어난 변화에 대하여 개략적인 소개가 있어야 합니다. "
 
 #: ../../writing/documentation.rst:34
 msgid "Project Publication"
-msgstr ""
+msgstr "프로젝트 발표"
 
 #: ../../writing/documentation.rst:36
 msgid ""
 "Depending on the project, your documentation might include some or all of"
 " the following components:"
 msgstr ""
+"프로젝트에 따라서 당신의 문서는 아래의 것들 중 몇 개를 포함하거나, "
+"혹은 전부를 포함할 것입니다. "
 
 #: ../../writing/documentation.rst:39
 msgid ""
@@ -81,6 +105,9 @@ msgid ""
 "with the product, using one or two extremely simplified use cases. This "
 "is the thirty-second pitch for your project."
 msgstr ""
+"*소개(introduction)* 은 하나나 두개의 아주 간단한 유즈케이스를 사용하여 "
+"이 프로젝트가 무엇을 할 수 있는지 간략하게 보여주어야 합니다. "
+"이것이 당신의 프로젝트를 위한 30초 홍보입니다. "
 
 #: ../../writing/documentation.rst:43
 msgid ""
@@ -88,6 +115,8 @@ msgid ""
 "reader will follow a step-by-step procedure to set-up a working "
 "prototype."
 msgstr ""
+"*튜토리얼(tutorial)* 은 몇 가지 기본적인 유즈케이스를 좀 더 자세히 보여주어야 합니다. "
+"읽는 이는 하나 하나씩 따라가며 실제 동작하는 프로토타입을 만들 것입니다. "
 
 #: ../../writing/documentation.rst:46
 msgid ""
@@ -95,16 +124,22 @@ msgid ""
 ":ref:`docstrings <docstring-ref>`). It will list all publicly available "
 "interfaces, parameters, and return values."
 msgstr ""
+"*API 레퍼런스(reference)* 는 보통 코드에서 생성됩니다"
+"(:ref:`docstrings <docstring-ref>` 를 보세요). "
+"공개적으로 가능한 모든 인터페이스, 파라미터, 리턴값을 보여주어야 합니다. "
 
 #: ../../writing/documentation.rst:50
 msgid ""
 "*Developer documentation* is intended for potential contributors. This "
 "can include code convention and general design strategy of the project."
 msgstr ""
+"*개발자 문서(Developer documentation)* 는 잠재적인 기여자(contributors)를 위한 것입니다. "
+"여기에는 코딩 규약(code convention)과 프로젝트의 일반적인 디자인 전략을 "
+"담을 수 있습니다. "
 
 #: ../../writing/documentation.rst:56
 msgid "Sphinx"
-msgstr ""
+msgstr "스핑크스(Sphinx)"
 
 #: ../../writing/documentation.rst:58
 msgid ""
@@ -113,6 +148,10 @@ msgid ""
 "range of output formats including HTML, LaTeX (for printable PDF "
 "versions), manual pages, and plain text."
 msgstr ""
+"Sphinx_ 는 단연코 가장 유명한 파이썬 문서화 도구입니다. "
+"**쓰세요.**"
+":ref:`restructuredtext-ref` 마크업 언어를 HTML, LaTeX(인쇄 가능한 PDF 버전), "
+"매뉴얼 페이지, 일반 텍스트 등의 포맷으로 바꿔줍니다. "
 
 #: ../../writing/documentation.rst:63
 msgid ""
@@ -121,6 +160,10 @@ msgid ""
 " repository so that rebuilding your documentation will happen "
 "automatically."
 msgstr ""
+"뿐만 아니라 Sphinx_ 문서를 위한 **훌륭하면서도**, **무료인** 호스팅 서비스가 있습니다: "
+"`Read The Docs`_ 입니다. "
+"쓰세요. "
+"소스 저장소에 커밋 후크를 걸어두면 문서를 자동으로 빌드하도록 설정할 수 있습니다. "
 
 #: ../../writing/documentation.rst:68
 msgid ""
@@ -129,6 +172,11 @@ msgid ""
 "will also extract the accompanying docstrings, and compile it all into "
 "well structured and easily readable documentation for your project."
 msgstr ""
+"Read The Docs를 돌리면 Sphinx_ 는 당신의 코드를 불러옵니다. "
+"그리고 파이썬 내부의 기능을 사용하여 모든 함수와 메소드 클래스 시그니처를 끄집어냅니다. "
+"뿐만 아니라 당신의 프로젝트를 위해 코드에 딸려있는 독스트링(Docstrings)을 불러와 "
+"잘 구조화되고 읽기 쉬운 문서로 모조리 컴파일합니다. "
+
 
 #: ../../writing/documentation.rst:75
 msgid ""
@@ -136,6 +184,8 @@ msgid ""
 "general project documentation. This Guide is built with Sphinx_ and is "
 "hosted on `Read The Docs`_"
 msgstr ""
+"Sphinx는 API 생성기로도 유명하지만, 일반적인 프로젝트 문서화로도 잘 작동합니다. "
+"이 안내서는 Sphinx_ 로 빌드되었고, `Read The Docs`_ 로 호스팅되었습니다. "
 
 #: ../../writing/documentation.rst:85
 msgid "reStructuredText"
@@ -146,16 +196,20 @@ msgid ""
 "Most Python documentation is written with reStructuredText_. It's like "
 "Markdown with all the optional extensions built in."
 msgstr ""
+"대부분의 파이썬 문서는 reStructuredText_ 로 작성됩니다. "
+"reStructuredText는 모든 추가 기능을 포함하고 있는 마크다운과 비슷합니다. "
 
 #: ../../writing/documentation.rst:90
 msgid ""
 "The `reStructuredText Primer`_ and the `reStructuredText Quick "
 "Reference`_ should help you familiarize yourself with its syntax."
 msgstr ""
+"`reStructuredText Primer`_ 와 `reStructuredText Quick Reference`_ 가"
+"reStructuredText의 문법에 익숙해지는데 큰 도움을 줄 것입니다. "
 
 #: ../../writing/documentation.rst:99
 msgid "Code Documentation Advice"
-msgstr ""
+msgstr "코드 문서에 대한 조언"
 
 #: ../../writing/documentation.rst:101
 msgid ""
@@ -163,10 +217,13 @@ msgid ""
 "code easier to understand. In Python, comments begin with a hash (number "
 "sign) (``#``)."
 msgstr ""
+"주석은 코드를 명확하게 합니다. 그리고 코드를 이해하기 쉽도록 하고자 덧붙여집니다. "
+"파이썬에서는 주석이 해시 (숫자 표시) (#)로 시작됩니다. "
 
 #: ../../writing/documentation.rst:107
 msgid "In Python, *docstrings* describe modules, classes, and functions:"
 msgstr ""
+"파이썬에서는 *독스트링(docstrings)* 이 모듈, 클래스, 함수를 설명합니다. "
 
 #: ../../writing/documentation.rst:115
 msgid ""
@@ -174,10 +231,14 @@ msgid ""
 " Style Guide\"). More information about docstrings can be found at "
 ":pep:`0257#specification` (The Docstring Conventions Guide)."
 msgstr ""
+"보통 :pep:`8#comments` (the \"파이썬 스타일 안내서(Python Style Guide)\")의 "
+"주석 섹션대로 따라하시면 됩니다. "
+":pep:`0257#specification` (The Docstring Conventions Guide)에서 "
+"독스트링에 대한 더 많은 정보를 볼 수 있습니다. "
 
 #: ../../writing/documentation.rst:119
 msgid "Commenting Sections of Code"
-msgstr ""
+msgstr "코드를 주석 처리하기"
 
 #: ../../writing/documentation.rst:121
 msgid ""
@@ -188,10 +249,16 @@ msgid ""
 "probably has the ability to do this easily, and it is worth learning the "
 "comment/uncomment toggle."
 msgstr ""
+"*세따옴표를 코드의 주석 처리에 쓰지 마세요*. 좋은 습관이 아닙니다. "
+"grep처럼 라인 기반 커맨드 라인 도구는 주석 처리된 코드가 비활성화되었는지를 "
+"인식하지 못합니다. "
+"주석 처리할 모든 줄의 적당히 들여쓴 위치에다 해시를 붙이는 편이 좋습니다. "
+"에디터에 이런 작업을 쉽게 해주는 기능이 있을 것입니다. "
+"주석 처리/해제하는 단축키를 배울 필요가 있습니다. "
 
 #: ../../writing/documentation.rst:129
 msgid "Docstrings and Magic"
-msgstr ""
+msgstr "독스트링(Docstrings)과 마법"
 
 #: ../../writing/documentation.rst:131
 msgid ""
@@ -199,6 +266,9 @@ msgid ""
 " as unit test logic. Those can be nice, but you won't ever go wrong with "
 "vanilla \"here's what this does.\""
 msgstr ""
+"어떤 도구는 단위 테스트 로직처럼 문서 이상의 동작을 시키기 위해 독스트링을 이용합니다. "
+"이런 도구들은 멋지지만, 절대 고장나지 않습니다. "
+"\"이렇게 동작할거야.\" 같은 역할을 할 뿐입니다. "
 
 #: ../../writing/documentation.rst:135
 msgid ""
@@ -206,6 +276,9 @@ msgid ""
 "render it correctly as HTML. This makes it very easy to embed snippets of"
 " example code in a project's documentation."
 msgstr ""
+"Sphinx_ 같은 툴은 당신의 독스트링을 reStructuredText로 파싱해서 "
+"HTML로 정확히 만들어줍니다. "
+"이 방법은 프로젝트 문서에 예제 코드의 스니펫을 아주 간단히 집어넣을 수 있도록 해줍니다. "
 
 #: ../../writing/documentation.rst:139
 msgid ""
@@ -216,10 +289,15 @@ msgid ""
 "of functions alongside their source code, and as a side effect, it also "
 "ensures that their code is tested and works."
 msgstr ""
+"추가로 Doctest_ 는 파이썬 커맨드라인에서 삽입된 것 같은 모양(\">>>\" 가 앞에 붙음)의 "
+"모든 독스트링을 읽어 실행하고, 결과값이 그 다음 줄에 쓰여진 것과 일치하는지 여부를 "
+"검사합니다. "
+"이렇게해서 개발자는 그들의 소스 코드 옆에 실제 예시와 함수의 사용예를 삽입할 수 있습니다. "
+"추가적인 효과로는 이 코드는 테스트 되었으며 잘 돌아감을 확인할 수 있습니다. "
 
 #: ../../writing/documentation.rst:160
 msgid "Docstrings versus Block comments"
-msgstr ""
+msgstr "독스트링(Docstrings) 대 블록 주석"
 
 #: ../../writing/documentation.rst:162
 msgid ""
@@ -227,6 +305,9 @@ msgid ""
 "comment block is a programmer's note. The docstring describes the "
 "*operation* of the function or class:"
 msgstr ""
+"독스트링(Docstrings)과 블록 주석은 서로 바꿔쓸 수 없습니다. "
+"함수나 클래스에서 맨 앞줄의 주석 블록은 개발자의 메모로 쓰입니다. "
+"독스트링은 함수나 클래스의 *동작* 을 나타냅니다. "
 
 #: ../../writing/documentation.rst:173
 msgid ""
@@ -237,6 +318,11 @@ msgid ""
 "`__doc__` dunder attribute for almost every Python object, as well as "
 "with the built in `help()` function."
 msgstr ""
+"블록 주석과 달리 독스트링은 파이썬 언어 자체에 들어가 있습니다. "
+"즉 최적화 단계에서 빼져버리는 주석과는 달리 "
+"런타임 중에도 파이썬의 강력한 내부 기능을 사용하여 독스트링에 접근할 수 있다는 뜻입니다. "
+"독스트링은 거의 모든 파이썬 오브젝트에 있는 속성인 `__doc__` 뿐만 아니라 "
+"파이썬에 내장된 `help()` 함수를 사용하여 접근할 수 있습니다.  "
 
 #: ../../writing/documentation.rst:179
 msgid ""
@@ -246,10 +332,14 @@ msgid ""
 "*how* a particular function can be used and the general purpose of a "
 "function, class, or module."
 msgstr ""
+"블럭 주석이 일반적으로 코드의 해당 부분이 *무슨* 일을 하는지나 알고리즘의 명세를 "
+"설명하는데 쓰이는 반면, 독스트링은 당신의 코드와 특정한 함수가 *어떻게* "
+"쓰이며 함수, 클래스, 모듈의 일반적인 목적이 무엇인지를 다른 사용자에게(혹은 6개월 후의 당신에게 "
+"알려주기 위해 작성됩니다. "
 
 #: ../../writing/documentation.rst:186
 msgid "Writing Docstrings"
-msgstr ""
+msgstr "독스트링(Docstrings) 작성"
 
 #: ../../writing/documentation.rst:188
 msgid ""
@@ -257,6 +347,9 @@ msgid ""
 "written, a one-line docstring may be perfectly appropriate. These are "
 "generally used for really obvious cases, such as::"
 msgstr ""
+"작성한 함수, 메서드, 클래스가 얼마나 복잡한지에 따라 다르겠지만 "
+"단 1줄의 독스트링이 가장 적절할 것입니다. "
+"다음은 흔히 쓰이면서도 아주 분명한 예시입니다:"
 
 #: ../../writing/documentation.rst:196
 msgid ""
@@ -267,6 +360,11 @@ msgid ""
 " it is already quite easy to find this information if needed, and it is "
 "also readily available by reading the source code."
 msgstr ""
+"독스트링은 이해하기 쉬운 방법으로 함수를 설명해야 합니다. "
+"별 것도 아닌 함수나 클래스나 간단한 함수 구문(예를 들면 `add(a, b) -> result`) "
+"에서는 독스트링이 필요하지 않습니다. "
+"파이썬의 `inspect` 모듈이 이미 있기에 필요시 아주 빠르게 원하는 정보를 찾을 수 있고 "
+"소스 코드도 손쉽게 읽을 수 있기 때문입니다. "
 
 #: ../../writing/documentation.rst:203
 msgid ""
@@ -274,6 +372,10 @@ msgid ""
 "give more information about a function, what it does, any exceptions it "
 "may raise, what it returns, or relevant details about the parameters."
 msgstr ""
+"하지만 더 크고 복잡한 프로젝트라면 "
+"함수 정보, 이게 뭘 하는지, 어떤 예외를 발생시키는지, "
+"무엇을 반환하는지, 파라미터에 관한 연관 정보에 대하여 "
+"더 많이 설명하는 편이 좋은 경우도 많습니다. "
 
 #: ../../writing/documentation.rst:207
 msgid ""
@@ -283,6 +385,10 @@ msgid ""
 "developer to include a lot more information about a method, function, or "
 "class. ::"
 msgstr ""
+"코드 문서를 더 상세히 작성하고 싶은 경우, 가장 인기있는 스타일은 Numpy 프로젝트에서 "
+"쓰인 이른바 `Numpy style`_ 독스트링입니다. "
+"앞선 예제의 독스트링이 이 스타일입니다. "
+"이 스타일을 써서 개발자는 함수, 메소드, 클래스에 대한 더 많은 정보를 추가할 수 있습니다. "
 
 #: ../../writing/documentation.rst:233
 msgid ""
@@ -290,6 +396,8 @@ msgid ""
 "docstrings, making it easy to incorporate NumPy style docstrings into "
 "your project."
 msgstr ""
+"스핑크스에 `sphinx.ext.napoleon`_ 플러그인을 추가하면 이러한 스타일의 독스트링을 파싱하여 "
+"NumPy 스타일의 독스트링을 당신의 프로젝트에 집어넣기 쉽게 해줍니다. "
 
 #: ../../writing/documentation.rst:237
 msgid ""
@@ -299,18 +407,22 @@ msgid ""
 "correct, understandable and gets the relevant points across then it has "
 "done the job it was designed to do."
 msgstr ""
+"마지막으로 덧붙이겠습니다. 사실 어떤 스타일로 독스트링을 작성하느냐는 그다지 중요하지 않습니다. "
+"독스트링의 목적은 코드를 읽거나 바꿔야 하는 사람들에게 도움을 주는 문서가 되는 것입니다. "
+"정확하고, 이해하기 쉽고, 관련된 여러 사항에 대한 정보만 있다면, "
+"그 소임은 모두 이룬 것입니다. "
 
 #: ../../writing/documentation.rst:244
 msgid "For further reading on docstrings, feel free to consult :pep:`257`"
-msgstr ""
+msgstr "독스트링에 대하여 더 많이 읽고 싶다면 가벼운 마음으로 :pep:`257` 와 상의하세요. "
 
 #: ../../writing/documentation.rst:251
 msgid "Other Tools"
-msgstr ""
+msgstr "다른 도구"
 
 #: ../../writing/documentation.rst:253
 msgid "You might see these in the wild. Use :ref:`sphinx-ref`."
-msgstr ""
+msgstr "황야에 외롭게 서 있는 도구들도 있습니다. 그냥 :ref:`sphinx-ref` 쓰세요. "
 
 #: ../../writing/documentation.rst:258
 msgid "Pycco_"
@@ -322,6 +434,8 @@ msgid ""
 "a port of the node.js Docco_. It makes code into a side-by-side HTML code"
 " and documentation."
 msgstr ""
+"Pycco는 \"문학적 프로그래밍 스타일의 문서 생성기\" 이자, node.js Docco_ 의 파이썬 포팅입니다. "
+"코드를 HTML 코드와 문서가 나란히 있는 모습으로 만들어줍니다. "
 
 #: ../../writing/documentation.rst:265
 msgid "Ronn_"
@@ -332,6 +446,9 @@ msgid ""
 "Ronn builds Unix manuals. It converts human readable textfiles to roff "
 "for terminal display, and also to HTML for the web."
 msgstr ""
+"Ronn은 유닉스 매뉴얼을 빌드합니다. "
+"사람이 읽을 수 있는 텍스트 파일을 roff로 변환하여 터미널에서 보여줄 수 있을 뿐만 아니라 "
+"웹을 위해 HTML로도 바꿔줍니다. "
 
 #: ../../writing/documentation.rst:270
 msgid "Epydoc_"
@@ -339,7 +456,7 @@ msgstr ""
 
 #: ../../writing/documentation.rst:270
 msgid "Epydoc is discontinued. Use :ref:`sphinx-ref` instead."
-msgstr ""
+msgstr "Epydoc은 끝장났습니다. 대신 :ref:`sphinx-ref` 를 쓰세요. "
 
 #: ../../writing/documentation.rst:276
 msgid "MkDocs_"
@@ -350,10 +467,5 @@ msgid ""
 "MkDocs is a fast and simple static site generator that's geared towards "
 "building project documentation with Markdown."
 msgstr ""
-
-#~ msgid ""
-#~ msgstr ""
-
-#~ msgid "Further reading on docstrings: :pep:`257`"
-#~ msgstr ""
-
+"MkDocs은 마크다운으로 프로젝트 문서를 빌드하기 위하여 설계된 "
+"빠르고 단순한 정적 사이트 생성기입니다. "

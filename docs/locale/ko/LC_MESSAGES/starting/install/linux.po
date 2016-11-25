@@ -144,6 +144,6 @@ msgid ""
 "<http://www.stuartellis.eu/articles/python-development-windows/>`_, which"
 " is available under the same license."
 msgstr ""
-"이 페이지는 `다른 가이드 <http://www.stuartellis.eu/articles/python-development-"
+"이 페이지는 `다른 안내서 <http://www.stuartellis.eu/articles/python-development-"
 "windows/>`_ 를 풀어쓴 버전입니다. 동일한 라이선스 아래서 사용할 수 있습니다."
 
