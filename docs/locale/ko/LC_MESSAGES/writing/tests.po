@@ -5,8 +5,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-11 08:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Last-Translator: AHN YOUNG SEON <ys.ahn@outlook.com>\n"
+"Language-Team: KOREAN <https://github.com/winterishere/python-guide>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -14,11 +14,11 @@ msgstr ""
 
 #: ../../writing/tests.rst:2
 msgid "Testing Your Code"
-msgstr ""
+msgstr "코드 테스트하기"
 
 #: ../../writing/tests.rst:4
 msgid "Testing your code is very important."
-msgstr ""
+msgstr "코드 테스트는 아주 중요합니다."
 
 #: ../../writing/tests.rst:6
 msgid ""
@@ -26,16 +26,22 @@ msgid ""
 " now considered a good habit. Used wisely, this method helps you define "
 "more precisely your code's intent and have a more decoupled architecture."
 msgstr ""
+"테스트 코드를 능숙하게 작성하고 이 코드를 패러랠하게 돌리는 것은 "
+"이제 좋은 습관으로 인정받고 있습니다. "
+"이 방법을 현명하게 사용하면 코드의 의도를 보다 명확히하는데 좋을 뿐 아니라, "
+"아키텍처의 결합도를 낮출 수 있습니다. "
 
 #: ../../writing/tests.rst:10
 msgid "Some general rules of testing:"
-msgstr ""
+msgstr "테스트의 일반 원칙 몇 가지:"
 
 #: ../../writing/tests.rst:12
 msgid ""
 "A testing unit should focus on one tiny bit of functionality and prove it"
 " correct."
 msgstr ""
+"테스트 유닛은 각 기능의 가장 작은 단위에 집중하여, "
+"해당 기능이 정확히 동작하는지를 증명해야 합니다. "
 
 #: ../../writing/tests.rst:15
 msgid ""
@@ -45,6 +51,12 @@ msgid ""
 " with a fresh dataset and may have to do some cleanup afterwards. This is"
 " usually handled by :meth:`setUp()` and :meth:`tearDown()` methods."
 msgstr ""
+"각 테스트 유닛은 반드시 독립적이어야 합니다. "
+"각 테스트는 혼자서도 실행 가능해야하고, "
+"테스트 슈트로도 실행 가능해야 합니다. 이 때, 호출되는 순서와 무관하게 잘 동작해야 합니다. "
+"이 규칙이 뜻하는 바, 새로운 데이터셋으로 각각의 테스트를 로딩해야 하고, "
+"그 실행 결과는 꼭 삭제해야합니다. "
+"보통 :meth:`setUp()` 과 :meth:`tearDown()` 메소드로 이런 작업을 합니다. "
 
 #: ../../writing/tests.rst:21
 msgid ""
@@ -56,6 +68,13 @@ msgid ""
 "tests in a separate test suite that is run by some scheduled task, and "
 "run all other tests as often as needed."
 msgstr ""
+"테스트가 빠르게 돌 수 있도록 만들기 위해 노력해야 합니다.  "
+"테스트 하나가 실행하는데 몇 밀리세컨드 이상의 시간이 걸린다면, "
+"개발 속도가 느려지거나 테스트가 충분히 자주 수행되지 못할 것입니다. "
+"테스트에 필요한 데이터 구조가 너무 복잡하고, 테스트를 하려면 "
+"매번 이 복잡한 데이터를 불러와야 해서 테스트를 빠르게 만들 수 없는 경우도 있습니다. "
+"이럴 때는 무거운 테스트는 따로 분리하여 별도의 테스트 슈트를 만들어 두고 스케쥴 작업을 걸어두면 됩니다. "
+"그리고 그 외의 다른 모든 테스트는 필요한 만큼 자주 수행하면 됩니다. " 
 
 #: ../../writing/tests.rst:29
 msgid ""
@@ -63,6 +82,9 @@ msgid ""
 " when developing a function inside a module, run this function's tests "
 "frequently, ideally automatically when you save the code."
 msgstr ""
+"지금 사용하고 있는 툴이 개별 테스트나 테스트 케이스를 어떻게 수행하는지 배우셔야 합니다. "
+"모듈 안에 들어있는 함수를 개발하고 있다면, 그 함수의 테스트를 자주, 가능하다면 "
+"코드를 저장할 때마다 자동으로 돌려야 합니다. "
 
 #: ../../writing/tests.rst:33
 msgid ""
@@ -70,12 +92,16 @@ msgid ""
 "after. This will give you more confidence that you did not break anything"
 " in the rest of the code."
 msgstr ""
+"그날의 코딩을 시작하기 전에 항상 풀 테스트 슈트를 돌려야 합니다. 끝난 후에도 마찬가지입니다. "
+"이 작업은 당신이 다른 코드를 망가뜨리지 않았다는 더 큰 자신감을 심어줄 것입니다. "
 
 #: ../../writing/tests.rst:37
 msgid ""
 "It is a good idea to implement a hook that runs all tests before pushing "
 "code to a shared repository."
 msgstr ""
+"모두가 공유하는 저장소에다가 코드를 집어넣기 전에 자동으로 모든 테스트를 수행하도록 "
+"하는 훅을 구현하는 것도 좋은 생각입니다. "
 
 #: ../../writing/tests.rst:40
 msgid ""
@@ -84,6 +110,8 @@ msgid ""
 "want to develop next. When coming back to work, you will have a pointer "
 "to where you were and get back on track faster."
 msgstr ""
+"지금 한창 개발 중인데 그만두고 잠시 다른 일을 해야한다면, 다음에 개발할 부분에다가 "
+"일부러 고장난 유닛 테스트를 작성하는 것도 좋은 생각입니다. "
 
 #: ../../writing/tests.rst:45
 msgid ""
@@ -92,6 +120,9 @@ msgid ""
 "catching tests are among the most valuable pieces of code in your "
 "project."
 msgstr ""
+"코드를 디버깅할 때 가장 먼저 시작할 일은 버그를 찝어내는 새로운 테스트를 작성하는 것입니다. "
+"이런 일이 언제나 가능한 것은 아니지만, 이런 버그 잡이 테스트들이야말로 "
+"당신의 프로젝트에서 가장 가치있는 코드 조각이 될 것입니다. "
 
 #: ../../writing/tests.rst:49
 msgid ""
@@ -103,6 +134,13 @@ msgid ""
 "``test_square_negative_number()``. These function names are displayed "
 "when a test fails, and should be as descriptive as possible."
 msgstr ""
+"테스트 함수에는 길고 서술적인 이름을 사용하셔야 합니다. "
+"테스트에서의 스타일 안내서는 짧은 이름을 보다 선호하는 다른 일반적인 코드와는 조금 다릅니다. "
+"테스트 함수는 절대 직접 호출되지 않기 때문입니다. "
+"실제로 돌아가는 코드에서는 ``square()`` 라든가 심지어 ``sqr()`` 조차도 "
+"괜찮습니다. 하지만 테스트 코드에서는 ``test_square_of_number_2()``, ``test_square_negative_number()`` "
+"같은 이름을 붙여야 합니다. 이런 함수명들은 테스트가 실패할 때나 보입니다. "
+"그러니 반드시 가능한 한 서술적인 이름을 붙여야 합니다. "
 
 #: ../../writing/tests.rst:57
 msgid ""
@@ -113,6 +151,9 @@ msgid ""
 "code. A unit test whose purpose is unclear is not very helpful in this "
 "case."
 msgstr ""
+"무언가 잘못되었거나 뜯어고쳐야만 할 경우, 괜찮은 코드에 테스트 셋이 있다면 "
+"당신이나 다른 유지보수 담당자들은 오류를 수정하거나 프로그램의 동작을 수정할 때 "
+"필시 그 테스트 슈트에 전적으로 의지할 것입니다. "
 
 #: ../../writing/tests.rst:64
 msgid ""
@@ -125,14 +166,21 @@ msgid ""
 "is not already a working path that has not been plugged into the "
 "interface."
 msgstr ""
+"테스트 코드의 또다른 사용 방법은 새로운 개발자들을 위한 안내서로 쓰는 방법입니다. "
+"이미 만들어져 있는 코드에서 작업해야할 경우, 관련 테스트 코드를 돌려보고 읽어보는 것이야말로 "
+"가장 좋은 시작점일 경우가 많습니다. "
+"이렇게 테스트 코드를 돌려보면 어느 지점이 문제인지, 수정하기 어려운 곳은 어디일지, "
+"막다른 골목은 어디일지를 발견하게 됩니다. "
+"몇 가지 기능을 추가해야 한다면 가장 먼저 해야할 일은, 그 새로운 기능이 아직 "
+"돌아가지 않음을 확인할 수 있는 테스트를 붙여넣는 것입니다. "
 
 #: ../../writing/tests.rst:73
 msgid "The Basics"
-msgstr ""
+msgstr "기본"
 
 #: ../../writing/tests.rst:77
 msgid "Unittest"
-msgstr ""
+msgstr "Unittest"
 
 #: ../../writing/tests.rst:79
 msgid ""
@@ -140,26 +188,33 @@ msgid ""
 "standard library. Its API will be familiar to anyone who has used any of "
 "the JUnit/nUnit/CppUnit series of tools."
 msgstr ""
+":mod:`unittest` 는 파이썬 표준 라이브러리 중 아주 유용한 테스트 모듈입니다. "
+"JUnit/nUnit/CppUnit 시리즈와 같은 툴을 써본 사람이라면 "
+":mod:`unittest` 의 API에도 익숙할 것입니다. "
 
 #: ../../writing/tests.rst:83
 msgid ""
 "Creating test cases is accomplished by subclassing "
 ":class:`unittest.TestCase`."
 msgstr ""
+"테스트 케이스를 만드려면 :class:`unittest.TestCase` 를 상속받는 "
+"하위 클래스를 만들어야 합니다. "
 
 #: ../../writing/tests.rst:96
 msgid "As of Python 2.7 unittest also includes its own test discovery mechanisms."
-msgstr ""
+msgstr "파이썬 2.7부터는 unittest도 자체적인 테스트 탐색 매커니즘이 생겼습니다. "
 
 #: ../../writing/tests.rst:98
 msgid ""
 "`unittest in the standard library documentation "
 "<http://docs.python.org/library/unittest.html>`_"
 msgstr ""
+"`표준 라이브러리 문서의 unittest "
+"<http://docs.python.org/library/unittest.html>`_"
 
 #: ../../writing/tests.rst:102
 msgid "Doctest"
-msgstr ""
+msgstr "Doctest"
 
 #: ../../writing/tests.rst:104
 msgid ""
@@ -167,6 +222,8 @@ msgid ""
 "interactive Python sessions in docstrings, and then executes those "
 "sessions to verify that they work exactly as shown."
 msgstr ""
+":mod:`doctest` 모듈은 독스트링 안에 대화형 파이썬 세션처럼 보이는 텍스트가 있는지를 "
+"검색한 후, 해당 세션들을 실행하여 텍스트에 써진대로 정확히 동작하는지를 확인합니다. "
 
 #: ../../writing/tests.rst:108
 msgid ""
@@ -176,10 +233,14 @@ msgid ""
 "cases of a module and its components. However, doctests should run "
 "automatically each time the full test suite runs."
 msgstr ""
+"doctest는 다른 단위 테스트와는 사용 방법이 다릅니다: doctest는 일반적으로 상세하지 않고 "
+"특이한 케이스나 회귀 테스트에서의 버그를 잡아내지도 못합니다. "
+"하지만 각 모듈과 그 컴포넌트의 주된 사용법을 알려주는 문서로써는 아주 유용합니다. "
+"doctest는 전체 테스트 슈트를 실행할 때마다 자동으로 돌려야 합니다. "
 
 #: ../../writing/tests.rst:114
 msgid "A simple doctest in a function:"
-msgstr ""
+msgstr "함수에서 doctest를 돌리는 간단한 예시:"
 
 #: ../../writing/tests.rst:133
 msgid ""
@@ -187,20 +248,23 @@ msgid ""
 "module.py``, the doctests will run and complain if anything is not "
 "behaving as described in the docstrings."
 msgstr ""
+"커맨드 라인에서 ``python module.py`` 를 쳐서 해당 모듈을 실행하면 "
+"doctest가 실행되고, 무언가 doctest에 기술한대로 동작하지 않는 경우에는 "
+"경고를 해줍니다. "
 
 #: ../../writing/tests.rst:138
 msgid "Tools"
-msgstr ""
+msgstr "도구"
 
 #: ../../writing/tests.rst:142
 msgid "py.test"
-msgstr ""
+msgstr "py.test"
 
 #: ../../writing/tests.rst:144
 msgid ""
 "py.test is a no-boilerplate alternative to Python's standard unittest "
 "module."
-msgstr ""
+msgstr "py.test는 보일러플레이트가 없는 파이썬 표준 unittest의 대체품입니다. "
 
 #: ../../writing/tests.rst:150
 msgid ""
@@ -208,28 +272,32 @@ msgid ""
 "simple syntax. Creating a test suite is as easy as writing a module with "
 "a couple of functions:"
 msgstr ""
+"모든 기능을 갖추지는 않았습니다. 확장 가능한 테스트 도구도 아닙니다. 하지만 "
+"단순한 신텍스를 자랑합니다. "
+"테스트 슈트를 만드는 것은 함수 몇 개가 있는 모듈 하나를 작성하는 것 만큼이나 간단합니다. "
 
 #: ../../writing/tests.rst:163
 msgid "and then running the `py.test` command"
-msgstr ""
+msgstr "그리고 명령창에서 `py.test` 를 실행하면 됩니다. "
 
 #: ../../writing/tests.rst:185
 msgid ""
 "is far less work than would be required for the equivalent functionality "
 "with the unittest module!"
 msgstr ""
+"unittest 모듈로 같은 기능을 구현하기 위해 필요한 것보다 훨씬 덜 작업해도 됩니다! "
 
 #: ../../writing/tests.rst:188
 msgid "`py.test <http://pytest.org/latest/>`_"
-msgstr ""
+msgstr "`py.test <http://pytest.org/latest/>`_"
 
 #: ../../writing/tests.rst:192
 msgid "Nose"
-msgstr ""
+msgstr "Nose"
 
 #: ../../writing/tests.rst:194
 msgid "nose extends unittest to make testing easier."
-msgstr ""
+msgstr "nose는 테스트를 쉽게 하도록 unittest를 확장한 것입니다. "
 
 #: ../../writing/tests.rst:201
 msgid ""
@@ -238,34 +306,40 @@ msgid ""
 "such as xUnit-compatible test output, coverage reporting, and test "
 "selection."
 msgstr ""
+"nose는 자동으로 테스트를 발견합니다. 덕분에 수작업으로 테스트 슈트를 만드는 수고를 덜 수 있습니다. "
+"또한 xUnit 호환 테스트 결과, 코드 커버리지 보고서, 선택 테스트와 같이 다양한 플러그인도 제공합니다. "
 
 #: ../../writing/tests.rst:205
 msgid "`nose <https://nose.readthedocs.io/en/latest/>`_"
-msgstr ""
+msgstr "`nose <https://nose.readthedocs.io/en/latest/>`_"
 
 #: ../../writing/tests.rst:209
 msgid "tox"
-msgstr ""
+msgstr "tox"
 
 #: ../../writing/tests.rst:211
 msgid ""
 "tox is a tool for automating test environment management and testing "
 "against multiple interpreter configurations"
 msgstr ""
+"tox는 자동화된 테스트 환경 관리와 "
+"다양한 인터프리터 설정 하에서의 테스트를 위한 도구입니다. "
 
 #: ../../writing/tests.rst:218
 msgid ""
 "tox allows you to configure complicated multi-parameter test matrices via"
 " a simple ini-style configuration file."
 msgstr ""
+"tox는 간단한 ini 스타일의 설정 파일을 통해 "
+"복잡한 멀티 파라미터 테스트 메트릭을 설정할 수 있도록 해줍니다. "
 
 #: ../../writing/tests.rst:221
 msgid "`tox <http://testrun.org/tox/latest/>`_"
-msgstr ""
+msgstr "`tox <http://testrun.org/tox/latest/>`_"
 
 #: ../../writing/tests.rst:224
 msgid "Unittest2"
-msgstr ""
+msgstr "Unittest2"
 
 #: ../../writing/tests.rst:226
 msgid ""
@@ -273,16 +347,22 @@ msgid ""
 "improved API and better assertions over the one available in previous "
 "versions of Python."
 msgstr ""
+"unittest2는 향상된 API와 단정문을 가지고 있는 파이썬 2.7의 unittest의 백포트 버전입니다. "
+"2.7 이전 버전의 파이썬에서 사용 가능합니다. "
 
 #: ../../writing/tests.rst:229
 msgid "If you're using Python 2.6 or below, you can install it with pip"
 msgstr ""
+"파이썬 2.6이나 그 이전 버전을 사용하고 있다면 "
+"pip로 설치할 수 있습니다. "
 
 #: ../../writing/tests.rst:235
 msgid ""
 "You may want to import the module under the name unittest to make porting"
 " code to newer versions of the module easier in the future"
 msgstr ""
+"unittest라는 이름으로 모듈을 임포트하여 나중에 새로운 파이썬 버전의 "
+"모듈로 포팅하기 쉽도록 만들고 싶을 수도 있습니다. "
 
 #: ../../writing/tests.rst:245
 msgid ""
@@ -290,14 +370,16 @@ msgid ""
 "the unittest2 module, you can simply change the import in your test "
 "module without the need to change any other code."
 msgstr ""
+"이 방법을 쓰면 나중에 새로운 버전의 파이썬으로 바꾸거나 unittest2 모듈이 더이상 "
+"필요하지 않더라도, 코드 수정 없이 테스트 모듈의 임포트를 변경할 수 있습니다. "
 
 #: ../../writing/tests.rst:249
 msgid "`unittest2 <http://pypi.python.org/pypi/unittest2>`_"
-msgstr ""
+msgstr "`unittest2 <http://pypi.python.org/pypi/unittest2>`_"
 
 #: ../../writing/tests.rst:253
 msgid "mock"
-msgstr ""
+msgstr "mock"
 
 #: ../../writing/tests.rst:255
 msgid ""
@@ -305,20 +387,25 @@ msgid ""
 "3.3, it is available in the `standard library "
 "<https://docs.python.org/dev/library/unittest.mock>`_."
 msgstr ""
+":mod:`unittest.mock` 은 파이썬의 테스트 라이브러리입니다. "
+"파이썬 3.3부터는 `표준 라이브러리 "
+"<https://docs.python.org/dev/library/unittest.mock>`_ 가 되었습니다. "
 
 #: ../../writing/tests.rst:259
 msgid "For older versions of Python:"
-msgstr ""
+msgstr "예전 버전의 파이썬에서:"
 
 #: ../../writing/tests.rst:265
 msgid ""
 "It allows you to replace parts of your system under test with mock "
 "objects and make assertions about how they have been used."
 msgstr ""
+"를 하면 mock 오브젝트로 시스템의 테스트 파트를 변경할 수 있습니다. "
+"그리고 테스트가 어떻게 쓰일지에 대한 단정문을 만들 수 있습니다. "
 
 #: ../../writing/tests.rst:268
 msgid "For example, you can monkey-patch a method:"
-msgstr ""
+msgstr "이렇게 메소드를 몽키 패치할 수도 있습니다: "
 
 #: ../../writing/tests.rst:279
 msgid ""
@@ -327,99 +414,15 @@ msgid ""
 "with a mock that always returns the same result (but only for the "
 "duration of the test)."
 msgstr ""
+"테스트하는 모듈에서 모의 클래스나 모의 객체를 만들 경우에는 "
+"``patch`` 데코레이터를 사용하세요. "
+"아래의 예시에서는 언제나 같은 결과값을 내는(아무튼 테스트 중에는) "
+"모의 객체가 외부 검색 시스템 하나 대신 쓰였습니다. "
 
 #: ../../writing/tests.rst:298
 msgid "Mock has many other ways you can configure it and control its behavior."
-msgstr ""
+msgstr "mock은 다양하게 설정하여 동작 방법을 컨트롤 할 수 있습니다. "
 
 #: ../../writing/tests.rst:300
 msgid "`mock <http://www.voidspace.org.uk/python/mock/>`_"
-msgstr ""
-
-#~ msgid ""
-#~ "Getting used to writing the testing "
-#~ "code and the running code in "
-#~ "parallel is now considered a good "
-#~ "habit. Used wisely, this method helps"
-#~ " you define more precisely your "
-#~ "code's intent and have a more "
-#~ "decoupled architecture."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Each test unit must be fully "
-#~ "independent. Each of them must be "
-#~ "able to run alone, and also within"
-#~ " the test suite, regardless of the"
-#~ " order they are called. The "
-#~ "implication of this rule is that "
-#~ "each test must be loaded with a"
-#~ " fresh dataset and may have to "
-#~ "do some cleanup afterwards. This is "
-#~ "usually handled by :meth:`setUp()` and "
-#~ ":meth:`tearDown()` methods."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Try hard to make tests that run"
-#~ " fast. If one single test needs "
-#~ "more than a few millisecond to "
-#~ "run, development will be slowed down "
-#~ "or the tests will not be run "
-#~ "as often as desirable. In some "
-#~ "cases, tests can't be fast because "
-#~ "they need a complex data structure "
-#~ "to work on, and this data "
-#~ "structure must be loaded every time "
-#~ "the test runs. Keep these heavier "
-#~ "tests in a separate test suite "
-#~ "that is run by some scheduled "
-#~ "task, and run all other tests as"
-#~ " often as needed."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Learn your tools and learn how to"
-#~ " run a single test or a test"
-#~ " case. Then, when developing a "
-#~ "function inside a module, run this "
-#~ "function's tests very often, ideally "
-#~ "automatically when you save the code."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "When something goes wrong or has "
-#~ "to be changed, and if your code"
-#~ " has a good set of tests, you"
-#~ " or other maintainers will rely "
-#~ "largely on the testing suite to "
-#~ "fix the problem or modify a given"
-#~ " behavior. Therefore the testing code "
-#~ "will be read as much as or "
-#~ "even more than the running code. A"
-#~ " unit test whose purpose is unclear"
-#~ " is not very helpful is this "
-#~ "case."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Another use of the testing code is"
-#~ " as an introduction to new "
-#~ "developers. When someone will have to"
-#~ " work on the code base, running "
-#~ "and reading the related testing code "
-#~ "is often the best they can do. "
-#~ "They will or should discover the "
-#~ "hot spots, where most difficulties "
-#~ "arise, and the corner cases. If "
-#~ "they have to add some functionality, "
-#~ "the first step should be to add"
-#~ " a test and, by this means, "
-#~ "ensure the new functionality is not "
-#~ "already a working path that has "
-#~ "not been plugged into the interface."
-#~ msgstr ""
-
-#~ msgid "`nose <http://readthedocs.org/docs/nose/en/latest/>`_"
-#~ msgstr ""
-
+msgstr "`mock <http://www.voidspace.org.uk/python/mock/>`_"
