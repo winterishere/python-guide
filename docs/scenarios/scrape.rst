@@ -1,21 +1,29 @@
-HTML Scraping
-=============
 
+#############
+HTML Scraping
+#############
+
+.. image:: /_static/photos/34268661876_442428e122_k_d.jpg
+
+
+************
 Web Scraping
-------------
+************
 
 Web sites are written using HTML, which means that each web page is a
 structured document. Sometimes it would be great to obtain some data from
 them and preserve the structure while we're at it. Web sites don't always
-provide their data in comfortable formats such as ``csv`` or ``json``.
+provide their data in comfortable formats such as CSV or JSON.
 
 This is where web scraping comes in. Web scraping is the practice of using a
 computer program to sift through a web page and gather the data that you need
 in a format most useful to you while at the same time preserving the structure
 of the data.
 
+
+*****************
 lxml and Requests
------------------
+*****************
 
 `lxml <http://lxml.de/>`_ is a pretty extensive library written for parsing
 XML and HTML documents very quickly, even handling messed up tags in the
@@ -33,7 +41,7 @@ Let's start with the imports:
     import requests
 
 Next we will use ``requests.get`` to retrieve the web page with our data,
-parse it using the ``html`` module and save the results in ``tree``:
+parse it using the ``html`` module, and save the results in ``tree``:
 
 .. code-block:: python
 
@@ -49,15 +57,15 @@ will focus on the former.
 
 XPath is a way of locating information in structured documents such as
 HTML or XML documents. A good introduction to XPath is on
-`W3Schools <http://www.w3schools.com/xsl/xpath_intro.asp>`_ .
+`W3Schools <http://www.w3schools.com/xml/xpath_intro.asp>`_ .
 
 There are also various tools for obtaining the XPath of elements such as
 FireBug for Firefox or the Chrome Inspector. If you're using Chrome, you
 can right click an element, choose 'Inspect element', highlight the code,
-right click again and choose 'Copy XPath'.
+right click again, and choose 'Copy XPath'.
 
 After a quick analysis, we see that in our page the data is contained in
-two elements - one is a div with title 'buyer-name' and the other is a
+two elements -- one is a div with title 'buyer-name' and the other is a
 span with class 'item-price':
 
 .. code-block:: html
@@ -79,8 +87,8 @@ Let's see what we got exactly:
 
 .. code-block:: python
 
-    print 'Buyers: ', buyers
-    print 'Prices: ', prices
+    print('Buyers: ', buyers)
+    print('Prices: ', prices)
 
 ::
 

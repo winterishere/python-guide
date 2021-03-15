@@ -1,28 +1,37 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011-2021 <a
+# href="https://www.kennethreitz.org/projects">Kenneth Reitz</a> &amp; <a
+# href="https://realpython.com">Real Python</a>. <a
+# href="http://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY-NC-SA
+# 3.0</a>
+# This file is distributed under the same license as the pythonguide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: pythonguide 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-17 01:45+0000\n"
+"POT-Creation-Date: 2021-03-15 08:55+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: YoungSeon.Ahn <lovemewithoutall@lgcns.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.3.4\n"
+"Generated-By: Babel 2.2.0\n"
 
-#: ../../starting/installation.rst:2
+#: ../../starting/installation.rst:6
 msgid "Properly Installing Python"
 msgstr "올바른 파이썬 설치"
 
-#: ../../starting/installation.rst:4
+#: ../../starting/installation.rst:10
 msgid ""
 "There's a good chance that you already have Python on your operating "
 "system."
 msgstr "운좋게도 이미 파이썬이 당신의 운영체제에 설치되어 있을 수도 있습니다."
 
-#: ../../starting/installation.rst:6
+#: ../../starting/installation.rst:12
 msgid ""
 "If so, you do not need to install or configure anything else to use "
 "Python. Having said that, I would strongly recommend that you install the"
@@ -35,28 +44,66 @@ msgstr ""
 " 전에 이 안내서에서 앞으로 설명할 툴과 라이브러리들을 먼저 설치할 것을 강력 추천합니다. 특히 Setuptools, Pip, "
 "Virtualenv는 반드시 설치해야 합니다. 이것들은 다른 파이썬 서드파티 라이브러리들을 사용하기 편하게 해줍니다. "
 
-#: ../../starting/installation.rst:14
+#: ../../starting/installation.rst:19
+msgid ""
+"The use of **Python 3** is *highly* preferred over Python 2. Consider "
+"upgrading your applications and infrastructure if you find yourself "
+"*still* using Python 2 in production today. If you are using Python 3, "
+"congratulations — you are indeed a person of excellent taste. —*Kenneth "
+"Reitz*"
+msgstr ""
+
+#: ../../starting/installation.rst:24
 msgid "Installation Guides"
 msgstr "설치 안내"
 
-#: ../../starting/installation.rst:16
+#: ../../starting/installation.rst:26
+#, fuzzy
 msgid ""
-"These guides go over the proper installation of :ref:`Python 2.7 <which-"
-"python>` for development purposes, as well as setuptools, pip, and "
-"virtualenv setup."
+"These guides go over the proper installation of :ref:`Python <which-"
+"python>` for development purposes, as well as setuptools, pip and "
+"virtualenv."
 msgstr ""
 "이 안내서는 개발을 위한 :ref:`파이썬 2.7 <which-python>` 의 적절한 설치 뿐 아니라 setuptools, "
 "pip, and virtualenv의 설치도 다룹니다."
 
-#: ../../starting/installation.rst:19
-msgid ":ref:`Mac OS X <install-osx>`."
+#: ../../starting/installation.rst:30
+#, fuzzy
+msgid "Python 3 Installation Guides"
+msgstr "설치 안내"
+
+#: ../../starting/installation.rst:32
+#, fuzzy
+msgid ":ref:`Python 3 on MacOS <install3-osx>`."
 msgstr ":ref:`Mac OS X <install-osx>`."
 
-#: ../../starting/installation.rst:20
-msgid ":ref:`Microsoft Windows <install-windows>`."
+#: ../../starting/installation.rst:33
+#, fuzzy
+msgid ":ref:`Python 3 on Windows <install3-windows>`."
 msgstr ":ref:`Microsoft Windows <install-windows>`."
 
-#: ../../starting/installation.rst:21
-msgid ":ref:`Linux <install-linux>`."
+#: ../../starting/installation.rst:34
+#, fuzzy
+msgid ":ref:`Python 3 on Linux <install3-linux>`."
+msgstr ":ref:`Linux <install-linux>`."
+
+#: ../../starting/installation.rst:37
+#, fuzzy
+msgid "Legacy Python 2 Installation Guides"
+msgstr "설치 안내"
+
+#: ../../starting/installation.rst:39
+#, fuzzy
+msgid ":ref:`Python 2 on MacOS <install-osx>`."
+msgstr ":ref:`Mac OS X <install-osx>`."
+
+#: ../../starting/installation.rst:40
+#, fuzzy
+msgid ":ref:`Python 2 on Microsoft Windows <install-windows>`."
+msgstr ":ref:`Microsoft Windows <install-windows>`."
+
+#: ../../starting/installation.rst:41
+#, fuzzy
+msgid ":ref:`Python 2 on Linux <install-linux>`."
 msgstr ":ref:`Linux <install-linux>`."
 
