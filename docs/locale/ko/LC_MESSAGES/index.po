@@ -119,7 +119,7 @@ msgstr "파이썬 어플리케이션을 위한 시나리오 안내"
 msgid ""
 "This part of the guide focuses on tool and module advice based on "
 "different scenarios."
-msgstr "이 파트는 다양한 시나리에오 따른 툴과 모듈에 대한 조언을 다룹니다"
+msgstr "이 파트는 다양한 시나리오에 따른 툴과 모듈에 대한 조언을 다룹니다"
 
 #: ../../contents.rst.inc:98
 msgid "Shipping Great Python Code"
