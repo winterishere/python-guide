@@ -1,131 +1,158 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011-2021 <a
+# href="https://www.kennethreitz.org/projects">Kenneth Reitz</a> &amp; <a
+# href="https://realpython.com">Real Python</a>. <a
+# href="http://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY-NC-SA
+# 3.0</a>
+# This file is distributed under the same license as the pythonguide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: pythonguide 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-10-11 08:03+0000\n"
+"POT-Creation-Date: 2021-03-15 08:55+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Jou Sung-Shik <liks79@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.3.4\n"
+"Generated-By: Babel 2.2.0\n"
 
-#: ../../index.rst:7
+#: ../../index.rst:12
 msgid "The Hitchhiker's Guide to Python!"
 msgstr "파이썬을 여행하는 히치하이커를 위한 안내서!"
 
-#: ../../index.rst:9
+#: ../../index.rst:14
 msgid "Greetings, Earthling! Welcome to The Hitchhiker's Guide to Python."
 msgstr "안녕, 지구인! 파이썬을 여행하는 히치하이커를 위한 안내서에 오신 것을 환영합니다."
 
-#: ../../index.rst:11
+#: ../../index.rst:16
+#, fuzzy
 msgid ""
 "**This is a living, breathing guide.**  If you'd like to contribute, "
-"`fork us on GitHub <https://github.com/kennethreitz/python-guide>`_!"
+"`fork us on GitHub <https://github.com/realpython/python-guide>`_!"
 msgstr ""
 "**이 안내서는 현재 많은 변화가 진행 중입니다.**  도와주고 싶으시다면, `fork us on GitHub "
 "<https://github.com/kennethreitz/python-guide>`_!"
 
-#: ../../index.rst:14
+#: ../../index.rst:19
+#, fuzzy
 msgid ""
 "This handcrafted guide exists to provide both novice and expert Python "
-"developers a best practice handbook to the installation, configuration, "
+"developers a best practice handbook for the installation, configuration, "
 "and usage of Python on a daily basis."
 msgstr ""
-"이 장인정신으로 만든 안내서는 파이썬 초보자와 숙련된 파이썬 개발자 모두에게 매일매일 단위로 파이썬의 설치, 설정, 사용을 안내하는 모범 사례 안내서입니다."
+"이 장인정신으로 만든 안내서는 파이썬 초보자와 숙련된 파이썬 개발자 모두에게 매일매일 단위로 파이썬의 설치, 설정, 사용을 안내하는"
+" 모범 사례 안내서입니다."
 
-#: ../../index.rst:18
+#: ../../index.rst:23
 msgid ""
 "This guide is **opinionated** in a way that is almost, but not quite, "
 "entirely *unlike* Python's official documentation. You won't find a list "
 "of every Python web framework available here. Rather, you'll find a nice "
 "concise list of highly recommended options."
 msgstr ""
-"이 안내서는 거의 **독단적** 입니다. 하지만 파이썬 공식 문서만큼 완벽하게 독단적이지는 않습니다. "
-"여기서 사용 가능한 세상의 모든 파이썬 웹 프레임워크의 목록을 찾을 수 있다는 것은 아닙니다. "
-"그보다는 강력 추천하는 여러 선택 사항들의 간결하고 멋진 목록을 보게 될 것입니다. "
+"이 안내서는 거의 **독단적** 입니다. 하지만 파이썬 공식 문서만큼 완벽하게 독단적이지는 않습니다. 여기서 사용 가능한 세상의 "
+"모든 파이썬 웹 프레임워크의 목록을 찾을 수 있다는 것은 아닙니다. 그보다는 강력 추천하는 여러 선택 사항들의 간결하고 멋진 목록을"
+" 보게 될 것입니다. "
 
-#: ../../index.rst:24
+#: ../../index.rst:28
+msgid ""
+"The use of **Python 3** is *highly* recommended over Python 2. Consider "
+"upgrading your applications and infrastructures if you find yourself "
+"*still* using Python 2 in production today. If you are using Python 3, "
+"congratulations — you are indeed a person of excellent taste. —*Kenneth "
+"Reitz*"
+msgstr ""
+
+#: ../../index.rst:31
 msgid ""
 "Let's get started! But first, let's make sure you know where your towel "
 "is."
-msgstr ""
-"이제 출발합시다! 그런데 우선, 당신의 타월이 어디에 있는지 확인합시다. "
+msgstr "이제 출발합시다! 그런데 우선, 당신의 타월이 어디에 있는지 확인합시다. "
 
 #: ../../contents.rst.inc:2
 msgid "Getting Started with Python"
 msgstr "파이썬 시작하기"
 
 #: ../../contents.rst.inc:4
-msgid "New to Python? Let's properly setup up your Python environment."
+#, fuzzy
+msgid "New to Python? Let's properly setup up your Python environment:"
 msgstr "파이썬은 처음인가요? 파이썬 환경을 잘 설치해봅시다."
 
 #: ../../contents.rst.inc:11
-msgid "Properly Install Python"
+#, fuzzy
+msgid "Properly Install Python on your system:"
 msgstr "올바른 파이썬 설치"
 
-#: ../../contents.rst.inc:24
+#: ../../contents.rst.inc:25
+msgid "Using Virtualenvs with Pipenv:"
+msgstr ""
+
+#: ../../contents.rst.inc:34
+msgid "Python Development Environments"
+msgstr "파이썬 개발 환경"
+
+#: ../../contents.rst.inc:36
+#, fuzzy
+msgid ""
+"This part of the guide focuses on the Python development environment, and"
+" the best-practice tools that are available for writing Python code."
+msgstr "이 부분은 파이썬 개발 환경, 그리고 파이썬 코드 작성을 위한 모범적인 개발도구를 다룹니다."
+
+#: ../../contents.rst.inc:50
 msgid "Writing Great Python Code"
 msgstr "최고의 코드 작성하기"
 
-#: ../../contents.rst.inc:26
+#: ../../contents.rst.inc:52
 msgid ""
 "This part of the guide focuses on the best-practices for writing Python "
 "code."
 msgstr "안내서의 이 부분은 파이썬 코드 작성의 모범 사례를 다룹니다."
 
-#: ../../contents.rst.inc:43
+#: ../../contents.rst.inc:69
 msgid "Scenario Guide for Python Applications"
-msgstr ""
-"파이썬 어플리케이션을 위한 시나리오 안내"
+msgstr "파이썬 어플리케이션을 위한 시나리오 안내"
 
-#: ../../contents.rst.inc:45
+#: ../../contents.rst.inc:71
 msgid ""
 "This part of the guide focuses on tool and module advice based on "
 "different scenarios."
 msgstr "이 파트는 다양한 시나리에오 따른 툴과 모듈에 대한 조언을 다룹니다"
 
-#: ../../contents.rst.inc:71
+#: ../../contents.rst.inc:98
 msgid "Shipping Great Python Code"
 msgstr "최고의 코드를 진수하기"
 
-#: ../../contents.rst.inc:73
-msgid "This part of the guide focuses on deploying your Python code."
+#: ../../contents.rst.inc:100
+#, fuzzy
+msgid "This part of the guide focuses on sharing and deploying your Python code."
 msgstr "이 부분은 파이썬 코드 배포를 다룹니다"
 
-#: ../../contents.rst.inc:83
-msgid "Python Development Environments"
-msgstr "파이썬 개발 환경"
-
-#: ../../contents.rst.inc:85
-msgid ""
-"This part of the guide focus on the Python development environment, and "
-"the best-practice tools that are available for writing Python code."
-msgstr ""
-"이 부분은 파이썬 개발 환경, 그리고 파이썬 코드 작성을 위한 모범적인 개발도구를 다룹니다."
-
-#: ../../contents.rst.inc:99
+#: ../../contents.rst.inc:111
 msgid "Additional Notes"
 msgstr "참고 사항"
 
-#: ../../contents.rst.inc:101
+#: ../../contents.rst.inc:113
+#, fuzzy
 msgid ""
 "This part of the guide, which is mostly prose, begins with some "
-"background information about Python, then focuses on next steps."
-msgstr ""
-"이 부분에서는 파이썬에 대한 배경 지식부터 시작해서 그 다음 단계를 구구절절 다룹니다."
+"background information about Python, and then focuses on next steps."
+msgstr "이 부분에서는 파이썬에 대한 배경 지식부터 시작해서 그 다음 단계를 구구절절 다룹니다."
 
-#: ../../contents.rst.inc:114
+#: ../../contents.rst.inc:126
 msgid ""
 "Notes defined within all diatonic and chromatic musical scales have been "
 "intentionally excluded from this list of additional notes. Additionally, "
 "this note."
 msgstr ""
-"이 참고 사항에서는 장음계와 단음계를 비롯한 음계의 모든 사항들을 다루지는 않습니다. "
-"그런 것들은 이 참고 사항의 목록에서 일부러 제외시켰습니다. 이 문단도 그렇습니다."
+"이 참고 사항에서는 장음계와 단음계를 비롯한 음계의 모든 사항들을 다루지는 않습니다. 그런 것들은 이 참고 사항의 목록에서 일부러 "
+"제외시켰습니다. 이 문단도 그렇습니다."
 
-#: ../../contents.rst.inc:121
+#: ../../contents.rst.inc:133
 msgid "Contribution notes and legal information (for those interested)."
 msgstr "기여자를 위한 알림과 법적 정보(관심있으신 분들에게)."
+
