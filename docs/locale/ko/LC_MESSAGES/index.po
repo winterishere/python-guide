@@ -30,23 +30,21 @@ msgid "Greetings, Earthling! Welcome to The Hitchhiker's Guide to Python."
 msgstr "안녕, 지구인! 파이썬을 여행하는 히치하이커를 위한 안내서에 오신 것을 환영합니다."
 
 #: ../../index.rst:16
-#, fuzzy
 msgid ""
 "**This is a living, breathing guide.**  If you'd like to contribute, "
 "`fork us on GitHub <https://github.com/realpython/python-guide>`_!"
 msgstr ""
-"**이 안내서는 현재 많은 변화가 진행 중입니다.**  도와주고 싶으시다면, `fork us on GitHub "
-"<https://github.com/kennethreitz/python-guide>`_!"
+"**이 안내서는 살아 숨쉬고 있습니다.**  기여하고 싶으시다면, "
+"`fork us on GitHub <https://github.com/realpython/python-guide>`_!"
 
 #: ../../index.rst:19
-#, fuzzy
 msgid ""
 "This handcrafted guide exists to provide both novice and expert Python "
 "developers a best practice handbook for the installation, configuration, "
 "and usage of Python on a daily basis."
 msgstr ""
-"이 장인정신으로 만든 안내서는 파이썬 초보자와 숙련된 파이썬 개발자 모두에게 매일매일 단위로 파이썬의 설치, 설정, 사용을 안내하는"
-" 모범 사례 안내서입니다."
+"이 장인정신으로 만든 안내서는 파이썬 초보자와 숙련된 파이썬 개발자 모두에게 "
+"매일매일 단위로 파이썬의 설치, 설정, 사용법에 대한 모범 사례 안내서입니다."
 
 #: ../../index.rst:23
 msgid ""
