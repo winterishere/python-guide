@@ -11,4 +11,4 @@ docs/_build
 # Ignore files generated during build
 build/
 
-venv/
+.venv/
