@@ -1,10 +1,14 @@
 .. _code_style:
 
+
+##########
 Code Style
-==========
+##########
+
+.. image:: /_static/photos/33907150054_5ee79e8940_k_d.jpg
 
 If you ask Python programmers what they like most about Python, they will
-often cite its high readability.  Indeed, a high level of readability
+often cite its high readability. Indeed, a high level of readability
 is at the heart of the design of the Python language, following the
 recognized fact that code is read much more often than it is written.
 
@@ -19,8 +23,10 @@ what is considered the best (hear: most readable) way.
 On some border cases, no best way has been agreed upon on how to express
 an intent in Python code, but these cases are rare.
 
+
+****************
 General concepts
-----------------
+****************
 
 Explicit code
 ~~~~~~~~~~~~~
@@ -59,9 +65,9 @@ it is bad practice to have two disjointed statements on the same line of code.
 
 .. code-block:: python
 
-    print 'one'; print 'two'
+    print('one'); print('two')
 
-    if x == 1: print 'one'
+    if x == 1: print('one')
 
     if <complex comparison> and <other complex comparison>:
         # do something
@@ -70,11 +76,11 @@ it is bad practice to have two disjointed statements on the same line of code.
 
 .. code-block:: python
 
-    print 'one'
-    print 'two'
+    print('one')
+    print('two')
 
     if x == 1:
-        print 'one'
+        print('one')
 
     cond1 = <complex comparison>
     cond2 = <other complex comparison>
@@ -109,7 +115,7 @@ compared to the more straightforward calls to ``send('Hello', 'World')`` and
    optional, and evaluate to ``None`` when they are not passed another value.
 
 Calling a function with keyword arguments can be done in multiple ways in
-Python, for example it is possible to follow the order of arguments in the
+Python; for example, it is possible to follow the order of arguments in the
 definition without explicitly naming the arguments, like in
 ``send('Hello', 'World', 'Cthulhu', 'God')``, sending a blind carbon copy to
 God. It would also be possible to name arguments in another order, like in
@@ -118,7 +124,7 @@ possibilities are better avoided without any strong reason to not follow the
 syntax that is the closest to the function definition:
 ``send('Hello', 'World', cc='Cthulhu', bcc='God')``.
 
-As a side note, following `YAGNI <http://en.wikipedia.org/wiki/You_ain't_gonna_need_it>`_
+As a side note, following the `YAGNI <http://en.wikipedia.org/wiki/You_ain't_gonna_need_it>`_
 principle, it is often harder to remove an optional argument (and its logic
 inside the function) that was added "just in case" and is seemingly never used,
 than to add a new optional argument and its logic when needed.
@@ -128,7 +134,7 @@ than to add a new optional argument and its logic when needed.
    an extensible number of positional arguments, it can be defined with the
    ``*args`` constructs. In the function body, ``args`` will be a tuple of all
    the remaining positional arguments. For example, ``send(message, *args)``
-   can be called with each recipient as an argument:``send('Hello', 'God',
+   can be called with each recipient as an argument: ``send('Hello', 'God',
    'Mom', 'Cthulhu')``, and in the function body ``args`` will be equal to
    ``('God', 'Mom', 'Cthulhu')``.
 
@@ -175,7 +181,7 @@ possible to do each of the following:
 
 * change how the Python interpreter imports modules
 
-* it is even possible (and recommended if needed) to embed C routines in Python.
+* It is even possible (and recommended if needed) to embed C routines in Python.
 
 However, all these options have many drawbacks and it is always better to use
 the most straightforward way to achieve your goal. The main drawback is that
@@ -202,7 +208,7 @@ are all responsible users".
 
 This doesn't mean that, for example, no properties are considered private, and
 that no proper encapsulation is possible in Python. Rather, instead of relying
-on concrete walls erected by the developers between their code and other's, the
+on concrete walls erected by the developers between their code and others', the
 Python community prefers to rely on a set of conventions indicating that these
 elements should not be accessed directly.
 
@@ -220,7 +226,7 @@ but making a public property private might be a much harder operation.
 Returning values
 ~~~~~~~~~~~~~~~~
 
-When a function grows in complexity it is not uncommon to use multiple return
+When a function grows in complexity, it is not uncommon to use multiple return
 statements inside the function's body. However, in order to keep a clear intent
 and a sustainable readability level, it is preferable to avoid returning
 meaningful values from many output points in the body.
@@ -258,12 +264,14 @@ is needed.
        return x  # One single exit point for the returned value x will help
                  # when maintaining the code.
 
+
+******
 Idioms
-------
+******
 
 A programming idiom, put simply, is a *way* to write code. The notion of
 programming idioms is discussed amply at `c2 <http://c2.com/cgi/wiki?ProgrammingIdiom>`_
-and at `Stack Overflow <http://stackoverflow.com/questions/302459/what-is-a-programming-idiom>`_.
+and at `Stack Overflow <https://stackoverflow.com/questions/302459/what-is-a-programming-idiom>`_.
 
 Idiomatic Python code is often referred to as being *Pythonic*.
 
@@ -349,9 +357,7 @@ Instead, use a list comprehension:
 
 .. code-block:: python
 
-    four_lists = [[] for __ in xrange(4)]
-
-Note: Use range() instead of xrange() in Python 3
+    four_lists = [[] for __ in range(4)]
 
 Create a string from a list
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -395,7 +401,7 @@ hand, the hash of the item will tell Python where in the set to look for
 a matching item. As a result, the search can be done quickly, even if the
 set is large. Searching in dictionaries works the same way. For
 more information see this
-`StackOverflow <http://stackoverflow.com/questions/513882/python-list-vs-dict-for-look-up-table>`_
+`StackOverflow <https://stackoverflow.com/questions/513882/python-list-vs-dict-for-look-up-table>`_
 page. For detailed information on the amount of time various common operations
 take on each of these data structures, see
 `this page <https://wiki.python.org/moin/TimeComplexity?>`_.
@@ -415,8 +421,9 @@ hashtable will often be greater than the time saved by the improved search
 speed.
 
 
+*************
 Zen of Python
--------------
+*************
 
 Also known as :pep:`20`, the guiding principles for Python's design.
 
@@ -446,12 +453,14 @@ Also known as :pep:`20`, the guiding principles for Python's design.
     Namespaces are one honking great idea -- let's do more of those!
 
 For some examples of good Python style, see `these slides from a Python user
-group <http://artifex.org/~hblanks/talks/2011/pep20_by_example.pdf>`_.
+group <https://github.com/hblanks/zen-of-python-by-example>`_.
 
+
+*****
 PEP 8
------
+*****
 
-:pep:`8` is the de-facto code style guide for Python. A high quality,
+:pep:`8` is the de facto code style guide for Python. A high quality,
 easy-to-read version of PEP 8 is also available at `pep8.org <http://pep8.org/>`_.
 
 This is highly recommended reading. The entire Python community does their
@@ -459,23 +468,23 @@ best to adhere to the guidelines laid out within this document. Some project
 may sway from it from time to time, while others may
 `amend its recommendations <http://docs.python-requests.org/en/master/dev/contributing/#kenneth-reitz-s-code-style>`_.
 
-That being said, conforming your Python code to PEP 8 is generally a good
-idea and helps make code more consistent when working on projects with other
-developers. There is a command-line program, `pep8 <https://github.com/jcrocholl/pep8>`_,
-that can check your code for conformance. Install it by running the following
-command in your terminal:
+That being said, conforming your Python code to PEP 8 is generally a good idea
+and helps make code more consistent when working on projects with other
+developers. There is a command-line program, `pycodestyle <https://github.com/PyCQA/pycodestyle>`_
+(previously known as ``pep8``), that can check your code for conformance.
+Install it by running the following command in your terminal:
 
 
 .. code-block:: console
 
-    $ pip install pep8
+    $ pip install pycodestyle
 
 
 Then run it on a file or series of files to get a report of any violations.
 
 .. code-block:: console
 
-    $ pep8 optparse.py
+    $ pycodestyle optparse.py
     optparse.py:69:11: E401 multiple imports on one line
     optparse.py:77:1: E302 expected 2 blank lines, found 1
     optparse.py:88:5: E301 expected 1 blank line, found 0
@@ -485,7 +494,15 @@ Then run it on a file or series of files to get a report of any violations.
     optparse.py:472:29: E221 multiple spaces before operator
     optparse.py:544:21: W601 .has_key() is deprecated, use 'in'
 
-The program `autopep8 <https://pypi.python.org/pypi/autopep8/>`_ can be used to
+Auto-Formatting
+~~~~~~~~~~~~~~~
+
+There are several auto-formatting tools that can reformat your code,
+in order to comply with PEP 8.
+
+**autopep8**
+
+The program `autopep8 <https://pypi.org/project/autopep8/>`_ can be used to
 automatically reformat code in the PEP 8 style. Install the program with:
 
 .. code-block:: console
@@ -502,15 +519,60 @@ Excluding the ``--in-place`` flag will cause the program to output the modified
 code directly to the console for review. The ``--aggressive`` flag will perform
 more substantial changes and can be applied multiple times for greater effect.
 
+**yapf**
+
+While autopep8 focuses on solving the PEP 8 violations, `yapf <https://github.com/google/yapf>`_
+tries to improve the format of your code aside from complying with PEP 8.
+This formatter aims at providing as good looking code as a programmer who
+writes PEP 8 compliant code.
+It gets installed with:
+
+.. code-block:: console
+
+    $ pip install yapf
+
+Run the auto-formatting of a file with:
+
+.. code-block:: console
+
+    $ yapf --in-place optparse.py
+
+Similar to autopep8, running the command without the ``--in-place`` flag will
+output the diff for review before applying the changes.
+
+**black**
+
+The auto-formatter `black <https://github.com/psf/black>`_ offers an
+opinionated and deterministic reformatting of your code base.
+Its main focus lies in providing a uniform code style without the need of
+configuration throughout its users. Hence, users of black are able to forget
+about formatting altogether. Also, due to the deterministic approach minimal
+git diffs with only the relevant changes are guaranteed. You can install the
+tool as follows:
+
+.. code-block:: console
+
+    $ pip install black
+
+A python file can be formatted with:
+
+.. code-block:: console
+
+    $ black optparse.py
+
+Adding the ``--diff`` flag provides the code modification for review without
+direct application.
+
+***********
 Conventions
-----------------
+***********
 
 Here are some conventions you should follow to make your code easier to read.
 
-Check if variable equals a constant
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Check if a variable equals a constant
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-You don't need to explicitly compare a value to True, or None, or 0 - you can
+You don't need to explicitly compare a value to True, or None, or 0 -- you can
 just add it to the if statement. See `Truth Value Testing
 <http://docs.python.org/library/stdtypes.html#truth-value-testing>`_ for a
 list of what is considered false.
@@ -520,10 +582,10 @@ list of what is considered false.
 .. code-block:: python
 
     if attr == True:
-        print 'True!'
+        print('True!')
 
     if attr == None:
-        print 'attr is None!'
+        print('attr is None!')
 
 **Good**:
 
@@ -531,15 +593,15 @@ list of what is considered false.
 
     # Just check the value
     if attr:
-        print 'attr is truthy!'
+        print('attr is truthy!')
 
     # or check for the opposite
     if not attr:
-        print 'attr is falsey!'
+        print('attr is falsey!')
 
     # or, since None is considered false, explicitly check for it
     if attr is None:
-        print 'attr is None!'
+        print('attr is None!')
 
 Access a Dictionary Element
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -553,9 +615,9 @@ or pass a default argument to :py:meth:`dict.get`.
 
     d = {'hello': 'world'}
     if d.has_key('hello'):
-        print d['hello']    # prints 'world'
+        print(d['hello'])    # prints 'world'
     else:
-        print 'default_value'
+        print('default_value')
 
 **Good**:
 
@@ -563,59 +625,155 @@ or pass a default argument to :py:meth:`dict.get`.
 
     d = {'hello': 'world'}
 
-    print d.get('hello', 'default_value') # prints 'world'
-    print d.get('thingy', 'default_value') # prints 'default_value'
+    print(d.get('hello', 'default_value')) # prints 'world'
+    print(d.get('thingy', 'default_value')) # prints 'default_value'
 
     # Or:
     if 'hello' in d:
-        print d['hello']
+        print(d['hello'])
 
 Short Ways to Manipulate Lists
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 `List comprehensions
 <http://docs.python.org/tutorial/datastructures.html#list-comprehensions>`_
-provide a powerful, concise way to work with lists. Also, the :py:func:`map` and
-:py:func:`filter` functions can perform operations on lists using a different,
-more concise syntax.
+provides a powerful, concise way to work with lists.
+
+`Generator expressions
+<http://docs.python.org/tutorial/classes.html#generator-expressions>`_
+follows almost the same syntax as list comprehensions but return a generator
+instead of a list.
+
+Creating a new list requires more work and uses more memory. If you are just going
+to loop through the new list, prefer using an iterator instead.
 
 **Bad**:
+
+.. code-block:: python
+
+    # needlessly allocates a list of all (gpa, name) entires in memory
+    valedictorian = max([(student.gpa, student.name) for student in graduates])
+
+**Good**:
+
+.. code-block:: python
+
+    valedictorian = max((student.gpa, student.name) for student in graduates)
+
+
+Use list comprehensions when you really need to create a second list, for
+example if you need to use the result multiple times.
+
+
+If your logic is too complicated for a short list comprehension or generator
+expression, consider using a generator function instead of returning a list.
+
+**Good**:
+
+.. code-block:: python
+
+    def make_batches(items, batch_size):
+        """
+        >>> list(make_batches([1, 2, 3, 4, 5], batch_size=3))
+        [[1, 2, 3], [4, 5]]
+        """
+        current_batch = []
+        for item in items:
+            current_batch.append(item)
+            if len(current_batch) == batch_size:
+                yield current_batch
+                current_batch = []
+        yield current_batch
+
+
+Never use a list comprehension just for its side effects.
+
+**Bad**:
+
+.. code-block:: python
+
+    [print(x) for x in sequence]
+
+**Good**:
+
+.. code-block:: python
+
+    for x in sequence:
+        print(x)
+
+
+Filtering a list
+~~~~~~~~~~~~~~~~
+
+**Bad**:
+
+Never remove items from a list while you are iterating through it.
 
 .. code-block:: python
 
     # Filter elements greater than 4
     a = [3, 4, 5]
-    b = []
     for i in a:
         if i > 4:
-            b.append(i)
+            a.remove(i)
 
-**Good**:
+Don't make multiple passes through the list.
 
 .. code-block:: python
 
-    a = [3, 4, 5]
-    b = [i for i in a if i > 4]
-    # Or:
-    b = filter(lambda x: x > 4, a)
+    while i in a:
+        a.remove(i)
 
+**Good**:
+
+Use a list comprehension or generator expression.
+
+.. code-block:: python
+
+    # comprehensions create a new list object
+    filtered_values = [value for value in sequence if value != x]
+
+    # generators don't create another list
+    filtered_values = (value for value in sequence if value != x)
+
+
+Possible side effects of modifying the original list
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Modifying the original list can be risky if there are other variables referencing it. But you can use *slice assignment* if you really want to do that.
+
+.. code-block:: python
+
+    # replace the contents of the original list
+    sequence[::] = [value for value in sequence if value != x]
+
+
+Modifying the values in a list
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 **Bad**:
+
+Remember that assignment never creates a new object. If two or more variables refer to the same list, changing one of them changes them all.
 
 .. code-block:: python
 
     # Add three to all list members.
     a = [3, 4, 5]
+    b = a                     # a and b refer to the same list object
+
     for i in range(len(a)):
-        a[i] += 3
+        a[i] += 3             # b[i] also changes
 
 **Good**:
+
+It's safer to create a new list object and leave the original alone.
 
 .. code-block:: python
 
     a = [3, 4, 5]
+    b = a
+
+    # assign the variable "a" to a new list without changing "b"
     a = [i + 3 for i in a]
-    # Or:
-    a = map(lambda i: i + 3, a)
 
 Use :py:func:`enumerate` keep a count of your place in the list.
 
@@ -623,7 +781,7 @@ Use :py:func:`enumerate` keep a count of your place in the list.
 
     a = [3, 4, 5]
     for i, item in enumerate(a):
-        print i, item
+        print(i, item)
     # prints
     # 0 3
     # 1 4
@@ -644,7 +802,7 @@ files for you.
 
     f = open('file.txt')
     a = f.read()
-    print a
+    print(a)
     f.close()
 
 **Good**:
@@ -653,7 +811,7 @@ files for you.
 
     with open('file.txt') as f:
         for line in f:
-            print line
+            print(line)
 
 The ``with`` statement is better because it will ensure you always close the
 file, even if an exception is raised inside the ``with`` block.
@@ -669,7 +827,7 @@ a white space added to the end of the line, after the backslash, will break the
 code and may have unexpected results.
 
 A better solution is to use parentheses around your elements. Left with an
-unclosed parenthesis on an end-of-line the Python interpreter will join the
+unclosed parenthesis on an end-of-line, the Python interpreter will join the
 next line until the parentheses are closed. The same behavior holds for curly
 and square braces.
 

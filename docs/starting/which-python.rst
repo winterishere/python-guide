@@ -1,60 +1,59 @@
-Picking an Interpreter
-======================
+
+
+#####################################
+Picking a Python Interpreter (3 vs 2)
+#####################################
+
+.. image:: /_static/photos/34484834733_5b80f65ab1_k_d.jpg
 
 .. _which-python:
 
-The State of Python (2 vs 3)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+***************************
+The State of Python (3 & 2)
+***************************
 
 When choosing a Python interpreter, one looming question is always present:
-"Should I choose Python 2 or Python 3"? The answer is not as obvious as
+"Should I choose Python 2 or Python 3"? The answer is a bit more subtle than
 one might think.
 
 
 The basic gist of the state of things is as follows:
 
-1. Python 2.7 has been the standard for a *long* time.
-2. Python 3 introduced major changes to the language, which many developers are unhappy with.
-3. Python 2.7 will receive necessary security updates until 2020 [#pep373_eol]_.
-4. Python 3 is continually evolving, like Python 2 did in years past.
-
-So, you can now see why this is not such an easy decision.
+1. Most production applications today use Python 3.
+2. Python 3 is ready for the production deployment of applications today.
+3. Python 2 reached the end of its life on January 1, 2020 [#pep373_eol]_.
+4. The brand name "Python" encapsulates both Python 3 and Python 2.
 
 
+***************
 Recommendations
-~~~~~~~~~~~~~~~
+***************
+
+
+.. note:: The use of **Python 3** is *highly* recommended over Python 2. Consider upgrading your applications and infrastructure if you find yourself *still* using Python 2 in production today. If you are using Python 3, congratulations — you are indeed a person of excellent taste.
+  —*Kenneth Reitz*
 
 I'll be blunt:
 
-
-**Use Python 3 if...**
-
-- You don't care.
-- You love Python 3.
-- You are indifferent towards 2 vs 3.
-- You don't know which one to use.
-- You embrace change.
-
-**Use Python 2 if...**
-
-- You love Python 2 and are saddened by the future being Python 3.
-- The stability requirements of your software would be improved by a language and runtime that never changes.
-- Software that you depend on requires it.
+- Use Python 3 for new Python applications.
+- If you're learning Python for the first time, familiarizing yourself with Python 2.7 will be very
+  useful, but not more useful than learning Python 3.
+- Learn both. They are both "Python".
 
 
+*********
 So.... 3?
-~~~~~~~~~
+*********
 
-If you're choosing a Python interpreter to use, and aren't opinionated, then I
+If you're choosing a Python interpreter to use, I
 recommend you use the newest Python 3.x, since every version brings new and
-improved standard library modules, security and bug fixes. Progress is progress.
+improved standard library modules, security and bug fixes.
 
-Given such, only use Python 2 if you have a strong reason to, such as a Python 2
-exclusive library which has no adequate Python 3 ready alternative, or you
-(like me) absolutely love and are inspired by Python 2.
+Given such, only use Python 2 if you have a strong reason to, such as a
+pre-existing code-base, a Python 2 exclusive library, simplicity/familiarity,
+or, of course, you absolutely love and are inspired by Python 2. No harm in that.
 
-Check out `Can I Use Python 3? <https://caniusepython3.com/>`_ to see if any
-software you're depending on will block your adoption of Python 3.
 
 `Further Reading <http://wiki.python.org/moin/Python2orPython3>`_
 
@@ -64,8 +63,10 @@ ranges from trivial to hard depending upon the kind of software
 you are writing; if you're a beginner there are far more important things to
 worry about.
 
+
+***************
 Implementations
-~~~~~~~~~~~~~~~
+***************
 
 When people speak of *Python* they often mean not just the language but also
 the CPython implementation. *Python* is actually a specification for a language
@@ -79,7 +80,7 @@ written in C. It compiles Python code to intermediate bytecode which is then
 interpreted by a virtual machine. CPython provides the highest
 level of compatibility with Python packages and C extension modules.
 
-If you are writing open-source Python code and want to reach the widest possible
+If you are writing open source Python code and want to reach the widest possible
 audience, targeting CPython is best. To use packages which rely on C extensions
 to function, CPython is your only implementation option.
 
@@ -126,7 +127,8 @@ expose Python code to other languages in the .NET framework.
 IronPython directly into the Visual Studio development environment, making it
 an ideal choice for Windows developers.
 
-IronPython supports Python 2.7. [#iron_ver]_
+IronPython supports Python 2.7. [#iron_ver]_ IronPython 3 [#iron_ver3]_
+is being developed, but is not ready for use as of September 2020.
 
 PythonNet
 ---------
@@ -142,16 +144,16 @@ installations on non-Windows operating systems, such as OS X and
 Linux, to operate within the .NET framework.  It can be run in
 addition to IronPython without conflict.
 
-Pythonnet supports from Python 2.6 up to Python 3.5. [#pythonnet_ver1]_ [#pythonnet_ver2]_
+Pythonnet is compatible with Python 2.7 and 3.5-3.8. [#pythonnet_ver1]_
 
-.. [#pypy_ver] http://pypy.org/compat.html
+.. [#pypy_ver] https://pypy.org/compat.html
 
 .. [#jython_ver] https://hg.python.org/jython/file/412a8f9445f7/NEWS
 
-.. [#iron_ver] http://ironpython.codeplex.com/releases/view/81726
+.. [#iron_ver] https://ironpython.net/download/
 
-.. [#pythonnet_ver1] https://travis-ci.org/pythonnet/pythonnet
+.. [#iron_ver3] https://github.com/IronLanguages/ironpython3
 
-.. [#pythonnet_ver2] https://ci.appveyor.com/project/TonyRoberts/pythonnet-480xs
+.. [#pythonnet_ver1] https://pythonnet.github.io/
 
 .. [#pep373_eol] https://www.python.org/dev/peps/pep-0373/#id2
