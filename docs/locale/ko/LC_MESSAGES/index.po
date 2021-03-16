@@ -65,6 +65,11 @@ msgid ""
 "congratulations — you are indeed a person of excellent taste. —*Kenneth "
 "Reitz*"
 msgstr ""
+"파이썬2 대신 **파이썬3** 를 사용하실 것을 강력하게 추천드립니다. *아직도* "
+" 파이썬2를 운영환경에서 사용하고 있다면 어플리케이션과 인프라스트럭쳐를 "
+"업그레이드 하실 것을 고려해보세요. "
+"이미 파이썬3를 사용하고 계신다면, 축하드립니다 -정말 멋진 취향을 가지신 분입니다-. "
+"-*케네스 레이츠*-"
 
 #: ../../index.rst:31
 msgid ""
@@ -77,29 +82,27 @@ msgid "Getting Started with Python"
 msgstr "파이썬 시작하기"
 
 #: ../../contents.rst.inc:4
-#, fuzzy
 msgid "New to Python? Let's properly setup up your Python environment:"
 msgstr "파이썬은 처음인가요? 파이썬 환경을 잘 설치해봅시다."
 
 #: ../../contents.rst.inc:11
-#, fuzzy
 msgid "Properly Install Python on your system:"
-msgstr "올바른 파이썬 설치"
+msgstr "당신의 시스템에 파이썬을 올바르게 설치해보자"
 
 #: ../../contents.rst.inc:25
 msgid "Using Virtualenvs with Pipenv:"
-msgstr ""
+msgstr "Pipenv로 Virtualenvs 사용하기"
 
 #: ../../contents.rst.inc:34
 msgid "Python Development Environments"
 msgstr "파이썬 개발 환경"
 
 #: ../../contents.rst.inc:36
-#, fuzzy
 msgid ""
 "This part of the guide focuses on the Python development environment, and"
 " the best-practice tools that are available for writing Python code."
-msgstr "이 부분은 파이썬 개발 환경, 그리고 파이썬 코드 작성을 위한 모범적인 개발도구를 다룹니다."
+msgstr ""
+"안내서의 이 부분은 파이썬 개발 환경, 그리고 파이썬 코드 작성을 위한 모범적인 개발도구를 다룹니다."
 
 #: ../../contents.rst.inc:50
 msgid "Writing Great Python Code"
@@ -123,10 +126,9 @@ msgstr "이 파트는 다양한 시나리오에 따른 툴과 모듈에 대한 �
 
 #: ../../contents.rst.inc:98
 msgid "Shipping Great Python Code"
-msgstr "최고의 코드를 진수하기"
+msgstr "최고의 코드를 올리기"
 
 #: ../../contents.rst.inc:100
-#, fuzzy
 msgid "This part of the guide focuses on sharing and deploying your Python code."
 msgstr "이 부분은 파이썬 코드 배포를 다룹니다"
 
@@ -135,7 +137,6 @@ msgid "Additional Notes"
 msgstr "참고 사항"
 
 #: ../../contents.rst.inc:113
-#, fuzzy
 msgid ""
 "This part of the guide, which is mostly prose, begins with some "
 "background information about Python, and then focuses on next steps."
@@ -147,7 +148,8 @@ msgid ""
 "intentionally excluded from this list of additional notes. Additionally, "
 "this note."
 msgstr ""
-"이 참고 사항에서는 장음계와 단음계를 비롯한 음계의 모든 사항들을 다루지는 않습니다. 그런 것들은 이 참고 사항의 목록에서 일부러 "
+"이 참고 사항에서는 장음계와 단음계를 비롯한 음계의 모든 사항들을 다루지는 않습니다. "
+"그런 것들은 이 참고 사항의 목록에서 일부러 "
 "제외시켰습니다. 이 문단도 그렇습니다."
 
 #: ../../contents.rst.inc:133
