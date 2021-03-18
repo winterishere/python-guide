@@ -52,58 +52,54 @@ msgid ""
 "congratulations — you are indeed a person of excellent taste. —*Kenneth "
 "Reitz*"
 msgstr ""
+"파이썬2 대신 **파이썬3** 를 사용하실 것을 강력하게 추천드립니다. *아직도* "
+" 파이썬2를 운영환경에서 사용하고 있다면 어플리케이션과 인프라스트럭쳐를 "
+"업그레이드 하실 것을 고려해보세요. "
+"이미 파이썬3를 사용하고 계신다면, 축하드립니다 -정말 멋진 취향을 가지신 분입니다-. "
+"-*케네스 레이츠*-"
 
 #: ../../starting/installation.rst:24
 msgid "Installation Guides"
 msgstr "설치 안내"
 
 #: ../../starting/installation.rst:26
-#, fuzzy
 msgid ""
 "These guides go over the proper installation of :ref:`Python <which-"
 "python>` for development purposes, as well as setuptools, pip and "
 "virtualenv."
 msgstr ""
-"이 안내서는 개발을 위한 :ref:`파이썬 2.7 <which-python>` 의 적절한 설치 뿐 아니라 setuptools, "
+"이 안내서는 개발을 위한 :ref:`파이썬 <which-python>` 의 적절한 설치 뿐 아니라 setuptools, "
 "pip, and virtualenv의 설치도 다룹니다."
 
 #: ../../starting/installation.rst:30
-#, fuzzy
 msgid "Python 3 Installation Guides"
-msgstr "설치 안내"
+msgstr "파이썬3 설치 안내"
 
 #: ../../starting/installation.rst:32
-#, fuzzy
 msgid ":ref:`Python 3 on MacOS <install3-osx>`."
-msgstr ":ref:`Mac OS X <install-osx>`."
+msgstr ":ref:`MacOS에 파이썬3 설치 <install3-osx>`."
 
 #: ../../starting/installation.rst:33
-#, fuzzy
 msgid ":ref:`Python 3 on Windows <install3-windows>`."
-msgstr ":ref:`Microsoft Windows <install-windows>`."
+msgstr ":ref:`Windows에 파이썬3 설치 <install3-windows>`."
 
 #: ../../starting/installation.rst:34
-#, fuzzy
 msgid ":ref:`Python 3 on Linux <install3-linux>`."
-msgstr ":ref:`Linux <install-linux>`."
+msgstr ":ref:`Linux에 파이썬3 설치 <install3-linux>`."
 
 #: ../../starting/installation.rst:37
-#, fuzzy
 msgid "Legacy Python 2 Installation Guides"
-msgstr "설치 안내"
+msgstr "레거시 파이썬2 설치 안내"
 
 #: ../../starting/installation.rst:39
-#, fuzzy
 msgid ":ref:`Python 2 on MacOS <install-osx>`."
-msgstr ":ref:`Mac OS X <install-osx>`."
+msgstr ":ref:`MacOS에 파이썬2 설치 <install-osx>`."
 
 #: ../../starting/installation.rst:40
-#, fuzzy
 msgid ":ref:`Python 2 on Microsoft Windows <install-windows>`."
-msgstr ":ref:`Microsoft Windows <install-windows>`."
+msgstr ":ref:`Microsoft Windows에 파이썬2 설치 <install-windows>`."
 
 #: ../../starting/installation.rst:41
-#, fuzzy
 msgid ":ref:`Python 2 on Linux <install-linux>`."
-msgstr ":ref:`Linux <install-linux>`."
+msgstr ":ref:`Linux에 파이썬2 설치 <install-linux>`."
 
