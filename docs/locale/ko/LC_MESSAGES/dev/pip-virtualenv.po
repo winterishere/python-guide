@@ -8,27 +8,26 @@
 # package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: pythonguide 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-15 08:55+0000\n"
+"POT-Creation-Date: 2014-11-30 22:28\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Last-Translator: Ahn Young Seon <ys.ahn@outlook.com>\n"
+"Language-Team: KO <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.2.0\n"
 
 #: ../../dev/pip-virtualenv.rst:4
 msgid "Further Configuration of pip and Virtualenv"
-msgstr ""
+msgstr "Pip와 Viertualenv 추가 설정"
 
 #: ../../dev/pip-virtualenv.rst:9
 msgid "Requiring an active virtual environment for ``pip``"
-msgstr ""
+msgstr "``pip`` 를 위해 가상 환경의 활성화가 필요하다"
 
 #: ../../dev/pip-virtualenv.rst:11
 msgid ""
@@ -36,6 +35,8 @@ msgid ""
 "to keep your development environment clean and keeping different "
 "projects' requirements separate."
 msgstr ""
+"개발 환경을 깔끔하게 유지하고 다른 프로젝트의 필요 라이브러리와 분리하려면 "
+"가상 환경을 사용하는 방법이 최고라는 사실이 이제는 분명해졌습니다."
 
 #: ../../dev/pip-virtualenv.rst:15
 msgid ""
@@ -46,6 +47,12 @@ msgid ""
 "package for the virtual environment of the project. Over time this can "
 "result in a messy global package list."
 msgstr ""
+"여러 다른 프로젝트에서 작업을 시작할 때 "
+"특정 프로젝트로 돌아올 때마다 그 프로젝트의 가상 환경을 활성화 해야한다는 사실을 "
+" 기억하기란 어렵습니다. "
+"그러다보니 가상 환경에서 프로젝트의 패키지를 설치하는 것으로 착각하면서 "
+"글로벌 환경에서 패키지를 설치하기 일쑤입니다. "
+"결국 시간이 지남에 따라 글로벌 패키지 목록이 지저분해질 수 있습니다. "
 
 #: ../../dev/pip-virtualenv.rst:22
 msgid ""
@@ -53,6 +60,8 @@ msgid ""
 "environment when you use ``pip install``, consider adding the following "
 "line to your :file:`~/.bashrc` file:"
 msgstr ""
+"``pip install`` 을 실행할 때 패키지를 확실하게 활성화 된 가상 환경에 설치하려면 "
+":file:`~/.bashrc` 파일에 아래의 줄 1개를 추가해보세요. "
 
 #: ../../dev/pip-virtualenv.rst:30
 msgid ""
@@ -62,6 +71,10 @@ msgid ""
 "outside of a virtual environment pip will gently remind you that an "
 "activated virtual environment is needed to install packages."
 msgstr ""
+"이 변경 사항을 저장하고 ``source ~/.bashrc`` 명령어로 :file:`~/.bashrc` 파일을 불러오면 "
+"pip는 더이상 가상 환경이 아닌 곳에 패키지를 설치하도록 두지 않습니다. "
+"가상 환경 밖에서 ``pip install`` 를 실행하려 하면 "
+"pip는 패키지를 설치하려면 가상 환경 활성화가 필요하다고 친절하게 알려줄 것입니다. "
 
 #: ../../dev/pip-virtualenv.rst:41
 msgid ""
@@ -69,12 +82,15 @@ msgid ""
 ":file:`pip.ini` file. :file:`pip.conf` is used by Unix and Mac OS X "
 "operating systems and it can be found at:"
 msgstr ""
+":file:`pip.conf` 파일 또는 :file:`pip.ini` 을 수정해도 이러한 환경 구성을 할 수 있습니다. "
+":file:`pip.conf` 은 Unix와 Mac OS X 운영체제에서 사용됩니다. 위치는 아래와 같습니다: "
 
 #: ../../dev/pip-virtualenv.rst:49
 msgid ""
 "Similarly, the :file:`pip.ini` file is used by Windows operating systems "
 "and it can be found at:"
 msgstr ""
+"마찬가지로 :file:`pip.ini` 은 Windows 운영체제에서 사용합니다. 위치는 아래와 같습니다: "
 
 #: ../../dev/pip-virtualenv.rst:56
 msgid ""
@@ -82,18 +98,24 @@ msgid ""
 "locations, you can create a new file with the correct name for your "
 "operating system."
 msgstr ""
+":file:`pip.conf` 이나 :file:`pip.ini` 가 저 위치에 없다면 "
+"운영체제에다가 저 이름의 새 파일을 만들어도 됩니다. "
 
 #: ../../dev/pip-virtualenv.rst:59
 msgid ""
 "If you already have a configuration file, just add the following line "
 "under the ``[global]`` settings to require an active virtual environment:"
 msgstr ""
+"설정 파일이 이미 있다면 아래의 라인을 ``[global]`` 밑에다 설정해서 가상 환경 "
+"활성화가 필요하다고 하면 됩니다."
 
 #: ../../dev/pip-virtualenv.rst:66
 msgid ""
 "If you did not have a configuration file, you will need to create a new "
 "one and add the following lines to this new file:"
 msgstr ""
+"설정 파일이 없다면 "
+"새 파일을 만들고 그 새 파일에 아래의 라인을 추가하세요: "
 
 #: ../../dev/pip-virtualenv.rst:75
 msgid ""
@@ -101,6 +123,9 @@ msgid ""
 "that you use across different projects consistently) and this can be "
 "accomplished by adding the following to your :file:`~/.bashrc` file:"
 msgstr ""
+"물론 어떤 (보통 여러 다른 프로젝트에서 공통적으로 사용하는)"
+" 패키지들은 글로벌하게 설치해야 하기도 합니다. "
+"이럴때면 :file:`~/.bashrc` 파일에 아래의 라인을 추가하면 됩니다: "
 
 #: ../../dev/pip-virtualenv.rst:85
 msgid ""
@@ -110,10 +135,15 @@ msgid ""
 "that you will have to use that name when trying to install packages "
 "globally with pip."
 msgstr ""
+"변경 사항을 파일에 저장하고 :file:`~/.bashrc` 파일을 불러오고 나면 "
+"``gpip install`` 로 패키지를 글로벌하게 설치할 수 있습니다. "
+"함수명은 원하는대로 바꿔도 됩니다. "
+"pip로 패키지를 글로벌하게 설치하려면 그 함수명을 사용해야 한다는 것만 "
+"기억하면 됩니다."
 
 #: ../../dev/pip-virtualenv.rst:91
 msgid "Caching packages for future use"
-msgstr ""
+msgstr "나중에 사용할 수 있도록 패키지 캐싱하기"
 
 #: ../../dev/pip-virtualenv.rst:93
 msgid ""
@@ -122,6 +152,9 @@ msgid ""
 "libraries that you use. For example, you may be using the ``requests`` "
 "library in a lot of different projects."
 msgstr ""
+"개발자라면 모두 좋아하는 라이브러리가 있을 것이고, 여러 다양한 프로젝트에서 작업한다 할지라도 "
+"사용이 겹치는 라이브러리가 있을 것입니다. "
+"예를 들어 ``requests`` 라이브러리는 아마 여러 프로젝트에서 사용하고 있을 겁니다. "
 
 #: ../../dev/pip-virtualenv.rst:98
 msgid ""
@@ -132,18 +165,27 @@ msgid ""
 "<https://pip.pypa.io/en/stable/reference/pip_install/#caching>`_ that "
 "doesn't need any configuration."
 msgstr ""
+"새 프로젝트를 시작할 때마다 (그러니까 새 가상 환경 말입니다) 같은 패키지와 라이브러리를 "
+"다시 다운로드 할 필요는 전혀 없습니다. "
+"다행스럽게도 pip 6.0버전부터는 pip가 "
+"`기본적으로 캐싱 매커니즘 "
+"<https://pip.pypa.io/en/stable/reference/pip_install/#caching>`_ 을 가지고 있어서 "
+"추가 설정을 할 필요가 없습니다. "
 
 #: ../../dev/pip-virtualenv.rst:105
 msgid ""
 "When using older versions, you can configure pip in such a way that it "
 "tries to reuse already installed packages, too."
 msgstr ""
+"옛날 버전의 pip를 사용하고 있다면 다음과 같이 이미 설치된 패키지를 재사용 할 수 있습니다. "
 
 #: ../../dev/pip-virtualenv.rst:108
 msgid ""
 "On Unix systems, you can add the following line to your :file:`.bashrc` "
 "or :file:`.bash_profile` file."
 msgstr ""
+"UNIX 시스템에서라면 :file:`.bashrc` 나 :file:`.bash_profile` 파일에 "
+"아래 라인을 추가할 수 있습니다."
 
 #: ../../dev/pip-virtualenv.rst:115
 msgid ""
@@ -151,6 +193,9 @@ msgid ""
 "access). After adding this line, ``source`` your :file:`.bashrc` (or "
 ":file:`.bash_profile`) file and you will be all set."
 msgstr ""
+"경로는 (쓰기 권한이 있는 곳이라면) 아무 경로나 원하는대로 설정하실 수 있습니다. "
+"이 라인을 추가한 후 ``source`` your :file:`.bashrc` "
+"(혹은 :file:`.bash_profile`) 하면 됩니다."
 
 #: ../../dev/pip-virtualenv.rst:119
 msgid ""
@@ -159,12 +204,17 @@ msgid ""
 "Windows, you can add the following line to your :file:`pip.ini` file "
 "under ``[global]`` settings:"
 msgstr ""
+"위 설정을 할 수 있는 다른 방법도 있습니다. "
+"사용하는 시스템에 따라 :file:`pip.conf` 나 :file:`pip.ini` 파일일 수 있습니다. "
+"Windows를 사용한다면 :file:`pip.ini` 파일의 ``[global]`` 아래 줄에 "
+"다음과 같은 라인을 추가할 수 있습니다."
 
 #: ../../dev/pip-virtualenv.rst:127
 msgid ""
 "Similarly, on Unix systems you should simply add the following line to "
 "your :file:`pip.conf` file under ``[global]`` settings:"
 msgstr ""
+"비슷하게 UNIX에서도 :file:`pip.conf` 파일의 ``[global]`` 라인 아래에 다음과 같이 추가하면 됩니다:"
 
 #: ../../dev/pip-virtualenv.rst:134
 msgid ""
@@ -174,6 +224,10 @@ msgid ""
 "yourself with all of this path voodoo, just use the values provided here "
 "and you will be fine."
 msgstr ""
+"캐시를 저장할 경로는 어디든 좋지만, :file:`pip.conf` 나 :file:`pip.ini` 파일이 있는 "
+"폴더 *안에* 새 폴더를 만드시기를 추천드립니다. "
+"새 경로를 만드는 본인의 술법이 못 미더우시다면 그냥 이 가이드에 나오는 경로를 사용하세요. "
+"잘 될겁니다."
 
 #~ msgid "Further Configuration of Pip and Virtualenv"
 #~ msgstr ""
