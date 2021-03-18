@@ -15,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-15 08:55+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Last-Translator: Ahn YoungSeon <ys.ahn@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -24,17 +24,19 @@ msgstr ""
 
 #: ../../starting/install3/osx.rst:8
 msgid "Installing Python 3 on Mac OS X"
-msgstr ""
+msgstr "Mac OS X에 파이썬3 설치하기"
 
 #: ../../starting/install3/osx.rst:12
 msgid "**Mac OS X comes with Python 2.7 out of the box.**"
-msgstr ""
+msgstr "**Mac OS X는 파이썬2가 기본적으로 설치되어서 나온다.**"
 
 #: ../../starting/install3/osx.rst:14
 msgid ""
 "You do not need to install or configure anything else to use Python 2. "
 "These instructions document the installation of Python 3."
 msgstr ""
+"그러니 파이썬2를 따로 설치하거나 설정할 필요는 없다. "
+"이 안내문은 파이썬3 설치를 다룬다."
 
 #: ../../starting/install3/osx.rst:17
 msgid ""
@@ -44,14 +46,19 @@ msgid ""
 "<https://www.python.org/downloads/mac-osx/>`_, which is considered the "
 "stable production version."
 msgstr ""
+"OS X와 함께 달려오는 파이썬 버전은 학습하기에는 아주 좋다. "
+"하지만 개발에는 좋지 않다. "
+"OS X에 딸려오는 버전은 이미 구식이다."
+"`안정화 된 `공식 최신 버전의 파이썬 릴리즈보다 "
+"<https://www.python.org/downloads/mac-osx/>`_ 구식이다."
 
 #: ../../starting/install3/osx.rst:25
 msgid "Doing it Right"
-msgstr ""
+msgstr "똑바로 하기"
 
 #: ../../starting/install3/osx.rst:27
 msgid "Let's install a real version of Python."
-msgstr ""
+msgstr "이제 진짜 파이썬 버전을 설치해보자."
 
 #: ../../starting/install3/osx.rst:29
 msgid ""
@@ -61,6 +68,11 @@ msgid ""
 "(must have an Apple account) or the even smaller `OSX-GCC-Installer "
 "<https://github.com/kennethreitz/osx-gcc-installer#readme>`_ package."
 msgstr ""
+"파이썬을 설치하기 전에 GCC를 설치해야 한다. "
+"GCC는 `Xcode <https://developer.apple.com/xcode/>`_, "
+"더 작은 `Command Line Tools <https://developer.apple.com/downloads/>`_ (Apple 계정이 있어야 함) "
+"또는 더 작은 `OSX-GCC-Installer <https://github.com/kennethreitz/osx-gcc-installer#readme>`_ "
+"패키지를 다운로드하여 얻을 수 있다."
 
 #: ../../starting/install3/osx.rst:36
 msgid ""
@@ -68,12 +80,16 @@ msgid ""
 " combination, the software can cause issues that are difficult to "
 "diagnose."
 msgstr ""
+"Xcode가 이미 설치되어 있다면 OSX-GCC-Installer를 설치하면 안된다. "
+"둘 다 설치해서 GCC가 꼬여버리면 뭔지도 모를 문제가 발생할 수도 있다."
 
 #: ../../starting/install3/osx.rst:41
 msgid ""
 "If you perform a fresh install of Xcode, you will also need to add the "
 "commandline tools by running ``xcode-select --install`` on the terminal."
 msgstr ""
+"Xcode를 새로 설치한다면 터미널에서 "
+"``xcode-select --install`` 을 실행하여 commandline tools을 추가해야 한다."
 
 #: ../../starting/install3/osx.rst:44
 msgid ""
@@ -81,12 +97,18 @@ msgid ""
 "with Linux systems will notice one key component missing: a package "
 "manager. `Homebrew <https://brew.sh>`_ fills this void."
 msgstr ""
+"OS X에는 다양한 Unix 유틸리티가 포함되어 있지만, 리눅스에 익숙한 사람이라면 한 가지 "
+"중요한 구성요소가 빠졌다는 사실을 알아챌 것이다. "
+"바로 패키지 매니저다. "
+"`Homebrew <https://brew.sh>`_ 가 그 빈자리를 메꾼다."
 
 #: ../../starting/install3/osx.rst:48
 msgid ""
 "To `install Homebrew <https://brew.sh/#install>`_, open :file:`Terminal` "
 "or your favorite OS X terminal emulator and run"
 msgstr ""
+"`Homebrew를 설치 <https://brew.sh/#install>`_ 하려면, "
+":file:`Terminal` 이든 아니면 달리 좋아하는 OS X의 터미널 에뮬레이터를 아래 스크립트를 실행해라."
 
 #: ../../starting/install3/osx.rst:55
 msgid ""
@@ -96,30 +118,34 @@ msgid ""
 "variable. You can do this by adding the following line at the bottom of "
 "your :file:`~/.profile` file"
 msgstr ""
+"이 스크립트는 설치를 시작하기 전에 변경 사항 설명 메시지를 표시한다. "
+"Homebrew가 이미 설치되어 있다면 :envvar:`PATH` 환경 변수 최상단에 "
+"Homebrew의 디렉토리를 추가하자. "
+"하기 라인을 :file:`~/.profile` 의 마지막 라인에 추가하면 된다. "
 
 #: ../../starting/install3/osx.rst:65
 msgid "If you have OS X 10.12 (Sierra) or older use this line instead"
-msgstr ""
+msgstr "OS X 10.12 (Sierra) 혹은 그 이전 버전을 사용하고 있다면 아래의 라인을 대신 사용해라."
 
 #: ../../starting/install3/osx.rst:71
 msgid "Now, we can install Python 3:"
-msgstr ""
+msgstr "이제 우리는 파이썬3를 설치할 수 있다."
 
 #: ../../starting/install3/osx.rst:77
 msgid "This will take a minute or two."
-msgstr ""
+msgstr "1~2분 정도 걸린다."
 
 #: ../../starting/install3/osx.rst:81
 msgid "Pip"
-msgstr ""
+msgstr "Pip"
 
 #: ../../starting/install3/osx.rst:83
 msgid "Homebrew installs ``pip`` pointing to the Homebrew'd Python 3 for you."
-msgstr ""
+msgstr "Homebrew는 Homebrew의 파이썬3를 바라보는 ``pip`` 를 설치한다."
 
 #: ../../starting/install3/osx.rst:88
 msgid "Working with Python 3"
-msgstr ""
+msgstr "파이썬3로 작업하기"
 
 #: ../../starting/install3/osx.rst:90
 msgid ""
@@ -127,14 +153,17 @@ msgid ""
 ":ref:`Homebrew version of Python 2 <install-osx>` installed, and the "
 "Homebrew version of Python 3 as well."
 msgstr ""
+"여기까지 했으면 이 시점에서 너의 시스템은 파이썬2.7을 사용 가능하고, "
+"아마도 :ref:`파이썬2의 Homebrew 버전 <install-osx>` 도 설치되어 있을 것이고, "
+"파이썬3의 Homebrew 버전도 설치되어 있을 것이다."
 
 #: ../../starting/install3/osx.rst:98 ../../starting/install3/osx.rst:110
 msgid "will launch the Homebrew-installed Python 3 interpreter."
-msgstr ""
+msgstr "위 명령은 Homebrew로 설치한 파이썬3 인터프리터를 실행한다."
 
 #: ../../starting/install3/osx.rst:104
 msgid "will launch the Homebrew-installed Python 2 interpreter (if any)."
-msgstr ""
+msgstr "위 명령은 Homebrew로 설치한 파이썬2 인터프리터(있으면 말이지)를 실행한다."
 
 #: ../../starting/install3/osx.rst:112
 msgid ""
@@ -142,20 +171,23 @@ msgid ""
 " to Python 2. If the Homebrew version of Python 3 is installed then "
 "``pip`` will point to Python 3."
 msgstr ""
+"파이썬2의 Homebrew 버전이 설치되었다면 ``pip2`` 는 파이썬2를 가리킨다. "
+"파이썬3의 Homebrew 버전이 설치되었다면 ``pip`` 는 파이썬3를 가리킨다."
 
 #: ../../starting/install3/osx.rst:115
 msgid "The rest of the guide will assume that ``python`` references Python 3."
-msgstr ""
+msgstr "이 가이드의 나머지 부분에서 ``python`` 이라 함은 파이썬3를 가리킨다고 가정하겠다. "
 
 #: ../../starting/install3/osx.rst:126
 msgid "Pipenv & Virtual Environments"
-msgstr ""
+msgstr "Pipenv & Virtual Environments(가상 환경)"
 
 #: ../../starting/install3/osx.rst:128
 msgid ""
 "The next step is to install Pipenv, so you can install dependencies and "
 "manage virtual environments."
 msgstr ""
+"그 다음 순서로 Pipenv를 설치하여 디펜던시를 설치하고 가상 환경을 관리할 수 있다."
 
 #: ../../starting/install3/osx.rst:130
 msgid ""
@@ -165,18 +197,28 @@ msgid ""
 "but, Project Y needs 4.x\" dilemma, and keeps your global site-packages "
 "directory clean and manageable."
 msgstr ""
+"Virtual Environment(이하 가상 환경 -역주)은 가상의 파이썬 환경을 만들어 "
+"서로 다른 프로젝트에 필요한 디펜던시를 별도의 위치에 두는 도구이다. "
+"\"프로젝트 X는 버전 1.x에 의존하지만 "
+"프로젝트 Y는 4.x가 필요합니다\"라는 딜레마를 해결하고 "
+"전역 패키지 디렉토리를 깨끗하게 관리할 수 ​​있도록 한다."
 
 #: ../../starting/install3/osx.rst:135
 msgid ""
 "For example, you can work on a project which requires Django 1.10 while "
 "also maintaining a project which requires Django 1.8."
 msgstr ""
+"예를들어 Django 1.10으로 프로젝트를 진행하는 한편 "
+"Django 1.8로 만들어진 프로젝트를 유지보수 하고 있다면 "
 
 #: ../../starting/install3/osx.rst:138
 msgid ""
 "So, onward! To the :ref:`Pipenv & Virtual Environments "
 "<virtualenvironments-ref>` docs!"
 msgstr ""
+"전진! "
+":ref:`Pipenv & 가상 환경(Virtual Environments) "
+"<virtualenvironments-ref>` 문서를 향해!"
 
 #: ../../starting/install3/osx.rst:142
 msgid ""
@@ -184,4 +226,5 @@ msgid ""
 "<https://www.stuartellis.name/articles/python-development-windows/>`_, "
 "which is available under the same license."
 msgstr ""
-
+"이 페이지는 같은 라이선스를 사용하는 `다른 가이드 <https://www.stuartellis.name/articles/python-development-windows/>`_ "
+"의 리믹스 버전이다."
