@@ -14,8 +14,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-15 08:55+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Last-Translator: Ahn Young Seon <ys.ahn@outlook.com>\n"
+"Language-Team: KO <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -23,21 +23,23 @@ msgstr ""
 
 #: ../../scenarios/web.rst:4
 msgid "Web Applications & Frameworks"
-msgstr ""
+msgstr "웹 어플리케이션 & 프레임워크"
 
 #: ../../scenarios/web.rst:8
 msgid ""
 "As a powerful scripting language adapted to both fast prototyping and "
 "bigger projects, Python is widely used in web application development."
 msgstr ""
+"파이썬은 빠른 프로토타이핑과 거대한 프로젝트에 두루 사용되는 강력한 스크립트 언어로서, "
+"웹 어플리케이션 개발에 널리 사용된다."
 
 #: ../../scenarios/web.rst:15
 msgid "Context"
-msgstr ""
+msgstr "Context"
 
 #: ../../scenarios/web.rst:20
 msgid "WSGI"
-msgstr ""
+msgstr "WSGI"
 
 #: ../../scenarios/web.rst:22
 msgid ""
@@ -48,10 +50,16 @@ msgid ""
 "that can be deployed in any :ref:`WSGI-compliant web server <wsgi-"
 "servers-ref>`. WSGI is documented in :pep:`3333`."
 msgstr ""
+"Web Server Gateway Interface(웹 서버 게이트웨이 인터페이스)(줄여서 \"WSGI\") "
+"는 웹서버와 파이썬 웹 어플리케이션 프레임워크 간의 표준 인터페이스입니다. "
+"웹 서버와 파이썬 웹 프레임워크 간의 동작과 통신을 표준화함으로써 "
+"WSGI는 모든 :ref:`WSGI 호환 웹서버 <wsgi-"
+"servers-ref>` 에 복사해 넣어 배포할 수 있는 "
+"파이썬 웹서버 코드를 작성할 수 있도록 합니다."
 
 #: ../../scenarios/web.rst:32
 msgid "Frameworks"
-msgstr ""
+msgstr "프레임워크"
 
 #: ../../scenarios/web.rst:34
 msgid ""
@@ -60,48 +68,56 @@ msgid ""
 "application (i.e. an interactive web site). Most web frameworks include "
 "patterns and utilities to accomplish at least the following:"
 msgstr ""
+"일반적으로 웹 프레임워크란 웹 어플리케이션(예를 들면 대화형 웹사이트)을 구현하기 위해 사용되는"
+"일련의 라이브러리 묶음과 사용자 정의 코드를 빌드할 수 있는 기본 핸들러로 구성됩니다."
+"대부분의 웹 프레임워크는 적어도 다음과 같은 사항들을 달성하기 위한 패턴과 유틸리티를 갖추고 있습니다:"
 
 #: ../../scenarios/web.rst:41
 msgid "URL Routing"
-msgstr ""
+msgstr "URL 라우팅"
 
 #: ../../scenarios/web.rst:40
 msgid ""
 "Matches an incoming HTTP request to a particular piece of Python code to "
 "be invoked"
-msgstr ""
+msgstr "들어오는 HTTP 요청을 특정 파이썬 코드 조각에 연결시켜 실행합니다."
 
 #: ../../scenarios/web.rst:44
 msgid "Request and Response Objects"
-msgstr ""
+msgstr "요청 & 응답 객체"
 
 #: ../../scenarios/web.rst:44
 msgid "Encapsulates the information received from or sent to a user's browser"
-msgstr ""
+msgstr "사용자의 브라우저가 주고 받는 정보를 캡슐화합니다."
 
 #: ../../scenarios/web.rst:48
 msgid "Template Engine"
-msgstr ""
+msgstr "템플릿 엔진"
 
 #: ../../scenarios/web.rst:47
 msgid ""
 "Allows for separating Python code implementing an application's logic "
 "from the HTML (or other) output that it produces"
 msgstr ""
+"어플리케이션의 로직을 구현하는 파이썬 코드를 "
+"그 파이썬 코드가 생성하는 HTML(또는 다른 무언가)로부터 분리합니다."
 
 #: ../../scenarios/web.rst:53
 msgid "Development Web Server"
-msgstr ""
+msgstr "개발 웹서버"
 
 #: ../../scenarios/web.rst:51
 msgid ""
 "Runs an HTTP server on development machines to enable rapid development; "
 "often automatically reloads server-side code when files are updated"
 msgstr ""
+"신속한 개발이 가능하도록 개발용 머신에 "
+"HTTP 서버를 실행합니다. "
+"그리고 파일이 업데이트 될 때 자동으로 서버 측 코드를 다시 불러옵니다."
 
 #: ../../scenarios/web.rst:56
 msgid "Django"
-msgstr ""
+msgstr "쟝고"
 
 #: ../../scenarios/web.rst:58
 msgid ""
@@ -112,6 +128,11 @@ msgid ""
 "web applications quickly, while encouraging best practices in code "
 "written using it."
 msgstr ""
+"`쟝고 <https://www.djangoproject.com>`_ 는 \"batteries included\" 웹 어플리케이션 프레임워크입니다. "
+"컨텐츠 중심 웹사이트를 위한 훌륭한 선택입니다. "
+"많은 유틸리티와 패턴을 기본적으로 제공함으로써 쟝고는 "
+"복잡한 데이터베이스 기반 웹 어플리케이션을 빠르게 개발할 수 있도록 해줍니다. "
+"또한 쟝고를 사용하면 베스트 프랙티스라 할 코드 작성이 쉽습니다. "
 
 #: ../../scenarios/web.rst:64
 msgid ""
@@ -119,6 +140,9 @@ msgid ""
 "modules <http://djangopackages.com/>`_ that can be incorporated into a "
 "new project as-is, or customized to fit your needs."
 msgstr ""
+"쟝고는 크고 활발한 커뮤니티를 가지고 있고, 바로 사용할 수 있는 다양한 "
+"`재사용 가능 모듈 <http://djangopackages.com/>`_ 이 있다. "
+"이 것을 새 프로젝트에 바로 적용할 수도 있고 필요하다면 커스터마이징 해서 사용할 수도 있다. "
 
 #: ../../scenarios/web.rst:68
 msgid ""
@@ -126,14 +150,18 @@ msgid ""
 "<http://djangocon.us>`_, `Europe <http://djangocon.eu>`_, and `Australia "
 "<http://djangocon.com.au>`_."
 msgstr ""
+"`미국 "
+"<http://djangocon.us>`_, `유렵 <http://djangocon.eu>`_, 그리고 `오스트레일리아 "
+"<http://djangocon.com.au>`_ "
+"에서 매년 쟝고 컨퍼런스를 한다."
 
 #: ../../scenarios/web.rst:71
 msgid "The majority of new Python web applications today are built with Django."
-msgstr ""
+msgstr "요즘 새로 개발하는 파이썬 웹 어플리케이션은 대부분 쟝고로 만든다."
 
 #: ../../scenarios/web.rst:74
 msgid "Flask"
-msgstr ""
+msgstr "플라스크"
 
 #: ../../scenarios/web.rst:76
 msgid ""
@@ -141,6 +169,8 @@ msgid ""
 "and is an excellent choice for building smaller applications, APIs, and "
 "web services."
 msgstr ""
+"`Flask <http://flask.pocoo.org/>`_ 는 파이썬의 \"마이크로프레임워크\" 입니다. "
+"플라스크는 작은 어플리케이션, API, 웹 서비스를 만들기에 좋습니다."
 
 #: ../../scenarios/web.rst:79
 msgid ""
@@ -148,6 +178,9 @@ msgid ""
 " except some functions have routes attached to them. It's really "
 "beautiful."
 msgstr ""
+"플라스크로 앱을 만드는 일은 "
+"라우터가 연결된 함수라는 점을 제외하고는 파이썬 표준 모듈을 작성하는 것과 비슷합니다."
+"정말 아름다워요."
 
 #: ../../scenarios/web.rst:82
 msgid ""
@@ -155,6 +188,8 @@ msgid ""
 "implements the most commonly-used core components of a web application "
 "framework, like URL routing, request and response objects, and templates."
 msgstr ""
+"플라스크의 목표는 필요할지 어떨지도 모를 모든 것들을 제공하는 게 아닙니다. "
+"플라스크는 웹 어플리케이션에서 가장 많이 쓰이는 핵심 구성요소들(URL 라우팅, 리퀘스트-리스폰스 오브젝트, 템플릿)을 구현합니다. "
 
 #: ../../scenarios/web.rst:86
 msgid ""
@@ -162,6 +197,8 @@ msgid ""
 "application, if any. For example, database access or form generation and "
 "validation are not built-in functions of Flask."
 msgstr ""
+"플라스크를 사용할 때 어플리케이션을 어떻게 구성할 것인지는 전적으로 당신에게 달려있습니다. "
+"예를 들어 데이터베이스 접근, 폼 생성 및 유효성 체크는 플라스크의 빌트인 함수가 아닙니다."
 
 #: ../../scenarios/web.rst:90
 msgid ""
@@ -170,22 +207,29 @@ msgid ""
 "<http://flask.pocoo.org/extensions/>`_ available that may suit your "
 "needs. Or, you can easily use any library you want yourself!"
 msgstr ""
+"많은 웹 어플리케이션은 이런 기능을 필요로 하지 않습니다. 그러니 이런 기능이 내장되어 있지 않다는 것은 좋은 일입니다. "
+"이런 기능이 필요하다면 "
+"적당한 `익스텐션 <http://flask.pocoo.org/extensions/>`_ 이 많이 있습니다. "
+"달리 사용하고 싶은 라이브러리를 써도 됩니다! "
 
 #: ../../scenarios/web.rst:95
 msgid ""
 "Flask is default choice for any Python web application that isn't a good "
 "fit for Django."
 msgstr ""
+"플라스크는 쟝고에 적당하지 않은 파이썬 웹 어플리케이션을 위한 기본 선택지입니다. "
 
 #: ../../scenarios/web.rst:99
 msgid "Falcon"
-msgstr ""
+msgstr "팔콘"
 
 #: ../../scenarios/web.rst:101
 msgid ""
 "`Falcon <https://falconframework.org/>`_ is a good choice when your goal "
 "is to build RESTful API microservices that are fast and scalable."
 msgstr ""
+"`Falcon <https://falconframework.org/>`_ 은 "
+"빠르고 확장 가능한 RESTful API 마이크로서비스 개발을 위한 좋은 선택입니다."
 
 #: ../../scenarios/web.rst:104
 msgid ""
@@ -194,6 +238,8 @@ msgid ""
 "architectural style of mapping URIs to resources, trying to do as little "
 "as possible while remaining highly effective."
 msgstr ""
+"팔콘은 대규모 앱 백엔드와 마이크로서비스를 개발하기 위한 신뢰성 있고 성능 좋은 파이썬 웹 프레임워크입니다."
+"Falcon은 URI를 리소스에 매핑하는 REST 아키텍처 스타일을 권장하며, 높은 효율성을 유지하면서 가능한 한 적은 작업을 시도합니다."
 
 #: ../../scenarios/web.rst:108
 msgid ""
@@ -202,10 +248,13 @@ msgid ""
 "``on_get()``, ``on_put()``, etc. These responders receive intuitive "
 "request and response objects."
 msgstr ""
+"Falcon은 주요 4요소에 집중합니다. 속도, 신뢰성, 유연성 및 디버깅."
+"on_get(), on_put() 등과 같은 \"응답자\"를 통해 HTTP를 구현합니다. "
+"이러한 응답자는 직관적인 request 및 response 오브젝트를 수신 받습니다."
 
 #: ../../scenarios/web.rst:113
 msgid "Tornado"
-msgstr ""
+msgstr "토네이도"
 
 #: ../../scenarios/web.rst:115
 msgid ""
@@ -214,14 +263,17 @@ msgid ""
 "support WebSockets, for example. Well-written Tornado applications are "
 "known to have excellent performance characteristics."
 msgstr ""
+"`Tornado <http://www.tornadoweb.org/>`_ 는 자체 이벤트 루프가 있는 파이썬을 위한 비동기 웹 프레임워크입니다. "
+"이를 통해 웹소켓을 네이티브하게 지원합니다. "
+"잘 작성된 토네이도 어플리케이션은 우서한 성능이 특징인 것으로 잘 알려져 있습니다.."
 
 #: ../../scenarios/web.rst:120
 msgid "I do not recommend using Tornado unless you think you need it."
-msgstr ""
+msgstr "토네이도가 필요하다고 생각하지 않는 한 저는 토네이도 사용을 추천하지 않습니다."
 
 #: ../../scenarios/web.rst:123
 msgid "Pyramid"
-msgstr ""
+msgstr "피라미드"
 
 #: ../../scenarios/web.rst:125
 msgid ""
@@ -232,6 +284,11 @@ msgid ""
 "project decisions for users. It powers one of the most important parts of"
 " python infrastructure `PyPI <https://pypi.org/>`_."
 msgstr ""
+"`Pyramid <https://trypyramid.com/>`_ 는 모듈성에 크게 중점을 둔 유연한 프레임워크다. "
+"빌트인 라이브러리 (\"배터리\") 가 많이 포함되어 있지 않기 때문에, "
+"피라미드는 사용자가 피라미드의 기본 기능을 확장하도록 지원합니다. "
+"붕어빵 틀처럼 쓸 수 있는 템플릿들을 제공하여 사용자가 새 프로젝트를 어떻게 만들지를 돕습니다. "
+"피라미드는 가장 중요한 파이썬 인프라스트럭쳐 중 하나인 `PyPI <https://pypi.org/>`_ 를 지원합니다."
 
 #: ../../scenarios/web.rst:132
 msgid ""
@@ -239,16 +296,22 @@ msgid ""
 "capable framework, but not a very popular choice for new Python web "
 "applications today."
 msgstr ""
+"비록 피라미드의 사용자 수는 쟝고나 플라스크만큼 많지 않습니다. "
+"피라미드는 써봄직한 프레임워크지만 "
+"오늘날 새 파이썬 웹 어플리케이션에는 인기가 없습니다."
 
 #: ../../scenarios/web.rst:137
 msgid "Masonite"
-msgstr ""
+msgstr "매서나이트"
 
 #: ../../scenarios/web.rst:139
 msgid ""
 "`Masonite <https://docs.masoniteproject.com>`_ is a modern and developer "
 "centric, \"batteries included\", web framework."
 msgstr ""
+"`Masonite <https://docs.masoniteproject.com>`_ 는 "
+"모던하고 개발자 중심적이며 "
+"\"batteries included\" 인 웹 프레임워크입니다. "
 
 #: ../../scenarios/web.rst:141
 msgid ""
@@ -257,6 +320,10 @@ msgid ""
 "and Laravel, so if you are coming to Python from a Ruby or PHP background"
 " then you will feel right at home!"
 msgstr ""
+"매서나이트 프레임워크는 MVC(Model-View-Controller) 아키텍쳐 패턴을 따릅니다. "
+"그리고 레일즈와 라바렐 같은 프레임워크로부터 강하게 영감을 받았습니다. "
+"그렇기 때문에 루비나 PHP를 개발하다가 파이썬으로 오셨다면 "
+"내 집 같은 편안함을 느끼실겁니다. "
 
 #: ../../scenarios/web.rst:143
 msgid ""
@@ -264,6 +331,8 @@ msgid ""
 "powerful IOC container with auto resolving dependency injection, craft "
 "command line tools, and the Orator active record style ORM."
 msgstr ""
+"매서나이트는 의존성 자둥 주입 기능이 있는 강력한 IOC 컨테이너, "
+"정교한 커맨드라인 툴, Orator active record style ORM를 제공합니다."
 
 #: ../../scenarios/web.rst:145
 msgid ""
@@ -271,16 +340,21 @@ msgid ""
 "works hard to be fast and easy from install through to deployment. Try it"
 " once and you’ll fall in love."
 msgstr ""
+"매서나이트는 초보자부터 숙련된 개발자에 이르기까지 모두에게 적합합니다. "
+"설치부터 개발에 이르기까지 빠르고 쉽게 작업할 수 있습니다. "
+"한 번만 써보시면 사랑에 빠지게 될겁니다."
 
 #: ../../scenarios/web.rst:148
 msgid "FastAPI"
-msgstr ""
+msgstr "FastAPI"
 
 #: ../../scenarios/web.rst:150
 msgid ""
 "`FastAPI <https://fastapi.tiangolo.com>`_ is a modern web framework for "
 "building APIs with Python 3.6+."
 msgstr ""
+"`FastAPI <https://fastapi.tiangolo.com>`_ 는 파이썬 3.6 이상 버전으로 API 개발을 하기 위한"
+" 모던 웹 프레임워크입니다. "
 
 #: ../../scenarios/web.rst:153
 msgid ""
@@ -288,6 +362,8 @@ msgid ""
 "<https://www.starlette.io>`_ and `Pydantic <https://pydantic-"
 "docs.helpmanual.io>`_."
 msgstr ""
+"`Starlette<https://www.starlette.io>`_ 와 "
+"`Pydantic <https://pydantic-docs.helpmanual.io>`_ 을 기반으로하여 매우 높은 성능을 가지고 있습니다"
 
 #: ../../scenarios/web.rst:156
 msgid ""
@@ -296,6 +372,9 @@ msgid ""
 "conversion (serialization, parsing), data validation, and automatic API "
 "documentation with **OpenAPI 3** (including **JSON Schema**)."
 msgstr ""
+"FastAPI는 함수 매개 변수의 표준 Python 형식 선언을 활용하여 요청 매개 변수 및 본문을 선언하고, "
+"데이터 변환(시리얼화, 구문 분석), 데이터 유효성 검사 및 " 
+"**OpenAPI 3** (**JSON Schema** 포함) 를 사용한 API 문서 자동화 기능을 제공합니다. "
 
 #: ../../scenarios/web.rst:161
 msgid ""
@@ -304,14 +383,16 @@ msgid ""
 "automatic generation of interactive API documentation, and other "
 "features."
 msgstr ""
+"여기에는 보안 및 인증을 위한 툴과 유틸리티(JWT 토큰이 있는 OAuth2 포함), "
+"종속 주입 시스템, 대화형 API 문서의 자동 생성 및 기타 기능이 포함됩니다."
 
 #: ../../scenarios/web.rst:168
 msgid "Web Servers"
-msgstr ""
+msgstr "웹 서버"
 
 #: ../../scenarios/web.rst:173
 msgid "Nginx"
-msgstr ""
+msgstr "Nginx"
 
 #: ../../scenarios/web.rst:175
 msgid ""
@@ -323,20 +404,27 @@ msgid ""
 "Designed to serve high-load websites, Nginx is gradually becoming quite "
 "popular."
 msgstr ""
+"`Nginx <http://nginx.org/>`_ (\"엔진-엑스\" 라고 발음함) 는 "
+"HTTP, SMTP, 그리고 다른 프로토콜을 위한 웹서버 및 리버스 프록시 입니다. "
+"고성능, 상대적으로 단순함 및 WSGI 서버와 같은 많은 애플리케이션 서버와의 호환성으로 유명합니다. "
+"또한 로드 밸런싱, 기본 인증, 스트리밍 등과 같은 편리한 기능도 포함합니다. "
+"Nginx는 부하가 많은 웹 사이트를 제공하도록 설계되었으며, 점점 인기가 많아지고 있습니다."
 
 #: ../../scenarios/web.rst:188
 msgid "WSGI Servers"
-msgstr ""
+msgstr "WSGI 서버"
 
 #: ../../scenarios/web.rst:190
 msgid ""
 "Stand-alone WSGI servers typically use less resources than traditional "
 "web servers and provide top performance [1]_."
 msgstr ""
+"스탠드얼론 WSGI 서버는 일반적으로 전통적인 웹서버보다 리소스를 덜 잡아먹습니다. "
+" 그리고 성능이 좋습니다 [1]_."
 
 #: ../../scenarios/web.rst:196
 msgid "Gunicorn"
-msgstr ""
+msgstr "지유니콘(Gunicorn)"
 
 #: ../../scenarios/web.rst:198
 msgid ""
@@ -345,6 +433,10 @@ msgid ""
 "servers, it has a thoughtful user interface, and is extremely easy to use"
 " and configure."
 msgstr ""
+"`지유니콘 <https://gunicorn.org/>`_ (그린 유니콘)은 순수 파이썬 WSGI 서버로서 "
+"파이썬 어플리케이션을 서비스하는 데 쓰입니다. "
+"다른 파이썬 웹서버와 달리 유저 인터페이스가 좋고 "
+"사용하기도 편하고 설정하기도 편합니다. "
 
 #: ../../scenarios/web.rst:203
 msgid ""
@@ -352,10 +444,14 @@ msgid ""
 "some other servers, like uWSGI, are tremendously more customizable, and "
 "therefore, are much more difficult to effectively use."
 msgstr ""
+"지유니콘은 건전하고 합리적인 기본 설정을 두고 있습니다. "
+"대조적으로 uWSGI 같은 다른 서버들은 무서울 정도로 커스터마이징이 가능한 대신 "
+"효율적으로 사용하기는 어렵습니다."
 
 #: ../../scenarios/web.rst:207
 msgid "Gunicorn is the recommended choice for new Python web applications today."
 msgstr ""
+"지유니콘을 현재 새로 만드는 파이썬 웹 어플리케이션을 위한 선택으로 추천드립니다. "
 
 #: ../../scenarios/web.rst:211
 msgid "Waitress"
