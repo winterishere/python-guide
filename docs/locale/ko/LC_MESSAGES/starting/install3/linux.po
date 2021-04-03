@@ -15,8 +15,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-15 08:55+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Last-Translator: Ahn YoungSeon <ys.ahn@outlook.com>\n"
+"Language-Team: KO <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -24,25 +24,30 @@ msgstr ""
 
 #: ../../starting/install3/linux.rst:6
 msgid "Installing Python 3 on Linux"
-msgstr ""
+msgstr "리눅스에 파이썬3 설치하기"
 
 #: ../../starting/install3/linux.rst:10
 msgid ""
 "This document describes how to install Python 3.6 or 3.8 on Ubuntu Linux "
 "machines."
 msgstr ""
+"이 문서는 파이썬3.6이나 3.8을 우분투 리눅스에 설치하는 방법을 다룹니다."
 
 #: ../../starting/install3/linux.rst:12
 msgid ""
 "To see which version of Python 3 you have installed, open a command "
 "prompt and run"
 msgstr ""
+"파이썬3의 어느 버전이 설치되었는지를 확인하려면 "
+"커맨드 프롬프트를 열고 실행해보세요. "
 
 #: ../../starting/install3/linux.rst:18
 msgid ""
 "If you are using Ubuntu 16.10 or newer, then you can easily install "
 "Python 3.6 with the following commands::"
 msgstr ""
+"우분투 16.10이나 그보다 최신 버전을 사용하고 있다면 아래의 커맨드로 파이썬3.6을 쉽게 "
+"설치할 수 있습니다. "
 
 #: ../../starting/install3/linux.rst:23
 msgid ""
@@ -51,6 +56,10 @@ msgid ""
 "`deadsnakes PPA <https://launchpad.net/~deadsnakes/+archive/ubuntu/ppa>`_"
 " to install Python 3.8::"
 msgstr ""
+"다른 버전의 우분투(예를 들면 최신 LTS 릴리즈)를 사용하고 있다면 "
+"혹은 더 최신 버전의 파이썬을 사용하고 싶다면 "
+"`deadsnakes PPA <https://launchpad.net/~deadsnakes/+archive/ubuntu/ppa>`_"
+"을 사용해서 파이썬3.8을 설치하기를 추천합니다. "
 
 #: ../../starting/install3/linux.rst:30
 msgid ""
@@ -58,6 +67,10 @@ msgid ""
 "Python 3 pre-installed as well. If not, use your distribution's package "
 "manager. For example on Fedora, you would use `dnf`:"
 msgstr ""
+"다른 리눅스 배포판을 사용하고 있다면 "
+"이미 파이썬3가 설치되어 있을 수 있습니다. "
+"그렇지 않다면 해당 배포판의 패키지 매니저를 사용해서 파이선을 설치하세요."
+"예를 들어 페도라를 사용한다면 `dnf`: 를 사용하세요."
 
 #: ../../starting/install3/linux.rst:38
 msgid ""
@@ -67,26 +80,31 @@ msgid ""
 "package on Fedora 32 to get Python 3.9. If you are a Fedora user, you "
 "might want to read about `multiple Python versions available in Fedora`_."
 msgstr ""
+"``python3`` 패키지의 버전이 당신이 필요한 만큼 최신 버전이 아니라면 "
+"리눅스 배포판에 따라 각각 더 최신 버전의 파이썬을 설치하는 방법도 물론 있습니다. "
+"예를 들어 ``python3.9`` 패키지를 페도라 32에 설치할 수 있습니다. "
+"만약 페도라 사용자라면 "
+"`multiple Python versions available in Fedora`_ 를 읽고 싶을겁니다. "
 
 #: ../../starting/install3/linux.rst:49
 msgid "Working with Python 3"
-msgstr ""
+msgstr "파이썬3로 작업하기"
 
 #: ../../starting/install3/linux.rst:51
 msgid "At this point, you may have system Python 2.7 available as well."
-msgstr ""
+msgstr "파이썬 2.7이 설치되어 있다고 해봅시다."
 
 #: ../../starting/install3/linux.rst:57
 msgid "This might launch the Python 2 interpreter."
-msgstr ""
+msgstr "위 명령어는 아마도 파이썬2 인터프리터를 실행시킵니다."
 
 #: ../../starting/install3/linux.rst:63
 msgid "This will always launch the Python 3 interpreter."
-msgstr ""
+msgstr "위 명령어는 반드시 파이썬 3 인터프리터를 실행합니다."
 
 #: ../../starting/install3/linux.rst:68
 msgid "Setuptools & Pip"
-msgstr ""
+msgstr "Setuptools & Pip"
 
 #: ../../starting/install3/linux.rst:70
 msgid ""
@@ -94,6 +112,9 @@ msgid ""
 "<https://pypi.org/project/setuptools>`_ and `pip "
 "<https://pip.pypa.io/en/stable/>`_."
 msgstr ""
+"`setuptools "
+"<https://pypi.org/project/setuptools>`_ 와 `pip "
+"<https://pip.pypa.io/en/stable/>`_ 는 가장 중요한 파이썬 서드파티 패키지입니다. "
 
 #: ../../starting/install3/linux.rst:72
 msgid ""
@@ -102,16 +123,22 @@ msgid ""
 " this network installation capability to your own Python software with "
 "very little work."
 msgstr ""
+"이걸 설치하면 어느 파이썬 소프트웨어 제품이든 명령어 한 방에 다운로드 하고 설치하고 제거할 수 있습니다. "
+"또한 최소한의 작업만으로 네트워크를 통하여 당신의 파이썬 소프트웨어를 설치할 수 있게 해줍니다."
 
 #: ../../starting/install3/linux.rst:76
 msgid ""
 "Python 2.7.9 and later (on the python2 series), and Python 3.4 and later "
 "include pip by default."
 msgstr ""
+"파이썬 2.7.9와 그 이후 버전(파이썬2 중에서), 그리고 파이썬 3.4와 그 이후 버전은 "
+"pip가 기본적으로 포함되어 있습니다."
 
 #: ../../starting/install3/linux.rst:79
 msgid "To see if pip is installed, open a command prompt and run"
 msgstr ""
+"pip가 설치되어 있는지 확인하려면 "
+"커맨드 프롬프트를 열고 이 명령을 실행하세요. "
 
 #: ../../starting/install3/linux.rst:85
 msgid ""
@@ -119,6 +146,10 @@ msgid ""
 "<https://pip.pypa.io/en/latest/installing/>`_ - this will automatically "
 "install the latest version of setuptools."
 msgstr ""
+"pip를 설치하려면 "
+"`pip 공식 설치 가이드를 따라하세요 "
+"<https://pip.pypa.io/en/latest/installing/>`_ - 이 문서는 "
+"자동적으로 최신 버전의 setuptools를 설치합니다. "
 
 #: ../../starting/install3/linux.rst:87
 msgid ""
@@ -126,22 +157,28 @@ msgid ""
 "``pip`` command is meant for Python 2, while the ``pip3`` command is "
 "meant for Python 3."
 msgstr ""
+"우분투와 페도라를 포함한 리눅스 배포판 일부는 "
+"``pip`` 명령어를 파이썬2를 위한 것으로 인식한다는 점을 명심하세요. "
+"대신 ``pip3`` 명령어는 파이썬3를 위한 것입니다. "
 
 #: ../../starting/install3/linux.rst:94
 msgid ""
 "However, when using virtual environments (described below), you don't "
 "need to care about that."
 msgstr ""
+"하지만 가상 환경(후술합니다)을 사용한다면 이런 점을 걱정할 필요가 없습니다. "
 
 #: ../../starting/install3/linux.rst:100
 msgid "Pipenv & Virtual Environments"
-msgstr ""
+msgstr "Pipenv & Virtual Environments"
 
 #: ../../starting/install3/linux.rst:102
 msgid ""
 "The next step is to install Pipenv, so you can install dependencies and "
 "manage virtual environments."
 msgstr ""
+"그 다음 단계는 Pipenv 설치입니다. "
+"이걸로 디펜던시를 설치하고 가상 환경을 관리할 수 있습니다."
 
 #: ../../starting/install3/linux.rst:104
 msgid ""
@@ -151,18 +188,28 @@ msgid ""
 "but, Project Y needs 4.x\" dilemma, and keeps your global site-packages "
 "directory clean and manageable."
 msgstr ""
+"가상 환경은 서로 다른 위치에 있는 별도의 프로젝트에 각각 독자적인 디펜던시가 필요한 경우 "
+"각 프로젝트에 가상 파이썬 환경을 만들어 줍니다. "
+"\"프로젝트 X는 버전 1.x에 의존하지만 "
+"프로젝트 Y는 4.x가 필요합니다\"라는 딜레마를 해결하고 "
+"전역 패키지 디렉토리를 깨끗하게 관리할 수 ​​있도록 한다."
 
 #: ../../starting/install3/linux.rst:109
 msgid ""
 "For example, you can work on a project which requires Django 1.10 while "
 "also maintaining a project which requires Django 1.8."
 msgstr ""
+"예를들어 Django 1.10으로 프로젝트를 진행하는 한편 "
+"Django 1.8로 만들어진 프로젝트를 유지보수 하고 있다면 "
 
 #: ../../starting/install3/linux.rst:112
 msgid ""
 "So, onward! To the :ref:`Pipenv & Virtual Environments "
 "<virtualenvironments-ref>` docs!"
 msgstr ""
+"전진! "
+":ref:`Pipenv & 가상 환경(Virtual Environments) "
+"<virtualenvironments-ref>` 문서를 향해!"
 
 #: ../../starting/install3/linux.rst:116
 msgid ""
@@ -170,4 +217,5 @@ msgid ""
 "<https://www.stuartellis.name/articles/python-development-windows/>`_, "
 "which is available under the same license."
 msgstr ""
-
+"이 페이지는 같은 라이선스를 사용하는 `다른 가이드 <https://www.stuartellis.name/articles/python-development-windows/>`_ "
+"의 리믹스 버전이다."
