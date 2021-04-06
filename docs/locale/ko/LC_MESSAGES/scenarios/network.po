@@ -14,8 +14,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-15 08:55+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Last-Translator: Ahn Young Seon <ys.ahn@outlook.com>\n"
+"Language-Team: KO <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -23,11 +23,11 @@ msgstr ""
 
 #: ../../scenarios/network.rst:4
 msgid "Networking"
-msgstr ""
+msgstr "네트워킹"
 
 #: ../../scenarios/network.rst:11
 msgid "Twisted"
-msgstr ""
+msgstr "Twisted"
 
 #: ../../scenarios/network.rst:13
 msgid ""
@@ -37,10 +37,15 @@ msgid ""
 "applications using SMTP, POP3, IMAP, or SSH protocols, instant messaging,"
 " and `much more <https://twistedmatrix.com/trac/wiki/Documentation>`_."
 msgstr ""
+"`Twisted <https://twistedmatrix.com/trac/>`_ 는 이벤트 드리븐 네트워킹 엔진이야. "
+"HTTP 서버 및 클라이언트, SMTP, POP3, IMAP 또는 "
+"SSH 프로토콜을 사용하는 애플리케이션, 인스턴트 메시징 등을 포함한 "
+"다양한 네트워킹 프로토콜을 두루 사용하여 애플리케이션을 구축할 수 있습니다."
+"`더 많은 정보는 <https://twistedmatrix.com/trac/wiki/Documentation>`_ 를 보세요."
 
 #: ../../scenarios/network.rst:22
 msgid "PyZMQ"
-msgstr ""
+msgstr "PyZMQ"
 
 #: ../../scenarios/network.rst:24
 msgid ""
@@ -50,18 +55,27 @@ msgid ""
 "for message queuing without a message broker. The basic patterns for this"
 " are:"
 msgstr ""
+"`PyZMQ <https://zeromq.github.com/pyzmq/>`_ 는 고성능 비동기 메시징 라이브러리 "
+"`ZeroMQ <http://zeromq.org/>`_ 를 위한 파이썬 바인딩입니다. "
+"ZeroMQ의 가장 큰 장점은 메시지 브로커 없이도 메시지 큐를 쌓을 수 있다는 점입니다. "
+"기본적인 사용 패턴은: "
 
 #: ../../scenarios/network.rst:29
 msgid ""
 "request-reply: connects a set of clients to a set of services. This is a "
 "remote procedure call and task distribution pattern."
 msgstr ""
+"요청 응답(request-reply) 패턴: 여러 클라이언트 집합을 여러 서비스 집합에 연결하는 패턴. "
+"원격 프로시저 호출(RPC)와 분산 작업 패턴입니다. "
 
 #: ../../scenarios/network.rst:31
 msgid ""
 "publish-subscribe: connects a set of publishers to a set of subscribers. "
 "This is a data distribution pattern."
 msgstr ""
+"발행-구독(publish-subscribe) 패턴: "
+"여러 발행자 집합을 여러 구독자 집합에 연결하는 패턴."
+"데이터 분산 패턴입니다. "
 
 #: ../../scenarios/network.rst:33
 msgid ""
@@ -69,16 +83,21 @@ msgid ""
 "can have multiple steps and loops. This is a parallel task distribution "
 "and collection pattern."
 msgstr ""
+"push-pull (또는 pipeline) 패턴: "
+"여러 단계의 스텝과 루프를 수행하는 fan-out/fan-in 패턴에서 노드들을 잇는 패턴."
+"작업을 분산해서 병렬로 수행하고 이를 한 데 모으는 패턴이야."
 
 #: ../../scenarios/network.rst:37
 msgid ""
 "For a quick start, read the `ZeroMQ guide "
 "<http://zguide.zeromq.org/page:all>`_."
 msgstr ""
+"퀵스타트를 하려면 읽어요! `ZeroMQ guide "
+"<http://zguide.zeromq.org/page:all>`_."
 
 #: ../../scenarios/network.rst:42
 msgid "gevent"
-msgstr ""
+msgstr "게븐트(gevent)"
 
 #: ../../scenarios/network.rst:44
 msgid ""
@@ -86,6 +105,10 @@ msgid ""
 " library that uses greenlets to provide a high-level synchronous API on "
 "top of the libev event loop."
 msgstr ""
+"`gevent <http://www.gevent.org/>`_ 는 코루틴을 사용하는 파이썬 네트워킹 라이브러리 입니다. "
+"그린렛(역주: https://greenlet.readthedocs.io/en/latest/)"
+"(역주: http://leekchan.com/gevent-tutorial-ko/)을 사용하여 고수준의 동기 API를 "
+"libev(역주: http://software.schmorp.de/pkg/libev.html) 이벤트 루프 위에서 돌릴 수 있습니다."
 
 #~ msgid ""
 #~ "`Twisted <http://twistedmatrix.com/trac/>`_ is an"
