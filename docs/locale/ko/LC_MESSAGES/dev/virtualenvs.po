@@ -14,8 +14,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-15 08:55+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Last-Translator: YoungSeon.Ahn <lovemewithoutall@gmail.com>\n"
+"Language-Team: KO <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -23,11 +23,11 @@ msgstr ""
 
 #: ../../dev/virtualenvs.rst:4
 msgid "Pipenv & Virtual Environments"
-msgstr ""
+msgstr "Pipenv & 가상 환경(Virtual Environments)"
 
 #: ../../dev/virtualenvs.rst:8
 msgid "This tutorial walks you through installing and using Python packages."
-msgstr ""
+msgstr "이 튜토리얼은 Python 패키지 설치 및 사용을 안내합니다."
 
 #: ../../dev/virtualenvs.rst:10
 msgid ""
@@ -40,22 +40,33 @@ msgid ""
 "applications), but is also very well suited to managing development and "
 "testing environments for any kind of project."
 msgstr ""
+"필요한 도구를 설치 및 사용하고 best practice의 강력한 "
+"권장 사항을 제시하는 방법을 알려드릴게요. "
+"Python은 매우 다양한 용도로 사용되며, 소프트웨어 퍼블리싱 방법에 따라 종속성을 "
+"관리하는 방법이 달라질 수 있습니다. 여기에 제시된 지침은 "
+"네트워크 서비스(웹 애플리케이션 포함)의 개발과 배포에 가장 직접적으로 "
+"적용되지만, 모든 종류의 프로젝트에 대한 개발 및 테스트 환경 관리에도 매우 적합합니다."
 
 #: ../../dev/virtualenvs.rst:18
 msgid ""
 "This guide is written for Python 3, however, these instructions should "
 "work fine on Python 2.7—if you are still using it, for some reason."
 msgstr ""
+"이 안내서 파이썬3를 대상으로 작성되었습니다. "
+"하지만 이 안내사항은 파이썬 2.7에서도 잘 적용됩니다. "
+"어떤 이유에서든 아직도 그걸 쓰고 있다면 말이지요."
 
 #: ../../dev/virtualenvs.rst:23
 msgid "Make sure you've got Python & pip"
-msgstr ""
+msgstr "Python과 pip가 있는지 확인하기"
 
 #: ../../dev/virtualenvs.rst:25
 msgid ""
 "Before you go any further, make sure you have Python and that it's "
 "available from your command line. You can check this by simply running:"
 msgstr ""
+"더 진행하기 전에 파이썬이 설치되어 있는지, 커맨드라인에서 사용할 수 있는지 확인하십시오. "
+"이 기능은 간단히 아래 명령어를 실행하기만 하면 확인할 수 있습니다."
 
 #: ../../dev/virtualenvs.rst:32
 msgid ""
@@ -63,10 +74,13 @@ msgid ""
 "please install the latest 3.x version from `python.org`_ or refer to the "
 "`Installing Python`_ section of this guide."
 msgstr ""
+"``3.6.2`` 같은 출력이 나와야 합니다. "
+"파이썬이 없는 경우, `python.org`_ 에서 최신 3.x 버전을 설치하거나 "
+"이 가이드의 `Installing Python`_ 섹션을 참조하십시오."
 
 #: ../../dev/virtualenvs.rst:36
 msgid "If you're newcomer and you get an error like this:"
-msgstr ""
+msgstr "초심자이고 이런 에러가 나왔다면: "
 
 #: ../../dev/virtualenvs.rst:45
 msgid ""
@@ -75,12 +89,17 @@ msgid ""
 "started tutorial`_ for an introduction to using your operating system's "
 "shell and interacting with Python."
 msgstr ""
+"이 명령은 *셸* ( *터미널* 또는 *콘솔* 이라고도 함)에서 실행되도록 "
+"되어 있기 때문입니다. 운영 체제의 셸 사용 및 Python과의 상호 작용에 대한 자세한 내용은 "
+"`getting started tutorial`_ 자습서를 참조하십시오."
 
 #: ../../dev/virtualenvs.rst:50
 msgid ""
 "Additionally, you'll need to make sure you have `pip`_ available. You can"
 " check this by running:"
 msgstr ""
+"추가로 `pip`_ 가 동작하는지 확인해야 할 필요가 있을겁니다. "
+"아래 명령어로 확인할 수 있습니다: "
 
 #: ../../dev/virtualenvs.rst:57
 msgid ""
@@ -89,10 +108,15 @@ msgid ""
 "on Linux and installed using your OS package manager, you may have to "
 "`install pip <https://pip.pypa.io/en/stable/installing/>`_ separately."
 msgstr ""
+"소스에서 Python을 설치하거나 `python.org`_ 의 설치 프로그램을 사용하거나 "
+"`Homebrew`_ 를 통해 Python을 설치한 경우 "
+"이미 pip이 있어야 합니다. "
+"Linux 사용자이고 OS 패키지 관리자를 사용하여 설치한 경우 "
+"`pip 설치 <https://pip.pypa.io/en/stable/installing/>`_ 를 별도로 해야 할 수 있습니다."
 
 #: ../../dev/virtualenvs.rst:69
 msgid "Installing Pipenv"
-msgstr ""
+msgstr "Pipenv 설치하기"
 
 #: ../../dev/virtualenvs.rst:71
 msgid ""
@@ -102,10 +126,15 @@ msgid ""
 "recommended as it's a higher-level tool that simplifies dependency "
 "management for common use cases."
 msgstr ""
+"`Pipenv`_ 는 Python 프로젝트의 종속성 관리자입니다. "
+"만약 여러분이 Node.js의 `npm`_이나 Ruby의 `bundler`_ 에 익숙하다면, "
+"Pipenv는 그 도구들과 비슷한 사상으로 만들어졌습니다. "
+"Pip은 Python 패키지를 설치할 수 있지만 "
+"Pipenv는 일반적인 사용 사례에 대한 의존성 관리를 단순화하는 고급 도구로서 하용하기를 권장합합니다."
 
 #: ../../dev/virtualenvs.rst:77
 msgid "Use ``pip`` to install Pipenv:"
-msgstr ""
+msgstr "``pip``로 Pipenv를 설치하자:"
 
 #: ../../dev/virtualenvs.rst:84
 msgid ""
@@ -113,6 +142,9 @@ msgid ""
 "packages. If ``pipenv`` isn't available in your shell after installation,"
 " you'll need to add the `user base`_'s binary directory to your ``PATH``."
 msgstr ""
+"이렇게 하면 시스템 전체 패키지가 박살나지 않도록 `user installation`_ 를 수행할 수 있습니다. "
+"설치 후 셸에서 ``pipenv`` 를 사용할 수 없는 경우 `user base`_ 의 바이너리 "
+"디렉토리를 ``PATH`` 에 추가해야 합니다."
 
 #: ../../dev/virtualenvs.rst:88
 msgid ""
@@ -123,6 +155,11 @@ msgid ""
 "``~/.local/bin`` to your ``PATH``. You can set your ``PATH`` permanently "
 "by `modifying ~/.profile`_."
 msgstr ""
+"Linux 및 macOS에서는 ``python -m site --user-base`` 를 실행하고 끝에 ``bin`` 을 "
+"추가하면 사용자 베이스 바이너리 디렉토리를 찾을 수 있습니다. "
+"예를 들어, 일반적으로 ``~/.local`` 에서 ``~`` 는 홈 디렉토리의 절대 경로로 인식되므로 "
+"``PATH`` 에 ~/.local/bin을 추가해야 합니다. "
+"`~/.profile 를 수정하여`_ ``PATH`` 를 영구적으로 설정할 수 있습니다."
 
 #: ../../dev/virtualenvs.rst:95
 msgid ""
@@ -135,10 +172,16 @@ msgid ""
 " your user ``PATH`` permanently in the `Control Panel`_. You may need to "
 "log out for the ``PATH`` changes to take effect."
 msgstr ""
+"윈도우즈에서 ``py -m site --user-site`` 를 실행하고 ``site-packages`` 를 ``Scripts`` 로 "
+"바꾸면 사용자 베이스 바이너리 디렉토리를 찾을 수 있습니다. "
+"예를 들어 ``C:\\Users\\Username\\AppData\\Roaming\\Python36\\site-packages`` 가 리턴하기 위하여 "
+"``PATH`` 에 ``C:\\Users\\Username\\AppData\\Roaming\\Python36\\Scripts`` 를 추가해야 합니다. "
+"`제어판`_ 에서 사용자 ``PATH`` 를 영구적으로 설정할 수 있습니다. "
+"``PATH`` 변경 사항을 적용하려면 로그아웃해야 할 수도 있습니다."
 
 #: ../../dev/virtualenvs.rst:113
 msgid "Installing packages for your project"
-msgstr ""
+msgstr "프로젝트에 패키지 설치하기"
 
 #: ../../dev/virtualenvs.rst:115
 msgid ""
@@ -146,6 +189,9 @@ msgid ""
 "change into your project's directory (or just an empty directory for this"
 " tutorial) and run:"
 msgstr ""
+"Pipenv는 프로젝트별로 종속성을 관리합니다. "
+"패키지를 설치하려면 프로젝트의 디렉터리(또는 이 튜토리얼의 빈 디렉터리만)로 "
+"이동하여 다음 명령을 실행하십시오."
 
 #: ../../dev/virtualenvs.rst:124
 msgid ""
@@ -155,24 +201,30 @@ msgid ""
 "install them, such as when you share your project with others. You should"
 " get output similar to this (although the exact paths shown will vary):"
 msgstr ""
+"Pipenv가 멋진 `Requests`_ 라이브러릴 설치했습니다. "
+"긜고 프로젝트 디렉터리에 ``Pipfile`` 을 만듭니다. ``Pipfile`` 은 프로젝트를 "
+"다른 사용자와 공유할 때와 같이 프로젝트를 다시 설치해야 하는 경우 프로젝트에 "
+"필요한 종속성을 추적하는 데 사용됩니다. "
+"아래와 유사한 출력을 얻어야 합니다(표시된 정확한 경로는 다르지만)."
 
 #: ../../dev/virtualenvs.rst:163
 msgid "Using installed packages"
-msgstr ""
+msgstr "설치된 패키지 사용하기"
 
 #: ../../dev/virtualenvs.rst:165
 msgid ""
 "Now that Requests is installed you can create a simple ``main.py`` file "
 "to use it:"
 msgstr ""
+"이제 Requests가 설치되었으므로 간단한 ``main.py`` 파일을 작성하여 사용할 수 있습니다."
 
 #: ../../dev/virtualenvs.rst:176
 msgid "Then you can run this script using ``pipenv run``:"
-msgstr ""
+msgstr "그런 다음 ``pipenv run`` 를를 사용하여 이 스크립트를 실행할 수 있습니다."
 
 #: ../../dev/virtualenvs.rst:182
 msgid "You should get output similar to this:"
-msgstr ""
+msgstr "아래와 비슷한 결과를 얻어야 합니다:"
 
 #: ../../dev/virtualenvs.rst:188
 msgid ""
@@ -180,16 +232,21 @@ msgid ""
 " to your script. It's also possible to spawn a new shell that ensures all"
 " commands have access to your installed packages with ``$ pipenv shell``."
 msgstr ""
+"``$ pipenv run`` 를 사용하면 설치된 패키지를 스크립트에서 사용할 수 있습니다. "
+"또한 ``$ pipenv shell`` 을 사용하여 실행하는 모든 명령이 "
+"설치된 패키지에 액세스할 수 있도록 하는 새 셸을 생성할 수도 있습니다."
 
 #: ../../dev/virtualenvs.rst:194
 msgid "Next steps"
-msgstr ""
+msgstr "다음 단계"
 
 #: ../../dev/virtualenvs.rst:196
 msgid ""
 "Congratulations, you now know how to install and use Python packages! ✨ 🍰"
 " ✨"
 msgstr ""
+"축하해요! 이제 파이썬 패키지를 설치하고 사용하는 방법을 익혔습니다! ✨ 🍰"
+" ✨"
 
 #: ../../dev/virtualenvs.rst:201
 msgid "Lower level: virtualenv"
