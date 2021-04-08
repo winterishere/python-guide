@@ -250,7 +250,7 @@ msgstr ""
 
 #: ../../dev/virtualenvs.rst:201
 msgid "Lower level: virtualenv"
-msgstr ""
+msgstr "하위계층: virtualenv"
 
 #: ../../dev/virtualenvs.rst:203
 msgid ""
@@ -259,26 +259,30 @@ msgid ""
 "all the necessary executables to use the packages that a Python project "
 "would need."
 msgstr ""
+"`virtualenv <http://pypi.org/project/virtualenv>`_ 는 격리된 파이썬 환경을 만들기 "
+"위한 도구이다. "
+"virtualenv는 Python 프로젝트에 필요한 패키지를 사용하는 데 필요한 모든 "
+"실행 파일이 포함된 폴더를 생성합니다."
 
 #: ../../dev/virtualenvs.rst:207
 msgid "It can be used standalone, in place of Pipenv."
-msgstr ""
+msgstr "Pipenv 대신 단독으로 사용할 수 있습니다."
 
 #: ../../dev/virtualenvs.rst:209
 msgid "Install virtualenv via pip:"
-msgstr ""
+msgstr "pip로 virtualenv를 설치하자: "
 
 #: ../../dev/virtualenvs.rst:215
 msgid "Test your installation:"
-msgstr ""
+msgstr "설치가 잘 됐는지 확인하자:"
 
 #: ../../dev/virtualenvs.rst:222 ../../dev/virtualenvs.rst:363
 msgid "Basic Usage"
-msgstr ""
+msgstr "기본 사용법"
 
 #: ../../dev/virtualenvs.rst:224
 msgid "Create a virtual environment for a project:"
-msgstr ""
+msgstr "프로젝트에 가상 환경을 생성하자:"
 
 #: ../../dev/virtualenvs.rst:231
 msgid ""
@@ -288,32 +292,43 @@ msgid ""
 "virtual environment (in this case, it was ``venv``) can be anything; "
 "omitting the name will place the files in the current directory instead."
 msgstr ""
+"``virtualenv venv`` 는 파이썬 실행 파일이 들어있는 현재 디렉토리에 "
+"폴더를 하나 만들고 "
+"``pip`` 라이브러리(다른 패키지를 설치하는 데 사용할)의 복사본을 만듭니다."
+"가상 환경의 이름(여기서는 ``venv``)은 뭐든 가능합니다. 그리고 "
+"이름을 생략하면 파일이 대신 현재 디렉토리에 배치됩니다."
 
 #: ../../dev/virtualenvs.rst:238
 msgid ""
 "'venv' is the general convention used globally. As it is readily "
 "available in ignore files (eg: .gitignore')"
 msgstr ""
+"'venv' 는 전세계적으로 사용되는 일반적인 컨벤션입니다. "
+"ignore 파일에서 쉽게 처리 가능합니다(예: .gitignore)."
 
 #: ../../dev/virtualenvs.rst:240
 msgid ""
 "This creates a copy of Python in whichever directory you ran the command "
 "in, placing it in a folder named :file:`venv`."
 msgstr ""
+"이렇게 하면 명령을 실행한 디렉터리에 Python의 복사본이 생성되어 :file:`venv` "
+"라는 폴더에 저장됩니다."
 
 #: ../../dev/virtualenvs.rst:243
 msgid ""
 "You can also use the Python interpreter of your choice (like "
 "``python2.7``)."
 msgstr ""
+"``python2.7`` 과 같은 Python 인터프리터를 선택해서 사용할 수도 있습니다."
 
 #: ../../dev/virtualenvs.rst:250
 msgid "or change the interpreter globally with an env variable in ``~/.bashrc``:"
 msgstr ""
+"아니면 ``~/.bashrc`` 로 전역 환경에서 인터프리터 환경 변수를 바꿀 수도 있습니다."
 
 #: ../../dev/virtualenvs.rst:256
 msgid "To begin using the virtual environment, it needs to be activated:"
-msgstr ""
+msgstr "가상 환경 사용을 시작하려면 가상 환경을 활성화해야 합니다."
 
 #: ../../dev/virtualenvs.rst:262
 msgid ""
@@ -323,6 +338,11 @@ msgid ""
 "using pip will be placed in the ``venv`` folder, isolated from the global"
 " Python installation."
 msgstr ""
+"현재 가상 환경의 이름이 프롬프트 왼쪽에 나타납니다"
+"(예: ``(venv)Your-Computer:project_folder UserName$``)"
+"이것이 가상환경이 활성화되어 있음을 알려 줍니다. "
+"이제부터 pip을 사용하여 설치하는 모든 패키지는 "
+"글로벌 Python 설치환경과 격리된 ``venv`` 폴더에 배치됩니다."
 
 #: ../../dev/virtualenvs.rst:267
 msgid ""
@@ -330,32 +350,37 @@ msgid ""
 " virtual environment. However, activating the environment requires a "
 "slightly different command."
 msgstr ""
+"윈도우즈의 경우 1단계에서 언급한 동일한 명령을 사용하여 가상 환경을 생성할 수 "
+"있습니다. 그러나 가상상환경을 활성화하려면 약간 다른 명령이 필요합니다."
 
 #: ../../dev/virtualenvs.rst:269
 msgid "Assuming that you are in your project directory:"
-msgstr ""
+msgstr "프로젝트 디렉토리에 있다고 가정하고 시작해보면 이렇습니다: "
 
 #: ../../dev/virtualenvs.rst:275
 msgid "Install packages using the ``pip`` command:"
-msgstr ""
+msgstr "``pip`` 명령으로 패키지를 설치해봅시다: "
 
 #: ../../dev/virtualenvs.rst:281
 msgid ""
 "If you are done working in the virtual environment for the moment, you "
 "can deactivate it:"
 msgstr ""
+"잠시 가상환경에서의 작업을 멈추려면 이렇게 비활성화 할 수도 있습니다: "
 
 #: ../../dev/virtualenvs.rst:288
 msgid ""
 "This puts you back to the system's default Python interpreter with all "
 "its installed libraries."
 msgstr ""
+"이렇게 하면 설치된 모든 라이브러리와 함께 시스템의 기본 Python 인터프리터로 돌아갑니다."
 
 #: ../../dev/virtualenvs.rst:291
 msgid ""
 "To delete a virtual environment, just delete its folder. (In this case, "
 "it would be ``rm -rf venv``.)"
 msgstr ""
+"가상 환경을 삭제하려면 해당 폴더를 삭제하십시오. (이 경우, ``rm -rf venv``)"
 
 #: ../../dev/virtualenvs.rst:294
 msgid ""
@@ -363,16 +388,21 @@ msgid ""
 "environments littered across your system, and it's possible you'll forget"
 " their names or where they were placed."
 msgstr ""
+"개발을 오래 하다보면 시스템 전체에 많은 가상 환경이 흩어져 있을 수 있습니다. "
+"그러다보면 가상환경의 이름이나 위치가 기억나지 않을 수도 있습니다. "
+"(역주: 그래서 어쩌라는 거임... 이름을 venv로 하는 게 좋다고?)"
 
 #: ../../dev/virtualenvs.rst:299
 msgid ""
 "Python has included venv module from version 3.3. For more details: `venv"
 " <https://docs.python.org/3/library/venv.html>`_."
 msgstr ""
+"파이썬3.3 버전부터는 venv 모듈을 포함하고 있다. 자세한 내용은 `venv"
+" <https://docs.python.org/3/library/venv.html>`_."
 
 #: ../../dev/virtualenvs.rst:302
 msgid "Other Notes"
-msgstr ""
+msgstr "기타 참고 사항"
 
 #: ../../dev/virtualenvs.rst:304
 msgid ""
@@ -381,6 +411,10 @@ msgid ""
 "keeping the package list clean in case it needs to be accessed later. "
 "[This is the default behavior for ``virtualenv`` 1.7 and later.]"
 msgstr ""
+"``--no-site-packages`` 옵션을 줘서 ``virtualenv`` 를 실행하면 "
+"전역환경에 설치된 파이썬 패키지를 가져오지 않습니다. "
+"나중에 다시 쓸 패키지 리스트를 깔끔하게 유지하는 데 유용합니다. "
+"[``virtualenv`` 1.7 이후부터는 이게 기본 동작입니다.]"
 
 #: ../../dev/virtualenvs.rst:309
 msgid ""
@@ -388,6 +422,8 @@ msgid ""
 "\"freeze\" the current state of the environment packages. To do this, "
 "run:"
 msgstr ""
+"개발환경을 일관성 있게 유지하려면 개발환경 패키지의 현재 "
+"상태를 \"freeze\" 하는 것이 좋습니다. 이렇게 하려면 다음을 실행합니다."
 
 #: ../../dev/virtualenvs.rst:316
 msgid ""
@@ -398,12 +434,19 @@ msgid ""
 " different developer (or you, if you need to re-create the environment) "
 "to install the same packages using the same versions:"
 msgstr ""
+"그러면 :file:`requirements.txt` 파일이 생성됩니다. "
+"이 파일에는 현재 환경의 모든 패키지와 해당 버전의 단순한 목록이 적혀있습니다."
+"requirements 포맷을 쓰지 않더라도 ``pip list`` 로 ㅎ녀재 설치되어 있는 "
+"패키지 목록을 확인할 수 있습니다. "
+"이것이 나중에 다른 개발자가 동일한 버전을 사용하여 "
+"동일한 패키지를 설치하는 작업(또는 환경을 다시 만들어야 하는 경우)을 더 쉽게 만들어줍니다."
 
 #: ../../dev/virtualenvs.rst:327
 msgid ""
 "This can help ensure consistency across installations, across "
 "deployments, and across developers."
 msgstr ""
+"위 명령을 통해 설치본, 배포본 및 개발자 간에 개발환경의 일관성을 유지할 수 있습니다."
 
 #: ../../dev/virtualenvs.rst:330
 msgid ""
@@ -411,10 +454,13 @@ msgid ""
 "control by adding it to the ignore list (see :ref:`Version Control "
 "Ignores<version_control_ignores>`)."
 msgstr ""
+"마지막으로 가상 환경 폴더를 ignore 목록에 추가하여 소스 컨트롤 도구에서 "
+"제외해야 합니다(참고하세요 :ref:`버전 컨트롤 "
+"ignore<version_control_ignores>`)."
 
 #: ../../dev/virtualenvs.rst:336
 msgid "virtualenvwrapper"
-msgstr ""
+msgstr "virtualenvwrapper"
 
 #: ../../dev/virtualenvs.rst:338
 msgid ""
@@ -424,10 +470,15 @@ msgid ""
 "much more pleasant. It also places all your virtual environments in one "
 "place."
 msgstr ""
+"`virtualenvwrapper "
+"<https://virtualenvwrapper.readthedocs.io/en/latest/index.html>`_ 는"
+"가상 환경에서의 작업을 훨씬 더 즐겁게 해주는 일련의 명령을 제공합니다. "
+"또한 모든 가상 환경을 한 곳에 배치합니다."
 
 #: ../../dev/virtualenvs.rst:342 ../../dev/virtualenvs.rst:354
 msgid "To install (make sure **virtualenv** is already installed):"
 msgstr ""
+"설치하려면(**virtualenv** 가 먼저 설치되어 있는지부터 확인하시고):"
 
 #: ../../dev/virtualenvs.rst:350
 msgid ""
@@ -440,22 +491,24 @@ msgid ""
 "For Windows, you can use the `virtualenvwrapper-win "
 "<https://github.com/davidmarble/virtualenvwrapper-win/>`_."
 msgstr ""
+"윈도우즈에서는 `virtualenvwrapper-win "
+"<https://github.com/davidmarble/virtualenvwrapper-win/>`_ 를 사용할 수 있습니다."
 
 #: ../../dev/virtualenvs.rst:360
 msgid "In Windows, the default path for WORKON_HOME is %USERPROFILE%\\\\Envs"
-msgstr ""
+msgstr "Windows에서는 WORKON_HOME 의 기본 path가 %USERPROFILE%\Envs 입니다."
 
 #: ../../dev/virtualenvs.rst:365
 msgid "Create a virtual environment:"
-msgstr ""
+msgstr "가상 환경 생성:"
 
 #: ../../dev/virtualenvs.rst:371
 msgid "This creates the :file:`project_folder` folder inside :file:`~/Envs`."
-msgstr ""
+msgstr "이건 :file:`~/Envs` 안에 :file:`project_folder` 폴더를 만듭니다."
 
 #: ../../dev/virtualenvs.rst:373
 msgid "Work on a virtual environment:"
-msgstr ""
+msgstr "가상환경에서 작업하기:"
 
 #: ../../dev/virtualenvs.rst:379
 msgid ""
@@ -463,6 +516,8 @@ msgid ""
 "environment, and also a project directory inside ``$WORKON_HOME``, which "
 "is ``cd``-ed into when you ``workon project_folder``."
 msgstr ""
+"대신 가상환경을 생성하고, ``workon project_folder`` 명령을 하기 전의 위치인 "
+"``$WORKON_HOME`` 디렉토리 안에 프로젝트 디렉토리를 생성할 수도 있습니다. "
 
 #: ../../dev/virtualenvs.rst:387
 msgid ""
@@ -470,24 +525,28 @@ msgid ""
 "really helps when you have a lot of environments and have trouble "
 "remembering their names."
 msgstr ""
+"**virtualenvwrapper** 는 환경 이름의 tab-자동완성 기능을 지원합니다. "
+"이건 아주 많은 환경이 있고 각각의 이름을 기억하는게 힘들 때 아주 도움이 됩니다. "
 
 #: ../../dev/virtualenvs.rst:391
 msgid ""
 "``workon`` also deactivates whatever environment you are currently in, so"
 " you can quickly switch between environments."
 msgstr ""
+"``workon`` 은 현재 어느 디렉토리에서 작업하고 있든 가상환경을 비활성화 할 수 있습니다. "
+"덕분에 환경 간 전환을 빠르게 할 수 있습니다."
 
 #: ../../dev/virtualenvs.rst:394
 msgid "Deactivating is still the same:"
-msgstr ""
+msgstr "비활성화 하는 방법은 똑같습니다: "
 
 #: ../../dev/virtualenvs.rst:400
 msgid "To delete:"
-msgstr ""
+msgstr "삭제하려면: "
 
 #: ../../dev/virtualenvs.rst:407
 msgid "Other useful commands"
-msgstr ""
+msgstr "기타 유용한 명령어"
 
 #: ../../dev/virtualenvs.rst:410
 msgid "``lsvirtualenv``"
@@ -495,7 +554,7 @@ msgstr ""
 
 #: ../../dev/virtualenvs.rst:410
 msgid "List all of the environments."
-msgstr ""
+msgstr "모든 환경의 목록을 보여준다."
 
 #: ../../dev/virtualenvs.rst:414
 msgid "``cdvirtualenv``"
@@ -506,6 +565,8 @@ msgid ""
 "Navigate into the directory of the currently activated virtual "
 "environment, so you can browse its :file:`site-packages`, for example."
 msgstr ""
+"현재 활성화 된 가상 환경의 디렉토리로 이동한다. "
+"그리하여 :file:`site-packages` 같은 것들을 확인할 수 있다."
 
 #: ../../dev/virtualenvs.rst:417
 msgid "``cdsitepackages``"
@@ -514,6 +575,7 @@ msgstr ""
 #: ../../dev/virtualenvs.rst:417
 msgid "Like the above, but directly into :file:`site-packages` directory."
 msgstr ""
+"위와 비슷하지만 :file:`site-packages` 디렉토리로 바로 이동한다."
 
 #: ../../dev/virtualenvs.rst:420
 msgid "``lssitepackages``"
@@ -521,13 +583,15 @@ msgstr ""
 
 #: ../../dev/virtualenvs.rst:420
 msgid "Shows contents of :file:`site-packages` directory."
-msgstr ""
+msgstr ":file:`site-packages` 디렉토리의 내용물을 보여준다."
 
 #: ../../dev/virtualenvs.rst:422
 msgid ""
 "`Full list of virtualenvwrapper commands "
 "<https://virtualenvwrapper.readthedocs.io/en/latest/command_ref.html>`_."
 msgstr ""
+"`virtualenvwrapper 명령어의 전체 목록 "
+"<https://virtualenvwrapper.readthedocs.io/en/latest/command_ref.html>`_."
 
 #: ../../dev/virtualenvs.rst:425
 msgid "virtualenv-burrito"
@@ -539,6 +603,9 @@ msgid ""
 "burrito>`_, you can have a working virtualenv + virtualenvwrapper "
 "environment in a single command."
 msgstr ""
+"`virtualenv-burrito <https://github.com/brainsik/virtualenv-"
+"burrito>`_ 를 사용하면 명령어 한 방으로 "
+"virtualenv 와 virtualenvwrapper 를 함께 사용할 수 있다."
 
 #: ../../dev/virtualenvs.rst:431
 msgid "direnv"
@@ -549,14 +616,16 @@ msgid ""
 "When you ``cd`` into a directory containing a :file:`.env`, `direnv "
 "<https://direnv.net>`_ automagically activates the environment."
 msgstr ""
+":file:`.env` 가 있는 디렉토리로 ``cd`` 할 때 `direnv "
+"<https://direnv.net>`_ 는 자동으로 가상환경을 활성화한다. "
 
 #: ../../dev/virtualenvs.rst:435
 msgid "Install it on Mac OS X using ``brew``:"
-msgstr ""
+msgstr "``brew`` 로 Mac OS X에 설치해보자: "
 
 #: ../../dev/virtualenvs.rst:441
 msgid "On Linux follow the instructions at `direnv.net <https://direnv.net>`_"
-msgstr ""
+msgstr "리눅스라면 `direnv.net <https://direnv.net>`_ 를 참고하자."
 
 #~ msgid ""
 #~ msgstr ""
