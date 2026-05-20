@@ -12,14 +12,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pythonguide 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-15 08:55+0000\n"
+"POT-Creation-Date: 2026-05-21 08:26+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.2.0\n"
+"Generated-By: Babel 2.18.0\n"
 
 #: ../../scenarios/xml.rst:4
 msgid "XML parsing"
@@ -79,6 +79,20 @@ msgid ""
 "xmltodict also lets you roundtrip back to XML with the unparse function, "
 "has a streaming mode suitable for handling files that don't fit in "
 "memory, and supports XML namespaces."
+msgstr ""
+
+#: ../../scenarios/xml.rst:87
+msgid "xmlschema"
+msgstr ""
+
+#: ../../scenarios/xml.rst:89
+msgid ""
+"`xmlschema <https://github.com/sissaschool/xmlschema>`_ provides support "
+"for using XSD-Schemas in Python. Unlike other XML libraries, automatic "
+"type parsing is available, so f.e. if the schema defines an element to be"
+" of type ``int``, the parsed ``dict`` will contain also an ``int`` value "
+"for that element. Moreover the library supports automatic and explicit "
+"validation of XML documents against a schema."
 msgstr ""
 
 #~ msgid "and then you can get the child elements name like this:"

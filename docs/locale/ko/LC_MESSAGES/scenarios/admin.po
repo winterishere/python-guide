@@ -12,14 +12,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pythonguide 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-15 08:55+0000\n"
+"POT-Creation-Date: 2026-05-21 08:26+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.2.0\n"
+"Generated-By: Babel 2.18.0\n"
 
 #: ../../scenarios/admin.rst:4
 msgid "Systems Administration"
@@ -154,18 +154,18 @@ msgid ""
 "tests (net, CPU) fail, it will send an email."
 msgstr ""
 
-#: ../../scenarios/admin.rst:192
+#: ../../scenarios/admin.rst:193
 msgid ""
-"A full terminal application like a widely extended top which is based on "
-"psutil and with the ability of a client-server monitoring is `glance "
-"<https://github.com/nicolargo/glances/>`_."
+"A full terminal application like a widely extended top is `Glance "
+"<https://github.com/nicolargo/glances/>`_, which is based on psutil and "
+"has the ability for client-server monitoring."
 msgstr ""
 
-#: ../../scenarios/admin.rst:199
+#: ../../scenarios/admin.rst:197
 msgid "Ansible"
 msgstr ""
 
-#: ../../scenarios/admin.rst:201
+#: ../../scenarios/admin.rst:199
 msgid ""
 "`Ansible <http://ansible.com/>`_  is an open source system automation "
 "tool. Its biggest advantage over Puppet or Chef is that it does not "
@@ -174,30 +174,30 @@ msgid ""
 "YAML with Jinja2 for templating."
 msgstr ""
 
-#: ../../scenarios/admin.rst:206
+#: ../../scenarios/admin.rst:204
 msgid "Ansible supports Python versions 2.6 and 2.7 and can be installed via pip:"
 msgstr ""
 
-#: ../../scenarios/admin.rst:212
+#: ../../scenarios/admin.rst:210
 msgid ""
 "Ansible requires an inventory file that describes the hosts to which it "
 "has access. Below is an example of a host and playbook that will ping all"
 " the hosts in the inventory file."
 msgstr ""
 
-#: ../../scenarios/admin.rst:216
+#: ../../scenarios/admin.rst:214
 msgid "Here is an example inventory file: :file:`hosts.yml`"
 msgstr ""
 
-#: ../../scenarios/admin.rst:224
+#: ../../scenarios/admin.rst:222
 msgid "Here is an example playbook: :file:`ping.yml`"
 msgstr ""
 
-#: ../../scenarios/admin.rst:236
+#: ../../scenarios/admin.rst:234
 msgid "To run the playbook:"
 msgstr ""
 
-#: ../../scenarios/admin.rst:242
+#: ../../scenarios/admin.rst:240
 msgid ""
 "The Ansible playbook will ping all of the servers in the "
 ":file:`hosts.yml` file. You can also select groups of servers using "
@@ -205,18 +205,18 @@ msgid ""
 "<http://docs.ansible.com/>`_."
 msgstr ""
 
-#: ../../scenarios/admin.rst:246
+#: ../../scenarios/admin.rst:244
 msgid ""
 "`An Ansible tutorial <https://serversforhackers.com/an-ansible-"
 "tutorial/>`_ is also a great and detailed introduction to getting started"
 " with Ansible."
 msgstr ""
 
-#: ../../scenarios/admin.rst:252
+#: ../../scenarios/admin.rst:250
 msgid "Chef"
 msgstr ""
 
-#: ../../scenarios/admin.rst:254
+#: ../../scenarios/admin.rst:252
 msgid ""
 "`Chef <https://www.chef.io/chef/>`_  is a systems and cloud "
 "infrastructure automation framework that makes it easy to deploy servers "
@@ -225,7 +225,7 @@ msgid ""
 "Ruby to write your infrastructure code."
 msgstr ""
 
-#: ../../scenarios/admin.rst:259
+#: ../../scenarios/admin.rst:257
 msgid ""
 "Chef clients run on every server that is part of your infrastructure and "
 "these regularly check with your Chef server to ensure your system is "
@@ -234,7 +234,7 @@ msgid ""
 "and this distributed approach makes Chef a scalable automation platform."
 msgstr ""
 
-#: ../../scenarios/admin.rst:264
+#: ../../scenarios/admin.rst:262
 msgid ""
 "Chef works by using custom recipes (configuration elements), implemented "
 "in cookbooks. Cookbooks, which are basically packages for infrastructure "
@@ -244,13 +244,13 @@ msgid ""
 "on Chef to learn how to create a simple Chef Server."
 msgstr ""
 
-#: ../../scenarios/admin.rst:270
+#: ../../scenarios/admin.rst:268
 msgid ""
 "To create a simple cookbook the `knife "
 "<https://docs.chef.io/knife.html>`_ command is used:"
 msgstr ""
 
-#: ../../scenarios/admin.rst:276
+#: ../../scenarios/admin.rst:274
 msgid ""
 "`Getting started with Chef <http://gettingstartedwithchef.com/first-"
 "steps-with-chef.html>`_ is a good starting point for Chef Beginners and "
@@ -259,15 +259,15 @@ msgid ""
 " the `Chef Supermarket <https://supermarket.chef.io/cookbooks>`_."
 msgstr ""
 
-#: ../../scenarios/admin.rst:281
+#: ../../scenarios/admin.rst:279
 msgid "`Chef Documentation <https://docs.chef.io/>`_"
 msgstr ""
 
-#: ../../scenarios/admin.rst:286
+#: ../../scenarios/admin.rst:284
 msgid "Puppet"
 msgstr ""
 
-#: ../../scenarios/admin.rst:288
+#: ../../scenarios/admin.rst:286
 msgid ""
 "`Puppet <http://puppetlabs.com>`_ is IT Automation and configuration "
 "management software from Puppet Labs that allows System Administrators to"
@@ -275,7 +275,7 @@ msgid ""
 "elegant way to manage their fleet of physical and virtual machines."
 msgstr ""
 
-#: ../../scenarios/admin.rst:293
+#: ../../scenarios/admin.rst:291
 msgid ""
 "Puppet is available both as an Open Source and an Enterprise variant. "
 "Modules are small, shareable units of code written to automate or define "
@@ -284,14 +284,14 @@ msgid ""
 "Enterprise Puppet."
 msgstr ""
 
-#: ../../scenarios/admin.rst:298
+#: ../../scenarios/admin.rst:296
 msgid ""
 "Puppet Agents are installed on nodes whose state needs to be monitored or"
 " changed.  A designated server known as the Puppet Master is responsible "
 "for orchestrating the agent nodes."
 msgstr ""
 
-#: ../../scenarios/admin.rst:302
+#: ../../scenarios/admin.rst:300
 msgid ""
 "Agent nodes send basic facts about the system such as the operating "
 "system, kernel, architecture, IP address, hostname, etc. to the Puppet "
@@ -301,21 +301,21 @@ msgid ""
 " and sends a report back to the Puppet Master."
 msgstr ""
 
-#: ../../scenarios/admin.rst:309
+#: ../../scenarios/admin.rst:307
 msgid ""
 "Facter is an interesting tool that ships with Puppet that pulls basic "
 "facts about the system. These facts can be referenced as a variable while"
 " writing your Puppet modules."
 msgstr ""
 
-#: ../../scenarios/admin.rst:322
+#: ../../scenarios/admin.rst:320
 msgid ""
 "Writing Modules in Puppet is pretty straight forward. Puppet Manifests "
 "together form Puppet Modules. Puppet manifests end with an extension of "
 "``.pp``. Here is an example of 'Hello World' in Puppet."
 msgstr ""
 
-#: ../../scenarios/admin.rst:334
+#: ../../scenarios/admin.rst:332
 msgid ""
 "Here is another example with system based logic. Note how the operating "
 "system fact is being used as a variable prepended with the ``$`` sign. "
@@ -323,7 +323,7 @@ msgid ""
 "referenced by ``$hostname``."
 msgstr ""
 
-#: ../../scenarios/admin.rst:348
+#: ../../scenarios/admin.rst:346
 msgid ""
 "There are several resource types for Puppet but the package-file-service "
 "paradigm is all you need for undertaking the majority of the "
@@ -332,29 +332,29 @@ msgid ""
 "notified to restart every time the sshd configuration file is changed."
 msgstr ""
 
-#: ../../scenarios/admin.rst:379
+#: ../../scenarios/admin.rst:377
 msgid ""
 "For more information, refer to the `Puppet Labs Documentation "
 "<http://docs.puppetlabs.com>`_"
 msgstr ""
 
-#: ../../scenarios/admin.rst:384
+#: ../../scenarios/admin.rst:382
 msgid "Blueprint"
 msgstr ""
 
-#: ../../scenarios/admin.rst
+#: ../../scenarios/admin.rst:384
 msgid "Todo"
 msgstr ""
 
-#: ../../scenarios/admin.rst:386
+#: ../../scenarios/admin.rst:384
 msgid "Write about Blueprint"
 msgstr ""
 
-#: ../../scenarios/admin.rst:391
+#: ../../scenarios/admin.rst:389
 msgid "Buildout"
 msgstr ""
 
-#: ../../scenarios/admin.rst:393
+#: ../../scenarios/admin.rst:391
 msgid ""
 "`Buildout <http://www.buildout.org>`_ is an open source software build "
 "tool. Buildout is created using the Python programming language. It "
@@ -364,25 +364,6 @@ msgid ""
 "<https://stackoverflow.com/questions/2051192/what-is-a-python-egg>`_ "
 "format of the software being developed or deployed. Recipes for build "
 "tasks in any environment can be created, and many are already available."
-msgstr ""
-
-#: ../../scenarios/admin.rst:404
-msgid "Shinken"
-msgstr ""
-
-#: ../../scenarios/admin.rst:406
-msgid ""
-"`Shinken <http://www.shinken-monitoring.org/>`_ is a modern, Nagios "
-"compatible monitoring framework written in Python. Its main goal is to "
-"give users a flexible architecture for their monitoring system that is "
-"designed to scale to large environments."
-msgstr ""
-
-#: ../../scenarios/admin.rst:411
-msgid ""
-"Shinken is backwards-compatible with the Nagios configuration standard "
-"and plugins. It works on any operating system and architecture that "
-"supports Python, which includes Windows, Linux, and FreeBSD."
 msgstr ""
 
 #~ msgid ""
@@ -529,5 +510,35 @@ msgstr ""
 #~ "system, and architecture that supports "
 #~ "Python which includes Windows, GNU/Linux, "
 #~ "and FreeBSD."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "A full terminal application like a "
+#~ "widely extended top which is based "
+#~ "on psutil and with the ability of"
+#~ " a client-server monitoring is "
+#~ "`glance <https://github.com/nicolargo/glances/>`_."
+#~ msgstr ""
+
+#~ msgid "Shinken"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`Shinken <http://www.shinken-monitoring.org/>`_ is"
+#~ " a modern, Nagios compatible monitoring "
+#~ "framework written in Python. Its main"
+#~ " goal is to give users a "
+#~ "flexible architecture for their monitoring "
+#~ "system that is designed to scale "
+#~ "to large environments."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Shinken is backwards-compatible with the"
+#~ " Nagios configuration standard and plugins."
+#~ " It works on any operating system "
+#~ "and architecture that supports Python, "
+#~ "which includes Windows, Linux, and "
+#~ "FreeBSD."
 #~ msgstr ""
 

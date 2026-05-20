@@ -12,14 +12,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pythonguide 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-15 08:55+0000\n"
+"POT-Creation-Date: 2026-05-21 08:26+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: YoungSeon.Ahn LoveMeWithoutAll@Gmail.com\n"
 "Language-Team: Korean <https://github.com/winterishere/python-guide>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.2.0\n"
+"Generated-By: Babel 2.18.0\n"
 
 #: ../../writing/reading.rst:5
 msgid "Reading Great Code"
@@ -102,14 +102,15 @@ msgstr ""
 "작성된 Apache2 라이선스의 HTTP 라이브러리입니다. 인류를 위해 만들었습니다. "
 
 #: ../../writing/reading.rst:46
+#, fuzzy
 msgid ""
-"`Tablib <https://github.com/kennethreitz/tablib>`_ Tablib is a format-"
+"`Tablib <https://github.com/jazzband/tablib>`_ Tablib is a format-"
 "agnostic tabular dataset library, written in Python."
 msgstr ""
 "`Tablib <https://github.com/kennethreitz/tablib>`_ Tablib은 포맷에 구속받지 않는 "
 "tabular 데이터셋 라이브러리입니다. 파이썬으로 작성했습니다. (역주: Requests, Tablib은 저자 본인의 프로젝트)"
 
-#: ../../writing/reading.rst
+#: ../../writing/reading.rst:50 ../../writing/reading.rst:52
 msgid "Todo"
 msgstr ""
 

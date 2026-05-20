@@ -12,14 +12,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pythonguide 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-15 08:55+0000\n"
+"POT-Creation-Date: 2026-05-21 08:26+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.2.0\n"
+"Generated-By: Babel 2.18.0\n"
 
 #: ../../intro/learning.rst:5
 msgid "Learning Python"
@@ -450,8 +450,8 @@ msgstr ""
 
 #: ../../intro/learning.rst:256
 msgid ""
-"`Expert Python Programming <https://www.packtpub.com/application-"
-"development/expert-python-programming>`_"
+"`Expert Python Programming <https://www.packtpub.com/product/expert-"
+"python-programming-third-edition/9781789808896>`_"
 msgstr ""
 
 #: ../../intro/learning.rst:260
@@ -972,5 +972,10 @@ msgstr ""
 #~ "`For Python 3.3+  <http://www.amazon.com/Writing-"
 #~ "Idiomatic-Python-Jeff-Knupp-"
 #~ "ebook/dp/B00B5VXMRG/>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`Expert Python Programming <https://www.packtpub.com"
+#~ "/application-development/expert-python-programming>`_"
 #~ msgstr ""
 

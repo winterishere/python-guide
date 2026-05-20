@@ -12,14 +12,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pythonguide 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-15 08:55+0000\n"
+"POT-Creation-Date: 2026-05-21 08:26+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: YoungSeon.Ahn <lovemewithoutall@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.2.0\n"
+"Generated-By: Babel 2.18.0\n"
 
 #: ../../writing/style.rst:6
 msgid "Code Style"
@@ -673,18 +673,18 @@ msgstr ""
 "`pep8.org <http://pep8.org/>`_ "
 
 #: ../../writing/style.rst:466
+#, fuzzy
 msgid ""
 "This is highly recommended reading. The entire Python community does "
 "their best to adhere to the guidelines laid out within this document. "
-"Some project may sway from it from time to time, while others may `amend "
-"its recommendations <http://docs.python-"
-"requests.org/en/master/dev/contributing/#kenneth-reitz-s-code-style>`_."
+"Some project may sway from it from time to time, while others may amend "
+"its recommendations."
 msgstr ""
 "읽어볼 것을 강력 추천합니다. 모든 파이썬 커뮤니티가 이 문서의 가이드라인을 준수하려고 노력합니다. 시간이 흐름에 따라 여기서 "
 "멀어지는 프로젝트도 있을겁니다. 그렇지 않은 분들은 `이 추천사항을 수정해주세요 <http://docs.python-"
 "requests.org/en/master/dev/contributing/#kenneth-reitz-s-code-style>`_."
 
-#: ../../writing/style.rst:471
+#: ../../writing/style.rst:470
 #, fuzzy
 msgid ""
 "That being said, conforming your Python code to PEP 8 is generally a good"
@@ -699,27 +699,27 @@ msgstr ""
 "<https://github.com/jcrocholl/pep8>`_ 라는 커맨드라인 프로그램이 있습니다. 터미널에서 아래의 명령어를"
 " 돌려 설치해보세요. "
 
-#: ../../writing/style.rst:483
+#: ../../writing/style.rst:482
 msgid ""
 "Then run it on a file or series of files to get a report of any "
 "violations."
 msgstr "그런 다음 파일 하나 혹은 여러 개의 파일에다 돌리면 PEP 8 위반 여부 보고서를 얻을 수 있습니다. "
 
-#: ../../writing/style.rst:498
+#: ../../writing/style.rst:497
 msgid "Auto-Formatting"
 msgstr ""
 
-#: ../../writing/style.rst:500
+#: ../../writing/style.rst:499
 msgid ""
 "There are several auto-formatting tools that can reformat your code, in "
 "order to comply with PEP 8."
 msgstr ""
 
-#: ../../writing/style.rst:503
+#: ../../writing/style.rst:502
 msgid "**autopep8**"
 msgstr ""
 
-#: ../../writing/style.rst:505
+#: ../../writing/style.rst:504
 #, fuzzy
 msgid ""
 "The program `autopep8 <https://pypi.org/project/autopep8/>`_ can be used "
@@ -729,11 +729,11 @@ msgstr ""
 "`autopep8 <https://pypi.python.org/pypi/autopep8/>`_ 프로그램도 코드를 PEP 8 스타일로"
 " 자동 재포맷하는데 쓰일 수 있습니다. 이렇게 설치하시면 됩니다: "
 
-#: ../../writing/style.rst:512
+#: ../../writing/style.rst:511
 msgid "Use it to format a file in-place with:"
 msgstr "포맷할 파일에다가 이렇게 사용하시며 됩니다: "
 
-#: ../../writing/style.rst:518
+#: ../../writing/style.rst:517
 msgid ""
 "Excluding the ``--in-place`` flag will cause the program to output the "
 "modified code directly to the console for review. The ``--aggressive`` "
@@ -743,12 +743,12 @@ msgstr ""
 "``--in-place`` 플래그를 빼면 프로그램이 콘솔에 바로 뽑아준 변경된 코드로 리뷰를 할 수 있습니다. "
 "``--aggressive`` 플래그는 더 많은 변화를 수행하고, 여러 번 수행해서 더 많은 효과를 볼 수도 있습니다. "
 
-#: ../../writing/style.rst:522
+#: ../../writing/style.rst:521
 #, fuzzy
 msgid "**yapf**"
 msgstr "**나쁜 예**"
 
-#: ../../writing/style.rst:524
+#: ../../writing/style.rst:523
 msgid ""
 "While autopep8 focuses on solving the PEP 8 violations, `yapf "
 "<https://github.com/google/yapf>`_ tries to improve the format of your "
@@ -757,22 +757,22 @@ msgid ""
 "gets installed with:"
 msgstr ""
 
-#: ../../writing/style.rst:534
+#: ../../writing/style.rst:533
 msgid "Run the auto-formatting of a file with:"
 msgstr ""
 
-#: ../../writing/style.rst:540
+#: ../../writing/style.rst:539
 msgid ""
 "Similar to autopep8, running the command without the ``--in-place`` flag "
 "will output the diff for review before applying the changes."
 msgstr ""
 
-#: ../../writing/style.rst:543
+#: ../../writing/style.rst:542
 #, fuzzy
 msgid "**black**"
 msgstr "**나쁜 예**"
 
-#: ../../writing/style.rst:545
+#: ../../writing/style.rst:544
 msgid ""
 "The auto-formatter `black <https://github.com/psf/black>`_ offers an "
 "opinionated and deterministic reformatting of your code base. Its main "
@@ -783,32 +783,32 @@ msgid ""
 " You can install the tool as follows:"
 msgstr ""
 
-#: ../../writing/style.rst:557
+#: ../../writing/style.rst:556
 msgid "A python file can be formatted with:"
 msgstr ""
 
-#: ../../writing/style.rst:563
+#: ../../writing/style.rst:562
 msgid ""
 "Adding the ``--diff`` flag provides the code modification for review "
 "without direct application."
 msgstr ""
 
-#: ../../writing/style.rst:568
+#: ../../writing/style.rst:567
 msgid "Conventions"
 msgstr "컨벤션(convention)"
 
-#: ../../writing/style.rst:570
+#: ../../writing/style.rst:569
 msgid ""
 "Here are some conventions you should follow to make your code easier to "
 "read."
 msgstr "읽기 쉬운 코드 작성을 위한 코딩 컨벤션을 소개합니다. "
 
-#: ../../writing/style.rst:573
+#: ../../writing/style.rst:572
 #, fuzzy
 msgid "Check if a variable equals a constant"
 msgstr "변수와 상수가 같은지 여부를 체크하기"
 
-#: ../../writing/style.rst:575
+#: ../../writing/style.rst:574
 #, fuzzy
 msgid ""
 "You don't need to explicitly compare a value to True, or None, or 0 -- "
@@ -820,26 +820,26 @@ msgstr ""
 " Testing <http://docs.python.org/library/stdtypes.html#truth-value-"
 "testing>`_ 을 보시면 어느 것이 false인지 알 수 있습니다. "
 
-#: ../../writing/style.rst:580 ../../writing/style.rst:612
-#: ../../writing/style.rst:650 ../../writing/style.rst:691
-#: ../../writing/style.rst:708 ../../writing/style.rst:753
-#: ../../writing/style.rst:799 ../../writing/style.rst:834
+#: ../../writing/style.rst:579 ../../writing/style.rst:611
+#: ../../writing/style.rst:649 ../../writing/style.rst:690
+#: ../../writing/style.rst:707 ../../writing/style.rst:752
+#: ../../writing/style.rst:798 ../../writing/style.rst:833
 msgid "**Bad**:"
 msgstr ""
 
-#: ../../writing/style.rst:590 ../../writing/style.rst:622
-#: ../../writing/style.rst:657 ../../writing/style.rst:671
-#: ../../writing/style.rst:697 ../../writing/style.rst:727
-#: ../../writing/style.rst:766 ../../writing/style.rst:808
-#: ../../writing/style.rst:845
+#: ../../writing/style.rst:589 ../../writing/style.rst:621
+#: ../../writing/style.rst:656 ../../writing/style.rst:670
+#: ../../writing/style.rst:696 ../../writing/style.rst:726
+#: ../../writing/style.rst:765 ../../writing/style.rst:807
+#: ../../writing/style.rst:844
 msgid "**Good**:"
 msgstr ""
 
-#: ../../writing/style.rst:607
+#: ../../writing/style.rst:606
 msgid "Access a Dictionary Element"
 msgstr "딕셔너리의 엘리먼트에 접근하기"
 
-#: ../../writing/style.rst:609
+#: ../../writing/style.rst:608
 msgid ""
 "Don't use the :py:meth:`dict.has_key` method. Instead, use ``x in d`` "
 "syntax, or pass a default argument to :py:meth:`dict.get`."
@@ -847,11 +847,11 @@ msgstr ""
 ":py:meth:`dict.has_key` 메소드를 쓰지 마세요. 대신에 ``x in d`` 문법을 쓰거나, "
 ":py:meth:`dict.get` 에 디폴트값을 넣어 쓰세요. "
 
-#: ../../writing/style.rst:636
+#: ../../writing/style.rst:635
 msgid "Short Ways to Manipulate Lists"
 msgstr "리스트를 조작하는 지름길"
 
-#: ../../writing/style.rst:638
+#: ../../writing/style.rst:637
 #, fuzzy
 msgid ""
 "`List comprehensions <http://docs.python.org/tutorial/datastructures.html"
@@ -863,100 +863,100 @@ msgstr ""
 "comprehensions>`_ 은 리스트로 작업하는 강력하고도 간결한 방법입니다. :py:func:`map` 과 "
 ":py:func:`filter` 함수 또한 리스트에 명령을 수행하는 또다른 간결한 문법입니다. "
 
-#: ../../writing/style.rst:642
+#: ../../writing/style.rst:641
 msgid ""
 "`Generator expressions <http://docs.python.org/tutorial/classes.html"
 "#generator-expressions>`_ follows almost the same syntax as list "
 "comprehensions but return a generator instead of a list."
 msgstr ""
 
-#: ../../writing/style.rst:647
+#: ../../writing/style.rst:646
 msgid ""
 "Creating a new list requires more work and uses more memory. If you are "
 "just going to loop through the new list, prefer using an iterator "
 "instead."
 msgstr ""
 
-#: ../../writing/style.rst:664
+#: ../../writing/style.rst:663
 msgid ""
 "Use list comprehensions when you really need to create a second list, for"
 " example if you need to use the result multiple times."
 msgstr ""
 
-#: ../../writing/style.rst:668
+#: ../../writing/style.rst:667
 msgid ""
 "If your logic is too complicated for a short list comprehension or "
 "generator expression, consider using a generator function instead of "
 "returning a list."
 msgstr ""
 
-#: ../../writing/style.rst:689
+#: ../../writing/style.rst:688
 msgid "Never use a list comprehension just for its side effects."
 msgstr ""
 
-#: ../../writing/style.rst:706
+#: ../../writing/style.rst:705
 #, fuzzy
 msgid "Filtering a list"
 msgstr "리스트로 문자열 만들기"
 
-#: ../../writing/style.rst:710
+#: ../../writing/style.rst:709
 msgid "Never remove items from a list while you are iterating through it."
 msgstr ""
 
-#: ../../writing/style.rst:720
+#: ../../writing/style.rst:719
 msgid "Don't make multiple passes through the list."
 msgstr ""
 
-#: ../../writing/style.rst:729
+#: ../../writing/style.rst:728
 msgid "Use a list comprehension or generator expression."
 msgstr ""
 
-#: ../../writing/style.rst:741
+#: ../../writing/style.rst:740
 msgid "Possible side effects of modifying the original list"
 msgstr ""
 
-#: ../../writing/style.rst:743
+#: ../../writing/style.rst:742
 msgid ""
 "Modifying the original list can be risky if there are other variables "
 "referencing it. But you can use *slice assignment* if you really want to "
 "do that."
 msgstr ""
 
-#: ../../writing/style.rst:752
+#: ../../writing/style.rst:751
 msgid "Modifying the values in a list"
 msgstr ""
 
-#: ../../writing/style.rst:755
+#: ../../writing/style.rst:754
 msgid ""
 "Remember that assignment never creates a new object. If two or more "
 "variables refer to the same list, changing one of them changes them all."
 msgstr ""
 
-#: ../../writing/style.rst:768
+#: ../../writing/style.rst:767
 msgid "It's safer to create a new list object and leave the original alone."
 msgstr ""
 
-#: ../../writing/style.rst:778
+#: ../../writing/style.rst:777
 msgid "Use :py:func:`enumerate` keep a count of your place in the list."
 msgstr ":py:func:`enumerate` 를 사용하면 리스트 안의 순서를 세어 기억시켜둘 수 있습니다. "
 
-#: ../../writing/style.rst:790
+#: ../../writing/style.rst:789
 msgid ""
 "The :py:func:`enumerate` function has better readability than handling a "
 "counter manually. Moreover, it is better optimized for iterators."
 msgstr ":py:func:`enumerate` 함수는 직접 번호를 매기는 코드를 다루는 방법보다 가독성이 좋습니다. "
 
-#: ../../writing/style.rst:794
+#: ../../writing/style.rst:793
 msgid "Read From a File"
 msgstr "파일에서 읽기"
 
-#: ../../writing/style.rst:796
+#: ../../writing/style.rst:795
 msgid ""
 "Use the ``with open`` syntax to read from files. This will automatically "
 "close files for you."
 msgstr "``with open`` 문법으로 파일을 읽으세요. 파일을 자동으로 닫아줍니다. "
 
-#: ../../writing/style.rst:816
+#: ../../writing/style.rst:815
 msgid ""
 "The ``with`` statement is better because it will ensure you always close "
 "the file, even if an exception is raised inside the ``with`` block."
@@ -964,11 +964,11 @@ msgstr ""
 "``with`` 문은 파일을 반드시 닫아주기 때문에 더 좋습니다. 심지어 ``with`` 블럭 안에서 예외(exception)이 "
 "발생해도 그렇습니다. "
 
-#: ../../writing/style.rst:820
+#: ../../writing/style.rst:819
 msgid "Line Continuations"
 msgstr "줄 잇기"
 
-#: ../../writing/style.rst:822
+#: ../../writing/style.rst:821
 msgid ""
 "When a logical line of code is longer than the accepted limit, you need "
 "to split it over multiple physical lines. The Python interpreter will "
@@ -981,7 +981,7 @@ msgstr ""
 "역슬래시(\\)일 경우 자동으로 줄을 이어줍니다. 이는 많은 경우에 도움이 되지만 망가지기 쉬운 경우가 있기에 일반적으로 "
 "피해야합니다: 역슬래시 뒤에 빈 칸(white space)가 있는 경우, 코드가 망가지고 예상치 못한 결과가 나옵니다. "
 
-#: ../../writing/style.rst:829
+#: ../../writing/style.rst:828
 #, fuzzy
 msgid ""
 "A better solution is to use parentheses around your elements. Left with "
@@ -992,7 +992,7 @@ msgstr ""
 "더 나은 해결책은 괄호()를 두르는 것입니다. 파이썬 인터프리터는 왼쪽의 열린 괄호에서부터 오른쪽의 닫힌 괄호까지의 줄을 자동으로 "
 "연결합니다. 중괄호{}와 대괄호[]에서도 동일하게 동작합니다. "
 
-#: ../../writing/style.rst:858
+#: ../../writing/style.rst:857
 msgid ""
 "However, more often than not, having to split a long logical line is a "
 "sign that you are trying to do too many things at the same time, which "

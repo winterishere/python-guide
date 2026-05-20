@@ -12,14 +12,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pythonguide 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-15 08:55+0000\n"
+"POT-Creation-Date: 2026-05-21 08:26+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.2.0\n"
+"Generated-By: Babel 2.18.0\n"
 
 #: ../../scenarios/gui.rst:4
 msgid "GUI Applications"
@@ -129,62 +129,66 @@ msgid "PySide"
 msgstr ""
 
 #: ../../scenarios/gui.rst:81
-msgid "PySide is a Python binding of the cross-platform GUI toolkit Qt."
+msgid ""
+"PySide is a Python binding of the cross-platform GUI toolkit Qt. The "
+"package name depends on the major Qt version (`PySide` for Qt4, `PySide2`"
+" for Qt5, and `PySide6` for Qt6). This set of bindings is developed by "
+"`The Qt Company <https://qt.io>`_."
 msgstr ""
 
-#: ../../scenarios/gui.rst:87
-msgid "https://wiki.qt.io/Category:LanguageBindings::PySide::Downloads"
+#: ../../scenarios/gui.rst:90
+msgid "https://pyside.org"
 msgstr ""
 
-#: ../../scenarios/gui.rst:92
+#: ../../scenarios/gui.rst:95
 msgid "PyQt"
 msgstr ""
 
-#: ../../scenarios/gui.rst:94
+#: ../../scenarios/gui.rst:97
 msgid ""
 "If your software does not fully comply with the GPL you will need a "
 "commercial license!"
 msgstr ""
 
-#: ../../scenarios/gui.rst:96
+#: ../../scenarios/gui.rst:99
 msgid "PyQt provides Python bindings for the Qt Framework (see below)."
 msgstr ""
 
-#: ../../scenarios/gui.rst:98
+#: ../../scenarios/gui.rst:101
 msgid "http://www.riverbankcomputing.co.uk/software/pyqt/download"
 msgstr ""
 
-#: ../../scenarios/gui.rst:103
+#: ../../scenarios/gui.rst:106
 msgid "Pyjs Desktop (formerly Pyjamas Desktop)"
 msgstr ""
 
-#: ../../scenarios/gui.rst:105
+#: ../../scenarios/gui.rst:108
 msgid ""
 "Pyjs Desktop is a application widget set for desktop and a cross-platform"
 " framework. It allows the exact same Python web application source code "
 "to be executed as a standalone desktop application."
 msgstr ""
 
-#: ../../scenarios/gui.rst:110
+#: ../../scenarios/gui.rst:113
 msgid "The main website: `pyjs <http://pyjs.org/>`_."
 msgstr ""
 
-#: ../../scenarios/gui.rst:115
+#: ../../scenarios/gui.rst:118
 msgid "Qt"
 msgstr ""
 
-#: ../../scenarios/gui.rst:117
+#: ../../scenarios/gui.rst:120
 msgid ""
 "`Qt <http://qt-project.org/>`_ is a cross-platform application framework "
 "that is widely used for developing software with a GUI but can also be "
 "used for non-GUI applications."
 msgstr ""
 
-#: ../../scenarios/gui.rst:124
+#: ../../scenarios/gui.rst:127
 msgid "PySimpleGUI"
 msgstr ""
 
-#: ../../scenarios/gui.rst:126
+#: ../../scenarios/gui.rst:129
 msgid ""
 "`PySimpleGUI <https://pysimplegui.readthedocs.io/>`_ is a  wrapper for "
 "Tkinter and Qt (others on the way).  The amount of code required to "
@@ -193,18 +197,18 @@ msgid ""
 "\"ported\" between GUI frameworks by changing import statements."
 msgstr ""
 
-#: ../../scenarios/gui.rst:136
+#: ../../scenarios/gui.rst:139
 msgid ""
 "PySimpleGUI is contained in a single PySimpleGUI.py file.  Should pip "
 "installation be impossible, copying the PySimpleGUI.py file into a "
 "project's folder is all that's required to import and begin using."
 msgstr ""
 
-#: ../../scenarios/gui.rst:143
+#: ../../scenarios/gui.rst:146
 msgid "Toga"
 msgstr ""
 
-#: ../../scenarios/gui.rst:145
+#: ../../scenarios/gui.rst:148
 msgid ""
 "`Toga <https://toga.readthedocs.io/en/latest/>`_ is a Python native, OS "
 "native, cross platform GUI toolkit. Toga consists of a library of base "
@@ -212,42 +216,42 @@ msgid ""
 "development."
 msgstr ""
 
-#: ../../scenarios/gui.rst:149
+#: ../../scenarios/gui.rst:152
 msgid ""
 "Toga is available on macOS, Windows, Linux (GTK), and mobile platforms "
 "such as Android and iOS."
 msgstr ""
 
-#: ../../scenarios/gui.rst:155
+#: ../../scenarios/gui.rst:158
 msgid "Tk"
 msgstr ""
 
-#: ../../scenarios/gui.rst:157
+#: ../../scenarios/gui.rst:160
 msgid ""
 "Tkinter is a thin object-oriented layer on top of Tcl/Tk. **It has the "
 "advantage of being included with the Python standard library, making it "
 "the most convenient and compatible toolkit to program with.**"
 msgstr ""
 
-#: ../../scenarios/gui.rst:161
+#: ../../scenarios/gui.rst:164
 msgid ""
 "Both Tk and Tkinter are available on most Unix platforms, as well as on "
 "Windows and Macintosh systems. Starting with the 8.0 release, Tk offers "
 "native look and feel on all platforms."
 msgstr ""
 
-#: ../../scenarios/gui.rst:165
+#: ../../scenarios/gui.rst:168
 msgid ""
 "There's a good multi-language Tk tutorial with Python examples at `TkDocs"
 " <http://www.tkdocs.com/tutorial/index.html>`_. There's more information "
 "available on the `Python Wiki <http://wiki.python.org/moin/TkInter>`_."
 msgstr ""
 
-#: ../../scenarios/gui.rst:172
+#: ../../scenarios/gui.rst:175
 msgid "wxPython"
 msgstr ""
 
-#: ../../scenarios/gui.rst:174
+#: ../../scenarios/gui.rst:177
 msgid ""
 "wxPython is a GUI toolkit for the Python programming language. It allows "
 "Python programmers to create programs with a robust, highly functional "
@@ -256,7 +260,7 @@ msgid ""
 "cross platform GUI library, which is written in C++."
 msgstr ""
 
-#: ../../scenarios/gui.rst:180
+#: ../../scenarios/gui.rst:183
 msgid ""
 "**Install (Stable) wxPython** *go to "
 "https://www.wxpython.org/pages/downloads/ and download the appropriate "
@@ -354,5 +358,11 @@ msgstr ""
 #~ "http://www.wxpython.org/download.php#stable and download"
 #~ " the appropriate package for your "
 #~ "OS.*"
+#~ msgstr ""
+
+#~ msgid "PySide is a Python binding of the cross-platform GUI toolkit Qt."
+#~ msgstr ""
+
+#~ msgid "https://wiki.qt.io/Category:LanguageBindings::PySide::Downloads"
 #~ msgstr ""
 
