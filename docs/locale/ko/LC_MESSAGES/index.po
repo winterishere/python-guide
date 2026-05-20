@@ -22,14 +22,13 @@ msgstr ""
 "Generated-By: Babel 2.18.0\n"
 
 #: ../../index.rst:-1
-#, fuzzy
 msgid ""
 "An opinionated guide to the Python programming language and a best "
 "practice handbook for the installation, configuration, and usage of "
 "Python on a daily basis."
 msgstr ""
-"이 장인정신으로 만든 안내서는 파이썬 초보자와 숙련된 파이썬 개발자 모두에게 매일매일 단위로 파이썬의 설치, 설정, 사용법에 대한 "
-"모범 사례 안내서입니다."
+"파이썬 프로그래밍 언어에 대한 독단적인 안내서이자, 파이썬의 설치, 설정, 일상적인 "
+"사용에 대한 모범 사례 안내서입니다."
 
 #: ../../index.rst:12
 msgid "The Hitchhiker's Guide to Python!"

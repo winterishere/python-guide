@@ -8,7 +8,6 @@
 # package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: pythonguide 0.0.1\n"
@@ -27,19 +26,18 @@ msgid "Installing Python 3 on Mac OS X"
 msgstr "Mac OS X에 파이썬3 설치하기"
 
 #: ../../starting/install3/osx.rst:12
-#, fuzzy
 msgid ""
 "**Mac OS X comes with Python 2.7 out of the box between versions 10.8 and"
 " 12.3.**"
-msgstr "**Mac OS X는 파이썬2가 기본적으로 설치되어서 나온다.**"
+msgstr "**Mac OS X 10.8부터 12.3 사이의 버전에는 파이썬 2.7이 기본적으로 설치되어서 나온다.**"
 
 #: ../../starting/install3/osx.rst:14
-#, fuzzy
 msgid ""
 "If your Mac OS X version is between the above versions, you do not need "
 "to install or configure anything else to use Python 2. These instructions"
 " document the installation of Python 3."
-msgstr "그러니 파이썬2를 따로 설치하거나 설정할 필요는 없다. 이 안내문은 파이썬3 설치를 다룬다."
+msgstr ""
+"맥 OS X 버전이 위의 범위에 해당한다면 파이썬2를 따로 설치하거나 설정할 필요는 없다. 이 안내문은 파이썬3 설치를 다룬다."
 
 #: ../../starting/install3/osx.rst:18
 msgid ""

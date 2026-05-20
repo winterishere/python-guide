@@ -64,7 +64,6 @@ msgstr ""
 "기반으로 하는 파이썬 마이크로 프레임워크입니다. 아주 빠르게 시작할 수 있도록 만들어졌으며, 이러한 취지에 따라 개발되었습니다. "
 
 #: ../../writing/reading.rst:27
-#, fuzzy
 msgid ""
 "`Diamond <https://github.com/python-diamond/Diamond>`_ Diamond is a "
 "Python daemon that collects metrics and publishes them to Graphite or "
@@ -73,11 +72,10 @@ msgid ""
 " custom collectors for gathering metrics from almost any source."
 msgstr ""
 "`Diamond <https://github.com/python-diamond/Diamond>`_ Diamond는 Graphite나"
-" 다른 백엔드에 지표를 수집하고 퍼블리싱하는 파이썬 데몬입니다. cpu, 메모리, 네트워크, i/o, 로딩, 디스크 지표를 수집할 "
-"수 있습니다. 추가적으로 거의 어느 소스에서라도 지표를 수집하는 커스텀 수집기를 구현하기 위한 API가 특장점입니다. "
+" 다른 백엔드에 지표를 수집하고 퍼블리싱하는 파이썬 데몬입니다. CPU, 메모리, 네트워크, I/O, 로드, 디스크 지표를 수집할 "
+"수 있습니다. 추가적으로 거의 어느 소스에서라도 지표를 수집하는 커스텀 수집기를 구현하기 위한 API가 특장점입니다."
 
 #: ../../writing/reading.rst:34
-#, fuzzy
 msgid ""
 "`Werkzeug <https://github.com/mitsuhiko/werkzeug>`_ Werkzeug started as a"
 " simple collection of various utilities for WSGI applications and has "
@@ -89,9 +87,9 @@ msgid ""
 msgstr ""
 "`Werkzeug <https://github.com/mitsuhiko/werkzeug>`_ Werkzeug는 WSGI "
 "어플리케이션을 위한 간단한 유틸리티 모음집으로 시작되었습니다. 하지만 이제는 가장 발전한 WSGI 유틸리티 모듈 중 하나가 "
-"되었습니다강력한 디버거, 리퀘스트와 리스폰스 오브젝트의 모든 기능을 갖추었으며, 엔티티 태그를 조작할 HTTP 유틸리티와 캐시 "
-"컨트롤 헤더, HTTP dates, 쿠키 조작, 파일 업로드, 강력한 URL 라우팅 시스템, 그리고 커뮤니티에서 기여한 애드온 모듈"
-" 꾸러미가 포함되어 있습니다. "
+"되었습니다. 강력한 디버거, 리퀘스트와 리스폰스 오브젝트의 모든 기능을 갖추었으며, 엔티티 태그를 조작할 HTTP 유틸리티와 캐시"
+" 컨트롤 헤더, HTTP dates, 쿠키 조작, 파일 업로드, 강력한 URL 라우팅 시스템, 그리고 커뮤니티에서 기여한 애드온 "
+"모듈 꾸러미가 포함되어 있습니다."
 
 #: ../../writing/reading.rst:42
 msgid ""
@@ -102,13 +100,12 @@ msgstr ""
 "작성된 Apache2 라이선스의 HTTP 라이브러리입니다. 인류를 위해 만들었습니다. "
 
 #: ../../writing/reading.rst:46
-#, fuzzy
 msgid ""
 "`Tablib <https://github.com/jazzband/tablib>`_ Tablib is a format-"
 "agnostic tabular dataset library, written in Python."
 msgstr ""
-"`Tablib <https://github.com/kennethreitz/tablib>`_ Tablib은 포맷에 구속받지 않는 "
-"tabular 데이터셋 라이브러리입니다. 파이썬으로 작성했습니다. (역주: Requests, Tablib은 저자 본인의 프로젝트)"
+"`Tablib <https://github.com/jazzband/tablib>`_ Tablib은 포맷에 구속받지 않는 tabular"
+" 데이터셋 라이브러리입니다. 파이썬으로 작성했습니다."
 
 #: ../../writing/reading.rst:50 ../../writing/reading.rst:52
 msgid "Todo"
@@ -121,11 +118,10 @@ msgid ""
 msgstr "리스트에 올라간 프로젝트의 코드 샘플 추가 필요왜 좋은 코드인지 복잡한 예를 들어 설명할 것"
 
 #: ../../writing/reading.rst:52
-#, fuzzy
 msgid ""
 "Explain techniques to rapidly identify data structures and algorithms and"
 " determine what the code is doing."
-msgstr "데이터 구조와 알고리즘을 빠르게 분석하고 코드가 뭘 하고 있는지 밝히는 기술을 설명할 것"
+msgstr "데이터 구조와 알고리즘을 빠르게 식별하고 코드가 뭘 하고 있는지 파악하는 기술을 설명할 것"
 
 #~ msgid ""
 #~ "One of the core tenets behind the"

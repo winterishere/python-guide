@@ -55,7 +55,6 @@ msgid "lxml and Requests"
 msgstr "lxml과 Requests"
 
 #: ../../scenarios/scrape.rst:28
-#, fuzzy
 msgid ""
 "`lxml <http://lxml.de/>`_ is a pretty extensive library written for "
 "parsing XML and HTML documents very quickly, even handling messed up tags"
@@ -66,10 +65,10 @@ msgid ""
 "``pip install requests``."
 msgstr ""
 "`lxml <http://lxml.de/>`_ 은 XML과 HTML 문서를 아주 빠르게 처리하기 위하여 작성된 대규모 "
-"라이브러리이다. 심지어 구문 분석 중에 잘못된 태그를 처리해주기도 한다. `Requests <http://docs.python-"
-"requests.org/en/latest/>`_ 모듈도 사용할 것이다. urllib2 모듈보다 속도와 가독성 면에서 뛰어나기 "
-"때문이다. ``pip install lxml`` 과 ``pip install requests`` 로 둘 다 간단히 설치할 수 있다."
-" "
+"라이브러리이다. 심지어 구문 분석 중에 잘못된 태그를 처리해주기도 한다. `Requests "
+"<https://requests.readthedocs.io/en/latest/>`_ 모듈도 사용할 것이다. 이미 내장된 urllib2 "
+"모듈보다 속도와 가독성 면에서 뛰어나기 때문이다. ``pip install lxml`` 과 ``pip install "
+"requests`` 로 둘 다 간단히 설치할 수 있다."
 
 #: ../../scenarios/scrape.rst:36
 msgid "Let's start with the imports:"
