@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-05-21 08:26+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: YoungSeon.Ahn <lovemewithoutall@gmail.com>\n"
+"Last-Translator: YoungSeon Ahn <ys.ahn@outlook.com>\n"
 "Language-Team: KO <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -27,7 +27,7 @@ msgstr "네트워크 어플리케이션"
 
 #: ../../scenarios/client.rst:11
 msgid "HTTP"
-msgstr ""
+msgstr "HTTP"
 
 #: ../../scenarios/client.rst:13
 msgid ""
@@ -40,41 +40,41 @@ msgstr ""
 
 #: ../../scenarios/client.rst:18
 msgid "Requests"
-msgstr ""
+msgstr "Requests"
 
 #: ../../scenarios/client.rst:20
 msgid ""
-"Python’s standard urllib2 module provides most of the HTTP capabilities "
-"you need, but the API is thoroughly broken. It was built for a different "
-"time — and a different web. It requires an enormous amount of work (even "
-"method overrides) to perform the simplest of tasks."
+"Python’s standard urllib2 module provides most of the HTTP capabilities you "
+"need, but the API is thoroughly broken. It was built for a different time — "
+"and a different web. It requires an enormous amount of work (even method "
+"overrides) to perform the simplest of tasks."
 msgstr ""
-"파이썬의 표준 urllib2 모듈은 필요한 HTTP의 기능 대부분을 지원하지만 API는 완전히 박살나 있습니다. 그것은 다른 시간과"
-" 다른 웹을 위해 만들어졌습니다. 가장 간단한 작업을 수행하더라도 엄청난 양의 작업(메소드 재정의까지)이 필요합니다."
+"파이썬의 표준 urllib2 모듈은 필요한 HTTP의 기능 대부분을 지원하지만 API는 완전히 박살나 있습니다. 그것은 다른 시간과 다른"
+" 웹을 위해 만들어졌습니다. 가장 간단한 작업을 수행하더라도 엄청난 양의 작업(메소드 재정의까지)이 필요합니다."
 
 #: ../../scenarios/client.rst:25
 msgid ""
-"Requests takes all of the work out of Python HTTP — making your "
-"integration with web services seamless. There’s no need to manually add "
-"query strings to your URLs, or to form-encode your POST data. Keep-alive "
-"and HTTP connection pooling are 100% automatic, powered by urllib3, which"
-" is embedded within Requests."
+"Requests takes all of the work out of Python HTTP — making your integration "
+"with web services seamless. There’s no need to manually add query strings to"
+" your URLs, or to form-encode your POST data. Keep-alive and HTTP connection"
+" pooling are 100% automatic, powered by urllib3, which is embedded within "
+"Requests."
 msgstr ""
 "Requests는 Python HTTP에서 모든 작업을 처리하므로 웹 서비스와 매끄럽게 통합할 수 있도록 해줍니다. URL에 쿼리 "
-"문자열을 수동으로 추가하거나 POST 데이터를 폼 인코딩 할 필요가 없습니다. Requests에 포함된 urllib3에 의해 "
-"구동되는 Keep-alive 및 HTTP 커넥션 풀링은 100% 자동입니다."
+"문자열을 수동으로 추가하거나 POST 데이터를 폼 인코딩 할 필요가 없습니다. Requests에 포함된 urllib3에 의해 구동되는 "
+"Keep-alive 및 HTTP 커넥션 풀링은 100% 자동입니다."
 
 #: ../../scenarios/client.rst:31
 msgid "`Documentation <https://requests.readthedocs.io/en/latest/>`_"
-msgstr ""
+msgstr "`Documentation <https://requests.readthedocs.io/en/latest/>`_"
 
 #: ../../scenarios/client.rst:32
 msgid "`PyPi <http://pypi.org/project/requests>`_"
-msgstr ""
+msgstr "`PyPi <http://pypi.org/project/requests>`_"
 
 #: ../../scenarios/client.rst:33
 msgid "`GitHub <https://github.com/kennethreitz/requests>`_"
-msgstr ""
+msgstr "`GitHub <https://github.com/kennethreitz/requests>`_"
 
 #: ../../scenarios/client.rst:38
 msgid "Distributed Systems"
@@ -82,7 +82,7 @@ msgstr "분산 시스템"
 
 #: ../../scenarios/client.rst:42
 msgid "ZeroMQ"
-msgstr ""
+msgstr "ZeroMQ"
 
 #: ../../scenarios/client.rst:44
 msgid ""
@@ -93,34 +93,33 @@ msgid ""
 "library is designed to have a familiar socket-style API."
 msgstr ""
 "ØMQ(ZeroMQ, 0MQ, ZMQ로도 씀)는 대규모 분산 환경 어플리케이션이나 동시성 어플리케이션을 위한 고성능 비동기 메시징 "
-"라이브러리입니다. 메시지큐를 제공하지만 다른 메시징 미들웨어와는 달리 제로엠큐는 메시지 브로커 없이도 동작합니다. 그 라이브러리는 "
-"소켓 스타일 API처럼 디자인되어 있습니다. "
+"라이브러리입니다. 메시지큐를 제공하지만 다른 메시징 미들웨어와는 달리 제로엠큐는 메시지 브로커 없이도 동작합니다. 그 라이브러리는 소켓 "
+"스타일 API처럼 디자인되어 있습니다. "
 
 #: ../../scenarios/client.rst:51
 msgid "RabbitMQ"
-msgstr ""
+msgstr "RabbitMQ"
 
 #: ../../scenarios/client.rst:53
 msgid ""
 "RabbitMQ is an open source message broker software that implements the "
-"Advanced Message Queuing Protocol (AMQP).  The RabbitMQ server is written"
-" in the Erlang programming language and is built on the Open Telecom "
-"Platform framework for clustering and failover. Client libraries to "
-"interface with the broker are available for all major programming "
-"languages."
+"Advanced Message Queuing Protocol (AMQP).  The RabbitMQ server is written in"
+" the Erlang programming language and is built on the Open Telecom Platform "
+"framework for clustering and failover. Client libraries to interface with "
+"the broker are available for all major programming languages."
 msgstr ""
 "RabbitMQ는 Advanced Message Queuing Protocol (AMQP)를 구현한 오픈소스 메시지 브로커 "
 "소프트웨어입니다. 래빗MQ 서버는 얼랭 프로그래밍 언어로 개발되었고 클러스터링과 장애 복구를 위하여 Open Telecom "
-"Platform 프레임워크에 기반하고 있습니다. 브로커와 인터페이스할 클라이언트 라이브러리는 모든 주요 프로그래밍 언어에 사용할 수"
-" 있습니다."
+"Platform 프레임워크에 기반하고 있습니다. 브로커와 인터페이스할 클라이언트 라이브러리는 모든 주요 프로그래밍 언어에 사용할 수 "
+"있습니다."
 
 #: ../../scenarios/client.rst:59
 msgid "`Homepage <http://www.rabbitmq.com/>`_"
-msgstr ""
+msgstr "`Homepage <http://www.rabbitmq.com/>`_"
 
 #: ../../scenarios/client.rst:60
 msgid "`GitHub Organization <https://github.com/rabbitmq?page=1>`_"
-msgstr ""
+msgstr "`GitHub Organization <https://github.com/rabbitmq?page=1>`_"
 
 #~ msgid ""
 #~ msgstr ""
@@ -128,6 +127,6 @@ msgstr ""
 #~ msgid "`PyPi <http://pypi.python.org/pypi/requests>`_"
 #~ msgstr ""
 
-#~ msgid "`Documentation <http://docs.python-requests.org/en/latest/index.html>`_"
+#~ msgid ""
+#~ "`Documentation <http://docs.python-requests.org/en/latest/index.html>`_"
 #~ msgstr ""
-
