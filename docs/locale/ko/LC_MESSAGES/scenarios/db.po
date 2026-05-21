@@ -102,14 +102,14 @@ msgstr ""
 
 #: ../../scenarios/db.rst:66
 msgid "Django ORM"
-msgstr "쟝고(Django) ORM"
+msgstr "장고 ORM"
 
 #: ../../scenarios/db.rst:68
 msgid ""
 "The Django ORM is the interface used by `Django "
 "<https://www.djangoproject.com>`_ to provide database access."
 msgstr ""
-"쟝고 ORM은 `Django <https://www.djangoproject.com>`_ 가 데이터베이스에 접근하기 위해 사용하는 "
+"장고 ORM은 `장고 <https://www.djangoproject.com>`_ 가 데이터베이스에 접근하기 위해 사용하는 "
 "인터페이스입니다. "
 
 #: ../../scenarios/db.rst:71
@@ -138,7 +138,7 @@ msgid ""
 "Django gives you an automatically-generated database-access API; see `Making"
 " queries <https://docs.djangoproject.com/en/dev/topics/db/queries/>`__."
 msgstr ""
-"쟝고는 자동으로 만들어진 데이터베이스 엑세스 API를 제공합니다. `Making queries "
+"장고는 자동으로 만들어진 데이터베이스 엑세스 API를 제공합니다. `Making queries "
 "<https://docs.djangoproject.com/en/dev/topics/db/queries/>`__ 문서를 확인하세요."
 
 #: ../../scenarios/db.rst:85
@@ -162,7 +162,7 @@ msgstr ""
 "`peewee <http://docs.peewee-orm.com/en/latest/>`_ 는 파이썬 2.6 이상을 지원하면서 3.2 "
 "이상도 지원하는 가벼운 ORM입니다. SQLite, MySQL, 그리고 PostgreSQL을 기본적으로 지원합니다. `model "
 "layer <https://peewee.readthedocs.io/en/latest/peewee/quickstart.html#model-"
-"definition>`_ 는는 쟝고 ORM과과 비슷합니다다. `SQL 비스무리한 메소드 "
+"definition>`_ 는 장고 ORM과 비슷합니다. `SQL 비스무리한 메소드 "
 "<https://peewee.readthedocs.io/en/latest/peewee/quickstart.html#retrieving-"
 "data>`_ 로로 데이터를를 쿼리할 수도도 있습니다. SQLite, MySQL, PostgreSQL을 기본 지원하며 `다양한 애드온 "
 "<https://peewee.readthedocs.io/en/latest/peewee/playhouse.html#playhouse>`_ "
@@ -182,7 +182,7 @@ msgid ""
 "Oracle."
 msgstr ""
 "`PonyORM <http://ponyorm.com/>`_ 은 데이터베이스 쿼리를 위한 새로운 접근방식을 취하는 ORM입니다. SQL과 "
-"비슷한 언어나 불리언 표현식을 작성하는 대신, 파이썬의 제너레이터 구문을 사용합니다. PonyORM 엔티티를 생성할 수 있는는 그래픽 "
+"비슷한 언어나 불리언 표현식을 작성하는 대신, 파이썬의 제너레이터 구문을 사용합니다. PonyORM 엔티티를 생성할 수 있는 그래픽 "
 "스키마 편집기도 제공합니다. 파이썬 2.6 이상과 파이썬 3.3 이상을 지원하고 SQLite, MySQL, PostgreSQL, "
 "Oracle에 연결할 수 있습니다."
 

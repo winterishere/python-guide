@@ -76,7 +76,7 @@ msgid ""
 "<http://numpy.scipy.org>`_ set of math routines."
 msgstr ""
 "또한 `Python Package Index <https://pypi.org>`_ 가 있어 사용자가 자신의 패키지를 등록하여 널리 "
-"사용되게 할 수 있습니다. 이는 Perl의 `CPAN <https://www.cpan.org>`_ 과 비슷합니다. `Django "
+"사용되게 할 수 있습니다. 이는 Perl의 `CPAN <https://www.cpan.org>`_ 과 비슷합니다. `장고 "
 "<https://www.djangoproject.com>`_ 웹 프레임워크와 `NumPy <http://numpy.scipy.org>`_"
 " 수학 루틴 모음과 같은 매우 강력한 파이썬 프레임워크와 도구가 번성하는 커뮤니티가 존재합니다."
 
