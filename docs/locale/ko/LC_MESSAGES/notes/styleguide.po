@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-15 08:55+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Last-Translator: YoungSeon Ahn <ys.ahn@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -23,195 +23,216 @@ msgstr ""
 
 #: ../../notes/styleguide.rst:5
 msgid "The Guide Style Guide"
-msgstr ""
+msgstr "안내서 스타일 안내"
 
 #: ../../notes/styleguide.rst:9
 msgid ""
 "As with all documentation, having a consistent format helps make the "
-"document more understandable. In order to make The Guide easier to "
-"digest, all contributions should fit within the rules of this style guide"
-" where appropriate."
+"document more understandable. In order to make The Guide easier to digest, "
+"all contributions should fit within the rules of this style guide where "
+"appropriate."
 msgstr ""
+"모든 문서가 그렇듯, 일관된 포맷을 갖추면 문서를 더 이해하기 쉬워집니다. 이 안내서를 더 잘 소화할 수 있도록, 모든 기여는 적절한 "
+"부분에서 이 스타일 안내의 규칙을 따라야 합니다."
 
 #: ../../notes/styleguide.rst:14
 msgid "The Guide is written as :ref:`restructuredtext-ref`."
-msgstr ""
+msgstr "이 안내서는 :ref:`restructuredtext-ref` 로 작성되어 있습니다."
 
 #: ../../notes/styleguide.rst:16
 msgid ""
-"Parts of The Guide may not yet match this style guide. Feel free to "
-"update those parts to be in sync with The Guide Style Guide"
+"Parts of The Guide may not yet match this style guide. Feel free to update "
+"those parts to be in sync with The Guide Style Guide"
 msgstr ""
+"안내서의 일부는 아직 이 스타일 안내와 일치하지 않을 수 있습니다. 그러한 부분을 안내서 스타일 안내에 맞게 자유롭게 갱신해 주세요."
 
 #: ../../notes/styleguide.rst:19
 msgid ""
-"On any page of the rendered HTML you can click \"Show Source\" to see how"
-" authors have styled the page."
+"On any page of the rendered HTML you can click \"Show Source\" to see how "
+"authors have styled the page."
 msgstr ""
+"렌더링된 HTML의 어떤 페이지에서든 \"Show Source\"를 클릭하면 저자들이 페이지를 어떻게 스타일링했는지 볼 수 있습니다."
 
 #: ../../notes/styleguide.rst:25
 msgid "Relevancy"
-msgstr ""
+msgstr "관련성"
 
 #: ../../notes/styleguide.rst:27
 msgid ""
-"Strive to keep any contributions relevant to the :ref:`purpose of The "
-"Guide <about-ref>`."
-msgstr ""
+"Strive to keep any contributions relevant to the :ref:`purpose of The Guide "
+"<about-ref>`."
+msgstr "모든 기여가 :ref:`안내서의 목적 <about-ref>` 과 관련성을 유지하도록 노력하세요."
 
 #: ../../notes/styleguide.rst:30
 msgid ""
-"Avoid including too much information on subjects that don't directly "
-"relate to Python development."
-msgstr ""
+"Avoid including too much information on subjects that don't directly relate "
+"to Python development."
+msgstr "파이썬 개발과 직접 관련이 없는 주제에 대한 정보를 지나치게 많이 포함하지 마세요."
 
 #: ../../notes/styleguide.rst:32
 msgid ""
-"Prefer to link to other sources if the information is already out there. "
-"Be sure to describe what and why you are linking."
-msgstr ""
+"Prefer to link to other sources if the information is already out there. Be "
+"sure to describe what and why you are linking."
+msgstr "정보가 이미 다른 곳에 있다면 다른 출처로 링크하는 편을 선호하세요. 무엇을, 왜 링크하는지 반드시 설명하세요."
 
 #: ../../notes/styleguide.rst:34
 msgid ""
 "`Cite <https://www.sphinx-"
-"doc.org/en/master/usage/restructuredtext/basics.html#citations>`_ "
-"references where needed."
+"doc.org/en/master/usage/restructuredtext/basics.html#citations>`_ references"
+" where needed."
 msgstr ""
+"필요할 때 참조를 `인용 <https://www.sphinx-"
+"doc.org/en/master/usage/restructuredtext/basics.html#citations>`_ 하세요."
 
 #: ../../notes/styleguide.rst:36
 msgid ""
-"If a subject isn't directly relevant to Python, but useful in conjunction"
-" with Python (e.g., Git, GitHub, Databases), reference by linking to "
-"useful resources, and describe why it's useful to Python."
+"If a subject isn't directly relevant to Python, but useful in conjunction "
+"with Python (e.g., Git, GitHub, Databases), reference by linking to useful "
+"resources, and describe why it's useful to Python."
 msgstr ""
+"주제가 파이썬과 직접 관련은 없지만 파이썬과 함께 쓰일 때 유용한 경우(예: Git, GitHub, 데이터베이스), 유용한 리소스로 "
+"링크하여 참조하고, 그것이 파이썬에 왜 유용한지 설명하세요."
 
 #: ../../notes/styleguide.rst:39
 msgid "When in doubt, ask."
-msgstr ""
+msgstr "확신이 없다면 물어보세요."
 
 #: ../../notes/styleguide.rst:44
 msgid "Headings"
-msgstr ""
+msgstr "헤딩"
 
 #: ../../notes/styleguide.rst:46
 msgid "Use the following styles for headings."
-msgstr ""
+msgstr "헤딩에는 다음 스타일을 사용하세요."
 
 #: ../../notes/styleguide.rst:48
 msgid "Chapter title:"
-msgstr ""
+msgstr "장(chapter) 제목:"
 
 #: ../../notes/styleguide.rst:56
 msgid "Page title:"
-msgstr ""
+msgstr "페이지 제목:"
 
 #: ../../notes/styleguide.rst:64
 msgid "Section headings:"
-msgstr ""
+msgstr "섹션 헤딩:"
 
 #: ../../notes/styleguide.rst:71
 msgid "Sub section headings:"
-msgstr ""
+msgstr "서브 섹션 헤딩:"
 
 #: ../../notes/styleguide.rst:81
 msgid "Prose"
-msgstr ""
+msgstr "산문"
 
 #: ../../notes/styleguide.rst:83
 msgid ""
 "Wrap text lines at 78 characters. Where necessary, lines may exceed 78 "
-"characters, especially if wrapping would make the source text more "
-"difficult to read."
+"characters, especially if wrapping would make the source text more difficult"
+" to read."
 msgstr ""
+"텍스트 줄은 78자에서 줄바꿈하세요. 필요한 경우, 특히 줄바꿈하면 소스 텍스트가 더 읽기 어려워지는 경우에는 78자를 초과할 수도 "
+"있습니다."
 
 #: ../../notes/styleguide.rst:87
 msgid "Use Standard American English, not British English."
-msgstr ""
+msgstr "영국식이 아닌 표준 미국식 영어를 사용하세요."
 
 #: ../../notes/styleguide.rst:89
 msgid ""
 "Use of the `serial comma <https://en.wikipedia.org/wiki/Serial_comma>`_ "
-"(also known as the Oxford comma) is 100% non-optional. Any attempt to "
-"submit content with a missing serial comma will result in permanent "
-"banishment from this project, due to complete and total lack of taste."
+"(also known as the Oxford comma) is 100% non-optional. Any attempt to submit"
+" content with a missing serial comma will result in permanent banishment "
+"from this project, due to complete and total lack of taste."
 msgstr ""
+"`연속 콤마(serial comma) <https://en.wikipedia.org/wiki/Serial_comma>`_ (옥스포드 "
+"콤마라고도 함)의 사용은 100% 필수입니다. 연속 콤마가 누락된 내용을 제출하려는 어떠한 시도라도, 완전하고 전적인 안목 부재를 이유로"
+" 이 프로젝트에서 영구 추방됩니다."
 
 #: ../../notes/styleguide.rst:94
 msgid "Banishment? Is this a joke? Hopefully we will never have to find out."
-msgstr ""
+msgstr "추방이라고요? 농담인가요? 부디 우리가 그것을 확인하게 되는 일은 없기를 바랍니다."
 
 #: ../../notes/styleguide.rst:99
 msgid "Code Examples"
-msgstr ""
+msgstr "코드 예시"
 
 #: ../../notes/styleguide.rst:101
-msgid "Wrap all code examples at 70 characters to avoid horizontal scrollbars."
-msgstr ""
+msgid ""
+"Wrap all code examples at 70 characters to avoid horizontal scrollbars."
+msgstr "수평 스크롤바를 피하기 위해 모든 코드 예시는 70자에서 줄바꿈하세요."
 
 #: ../../notes/styleguide.rst:103
 msgid "Command line examples:"
-msgstr ""
+msgstr "커맨드라인 예시:"
 
 #: ../../notes/styleguide.rst:112
 msgid ""
 "Be sure to include the ``$`` prefix before each line for Unix console "
 "examples."
-msgstr ""
+msgstr "Unix 콘솔 예시의 경우 각 줄 앞에 반드시 ``$`` 접두사를 포함하세요."
 
 #: ../../notes/styleguide.rst:114
 msgid ""
-"For Windows console examples, use ``doscon`` or ``powershell`` instead of"
-" ``console``, and omit the ``$`` prefix."
+"For Windows console examples, use ``doscon`` or ``powershell`` instead of "
+"``console``, and omit the ``$`` prefix."
 msgstr ""
+"Windows 콘솔 예시의 경우, ``console`` 대신 ``doscon`` 이나 ``powershell`` 을 사용하고, ``$``"
+" 접두사는 생략하세요."
 
 #: ../../notes/styleguide.rst:117
 msgid "Python interpreter examples:"
-msgstr ""
+msgstr "파이썬 인터프리터 예시:"
 
 #: ../../notes/styleguide.rst:127
 msgid "Python examples:"
-msgstr ""
+msgstr "파이썬 예시:"
 
 #: ../../notes/styleguide.rst:141
 msgid "Externally Linking"
-msgstr ""
+msgstr "외부 링크"
 
 #: ../../notes/styleguide.rst:143
-msgid "Prefer labels for well known subjects (e.g. proper nouns) when linking:"
-msgstr ""
+msgid ""
+"Prefer labels for well known subjects (e.g. proper nouns) when linking:"
+msgstr "잘 알려진 주제(예: 고유명사)를 링크할 때는 라벨을 선호하세요:"
 
 #: ../../notes/styleguide.rst:151
 msgid ""
-"Prefer to use descriptive labels with inline links instead of leaving "
-"bare links:"
-msgstr ""
+"Prefer to use descriptive labels with inline links instead of leaving bare "
+"links:"
+msgstr "맨 링크(bare link)를 그대로 두는 대신, 인라인 링크와 설명이 들어간 라벨을 함께 사용하는 편을 선호하세요:"
 
 #: ../../notes/styleguide.rst:158
 msgid ""
 "Avoid using labels such as \"click here\", \"this\", etc., preferring "
 "descriptive labels (SEO worthy) instead."
-msgstr ""
+msgstr "\"여기 클릭\", \"이것\" 같은 라벨은 피하고, 설명이 잘 들어간(SEO에 좋은) 라벨을 사용하는 편을 선호하세요."
 
 #: ../../notes/styleguide.rst:164
 msgid "Linking to Sections in The Guide"
-msgstr ""
+msgstr "안내서 내의 섹션 링크하기"
 
 #: ../../notes/styleguide.rst:166
 msgid ""
 "To cross-reference other parts of this documentation, use the `:ref: "
-"<https://www.sphinx-doc.org/en/master/usage/restructuredtext/roles.html"
-"#role-ref>`_ keyword and labels."
+"<https://www.sphinx-"
+"doc.org/en/master/usage/restructuredtext/roles.html#role-ref>`_ keyword and "
+"labels."
 msgstr ""
+"이 문서의 다른 부분을 상호 참조하려면, `:ref: <https://www.sphinx-"
+"doc.org/en/master/usage/restructuredtext/roles.html#role-ref>`_ 키워드와 라벨을 "
+"사용하세요."
 
 #: ../../notes/styleguide.rst:170
 msgid ""
 "To make reference labels more clear and unique, always add a ``-ref`` "
 "suffix:"
-msgstr ""
+msgstr "참조 라벨을 더 명확하고 고유하게 만들기 위해, 항상 ``-ref`` 접미사를 붙이세요:"
 
 #: ../../notes/styleguide.rst:182
 msgid "Notes and Warnings"
-msgstr ""
+msgstr "노트와 경고"
 
 #: ../../notes/styleguide.rst:184
 msgid ""
@@ -219,31 +240,35 @@ msgid ""
 "doc.org/en/master/usage/restructuredtext/basics.html#directives>`_ when "
 "making notes."
 msgstr ""
+"메모를 작성할 때는 적절한 `admonitions 디렉티브 <https://www.sphinx-"
+"doc.org/en/master/usage/restructuredtext/basics.html#directives>`_ 를 활용하세요."
 
 #: ../../notes/styleguide.rst:187
 msgid "Notes:"
-msgstr ""
+msgstr "노트:"
 
 #: ../../notes/styleguide.rst:196
 msgid "Warnings:"
-msgstr ""
+msgstr "경고:"
 
 #: ../../notes/styleguide.rst:205
 msgid "TODOs"
-msgstr ""
+msgstr "할 일(TODO)"
 
 #: ../../notes/styleguide.rst:207
 msgid ""
 "Please mark any incomplete areas of The Guide with a `todo directive "
 "<https://www.sphinx-doc.org/en/master/usage/extensions/todo.html>`_. To "
-"avoid cluttering the :ref:`todo-list-ref`, use a single ``todo`` for stub"
-" documents or large incomplete sections."
+"avoid cluttering the :ref:`todo-list-ref`, use a single ``todo`` for stub "
+"documents or large incomplete sections."
 msgstr ""
+"안내서의 미완성 부분은 `todo 디렉티브 <https://www.sphinx-"
+"doc.org/en/master/usage/extensions/todo.html>`_ 로 표시해 주세요. :ref:`todo-list-"
+"ref` 가 어수선해지는 것을 피하기 위해, 스텁 문서나 큰 미완성 섹션에는 ``todo`` 를 하나만 사용하세요."
 
 #~ msgid ""
-#~ "`Cite "
-#~ "<http://sphinx.pocoo.org/rest.html?highlight=citations#citations>`_"
-#~ " references where needed."
+#~ "`Cite <http://sphinx.pocoo.org/rest.html?highlight=citations#citations>`_ "
+#~ "references where needed."
 #~ msgstr ""
 
 #~ msgid "Be sure to include the ``$`` prefix before each line."
@@ -253,32 +278,24 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid ""
-#~ "Avoid using labels such as \"click "
-#~ "here\", \"this\", etc. preferring descriptive"
-#~ " labels (SEO worthy) instead."
+#~ "Avoid using labels such as \"click here\", \"this\", etc. preferring "
+#~ "descriptive labels (SEO worthy) instead."
 #~ msgstr ""
 
 #~ msgid ""
-#~ "To cross-reference other parts of "
-#~ "this documentation, use the `:ref: "
-#~ "<http://sphinx.pocoo.org/markup/inline.html#cross-"
-#~ "referencing-arbitrary-locations>`_ keyword and"
-#~ " labels."
+#~ "To cross-reference other parts of this documentation, use the `:ref: "
+#~ "<http://sphinx.pocoo.org/markup/inline.html#cross-referencing-arbitrary-"
+#~ "locations>`_ keyword and labels."
 #~ msgstr ""
 
 #~ msgid ""
-#~ "Make use of the appropriate `admonitions"
-#~ " directives <http://sphinx.pocoo.org/rest.html#directives>`_"
-#~ " when making notes."
+#~ "Make use of the appropriate `admonitions directives "
+#~ "<http://sphinx.pocoo.org/rest.html#directives>`_ when making notes."
 #~ msgstr ""
 
 #~ msgid ""
-#~ "Please mark any incomplete areas of "
-#~ "The Guide with a `todo directive "
-#~ "<http://sphinx.pocoo.org/ext/todo.html?highlight=todo#directive-"
-#~ "todo>`_. To avoid cluttering the :ref"
-#~ ":`todo-list-ref`, use a single "
-#~ "``todo`` for stub documents or large "
-#~ "incomplete sections."
+#~ "Please mark any incomplete areas of The Guide with a `todo directive "
+#~ "<http://sphinx.pocoo.org/ext/todo.html?highlight=todo#directive-todo>`_. To "
+#~ "avoid cluttering the :ref:`todo-list-ref`, use a single ``todo`` for stub "
+#~ "documents or large incomplete sections."
 #~ msgstr ""
-
