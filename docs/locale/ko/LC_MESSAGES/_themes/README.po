@@ -1,11 +1,11 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: pythonguide 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-11-30 22:28\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Last-Translator: YoungSeon Ahn <ys.ahn@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -13,7 +13,7 @@ msgstr ""
 
 #: ../../_themes/README.rst:2
 msgid "krTheme Sphinx Style"
-msgstr ""
+msgstr "krTheme Sphinx Style"
 
 #: ../../_themes/README.rst:4
 msgid ""
@@ -22,34 +22,39 @@ msgid ""
 "related projects.  To use this style in your Sphinx documentation, follow "
 "this guide:"
 msgstr ""
+"이 저장소에는 Kenneth Reitz가 자신의 프로젝트 대부분에서 사용하는 sphinx 스타일이 들어 있습니다. Mitsuhiko가 "
+"Flask와 Flask 관련 프로젝트를 위해 만든 테마에서 파생된 것입니다. 여러분의 Sphinx 문서에서 이 스타일을 사용하려면 다음 "
+"안내를 따르세요:"
 
 #: ../../_themes/README.rst:9
 msgid ""
 "put this folder as _themes into your docs folder.  Alternatively you can "
 "also use git submodules to check out the contents there."
 msgstr ""
+"이 폴더를 _themes 라는 이름으로 여러분의 docs 폴더 안에 넣으세요. 또는 git 서브모듈을 사용하여 내용을 그곳에 체크아웃할 "
+"수도 있습니다."
 
 #: ../../_themes/README.rst:12
 msgid "add this to your :file:`conf.py`: ::"
-msgstr ""
+msgstr "여러분의 :file:`conf.py` 에 다음을 추가하세요: ::"
 
 #: ../../_themes/README.rst:18
 msgid "The following themes exist:"
-msgstr ""
+msgstr "다음과 같은 테마가 있습니다:"
 
 #: ../../_themes/README.rst:21
 msgid "the standard flask documentation theme for large projects"
-msgstr ""
+msgstr "대규모 프로젝트를 위한 표준 flask 문서 테마"
 
 #: ../../_themes/README.rst:24
 msgid ""
 "small one-page theme.  Intended to be used by very small addon libraries."
-msgstr ""
+msgstr "작은 단일 페이지 테마. 아주 작은 애드온 라이브러리에서 사용하기 위해 만들어졌습니다."
 
 #: ../../_themes/README.rst:21
 msgid "**kr**"
-msgstr ""
+msgstr "**kr**"
 
 #: ../../_themes/README.rst:24
 msgid "**kr_small**"
-msgstr ""
+msgstr "**kr_small**"
