@@ -273,7 +273,7 @@ msgstr "`py.test <https://docs.pytest.org/en/latest/>`_"
 
 #: ../../writing/tests.rst:202
 msgid "Hypothesis"
-msgstr ""
+msgstr "Hypothesis"
 
 #: ../../writing/tests.rst:204
 msgid ""
@@ -281,12 +281,16 @@ msgid ""
 " a source of examples.  It then generates simple and comprehensible examples"
 " that make your tests fail, letting you find more bugs with less work."
 msgstr ""
+"Hypothesis는 예시 소스로 파라미터화된 테스트를 작성할 수 있게 해주는 라이브러리입니다. 그러고 나서 테스트를 실패하게 하는 "
+"단순하고 이해하기 쉬운 예시를 생성해서, 적은 노력으로 더 많은 버그를 찾을 수 있도록 도와줍니다."
 
 #: ../../writing/tests.rst:212
 msgid ""
 "For example, testing lists of floats will try many examples, but report the "
 "minimal example of each bug (distinguished exception type and location):"
 msgstr ""
+"예를 들어 실수(float)의 리스트를 테스트한다면 수많은 예시를 시도하면서도, 각 버그에 대해서는 최소한의 예시만(예외 타입과 위치로 "
+"구별하여) 보고합니다:"
 
 #: ../../writing/tests.rst:228
 msgid ""
@@ -294,6 +298,8 @@ msgid ""
 "that escaped all other forms of testing.  It integrates well with py.test, "
 "and has a strong focus on usability in both simple and advanced scenarios."
 msgstr ""
+"Hypothesis는 매우 강력하면서도 실용적이며, 다른 모든 형태의 테스트가 놓친 버그를 자주 찾아냅니다. py.test와 잘 "
+"통합되며, 단순한 시나리오와 고급 시나리오 모두에서 사용성에 큰 비중을 두고 있습니다."
 
 #: ../../writing/tests.rst:232
 msgid "`hypothesis <https://hypothesis.readthedocs.io/en/latest/>`_"
