@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-05-21 08:26+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: YoungSeon.Ahn <lovemewithoutall@gmail.com>\n"
+"Last-Translator: YoungSeon Ahn <ys.ahn@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -682,17 +682,17 @@ msgstr "그런 다음 파일 하나 혹은 여러 개의 파일에다 돌리면 
 
 #: ../../writing/style.rst:497
 msgid "Auto-Formatting"
-msgstr ""
+msgstr "자동 포매팅"
 
 #: ../../writing/style.rst:499
 msgid ""
 "There are several auto-formatting tools that can reformat your code, in "
 "order to comply with PEP 8."
-msgstr ""
+msgstr "PEP 8을 준수하도록 코드를 재포맷해주는 자동 포매팅 도구가 여러 가지 있습니다."
 
 #: ../../writing/style.rst:502
 msgid "**autopep8**"
-msgstr ""
+msgstr "**autopep8**"
 
 #: ../../writing/style.rst:504
 msgid ""
@@ -728,16 +728,21 @@ msgid ""
 "looking code as a programmer who writes PEP 8 compliant code. It gets "
 "installed with:"
 msgstr ""
+"autopep8가 PEP 8 위반을 해결하는 데 초점을 맞추는 반면, `yapf "
+"<https://github.com/google/yapf>`_ 는 PEP 8 준수 외에도 코드의 포맷을 개선하려 합니다. 이 포매터는 "
+"PEP 8을 잘 따르는 프로그래머가 작성한 것만큼 보기 좋은 코드를 제공하는 것을 목표로 합니다. 다음과 같이 설치합니다:"
 
 #: ../../writing/style.rst:533
 msgid "Run the auto-formatting of a file with:"
-msgstr ""
+msgstr "다음 명령어로 파일의 자동 포매팅을 실행합니다:"
 
 #: ../../writing/style.rst:539
 msgid ""
 "Similar to autopep8, running the command without the ``--in-place`` flag "
 "will output the diff for review before applying the changes."
 msgstr ""
+"autopep8과 마찬가지로, ``--in-place`` 플래그 없이 명령어를 실행하면 변경 사항을 적용하기 전에 검토할 수 있도록 "
+"diff를 출력합니다."
 
 #: ../../writing/style.rst:542
 msgid "**black**"
@@ -753,16 +758,20 @@ msgid ""
 "diffs with only the relevant changes are guaranteed. You can install the "
 "tool as follows:"
 msgstr ""
+"자동 포매터 `black <https://github.com/psf/black>`_ 은 코드베이스에 대해 독단적이고 결정론적인 재포맷을 "
+"제공합니다. 사용자 전체에 걸쳐 설정 없이도 일관된 코드 스타일을 제공하는 것이 주된 초점입니다. 따라서 black 사용자는 포매팅에 "
+"대해 신경을 끄고 잊어버릴 수 있습니다. 또한 결정론적 접근 방식 덕분에, 관련된 변경 사항만 담긴 최소한의 git diff가 "
+"보장됩니다. 다음과 같이 설치할 수 있습니다:"
 
 #: ../../writing/style.rst:556
 msgid "A python file can be formatted with:"
-msgstr ""
+msgstr "파이썬 파일을 다음과 같이 포맷할 수 있습니다:"
 
 #: ../../writing/style.rst:562
 msgid ""
 "Adding the ``--diff`` flag provides the code modification for review without"
 " direct application."
-msgstr ""
+msgstr "``--diff`` 플래그를 추가하면 코드를 직접 적용하지 않고 검토용으로 변경 사항을 제공합니다."
 
 #: ../../writing/style.rst:567
 msgid "Conventions"
@@ -794,7 +803,7 @@ msgstr ""
 #: ../../writing/style.rst:707 ../../writing/style.rst:752
 #: ../../writing/style.rst:798 ../../writing/style.rst:833
 msgid "**Bad**:"
-msgstr ""
+msgstr "**나쁜 예**:"
 
 #: ../../writing/style.rst:589 ../../writing/style.rst:621
 #: ../../writing/style.rst:656 ../../writing/style.rst:670
@@ -802,7 +811,7 @@ msgstr ""
 #: ../../writing/style.rst:765 ../../writing/style.rst:807
 #: ../../writing/style.rst:844
 msgid "**Good**:"
-msgstr ""
+msgstr "**좋은 예**:"
 
 #: ../../writing/style.rst:606
 msgid "Access a Dictionary Element"
@@ -837,18 +846,23 @@ msgid ""
 "follows almost the same syntax as list comprehensions but return a generator"
 " instead of a list."
 msgstr ""
+"`제너레이터 표현식(generator expression) "
+"<http://docs.python.org/tutorial/classes.html#generator-expressions>`_ 은 리스트"
+" 컴프리헨션과 거의 동일한 문법을 따르지만 리스트 대신 제너레이터를 반환합니다."
 
 #: ../../writing/style.rst:646
 msgid ""
 "Creating a new list requires more work and uses more memory. If you are just"
 " going to loop through the new list, prefer using an iterator instead."
 msgstr ""
+"새 리스트를 만드는 데에는 더 많은 작업이 필요하고 메모리도 더 많이 사용합니다. 새 리스트를 단지 순회하기만 할 거라면, 그 대신 "
+"이터레이터를 사용하는 편이 좋습니다."
 
 #: ../../writing/style.rst:663
 msgid ""
 "Use list comprehensions when you really need to create a second list, for "
 "example if you need to use the result multiple times."
-msgstr ""
+msgstr "정말로 두 번째 리스트를 만들 필요가 있을 때, 예를 들어 결과를 여러 번 사용해야 할 때 리스트 컴프리헨션을 사용하세요."
 
 #: ../../writing/style.rst:667
 msgid ""
@@ -856,10 +870,12 @@ msgid ""
 " expression, consider using a generator function instead of returning a "
 "list."
 msgstr ""
+"로직이 짧은 리스트 컴프리헨션이나 제너레이터 표현식으로 표현하기에 너무 복잡하다면, 리스트를 반환하는 대신 제너레이터 함수를 사용하는 "
+"것을 고려하세요."
 
 #: ../../writing/style.rst:688
 msgid "Never use a list comprehension just for its side effects."
-msgstr ""
+msgstr "부수 효과만을 위해서 리스트 컴프리헨션을 사용하지 마세요."
 
 #: ../../writing/style.rst:705
 msgid "Filtering a list"
@@ -867,19 +883,19 @@ msgstr "리스트 필터링하기"
 
 #: ../../writing/style.rst:709
 msgid "Never remove items from a list while you are iterating through it."
-msgstr ""
+msgstr "리스트를 순회하는 도중에 그 리스트의 항목을 제거하지 마세요."
 
 #: ../../writing/style.rst:719
 msgid "Don't make multiple passes through the list."
-msgstr ""
+msgstr "리스트를 여러 번 순회하지 마세요."
 
 #: ../../writing/style.rst:728
 msgid "Use a list comprehension or generator expression."
-msgstr ""
+msgstr "리스트 컴프리헨션이나 제너레이터 표현식을 사용하세요."
 
 #: ../../writing/style.rst:740
 msgid "Possible side effects of modifying the original list"
-msgstr ""
+msgstr "원본 리스트를 수정할 때 발생할 수 있는 부수 효과"
 
 #: ../../writing/style.rst:742
 msgid ""
@@ -887,20 +903,24 @@ msgid ""
 "referencing it. But you can use *slice assignment* if you really want to do "
 "that."
 msgstr ""
+"다른 변수가 같은 리스트를 참조하고 있다면 원본 리스트를 수정하는 일은 위험할 수 있습니다. 정말로 그렇게 하고 싶다면 *슬라이스 "
+"할당(slice assignment)* 을 사용할 수 있습니다."
 
 #: ../../writing/style.rst:751
 msgid "Modifying the values in a list"
-msgstr ""
+msgstr "리스트의 값 수정하기"
 
 #: ../../writing/style.rst:754
 msgid ""
 "Remember that assignment never creates a new object. If two or more "
 "variables refer to the same list, changing one of them changes them all."
 msgstr ""
+"할당은 결코 새 객체를 만들지 않는다는 점을 기억하세요. 두 개 이상의 변수가 같은 리스트를 참조한다면, 그 중 하나를 바꾸면 모두가 "
+"바뀝니다."
 
 #: ../../writing/style.rst:767
 msgid "It's safer to create a new list object and leave the original alone."
-msgstr ""
+msgstr "새 리스트 객체를 만들고 원본은 건드리지 않는 편이 더 안전합니다."
 
 #: ../../writing/style.rst:777
 msgid "Use :py:func:`enumerate` keep a count of your place in the list."
