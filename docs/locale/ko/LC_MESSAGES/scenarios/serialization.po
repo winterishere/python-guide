@@ -15,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-15 08:55+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Last-Translator: YoungSeon Ahn <ys.ahn@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -24,156 +24,171 @@ msgstr ""
 
 #: ../../scenarios/serialization.rst:4
 msgid "Data Serialization"
-msgstr ""
+msgstr "데이터 직렬화"
 
 #: ../../scenarios/serialization.rst:11
 msgid "What is data serialization?"
-msgstr ""
+msgstr "데이터 직렬화란?"
 
 #: ../../scenarios/serialization.rst:13
 msgid ""
-"Data serialization is the process of converting structured data to a "
-"format that allows sharing or storage of the data in a form that allows "
-"recovery of its original structure. In some cases, the secondary "
-"intention of data serialization is to minimize the data's size which then"
-" reduces disk space or bandwidth requirements."
+"Data serialization is the process of converting structured data to a format "
+"that allows sharing or storage of the data in a form that allows recovery of"
+" its original structure. In some cases, the secondary intention of data "
+"serialization is to minimize the data's size which then reduces disk space "
+"or bandwidth requirements."
 msgstr ""
+"데이터 직렬화는 구조화된 데이터를 원래 구조를 복원할 수 있는 형태로 공유하거나 저장할 수 있게 해주는 포맷으로 변환하는 과정입니다. "
+"경우에 따라 데이터 직렬화의 부차적인 목적은 데이터 크기를 최소화하여 디스크 공간이나 대역폭 요구를 줄이는 것입니다."
 
 #: ../../scenarios/serialization.rst:21
 msgid "Flat vs. Nested data"
-msgstr ""
+msgstr "평면(Flat) 데이터 vs. 중첩(Nested) 데이터"
 
 #: ../../scenarios/serialization.rst:23
 msgid ""
-"Before beginning to serialize data, it is important to identify or decide"
-" how the data should be structured during data serialization - flat or "
-"nested. The differences in the two styles are shown in the below "
-"examples."
+"Before beginning to serialize data, it is important to identify or decide "
+"how the data should be structured during data serialization - flat or "
+"nested. The differences in the two styles are shown in the below examples."
 msgstr ""
+"데이터를 직렬화하기 전에, 직렬화 과정에서 데이터를 어떻게 구조화할지 — 평면으로 할지 중첩으로 할지 — 를 파악하거나 결정하는 것이 "
+"중요합니다. 두 스타일의 차이는 아래 예시에서 볼 수 있습니다."
 
 #: ../../scenarios/serialization.rst:27
 msgid "Flat style:"
-msgstr ""
+msgstr "평면(Flat) 스타일:"
 
 #: ../../scenarios/serialization.rst:34
 msgid "Nested style:"
-msgstr ""
+msgstr "중첩(Nested) 스타일:"
 
 #: ../../scenarios/serialization.rst:42
 msgid ""
 "For more reading on the two styles, please see the discussion on `Python "
 "mailing list <https://mail.python.org/pipermail/python-"
 "list/2010-October/590762.html>`__, `IETF mailing list "
-"<https://www.ietf.org/mail-archive/web/json/current/msg03739.html>`__ and"
-" `in stackexchange "
+"<https://www.ietf.org/mail-archive/web/json/current/msg03739.html>`__ and "
+"`in stackexchange "
 "<https://softwareengineering.stackexchange.com/questions/350623/flat-or-"
 "nested-json-for-hierarchal-data>`__."
 msgstr ""
+"두 스타일에 대한 더 자세한 내용은 `Python 메일링 리스트 "
+"<https://mail.python.org/pipermail/python-list/2010-October/590762.html>`__,"
+" `IETF 메일링 리스트 <https://www.ietf.org/mail-"
+"archive/web/json/current/msg03739.html>`__, `Stack Exchange "
+"<https://softwareengineering.stackexchange.com/questions/350623/flat-or-"
+"nested-json-for-hierarchal-data>`__ 의 논의를 참고하세요."
 
 #: ../../scenarios/serialization.rst:49
 msgid "Serializing Text"
-msgstr ""
+msgstr "텍스트 직렬화"
 
 #: ../../scenarios/serialization.rst:53
 msgid "Simple file (flat data)"
-msgstr ""
+msgstr "단순한 파일(평면 데이터)"
 
 #: ../../scenarios/serialization.rst:55
 msgid ""
-"If the data to be serialized is located in a file and contains flat data,"
-" Python offers two methods to serialize data."
-msgstr ""
+"If the data to be serialized is located in a file and contains flat data, "
+"Python offers two methods to serialize data."
+msgstr "직렬화할 데이터가 파일에 있고 평면 데이터로 구성되어 있다면, 파이썬은 데이터를 직렬화하는 두 가지 방법을 제공합니다."
 
 #: ../../scenarios/serialization.rst:58
 msgid "repr"
-msgstr ""
+msgstr "repr"
 
 #: ../../scenarios/serialization.rst:60
 msgid ""
 "The repr method in Python takes a single object parameter and returns a "
 "printable representation of the input:"
-msgstr ""
+msgstr "파이썬의 repr 메소드는 객체 하나를 파라미터로 받아 입력을 출력 가능한 표현으로 반환합니다:"
 
 #: ../../scenarios/serialization.rst:79
 msgid "ast.literal_eval"
-msgstr ""
+msgstr "ast.literal_eval"
 
 #: ../../scenarios/serialization.rst:81
 msgid ""
 "The literal_eval method safely parses and evaluates an expression for a "
-"Python datatype. Supported data types are: strings, numbers, tuples, "
-"lists, dicts, booleans, and None."
+"Python datatype. Supported data types are: strings, numbers, tuples, lists, "
+"dicts, booleans, and None."
 msgstr ""
+"literal_eval 메소드는 파이썬 데이터 타입에 대한 표현식을 안전하게 파싱하고 평가합니다. 지원하는 데이터 타입은 문자열, 숫자,"
+" 튜플, 리스트, 딕셔너리, 불린, None입니다."
 
 #: ../../scenarios/serialization.rst:90
 msgid "CSV file (flat data)"
-msgstr ""
+msgstr "CSV 파일(평면 데이터)"
 
 #: ../../scenarios/serialization.rst:92
 msgid ""
-"The CSV module in Python implements classes to read and write tabular "
-"data in CSV format."
-msgstr ""
+"The CSV module in Python implements classes to read and write tabular data "
+"in CSV format."
+msgstr "파이썬의 CSV 모듈은 CSV 포맷의 테이블 데이터를 읽고 쓰는 클래스를 구현합니다."
 
 #: ../../scenarios/serialization.rst:95
 msgid "Simple example for reading:"
-msgstr ""
+msgstr "읽기 간단 예시:"
 
 #: ../../scenarios/serialization.rst:106
 msgid "Simple example for writing:"
-msgstr ""
+msgstr "쓰기 간단 예시:"
 
 #: ../../scenarios/serialization.rst:117
 msgid ""
-"The module's contents, functions, and examples can be found `in the "
-"Python documentation <https://docs.python.org/3/library/csv.html>`__."
+"The module's contents, functions, and examples can be found `in the Python "
+"documentation <https://docs.python.org/3/library/csv.html>`__."
 msgstr ""
+"모듈의 내용, 함수, 예시는 `파이썬 문서 <https://docs.python.org/3/library/csv.html>`__ 에서 볼"
+" 수 있습니다."
 
 #: ../../scenarios/serialization.rst:122
 msgid "YAML (nested data)"
-msgstr ""
+msgstr "YAML(중첩 데이터)"
 
 #: ../../scenarios/serialization.rst:124
 msgid ""
 "There are many third party modules to parse and read/write YAML file "
 "structures in Python. One such example is below."
-msgstr ""
+msgstr "파이썬에서 YAML 파일 구조를 파싱하고 읽고 쓰는 서드파티 모듈이 많이 있습니다. 그 예시 중 하나가 아래에 있습니다."
 
 #: ../../scenarios/serialization.rst:137
 msgid ""
 "Documentation on the third party module can be found `in the PyYAML "
 "Documentation <https://pyyaml.org/wiki/PyYAMLDocumentation>`__."
 msgstr ""
+"서드파티 모듈에 대한 문서는 `PyYAML 문서 <https://pyyaml.org/wiki/PyYAMLDocumentation>`__ "
+"에서 볼 수 있습니다."
 
 #: ../../scenarios/serialization.rst:142
 msgid "JSON file (nested data)"
-msgstr ""
+msgstr "JSON 파일(중첩 데이터)"
 
 #: ../../scenarios/serialization.rst:144
 msgid ""
-"Python's JSON module can be used to read and write JSON files. Example "
-"code is below."
-msgstr ""
+"Python's JSON module can be used to read and write JSON files. Example code "
+"is below."
+msgstr "파이썬의 JSON 모듈로 JSON 파일을 읽고 쓸 수 있습니다. 예시 코드는 아래와 같습니다."
 
 #: ../../scenarios/serialization.rst:147
 msgid "Reading:"
-msgstr ""
+msgstr "읽기:"
 
 #: ../../scenarios/serialization.rst:156
 msgid "Writing:"
-msgstr ""
+msgstr "쓰기:"
 
 #: ../../scenarios/serialization.rst:167
 msgid "XML (nested data)"
-msgstr ""
+msgstr "XML(중첩 데이터)"
 
 #: ../../scenarios/serialization.rst:169
 msgid "XML parsing in Python is possible using the `xml` package."
-msgstr ""
+msgstr "파이썬에서의 XML 파싱은 `xml` 패키지를 사용하여 가능합니다."
 
 #: ../../scenarios/serialization.rst:171 ../../scenarios/serialization.rst:194
 msgid "Example:"
-msgstr ""
+msgstr "예시:"
 
 #: ../../scenarios/serialization.rst:180
 msgid ""
@@ -181,59 +196,59 @@ msgid ""
 "found `in the Python XML library documentation "
 "<https://docs.python.org/3/library/xml.html>`__."
 msgstr ""
+"`xml.dom` 과 `xml.sax` 패키지 사용에 대한 더 자세한 문서는 `파이썬 XML 라이브러리 문서 "
+"<https://docs.python.org/3/library/xml.html>`__ 에서 볼 수 있습니다."
 
 #: ../../scenarios/serialization.rst:186
 msgid "Binary"
-msgstr ""
+msgstr "바이너리"
 
 #: ../../scenarios/serialization.rst:190
 msgid "NumPy Array (flat data)"
-msgstr ""
+msgstr "NumPy 배열(평면 데이터)"
 
 #: ../../scenarios/serialization.rst:192
 msgid ""
-"Python's NumPy array can be used to serialize and deserialize data to and"
-" from byte representation."
-msgstr ""
+"Python's NumPy array can be used to serialize and deserialize data to and "
+"from byte representation."
+msgstr "파이썬의 NumPy 배열은 데이터를 바이트 표현으로 직렬화하거나 바이트 표현으로부터 역직렬화하는 데 사용할 수 있습니다."
 
 #: ../../scenarios/serialization.rst:210
 msgid "Pickle (nested data)"
-msgstr ""
+msgstr "Pickle(중첩 데이터)"
 
 #: ../../scenarios/serialization.rst:212
 msgid ""
 "The native data serialization module for Python is called `Pickle "
 "<https://docs.python.org/2/library/pickle.html>`_."
 msgstr ""
+"파이썬의 기본 데이터 직렬화 모듈은 `Pickle "
+"<https://docs.python.org/2/library/pickle.html>`_ 이라고 합니다."
 
 #: ../../scenarios/serialization.rst:215
 msgid "Here's an example:"
-msgstr ""
+msgstr "예시는 다음과 같습니다:"
 
 #: ../../scenarios/serialization.rst:233
 msgid "Protobuf"
-msgstr ""
+msgstr "Protobuf"
 
 #: ../../scenarios/serialization.rst:235
 msgid ""
-"If you're looking for a serialization module that has support in multiple"
-" languages, Google's `Protobuf <https://developers.google.com/protocol-"
+"If you're looking for a serialization module that has support in multiple "
+"languages, Google's `Protobuf <https://developers.google.com/protocol-"
 "buffers>`_ library is an option."
 msgstr ""
+"여러 언어에서 지원되는 직렬화 모듈을 찾고 있다면, Google의 `Protobuf "
+"<https://developers.google.com/protocol-buffers>`_ 라이브러리가 한 선택지입니다."
 
 #~ msgid ""
-#~ "Data serialization is the concept of "
-#~ "converting structured data into a format"
-#~ " that allows it to be shared or"
-#~ " stored in such a way that its"
-#~ " original structure to be recovered. "
-#~ "In some cases, the secondary intention"
-#~ " of data serialization is to minimize"
-#~ " the size of the serialized data "
-#~ "which then minimizes disk space or "
-#~ "bandwidth requirements."
+#~ "Data serialization is the concept of converting structured data into a "
+#~ "format that allows it to be shared or stored in such a way that its original"
+#~ " structure to be recovered. In some cases, the secondary intention of data "
+#~ "serialization is to minimize the size of the serialized data which then "
+#~ "minimizes disk space or bandwidth requirements."
 #~ msgstr ""
 
 #~ msgid "Pickle"
 #~ msgstr ""
-
