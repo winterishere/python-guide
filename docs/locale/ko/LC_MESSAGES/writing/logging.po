@@ -41,6 +41,8 @@ msgid ""
 "approach for logging, nearly as simple as using a simple ``print`` "
 "statement."
 msgstr ""
+"대안으로, `loguru <https://github.com/Delgan/loguru>`_ 는 단순한 ``print`` 구문을 사용하는 "
+"것만큼이나 간단한 로깅 방법을 제공합니다."
 
 #: ../../writing/logging.rst:15
 msgid "Logging serves two purposes:"
