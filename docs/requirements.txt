@@ -1,0 +1,4 @@
+sphinx>=7,<10
+sphinx-intl
+sphinx-rtd-theme
+sphinx-sitemap
