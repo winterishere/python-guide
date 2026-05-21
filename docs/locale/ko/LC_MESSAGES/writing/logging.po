@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-15 08:55+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: AHN YOUNG SEON <ys.ahn@outlook.com>\n"
+"Last-Translator: YoungSeon Ahn <ys.ahn@outlook.com>\n"
 "Language-Team: KOREAN <https://github.com/winterishere/python-guide>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -27,21 +27,22 @@ msgstr "로그"
 
 #: ../../writing/logging.rst:9
 msgid ""
-"The :mod:`logging` module has been a part of Python's Standard Library "
-"since version 2.3.  It is succinctly described in :pep:`282`.  The "
-"documentation is notoriously hard to read, except for the `basic logging "
-"tutorial`_."
+"The :mod:`logging` module has been a part of Python's Standard Library since"
+" version 2.3.  It is succinctly described in :pep:`282`.  The documentation "
+"is notoriously hard to read, except for the `basic logging tutorial`_."
 msgstr ""
-":mod:`logging` 모듈은 2.3 버전 이래로 파이썬의 표준 라이브러리였습니다. 이에 관해서는 :pep:`282` 을 보시면"
-" 간략히 써져 있습니다. 그 문서는 읽기 어렵기로 악명이 높지만, 그래도  `basic logging tutorial`_ 은 그나마"
-" 낫습니다. "
+":mod:`logging` 모듈은 2.3 버전 이래로 파이썬의 표준 라이브러리였습니다. 이에 관해서는 :pep:`282` 을 보시면 "
+"간략히 써져 있습니다. 그 문서는 읽기 어렵기로 악명이 높지만, 그래도  `basic logging tutorial`_ 은 그나마 "
+"낫습니다. "
 
 #: ../../writing/logging.rst:13
 msgid ""
-"As an alternative, `loguru <https://github.com/Delgan/loguru>`_ provides "
-"an approach for logging, nearly as simple as using a simple ``print`` "
+"As an alternative, `loguru <https://github.com/Delgan/loguru>`_ provides an "
+"approach for logging, nearly as simple as using a simple ``print`` "
 "statement."
 msgstr ""
+"대안으로, `loguru <https://github.com/Delgan/loguru>`_ 는 단순한 ``print`` 구문을 사용하는 "
+"것만큼이나 간단한 로깅 방법을 제공합니다."
 
 #: ../../writing/logging.rst:15
 msgid "Logging serves two purposes:"
@@ -50,11 +51,11 @@ msgstr "로그를 남기는데에는 2가지 목적이 있습니다: "
 #: ../../writing/logging.rst:17
 msgid ""
 "**Diagnostic logging** records events related to the application's "
-"operation. If a user calls in to report an error, for example, the logs "
-"can be searched for context."
+"operation. If a user calls in to report an error, for example, the logs can "
+"be searched for context."
 msgstr ""
-"**진단용 로그** 는 어플리케이션의 동작과 관련된 이벤트를 기록합니다. 예를 들어 사용자가 오류 보고서를 남기면, 그 로그를 해당"
-" 에러와 관련된 상황을 확인하는데 쓸 수 있습니다. "
+"**진단용 로그** 는 어플리케이션의 동작과 관련된 이벤트를 기록합니다. 예를 들어 사용자가 오류 보고서를 남기면, 그 로그를 해당 "
+"에러와 관련된 상황을 확인하는데 쓸 수 있습니다. "
 
 #: ../../writing/logging.rst:20
 msgid ""
@@ -62,8 +63,8 @@ msgid ""
 "transactions can be extracted and combined with other user details for "
 "reports or to optimize a business goal."
 msgstr ""
-"**감사용 로그** 는 비지니스 분석에 필요한 이벤트를 기록합니다. 사용자가 무슨 동작을 했는지 알아낼 수 있으며, 다른 사용자와는"
-" 무슨 동작을 했는지도 상세하게 알 수 있습니다. 이를 통해 보고서를 작성하거나 업무적으로 최적화를 할 수 있습니다. "
+"**감사용 로그** 는 비지니스 분석에 필요한 이벤트를 기록합니다. 사용자가 무슨 동작을 했는지 알아낼 수 있으며, 다른 사용자와는 무슨"
+" 동작을 했는지도 상세하게 알 수 있습니다. 이를 통해 보고서를 작성하거나 업무적으로 최적화를 할 수 있습니다. "
 
 #: ../../writing/logging.rst:27
 msgid "... or Print?"
@@ -72,8 +73,8 @@ msgstr "... Print는?"
 #: ../../writing/logging.rst:29
 msgid ""
 "The only time that ``print`` is a better option than logging is when the "
-"goal is to display a help statement for a command line application. Other"
-" reasons why logging is better than ``print``:"
+"goal is to display a help statement for a command line application. Other "
+"reasons why logging is better than ``print``:"
 msgstr ""
 "``print`` 가 logging보다 좋은 경우는 커맨드라인 어플리케이션에서 help 구문을 화면에 보여줄 때 뿐입니다. "
 "logging이 ``print`` 보다 좋은 이유입니다: "
@@ -81,17 +82,16 @@ msgstr ""
 #: ../../writing/logging.rst:33
 msgid ""
 "The `log record`_, which is created with every logging event, contains "
-"readily available diagnostic information such as the file name, full "
-"path, function, and line number of the logging event."
+"readily available diagnostic information such as the file name, full path, "
+"function, and line number of the logging event."
 msgstr ""
-"`log record`_ 는 로그 남기는 이벤트가 발생할 때마다 만들어지는데, 여기에는 로그 남기는 이벤트의 파일명과 경로, 함수,"
-" 몇 행에서 문제가 발생했는지 등의 정보가 들어있어 문제를 확인하기에 편리합니다. "
+"`log record`_ 는 로그 남기는 이벤트가 발생할 때마다 만들어지는데, 여기에는 로그 남기는 이벤트의 파일명과 경로, 함수, 몇 "
+"행에서 문제가 발생했는지 등의 정보가 들어있어 문제를 확인하기에 편리합니다. "
 
 #: ../../writing/logging.rst:36
 msgid ""
-"Events logged in included modules are automatically accessible via the "
-"root logger to your application's logging stream, unless you filter them "
-"out."
+"Events logged in included modules are automatically accessible via the root "
+"logger to your application's logging stream, unless you filter them out."
 msgstr ""
 "내장된 모듈에서 발생한 이벤트들도 로그가 남는데, 이 로그들은 루트 로그 기록기를 통하여 어플리케이션의 로그 스트림으로 보낼 수 "
 "있습니다. 필터링해서 걸러내지만 않는다면 말입니다. "
@@ -115,11 +115,10 @@ msgid ""
 "tutorial`_.  Because the *user*, not the library, should dictate what "
 "happens when a logging event occurs, one admonition bears repeating:"
 msgstr ""
-"`라이브러리에 로그 설정`_ 하려면 `로그 남기기 튜토리얼`_ 을 보시면 됩니다. 로그를 남기는 이벤트가 발생하면 그게 무슨 일인지"
-" 알아내야 하는 건 라이브러리가 아니라 *사용자* 입니다. 따라서 반복적으로 경보를 보내야합니다. "
+"`라이브러리에 로그 설정`_ 하려면 `로그 남기기 튜토리얼`_ 을 보시면 됩니다. 로그를 남기는 이벤트가 발생하면 그게 무슨 일인지 "
+"알아내야 하는 건 라이브러리가 아니라 *사용자* 입니다. 따라서 반복적으로 경보를 보내야합니다. "
 
 #: ../../writing/logging.rst:53
-#, fuzzy
 msgid ""
 "It is strongly advised that you do not add any handlers other than "
 "NullHandler to your library’s loggers."
@@ -127,41 +126,37 @@ msgstr "당신의 라이브러리에 NullHandler 이외의 다른 로그 남기�
 
 #: ../../writing/logging.rst:57
 msgid ""
-"Best practice when instantiating loggers in a library is to only create "
-"them using the ``__name__`` global variable: the :mod:`logging` module "
-"creates a hierarchy of loggers using dot notation, so using ``__name__`` "
-"ensures no name collisions."
+"Best practice when instantiating loggers in a library is to only create them"
+" using the ``__name__`` global variable: the :mod:`logging` module creates a"
+" hierarchy of loggers using dot notation, so using ``__name__`` ensures no "
+"name collisions."
 msgstr ""
 "라이브러리에서 로그 기록기를 인스턴스화 하는 유일한 방법은 ``__name__`` 전역 변수를 사용해서 만드는 방법 뿐입니다. "
-":mod:`logging` 모듈은 . 을 사용해서 로그 기록기의 계층 구조를 만들기 때문에 ``__name__`` 을 사용해야 "
-"충돌을 막을 수 있습니다. "
+":mod:`logging` 모듈은 . 을 사용해서 로그 기록기의 계층 구조를 만들기 때문에 ``__name__`` 을 사용해야 충돌을 "
+"막을 수 있습니다. "
 
 #: ../../writing/logging.rst:62
-#, fuzzy
 msgid ""
-"Here is an example of the best practice from the `requests source`_ -- "
-"place this in your ``__init__.py``:"
+"Here is an example of the best practice from the `requests source`_ -- place"
+" this in your ``__init__.py``:"
 msgstr ""
-"`requests의 소스`_ 에서 가져온 훌륭한 예시를 보여드리겠습니다. 이걸 당신의  ``__init__.py`` 에 두시면 "
-"됩니다. "
+"`requests의 소스`_ 에서 가져온 훌륭한 예시를 보여드리겠습니다. 이걸 당신의  ``__init__.py`` 에 두시면 됩니다. "
 
 #: ../../writing/logging.rst:73
 msgid "Logging in an Application"
 msgstr "어플리케이션에서의 로그 남기기"
 
 #: ../../writing/logging.rst:75
-#, fuzzy
 msgid ""
-"The `twelve factor app <https://12factor.net>`_, an authoritative "
-"reference for good practice in application development, contains a "
-"section on `logging best practice <https://12factor.net/logs>`_. It "
-"emphatically advocates for treating log events as an event stream, and "
-"for sending that event stream to standard output to be handled by the "
-"application environment."
+"The `twelve factor app <https://12factor.net>`_, an authoritative reference "
+"for good practice in application development, contains a section on `logging"
+" best practice <https://12factor.net/logs>`_. It emphatically advocates for "
+"treating log events as an event stream, and for sending that event stream to"
+" standard output to be handled by the application environment."
 msgstr ""
-"`멋진 앱을 만들기 위한 12가지 <http://12factor.net>`_ 는 어플리케이션 개발을 위한 좋은 습관을 들이기에 "
-"참고할만 합니다. `로그를 남기는 방법 <http://12factor.net/logs>`_ 에 관한 섹션도 있는데, 여기서는 로그 "
-"이벤트를 이벤트 스트림으로 취급하여 어플리케이션 환경에서 조작할 수 있는 표준적인 산출물로 만들 것을 강력하게 추천합니다. "
+"`멋진 앱을 만들기 위한 12가지 <https://12factor.net>`_ 는 어플리케이션 개발을 위한 좋은 습관을 들이기에 참고할만"
+" 합니다. `로그를 남기는 방법 <https://12factor.net/logs>`_ 에 관한 섹션도 있는데, 여기서는 로그 이벤트를 "
+"이벤트 스트림으로 취급하여 어플리케이션 환경이 처리할 수 있도록 표준 출력으로 보낼 것을 강력하게 추천합니다."
 
 #: ../../writing/logging.rst:83
 msgid "There are at least three ways to configure a logger:"
@@ -172,22 +167,18 @@ msgid "Using an INI-formatted file:"
 msgstr "INI 포맷의 파일을 사용하는 방법: "
 
 #: ../../writing/logging.rst:86
-#, fuzzy
 msgid ""
-"**Pro**: possible to update configuration while running, using the "
-"function :func:`logging.config.listen` to listen on a socket."
+"**Pro**: possible to update configuration while running, using the function "
+":func:`logging.config.listen` to listen on a socket."
 msgstr ""
-"**이렇게 하자**: 소켓에 함수 :func:`logging.config.listen` 를 사용해서 어플리케이션이 실행 중일때도 "
-"설정 변경이 반영될 수 있도록 한다."
+"**장점**: :func:`logging.config.listen` 함수로 소켓을 리스닝하여 어플리케이션 실행 중에도 설정을 갱신할 수 "
+"있습니다."
 
 #: ../../writing/logging.rst:88
-#, fuzzy
 msgid ""
 "**Con**: less control (e.g. custom subclassed filters or loggers) than "
 "possible when configuring a logger in code."
-msgstr ""
-"**이렇게 하지 마세요**: 코드에 로그를 설정할 때 (*예를 들면* 직접 만든 서브클래스나 로그에) 할 수 있는 설정도 하지 "
-"않는다."
+msgstr "**단점**: 코드로 로거를 설정할 때보다 제어할 수 있는 범위가 적습니다(예: 직접 서브클래스로 만든 필터나 로거)."
 
 #: ../../writing/logging.rst:93
 msgid "Using a dictionary or a JSON-formatted file:"
@@ -195,9 +186,9 @@ msgstr "딕셔너리나 JSON 포맷 파일을 사용하는 방법: "
 
 #: ../../writing/logging.rst:91
 msgid ""
-"**Pro**: in addition to updating while running, it is possible to load "
-"from a file using the :mod:`json` module, in the standard library since "
-"Python 2.6."
+"**Pro**: in addition to updating while running, it is possible to load from "
+"a file using the :mod:`json` module, in the standard library since Python "
+"2.6."
 msgstr ""
 "**이렇게 하자**: 어플리케이션 실행 중에도 업데이트를 할 수 있을 뿐만 아니라, 파이썬 2.6부터는 표준 라이브러리에서 "
 ":mod:`json` 모듈을 사용하여 파일에서 설정을 불러올 수도 있다."
@@ -215,23 +206,21 @@ msgid "**Pro**: complete control over the configuration."
 msgstr "**이렇게 하자**: 모든 설정을 완벽하게 한다."
 
 #: ../../writing/logging.rst:97
-#, fuzzy
 msgid "**Con**: modifications require a change to the source code."
-msgstr "**이렇게 하지 마세요**: 소스코드에서 설정 수정이 필요하다."
+msgstr "**단점**: 수정하려면 소스코드를 변경해야 합니다."
 
 #: ../../writing/logging.rst:101
 msgid "Example Configuration via an INI File"
 msgstr "INI 파일로 설정하는 예시"
 
 #: ../../writing/logging.rst:103
-#, fuzzy
 msgid ""
-"Let us say that the file is named ``logging_config.ini``. More details "
-"for the file format are in the `logging configuration`_ section of the "
-"`logging tutorial`_."
+"Let us say that the file is named ``logging_config.ini``. More details for "
+"the file format are in the `logging configuration`_ section of the `logging "
+"tutorial`_."
 msgstr ""
-"파일명은 ``logging_config.ini`` 로 합시다. 파일 포맷에 대한 자세한 설명은 `로그 튜토리얼`_ 의 `로그 "
-"설정`_ 을 보시면 됩니다. "
+"파일명은 ``logging_config.ini`` 로 합시다. 파일 포맷에 대한 자세한 설명은 `로그 튜토리얼`_ 의 `로그 설정`_ 을"
+" 보시면 됩니다. "
 
 #: ../../writing/logging.rst:132
 msgid "Then use :meth:`logging.config.fileConfig` in the code:"
@@ -247,10 +236,9 @@ msgid ""
 ":pep:`391` contains a list of the mandatory and optional elements in the "
 "configuration dictionary."
 msgstr ""
-"파이썬 2.7부터는 딕셔너리를 사용해서 상세한 설정을 할 수 있습니다. :pep:`391` 을 보시면 설정 딕셔너리에 반드시 넣어야"
-" 하는 요소와 그렇지 않은 요소를 확인할 수 있습니다. "
+"파이썬 2.7부터는 딕셔너리를 사용해서 상세한 설정을 할 수 있습니다. :pep:`391` 을 보시면 설정 딕셔너리에 반드시 넣어야 하는"
+" 요소와 그렇지 않은 요소를 확인할 수 있습니다. "
 
 #: ../../writing/logging.rst:180
 msgid "Example Configuration Directly in Code"
 msgstr "코드에 바로 설정하는 예시"
-

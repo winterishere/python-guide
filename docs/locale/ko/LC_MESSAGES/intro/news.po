@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-15 08:55+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Last-Translator: YoungSeon Ahn <ys.ahn@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -23,145 +23,153 @@ msgstr ""
 
 #: ../../intro/news.rst:5
 msgid "News"
-msgstr ""
+msgstr "뉴스"
 
 #: ../../intro/news.rst:12
 msgid "PyCoder’s Weekly"
-msgstr ""
+msgstr "PyCoder’s Weekly"
 
 #: ../../intro/news.rst:14
 msgid ""
-"PyCoder’s Weekly is a free weekly Python newsletter for Python developers"
-" by Python developers (Projects, Articles, News, and Jobs)."
+"PyCoder’s Weekly is a free weekly Python newsletter for Python developers by"
+" Python developers (Projects, Articles, News, and Jobs)."
 msgstr ""
+"PyCoder’s Weekly는 파이썬 개발자가 파이썬 개발자를 위해 만드는 무료 주간 파이썬 뉴스레터입니다(프로젝트, 글, 뉴스, "
+"채용)."
 
 #: ../../intro/news.rst:17
 msgid "`PyCoder’s Weekly <https://pycoders.com/>`_"
-msgstr ""
+msgstr "`PyCoder’s Weekly <https://pycoders.com/>`_"
 
 #: ../../intro/news.rst:22
 msgid "Real Python"
-msgstr ""
+msgstr "Real Python"
 
 #: ../../intro/news.rst:24
 msgid ""
 "At Real Python you can learn all things Python from the ground up, with "
-"weekly free and in-depth tutorials. Everything from the absolute basics "
-"of Python, to web development and web scraping, to data visualization, "
-"and beyond."
+"weekly free and in-depth tutorials. Everything from the absolute basics of "
+"Python, to web development and web scraping, to data visualization, and "
+"beyond."
 msgstr ""
+"Real Python에서는 매주 무료로 제공되는 깊이 있는 튜토리얼을 통해 파이썬의 모든 것을 처음부터 배울 수 있습니다. 파이썬의 가장"
+" 기초적인 부분부터 웹 개발, 웹 스크래핑, 데이터 시각화 등 그 이상까지 다룹니다."
 
 #: ../../intro/news.rst:26
 msgid "`Real Python <https://realpython.com/>`_"
-msgstr ""
+msgstr "`Real Python <https://realpython.com/>`_"
 
 #: ../../intro/news.rst:31
 msgid "Planet Python"
-msgstr ""
+msgstr "Planet Python"
 
 #: ../../intro/news.rst:33
-msgid "This is an aggregate of Python news from a growing number of developers."
-msgstr ""
+msgid ""
+"This is an aggregate of Python news from a growing number of developers."
+msgstr "점점 늘어나는 개발자들로부터 모은 파이썬 뉴스 모음입니다."
 
 #: ../../intro/news.rst:35
 msgid "`Planet Python <https://planetpython.org>`_"
-msgstr ""
+msgstr "`Planet Python <https://planetpython.org>`_"
 
 #: ../../intro/news.rst:40
 msgid "/r/python"
-msgstr ""
+msgstr "/r/python"
 
 #: ../../intro/news.rst:42
 msgid ""
-"/r/python is the Reddit Python community where users contribute and vote "
-"on Python-related news."
-msgstr ""
+"/r/python is the Reddit Python community where users contribute and vote on "
+"Python-related news."
+msgstr "/r/python은 사용자가 파이썬 관련 뉴스에 기여하고 투표하는 Reddit 파이썬 커뮤니티입니다."
 
 #: ../../intro/news.rst:45
 msgid "`/r/python <https://reddit.com/r/python>`_"
-msgstr ""
+msgstr "`/r/python <https://reddit.com/r/python>`_"
 
 #: ../../intro/news.rst:50
 msgid "Talk Python Podcast"
-msgstr ""
+msgstr "Talk Python Podcast"
 
 #: ../../intro/news.rst:52
 msgid "The #1 Python-focused podcast covering the people and ideas in Python."
-msgstr ""
+msgstr "파이썬의 인물과 아이디어를 다루는 1위 파이썬 중심 팟캐스트입니다."
 
 #: ../../intro/news.rst:54
 msgid "`Talk Python To Me <https://talkpython.fm>`_"
-msgstr ""
+msgstr "`Talk Python To Me <https://talkpython.fm>`_"
 
 #: ../../intro/news.rst:59
 msgid "Python Bytes Podcast"
-msgstr ""
+msgstr "Python Bytes Podcast"
 
 #: ../../intro/news.rst:61
 msgid "A short-form Python podcast covering recent developer headlines."
-msgstr ""
+msgstr "최근 개발자 헤드라인을 다루는 짧은 형식의 파이썬 팟캐스트입니다."
 
 #: ../../intro/news.rst:63
 msgid "`Python Bytes <https://pythonbytes.fm>`_"
-msgstr ""
+msgstr "`Python Bytes <https://pythonbytes.fm>`_"
 
 #: ../../intro/news.rst:68
 msgid "Python Weekly"
-msgstr ""
+msgstr "Python Weekly"
 
 #: ../../intro/news.rst:70
 msgid ""
-"Python Weekly is a free weekly newsletter featuring curated news, "
-"articles, new releases, jobs, etc. related to Python."
-msgstr ""
+"Python Weekly is a free weekly newsletter featuring curated news, articles, "
+"new releases, jobs, etc. related to Python."
+msgstr "Python Weekly는 파이썬 관련 뉴스, 글, 새 릴리즈, 채용 등을 큐레이션해서 제공하는 무료 주간 뉴스레터입니다."
 
 #: ../../intro/news.rst:73
 msgid "`Python Weekly <https://www.pythonweekly.com/>`_"
-msgstr ""
+msgstr "`Python Weekly <https://www.pythonweekly.com/>`_"
 
 #: ../../intro/news.rst:78
 msgid "Python News"
-msgstr ""
+msgstr "Python News"
 
 #: ../../intro/news.rst:80
 msgid ""
 "Python News is the news section in the official Python web site "
-"(www.python.org). It briefly highlights the news from the Python "
-"community."
+"(www.python.org). It briefly highlights the news from the Python community."
 msgstr ""
+"Python News는 파이썬 공식 웹사이트(www.python.org)의 뉴스 섹션입니다. 파이썬 커뮤니티의 뉴스를 간략히 소개합니다."
 
 #: ../../intro/news.rst:83
 msgid "`Python News <http://www.python.org/blogs/>`_"
-msgstr ""
+msgstr "`Python News <http://www.python.org/blogs/>`_"
 
 #: ../../intro/news.rst:88
 msgid "Import Python Weekly"
-msgstr ""
+msgstr "Import Python Weekly"
 
 #: ../../intro/news.rst:90
 msgid ""
-"Weekly Python Newsletter containing Python Articles, Projects, Videos, "
-"and Tweets delivered in your inbox.  Keep Your Python Programming Skills "
+"Weekly Python Newsletter containing Python Articles, Projects, Videos, and "
+"Tweets delivered in your inbox.  Keep Your Python Programming Skills "
 "Updated."
 msgstr ""
+"파이썬 글, 프로젝트, 동영상, 트윗을 받은편지함으로 배송해주는 주간 파이썬 뉴스레터입니다. 파이썬 프로그래밍 실력을 최신 상태로 "
+"유지하세요."
 
 #: ../../intro/news.rst:93
 msgid ""
-"`Import Python Weekly Newsletter "
-"<http://www.importpython.com/newsletter/>`_"
+"`Import Python Weekly Newsletter <http://www.importpython.com/newsletter/>`_"
 msgstr ""
+"`Import Python Weekly Newsletter <http://www.importpython.com/newsletter/>`_"
 
 #: ../../intro/news.rst:98
 msgid "Awesome Python Newsletter"
-msgstr ""
+msgstr "Awesome Python Newsletter"
 
 #: ../../intro/news.rst:100
-msgid "A weekly overview of the most popular Python news, articles, and packages."
-msgstr ""
+msgid ""
+"A weekly overview of the most popular Python news, articles, and packages."
+msgstr "가장 인기 있는 파이썬 뉴스, 글, 패키지를 주간으로 정리해서 보여줍니다."
 
 #: ../../intro/news.rst:102
 msgid "`Awesome Python Newsletter <https://python.libhunt.com/newsletter>`_"
-msgstr ""
+msgstr "`Awesome Python Newsletter <https://python.libhunt.com/newsletter>`_"
 
 #~ msgid ""
 #~ msgstr ""
@@ -176,10 +184,8 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid ""
-#~ "Pycoder's Weekly is a free weekly "
-#~ "Python newsletter for Python developers "
-#~ "by Python developers (Projects, Articles, "
-#~ "News, and Jobs)."
+#~ "Pycoder's Weekly is a free weekly Python newsletter for Python developers by"
+#~ " Python developers (Projects, Articles, News, and Jobs)."
 #~ msgstr ""
 
 #~ msgid "`Pycoder's Weekly <http://www.pycoders.com/>`_"
@@ -192,15 +198,11 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid ""
-#~ "Weekly Python Newsletter containing Python "
-#~ "Articles, Projects, Videos, Tweets delivered"
-#~ " in your inbox.  Keep Your Python "
-#~ "Programming Skills Updated."
+#~ "Weekly Python Newsletter containing Python Articles, Projects, Videos, "
+#~ "Tweets delivered in your inbox.  Keep Your Python Programming Skills "
+#~ "Updated."
 #~ msgstr ""
 
 #~ msgid ""
-#~ "A weekly overview of the most "
-#~ "popular Python news, articles and "
-#~ "packages."
+#~ "A weekly overview of the most popular Python news, articles and packages."
 #~ msgstr ""
-

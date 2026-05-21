@@ -15,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-15 08:55+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Last-Translator: YoungSeon Ahn <ys.ahn@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -24,101 +24,115 @@ msgstr ""
 
 #: ../../shipping/publishing.rst:6
 msgid "Publishing Your Code"
-msgstr ""
+msgstr "코드 배포하기"
 
 #: ../../shipping/publishing.rst
 msgid "Todo"
-msgstr ""
+msgstr "할 일"
 
 #: ../../shipping/publishing.rst:8
 msgid "Replace this kitten with the photo we want."
-msgstr ""
+msgstr "이 새끼 고양이 사진을 원하는 사진으로 교체할 것."
 
 #: ../../shipping/publishing.rst:12
 msgid ""
-"A healthy open source project needs a place to publish its code and "
-"project management stuff so other developers can collaborate with you. "
-"This lets your users gain a better understanding of your code, keep up "
-"with new developments, report bugs, and contribute code."
+"A healthy open source project needs a place to publish its code and project "
+"management stuff so other developers can collaborate with you. This lets "
+"your users gain a better understanding of your code, keep up with new "
+"developments, report bugs, and contribute code."
 msgstr ""
+"건강한 오픈 소스 프로젝트가 되려면 코드와 프로젝트 관리 자료를 게시할 공간이 필요합니다. 그래야 다른 개발자들이 여러분과 협업할 수 "
+"있습니다. 이런 공간이 있으면 사용자가 코드를 더 잘 이해하고, 새로운 진행 상황을 따라가며, 버그를 보고하고, 코드 기여를 할 수 "
+"있습니다."
 
 #: ../../shipping/publishing.rst:17
 msgid ""
-"This development web site should include the source code history itself, "
-"a bug tracker, a patch submission (aka \"Pull Request\") queue, and "
-"possibly additional developer-oriented documentation."
+"This development web site should include the source code history itself, a "
+"bug tracker, a patch submission (aka \"Pull Request\") queue, and possibly "
+"additional developer-oriented documentation."
 msgstr ""
+"이 개발 웹사이트는 소스 코드의 이력 자체, 버그 트래커, 패치 제출(즉 \"풀 리퀘스트\") 큐, 그리고 가능하다면 개발자 대상 "
+"문서까지 포함해야 합니다."
 
 #: ../../shipping/publishing.rst:21
 msgid ""
-"There are several free open source project hosting sites (aka "
-"\"forges\"). These include GitHub, SourceForge, Bitbucket, and GitLab. "
-"GitHub is currently the best. Use GitHub."
+"There are several free open source project hosting sites (aka \"forges\"). "
+"These include GitHub, SourceForge, Bitbucket, and GitLab. GitHub is "
+"currently the best. Use GitHub."
 msgstr ""
+"몇 가지 무료 오픈 소스 프로젝트 호스팅 사이트(즉 \"포지\")가 있습니다. 여기에는 GitHub, SourceForge, "
+"Bitbucket, GitLab이 포함됩니다. 현재로서는 GitHub가 가장 좋습니다. GitHub를 사용하세요."
 
 #: ../../shipping/publishing.rst:28
 msgid "Creating a Project Repo on GitHub"
-msgstr ""
+msgstr "GitHub에 프로젝트 저장소 만들기"
 
 #: ../../shipping/publishing.rst:30
 msgid "To publish your Python project on GitHub:"
-msgstr ""
+msgstr "여러분의 파이썬 프로젝트를 GitHub에 게시하려면:"
 
 #: ../../shipping/publishing.rst:32
 msgid "Create a GitHub account if you don't already have one."
-msgstr ""
+msgstr "GitHub 계정이 없다면 새로 만드세요."
 
 #: ../../shipping/publishing.rst:34
 msgid "Create a new repo for your project."
-msgstr ""
+msgstr "프로젝트를 위한 새 저장소를 만드세요."
 
 #: ../../shipping/publishing.rst:36
 msgid ""
-"Click on the \"+\" menu next to your avatar in the upper right of the "
-"page and choose \"New repository\"."
-msgstr ""
+"Click on the \"+\" menu next to your avatar in the upper right of the page "
+"and choose \"New repository\"."
+msgstr "페이지 오른쪽 상단의 아바타 옆에 있는 \"+\" 메뉴를 클릭하고 \"New repository\"를 선택하세요."
 
 #: ../../shipping/publishing.rst:38
 msgid "Name it after your project and give it an SEO-friendly description."
-msgstr ""
+msgstr "프로젝트의 이름을 따서 짓고, SEO에 친화적인 설명을 달아주세요."
 
 #: ../../shipping/publishing.rst:40
 msgid ""
 "If you don't have an existing project repo, choose the settings to add a "
 "README, `.gitignore`, and license. Use the Python `.gitignore` option."
 msgstr ""
+"기존 프로젝트 저장소가 없다면, README, `.gitignore`, 라이선스를 추가하는 설정을 선택하세요. `.gitignore`는 "
+"Python 옵션을 사용하세요."
 
 #: ../../shipping/publishing.rst:43
 msgid ""
 "On the newly created repo page, click \"Manage topics\" and add the tags "
 "\"python\" and \"python3\" and/or \"python2\" as appropriate."
 msgstr ""
+"새로 만든 저장소 페이지에서 \"Manage topics\"를 클릭하고 \"python\", 그리고 적절히 \"python3\" 및/또는"
+" \"python2\" 태그를 추가하세요."
 
 #: ../../shipping/publishing.rst:45
 msgid ""
 "Include a link to your new GitHub repo in your project's README file so "
 "people who just have the project distribution know where to find it."
 msgstr ""
+"프로젝트 배포본만 가지고 있는 사람들도 어디에서 찾을 수 있는지 알 수 있도록, 프로젝트의 README 파일에 새 GitHub 저장소 "
+"링크를 포함하세요."
 
 #: ../../shipping/publishing.rst:47
 msgid ""
 "If this is a brand new repo, clone it to your local machine and start "
 "working:"
-msgstr ""
+msgstr "완전히 새로운 저장소라면, 로컬 머신에 복제하고 작업을 시작하세요:"
 
 #: ../../shipping/publishing.rst:53
 msgid ""
-"Or, if you already have a project Git repo, add your new GitHub repo as a"
-" remote:"
-msgstr ""
+"Or, if you already have a project Git repo, add your new GitHub repo as a "
+"remote:"
+msgstr "또는 이미 프로젝트의 Git 저장소가 있다면, 새 GitHub 저장소를 리모트로 추가하세요:"
 
 #: ../../shipping/publishing.rst:63
 msgid "When Your Project Grows"
-msgstr ""
+msgstr "프로젝트가 성장할 때"
 
 #: ../../shipping/publishing.rst:65
 msgid ""
-"For more information about managing an open source software project, see "
-"the book `Producing Open Source Software <https://producingoss.com/>`_."
+"For more information about managing an open source software project, see the"
+" book `Producing Open Source Software <https://producingoss.com/>`_."
 msgstr ""
-
+"오픈 소스 소프트웨어 프로젝트 관리에 대한 더 많은 정보는 `Producing Open Source Software "
+"<https://producingoss.com/>`_ 책을 참고하세요."

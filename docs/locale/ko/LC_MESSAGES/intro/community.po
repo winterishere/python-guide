@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-15 08:55+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Last-Translator: YoungSeon Ahn <ys.ahn@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -23,177 +23,195 @@ msgstr ""
 
 #: ../../intro/community.rst:6
 msgid "The Community"
-msgstr ""
+msgstr "커뮤니티"
 
 #: ../../intro/community.rst:13
 msgid "BDFL"
-msgstr ""
+msgstr "BDFL"
 
 #: ../../intro/community.rst:15
 msgid ""
-"Guido van Rossum, the creator of Python, is often referred to as the BDFL"
-" — the Benevolent Dictator For Life."
+"Guido van Rossum, the creator of Python, is often referred to as the BDFL — "
+"the Benevolent Dictator For Life."
 msgstr ""
+"파이썬을 만든 Guido van Rossum은 종종 BDFL(Benevolent Dictator For Life, 자비로운 종신 "
+"독재자)로 불립니다."
 
 #: ../../intro/community.rst:21
 msgid "Python Software Foundation"
-msgstr ""
+msgstr "Python Software Foundation"
 
 #: ../../intro/community.rst:24
 msgid ""
-"The mission of the Python Software Foundation is to promote, protect, and"
-" advance the Python programming language, and to support and facilitate "
-"the growth of a diverse and international community of Python "
-"programmers."
+"The mission of the Python Software Foundation is to promote, protect, and "
+"advance the Python programming language, and to support and facilitate the "
+"growth of a diverse and international community of Python programmers."
 msgstr ""
+"Python Software Foundation의 사명은 파이썬 프로그래밍 언어를 알리고 보호하며 발전시키고, 다양하고 국제적인 파이썬 "
+"프로그래머 커뮤니티의 성장을 지원하고 촉진하는 것입니다."
 
 #: ../../intro/community.rst:28
 msgid "`Learn More about the PSF <http://www.python.org/psf/>`_."
-msgstr ""
+msgstr "`PSF에 대해 더 알아보기 <http://www.python.org/psf/>`_."
 
 #: ../../intro/community.rst:33
 msgid "PEPs"
-msgstr ""
+msgstr "PEP"
 
 #: ../../intro/community.rst:35
 msgid ""
 "PEPs are *Python Enhancement Proposals*. They describe changes to Python "
 "itself, or the standards around it."
 msgstr ""
+"PEP는 *Python Enhancement Proposals* 의 약자입니다. 파이썬 자체나 그 주변 표준에 대한 변경 사항을 "
+"설명합니다."
 
 #: ../../intro/community.rst:38
 msgid "There are three different types of PEPs (as defined by :pep:`1`):"
-msgstr ""
+msgstr "(:pep:`1` 에서 정의된 대로) PEP에는 세 가지 종류가 있습니다:"
 
 #: ../../intro/community.rst:41
 msgid "**Standards**"
-msgstr ""
+msgstr "**Standards**"
 
 #: ../../intro/community.rst:41
 msgid "Describes a new feature or implementation."
-msgstr ""
+msgstr "새로운 기능이나 구현을 설명합니다."
 
 #: ../../intro/community.rst:45
 msgid "**Informational**"
-msgstr ""
+msgstr "**Informational**"
 
 #: ../../intro/community.rst:44
 msgid ""
 "Describes a design issue, general guidelines, or information to the "
 "community."
-msgstr ""
+msgstr "설계 이슈, 일반적인 가이드라인, 또는 커뮤니티에 전달할 정보를 설명합니다."
 
 #: ../../intro/community.rst:49
 msgid "**Process**"
-msgstr ""
+msgstr "**Process**"
 
 #: ../../intro/community.rst:48
 msgid "Describes a process related to Python."
-msgstr ""
+msgstr "파이썬과 관련된 프로세스를 설명합니다."
 
 #: ../../intro/community.rst:52
 msgid "Notable PEPs"
-msgstr ""
+msgstr "주목할 만한 PEP"
 
 #: ../../intro/community.rst:54
 msgid "There are a few PEPs that could be considered required reading:"
-msgstr ""
+msgstr "필독서로 여길 만한 PEP가 몇 가지 있습니다:"
 
 #: ../../intro/community.rst:57
 msgid ":pep:`8`: The Python Style Guide."
-msgstr ""
+msgstr ":pep:`8`: 파이썬 스타일 가이드."
 
 #: ../../intro/community.rst:57
 msgid "Read this. All of it. Follow it."
-msgstr ""
+msgstr "이것을 읽으세요. 전부 다. 그리고 따르세요."
 
 #: ../../intro/community.rst:60
 msgid ":pep:`20`: The Zen of Python."
-msgstr ""
+msgstr ":pep:`20`: 파이썬의 선(禪)."
 
 #: ../../intro/community.rst:60
-msgid "A list of 19 statements that briefly explain the philosophy behind Python."
-msgstr ""
+msgid ""
+"A list of 19 statements that briefly explain the philosophy behind Python."
+msgstr "파이썬의 철학을 간략히 설명하는 19개의 문장 목록입니다."
 
 #: ../../intro/community.rst:64
 msgid ":pep:`257`: Docstring Conventions."
-msgstr ""
+msgstr ":pep:`257`: 독스트링 컨벤션."
 
 #: ../../intro/community.rst:63
 msgid ""
 "Gives guidelines for semantics and conventions associated with Python "
 "docstrings."
-msgstr ""
+msgstr "파이썬 독스트링과 관련된 의미와 컨벤션에 대한 가이드라인을 제공합니다."
 
 #: ../../intro/community.rst:66
-msgid "You can read more at `The PEP Index <http://www.python.org/dev/peps/>`_."
-msgstr ""
+msgid ""
+"You can read more at `The PEP Index <http://www.python.org/dev/peps/>`_."
+msgstr "더 자세한 내용은 `PEP 인덱스 <http://www.python.org/dev/peps/>`_ 에서 읽어볼 수 있습니다."
 
 #: ../../intro/community.rst:69
 msgid "Submitting a PEP"
-msgstr ""
+msgstr "PEP 제출하기"
 
 #: ../../intro/community.rst:71
 msgid ""
-"PEPs are peer-reviewed and accepted/rejected after much discussion. "
-"Anyone can write and submit a PEP for review."
+"PEPs are peer-reviewed and accepted/rejected after much discussion. Anyone "
+"can write and submit a PEP for review."
 msgstr ""
+"PEP는 피어 리뷰를 거치며 많은 토론 끝에 채택 또는 거부됩니다. 누구나 PEP를 작성하여 리뷰를 위해 제출할 수 있습니다."
 
 #: ../../intro/community.rst:74
 msgid "Here's an overview of the PEP acceptance workflow:"
-msgstr ""
+msgstr "PEP 채택 워크플로우의 개요는 다음과 같습니다:"
 
 #: ../../intro/community.rst:81
 msgid "Python Conferences"
-msgstr ""
+msgstr "파이썬 컨퍼런스"
 
 #: ../../intro/community.rst:83
 msgid ""
-"The major events for the Python community are developer conferences. The "
-"two most notable conferences are PyCon, which is held in the US, and its "
+"The major events for the Python community are developer conferences. The two"
+" most notable conferences are PyCon, which is held in the US, and its "
 "European sibling, EuroPython."
 msgstr ""
+"파이썬 커뮤니티의 주요 이벤트는 개발자 컨퍼런스입니다. 가장 주목할 만한 두 컨퍼런스는 미국에서 열리는 PyCon과 유럽 형제격인 "
+"EuroPython입니다."
 
 #: ../../intro/community.rst:87
 msgid ""
 "A comprehensive list of conferences is maintained at `pycon.org "
 "<http://www.pycon.org/>`_."
-msgstr ""
+msgstr "컨퍼런스의 포괄적인 목록은 `pycon.org <http://www.pycon.org/>`_ 에서 관리됩니다."
 
 #: ../../intro/community.rst:92
 msgid "Python User Groups"
-msgstr ""
+msgstr "파이썬 사용자 그룹"
 
 #: ../../intro/community.rst:94
 msgid ""
-"User Groups are where a bunch of Python developers meet to present or "
-"talk about Python topics of interest. A list of local user groups is "
-"maintained at the `Python Software Foundation Wiki "
+"User Groups are where a bunch of Python developers meet to present or talk "
+"about Python topics of interest. A list of local user groups is maintained "
+"at the `Python Software Foundation Wiki "
 "<http://wiki.python.org/moin/LocalUserGroups>`_."
 msgstr ""
+"사용자 그룹은 여러 파이썬 개발자가 모여 관심 있는 파이썬 주제를 발표하거나 이야기하는 자리입니다. 지역 사용자 그룹 목록은 "
+"`Python Software Foundation Wiki "
+"<http://wiki.python.org/moin/LocalUserGroups>`_ 에서 관리됩니다."
 
 #: ../../intro/community.rst:101
 msgid "Online Communities"
-msgstr ""
+msgstr "온라인 커뮤니티"
 
 #: ../../intro/community.rst:103
 msgid ""
-"`PythonistaCafe <https://www.pythonistacafe.com>`_ is an invite-only, "
-"online community of Python and software development enthusiasts helping "
-"each other succeed and grow. Think of it as a club of mutual improvement "
-"for Pythonistas where a broad range of programming questions, career "
-"advice, and other topics are discussed every day."
+"`PythonistaCafe <https://www.pythonistacafe.com>`_ is an invite-only, online"
+" community of Python and software development enthusiasts helping each other"
+" succeed and grow. Think of it as a club of mutual improvement for "
+"Pythonistas where a broad range of programming questions, career advice, and"
+" other topics are discussed every day."
 msgstr ""
+"`PythonistaCafe <https://www.pythonistacafe.com>`_ 는 초대 전용 온라인 커뮤니티로, 파이썬과 "
+"소프트웨어 개발 애호가들이 서로의 성공과 성장을 돕는 곳입니다. 광범위한 프로그래밍 질문, 커리어 조언, 기타 주제가 매일 논의되는 "
+"파이썬 사용자(Pythonista)를 위한 상호 발전 클럽이라고 생각하면 됩니다."
 
 #: ../../intro/community.rst:111
 msgid "Python Job Boards"
-msgstr ""
+msgstr "파이썬 채용 게시판"
 
 #: ../../intro/community.rst:113
 msgid ""
-"`Python Jobs HQ <https://www.pythonjobshq.com>`_ is a Python job board, "
-"by Python Developers for Python Developers. The site aggregates Python "
-"job postings from across the web and also allows employers to post Python"
-" job openings directly on the site."
+"`Python Jobs HQ <https://www.pythonjobshq.com>`_ is a Python job board, by "
+"Python Developers for Python Developers. The site aggregates Python job "
+"postings from across the web and also allows employers to post Python job "
+"openings directly on the site."
 msgstr ""
-
+"`Python Jobs HQ <https://www.pythonjobshq.com>`_ 는 파이썬 개발자가 파이썬 개발자를 위해 만든 "
+"파이썬 채용 게시판입니다. 이 사이트는 웹 곳곳의 파이썬 채용 공고를 모으는 한편, 고용주가 직접 사이트에 파이썬 채용 공고를 올릴 수도"
+" 있게 해줍니다."
