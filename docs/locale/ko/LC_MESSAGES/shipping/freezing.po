@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-15 08:55+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Last-Translator: YoungSeon Ahn <ys.ahn@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -23,189 +23,200 @@ msgstr ""
 
 #: ../../shipping/freezing.rst:6
 msgid "Freezing Your Code"
-msgstr ""
+msgstr "코드 프리징하기"
 
 #: ../../shipping/freezing.rst:10
 msgid ""
 "\"Freezing\" your code is creating a single-file executable file to "
-"distribute to end-users, that contains all of your application code as "
-"well as the Python interpreter."
+"distribute to end-users, that contains all of your application code as well "
+"as the Python interpreter."
 msgstr ""
+"코드를 \"프리징(freezing)\"한다는 것은 최종 사용자에게 배포할, 응용의 모든 코드와 파이썬 인터프리터를 포함한 단일 파일 실행"
+" 파일을 만드는 것입니다."
 
 #: ../../shipping/freezing.rst:14
 msgid ""
 "Applications such as 'Dropbox', 'Eve Online',  'Civilization IV', and "
 "BitTorrent clients do this."
 msgstr ""
+"'Dropbox', 'Eve Online', 'Civilization IV', BitTorrent 클라이언트 같은 응용이 이렇게 합니다."
 
 #: ../../shipping/freezing.rst:17
 msgid ""
-"The advantage of distributing this way is that your application will "
-"\"just work\", even if the user doesn't already have the required version"
-" of Python (or any) installed. On Windows, and even on many Linux "
-"distributions and OS X, the right version of Python will not already be "
-"installed."
+"The advantage of distributing this way is that your application will \"just "
+"work\", even if the user doesn't already have the required version of Python"
+" (or any) installed. On Windows, and even on many Linux distributions and OS"
+" X, the right version of Python will not already be installed."
 msgstr ""
+"이런 식으로 배포하는 장점은 사용자가 필요한 파이썬 버전(또는 어떤 파이썬도)을 이미 설치하지 않았더라도 응용이 \"그냥 동작한다\"는 "
+"점입니다. Windows에서, 그리고 많은 리눅스 배포판과 OS X에서도, 알맞은 버전의 파이썬이 이미 설치되어 있지 않을 것입니다."
 
 #: ../../shipping/freezing.rst:22
 msgid ""
-"Besides, end-user software should always be in an executable format. "
-"Files ending in ``.py`` are for software engineers and system "
-"administrators."
+"Besides, end-user software should always be in an executable format. Files "
+"ending in ``.py`` are for software engineers and system administrators."
 msgstr ""
+"게다가 최종 사용자용 소프트웨어는 항상 실행 가능한 포맷이어야 합니다. ``.py`` 로 끝나는 파일은 소프트웨어 엔지니어와 시스템 "
+"관리자를 위한 것입니다."
 
 #: ../../shipping/freezing.rst:25
 msgid ""
 "One disadvantage of freezing is that it will increase the size of your "
-"distribution by about 2–12 MB. Also, you will be responsible for shipping"
-" updated versions of your application when security vulnerabilities to "
-"Python are patched."
+"distribution by about 2–12 MB. Also, you will be responsible for shipping "
+"updated versions of your application when security vulnerabilities to Python"
+" are patched."
 msgstr ""
+"프리징의 한 가지 단점은 배포본의 크기가 약 2–12 MB 늘어난다는 점입니다. 또한 파이썬의 보안 취약점이 패치되면 그에 맞춰 응용의 "
+"갱신된 버전을 배포해야 하는 책임도 지게 됩니다."
 
 #: ../../shipping/freezing.rst:33
 msgid "Alternatives to Freezing"
-msgstr ""
+msgstr "프리징의 대안"
 
 #: ../../shipping/freezing.rst:35
 msgid ""
 ":ref:`Packaging your code <packaging-your-code-ref>` is for distributing "
 "libraries or tools to other developers."
 msgstr ""
+":ref:`코드 패키징 <packaging-your-code-ref>` 은 라이브러리나 도구를 다른 개발자에게 배포하기 위한 것입니다."
 
 #: ../../shipping/freezing.rst:38
 msgid ""
 "On Linux, an alternative to freezing is to :ref:`create a Linux distro "
-"package <packaging-for-linux-distributions-ref>` (e.g. .deb files for "
-"Debian or Ubuntu, or .rpm files for Red Hat and SuSE.)"
+"package <packaging-for-linux-distributions-ref>` (e.g. .deb files for Debian"
+" or Ubuntu, or .rpm files for Red Hat and SuSE.)"
 msgstr ""
+"리눅스에서는 프리징의 대안으로 :ref:`리눅스 배포판 패키지를 만드는 것 <packaging-for-linux-"
+"distributions-ref>` (예: Debian이나 Ubuntu용 .deb 파일, Red Hat과 SuSE용 .rpm 파일)이 "
+"있습니다."
 
 #: ../../shipping/freezing.rst
 msgid "Todo"
-msgstr ""
+msgstr "할 일"
 
 #: ../../shipping/freezing.rst:42
 msgid "Fill in \"Freezing Your Code\" stub"
-msgstr ""
+msgstr "\"코드 프리징하기\" 스텁 채우기"
 
 #: ../../shipping/freezing.rst:47
 msgid "Comparison of Freezing Tools"
-msgstr ""
+msgstr "프리징 도구 비교"
 
 #: ../../shipping/freezing.rst:49
 msgid ""
 "Date of this writing: Oct 5, 2019 Solutions and platforms/features "
 "supported:"
-msgstr ""
+msgstr "작성일: 2019년 10월 5일. 솔루션과 지원되는 플랫폼/기능:"
 
 #: ../../shipping/freezing.rst:53
 msgid "Solution"
-msgstr ""
+msgstr "솔루션"
 
 #: ../../shipping/freezing.rst:53 ../../shipping/freezing.rst:75
 msgid "Windows"
-msgstr ""
+msgstr "Windows"
 
 #: ../../shipping/freezing.rst:53 ../../shipping/freezing.rst:220
 msgid "Linux"
-msgstr ""
+msgstr "Linux"
 
 #: ../../shipping/freezing.rst:53 ../../shipping/freezing.rst:164
 msgid "OS X"
-msgstr ""
+msgstr "OS X"
 
 #: ../../shipping/freezing.rst:53
 msgid "Python 3"
-msgstr ""
+msgstr "Python 3"
 
 #: ../../shipping/freezing.rst:53
 msgid "License"
-msgstr ""
+msgstr "라이선스"
 
 #: ../../shipping/freezing.rst:53
 msgid "One-file mode"
-msgstr ""
+msgstr "단일 파일 모드"
 
 #: ../../shipping/freezing.rst:53
 msgid "Zipfile import"
-msgstr ""
+msgstr "Zipfile 임포트"
 
 #: ../../shipping/freezing.rst:53
 msgid "Eggs"
-msgstr ""
+msgstr "Egg"
 
 #: ../../shipping/freezing.rst:53
 msgid "pkg_resources support"
-msgstr ""
+msgstr "pkg_resources 지원"
 
 #: ../../shipping/freezing.rst:53
 msgid "Latest release date"
-msgstr ""
+msgstr "최신 릴리즈 일자"
 
 #: ../../shipping/freezing.rst:55 ../../shipping/freezing.rst:78
 #: ../../shipping/freezing.rst:224
 msgid "bbFreeze"
-msgstr ""
+msgstr "bbFreeze"
 
 #: ../../shipping/freezing.rst:55 ../../shipping/freezing.rst:56
 #: ../../shipping/freezing.rst:57 ../../shipping/freezing.rst:58
 #: ../../shipping/freezing.rst:59
 msgid "yes"
-msgstr ""
+msgstr "예"
 
 #: ../../shipping/freezing.rst:55 ../../shipping/freezing.rst:56
 #: ../../shipping/freezing.rst:57 ../../shipping/freezing.rst:58
 #: ../../shipping/freezing.rst:59
 msgid "no"
-msgstr ""
+msgstr "아니오"
 
 #: ../../shipping/freezing.rst:55 ../../shipping/freezing.rst:56
 #: ../../shipping/freezing.rst:59
 msgid "MIT"
-msgstr ""
+msgstr "MIT"
 
 #: ../../shipping/freezing.rst:55
 msgid "Jan 20, 2014"
-msgstr ""
+msgstr "2014년 1월 20일"
 
 #: ../../shipping/freezing.rst:56 ../../shipping/freezing.rst:124
 msgid "py2exe"
-msgstr ""
+msgstr "py2exe"
 
 #: ../../shipping/freezing.rst:56
 msgid "Oct 21, 2014"
-msgstr ""
+msgstr "2014년 10월 21일"
 
 #: ../../shipping/freezing.rst:57
 msgid "pyInstaller"
-msgstr ""
+msgstr "pyInstaller"
 
 #: ../../shipping/freezing.rst:57
 msgid "GPL"
-msgstr ""
+msgstr "GPL"
 
 #: ../../shipping/freezing.rst:57
 msgid "Jul 9, 2019"
-msgstr ""
+msgstr "2019년 7월 9일"
 
 #: ../../shipping/freezing.rst:58
 msgid "cx_Freeze"
-msgstr ""
+msgstr "cx_Freeze"
 
 #: ../../shipping/freezing.rst:58
 msgid "PSF"
-msgstr ""
+msgstr "PSF"
 
 #: ../../shipping/freezing.rst:58
 msgid "Aug 29, 2019"
-msgstr ""
+msgstr "2019년 8월 29일"
 
 #: ../../shipping/freezing.rst:59 ../../shipping/freezing.rst:168
 msgid "py2app"
-msgstr ""
+msgstr "py2app"
 
 #: ../../shipping/freezing.rst:59
 msgid "Mar 25, 2019"
-msgstr ""
+msgstr "2019년 3월 25일"
 
 #: ../../shipping/freezing.rst:63
 msgid ""
@@ -214,234 +225,283 @@ msgid ""
 "<https://stackoverflow.com/questions/2950971/cross-compiling-a-python-"
 "script-on-linux-into-a-windows-executable#comment11890276_2951046>`_."
 msgstr ""
+"리눅스에서 파이썬 코드를 Windows 실행 파일로 프리징하는 기능은 PyInstaller에서 한때만 지원되었고 `이후 지원이 "
+"중단되었습니다 <https://stackoverflow.com/questions/2950971/cross-compiling-a-"
+"python-script-on-linux-into-a-windows-executable#comment11890276_2951046>`_."
 
 #: ../../shipping/freezing.rst:68
 msgid ""
 "All solutions need a Microsoft Visual C++ to be installed on the target "
-"machine, except py2app. Only PyInstaller makes a self-executable exe that"
-" bundles the appropriate DLL when passing ``--onefile`` to "
+"machine, except py2app. Only PyInstaller makes a self-executable exe that "
+"bundles the appropriate DLL when passing ``--onefile`` to "
 ":file:`Configure.py`."
 msgstr ""
+"py2app을 제외한 모든 솔루션은 대상 머신에 Microsoft Visual C++가 설치되어 있어야 합니다. "
+":file:`Configure.py` 에 ``--onefile`` 을 전달했을 때 적절한 DLL을 함께 묶어 자가 실행 가능한 exe를 "
+"만드는 것은 PyInstaller뿐입니다."
 
 #: ../../shipping/freezing.rst:80
 msgid ""
-"Prerequisite is to install :ref:`Python, Setuptools and pywin32 "
-"dependency on Windows <install-windows>`."
+"Prerequisite is to install :ref:`Python, Setuptools and pywin32 dependency "
+"on Windows <install-windows>`."
 msgstr ""
+"사전 요구사항은 :ref:`Windows에 Python, Setuptools, pywin32 의존성을 설치 <install-"
+"windows>` 하는 것입니다."
 
 #: ../../shipping/freezing.rst:82
 msgid "Install :code:`bbfreeze`:"
-msgstr ""
+msgstr ":code:`bbfreeze` 설치:"
 
 #: ../../shipping/freezing.rst:88
 msgid "Write most basic :file:`bb_setup.py`"
-msgstr ""
+msgstr "가장 기본적인 :file:`bb_setup.py` 작성"
 
 #: ../../shipping/freezing.rst:100
 msgid ""
 "This will work for the most basic one file scripts. For more advanced "
 "freezing you will have to provide include and exclude paths like so:"
 msgstr ""
+"이것은 가장 기본적인 단일 파일 스크립트에 대해 동작합니다. 더 고급 프리징을 위해서는 다음과 같이 include 및 exclude "
+"경로를 제공해야 합니다:"
 
 #: ../../shipping/freezing.rst:107
 msgid "(Optionally) include icon"
-msgstr ""
+msgstr "(선택) 아이콘 포함"
 
 #: ../../shipping/freezing.rst:113
 msgid ""
-"4. Provide the Microsoft Visual C++ runtime DLL for the freezer. It might"
-" be possible to append your :code:`sys.path` with the Microsoft Visual "
-"Studio path but I find it easier to drop :file:`msvcp90.dll` in the same "
-"folder where your script resides."
+"4. Provide the Microsoft Visual C++ runtime DLL for the freezer. It might be"
+" possible to append your :code:`sys.path` with the Microsoft Visual Studio "
+"path but I find it easier to drop :file:`msvcp90.dll` in the same folder "
+"where your script resides."
 msgstr ""
+"4. 프리저에 Microsoft Visual C++ 런타임 DLL을 제공합니다. :code:`sys.path` 에 Microsoft "
+"Visual Studio 경로를 추가할 수도 있겠지만, 저는 스크립트가 있는 폴더에 :file:`msvcp90.dll` 을 넣는 편이 더"
+" 쉽다고 느낍니다."
 
 #: ../../shipping/freezing.rst:117
 msgid "Freeze!"
-msgstr ""
+msgstr "프리징!"
 
 #: ../../shipping/freezing.rst:126
 msgid ""
-"Prerequisite is to install :ref:`Python on Windows <install-windows>`. "
-"The last release of py2exe is from the year 2014. There is not active "
+"Prerequisite is to install :ref:`Python on Windows <install-windows>`. The "
+"last release of py2exe is from the year 2014. There is not active "
 "development."
 msgstr ""
+"사전 요구사항은 :ref:`Windows에 Python 설치 <install-windows>` 입니다. py2exe의 마지막 릴리즈는 "
+"2014년입니다. 활발한 개발은 이루어지고 있지 않습니다."
 
 #: ../../shipping/freezing.rst:128
-msgid "Download and install http://sourceforge.net/projects/py2exe/files/py2exe/"
-msgstr ""
+msgid ""
+"Download and install http://sourceforge.net/projects/py2exe/files/py2exe/"
+msgstr "http://sourceforge.net/projects/py2exe/files/py2exe/ 에서 다운로드하여 설치합니다."
 
 #: ../../shipping/freezing.rst:130
 msgid ""
 "Write :file:`setup.py` (`List of configuration options "
 "<http://www.py2exe.org/index.cgi/ListOfOptions>`_):"
 msgstr ""
+":file:`setup.py` 작성 (`설정 옵션 목록 "
+"<http://www.py2exe.org/index.cgi/ListOfOptions>`_):"
 
 #: ../../shipping/freezing.rst:141
-msgid "(Optionally) `include icon <http://www.py2exe.org/index.cgi/CustomIcons>`_"
-msgstr ""
+msgid ""
+"(Optionally) `include icon <http://www.py2exe.org/index.cgi/CustomIcons>`_"
+msgstr "(선택) `아이콘 포함 <http://www.py2exe.org/index.cgi/CustomIcons>`_"
 
 #: ../../shipping/freezing.rst:143
 msgid ""
-"(Optionally) `one-file mode <https://stackoverflow.com/questions/112698"
-"/py2exe-generate-single-executable-file#113014>`_"
+"(Optionally) `one-file mode "
+"<https://stackoverflow.com/questions/112698/py2exe-generate-single-"
+"executable-file#113014>`_"
 msgstr ""
+"(선택) `단일 파일 모드 <https://stackoverflow.com/questions/112698/py2exe-generate-"
+"single-executable-file#113014>`_"
 
 #: ../../shipping/freezing.rst:145
 msgid "Generate :file:`.exe` into :file:`dist` directory:"
-msgstr ""
+msgstr ":file:`dist` 디렉토리에 :file:`.exe` 생성:"
 
 #: ../../shipping/freezing.rst:151
 msgid ""
-"Provide the Microsoft Visual C++ runtime DLL. Two options: `globally "
-"install dll on target machine <https://www.microsoft.com/en-"
+"Provide the Microsoft Visual C++ runtime DLL. Two options: `globally install"
+" dll on target machine <https://www.microsoft.com/en-"
 "us/download/details.aspx?id=29>`_ or `distribute dll alongside with .exe "
 "<http://www.py2exe.org/index.cgi/Tutorial#Step52>`_."
 msgstr ""
+"Microsoft Visual C++ 런타임 DLL을 제공합니다. 두 가지 선택지: `대상 머신에 dll을 전역적으로 설치 "
+"<https://www.microsoft.com/en-us/download/details.aspx?id=29>`_ 하거나 `dll을 "
+".exe와 함께 배포 <http://www.py2exe.org/index.cgi/Tutorial#Step52>`_ 합니다."
 
 #: ../../shipping/freezing.rst:154 ../../shipping/freezing.rst:171
 #: ../../shipping/freezing.rst:263
 msgid "PyInstaller"
-msgstr ""
+msgstr "PyInstaller"
 
 #: ../../shipping/freezing.rst:156
 msgid ""
 "Prerequisite is to have installed :ref:`Python, Setuptools and pywin32 "
 "dependency on Windows <install-windows>`."
 msgstr ""
+"사전 요구사항은 :ref:`Windows에 Python, Setuptools, pywin32 의존성이 설치 <install-"
+"windows>` 되어 있는 것입니다."
 
 #: ../../shipping/freezing.rst:158
 msgid ""
 "`Most basic tutorial <http://bojan-komazec.blogspot.com/2011/08/how-to-"
 "create-windows-executable-from.html>`_"
 msgstr ""
+"`가장 기본적인 튜토리얼 <http://bojan-komazec.blogspot.com/2011/08/how-to-create-"
+"windows-executable-from.html>`_"
 
 #: ../../shipping/freezing.rst:159
 msgid "`Manual <https://pyinstaller.readthedocs.io/en/stable/>`_"
-msgstr ""
+msgstr "`매뉴얼 <https://pyinstaller.readthedocs.io/en/stable/>`_"
 
 #: ../../shipping/freezing.rst:173
 msgid ""
-"PyInstaller can be used to build Unix executables and windowed apps on "
-"Mac OS X 10.6 (Snow Leopard) or newer."
+"PyInstaller can be used to build Unix executables and windowed apps on Mac "
+"OS X 10.6 (Snow Leopard) or newer."
 msgstr ""
+"PyInstaller는 Mac OS X 10.6 (Snow Leopard) 이상에서 Unix 실행 파일과 윈도우 앱을 빌드하는 데 사용할"
+" 수 있습니다."
 
 #: ../../shipping/freezing.rst:175
 msgid "To install PyInstaller, use pip:"
-msgstr ""
+msgstr "PyInstaller를 설치하려면 pip을 사용하세요:"
 
 #: ../../shipping/freezing.rst:181
 msgid "To create a standard Unix executable, from say :code:`script.py`, use:"
-msgstr ""
+msgstr "예를 들어 :code:`script.py` 로부터 표준 Unix 실행 파일을 만들려면 다음을 사용하세요:"
 
 #: ../../shipping/freezing.rst:187
 msgid "This creates:"
-msgstr ""
+msgstr "이것은 다음을 생성합니다:"
 
 #: ../../shipping/freezing.rst:189
 msgid "a :code:`script.spec` file, analogous to a :code:`make` file"
-msgstr ""
+msgstr ":code:`make` 파일에 해당하는 :code:`script.spec` 파일"
 
 #: ../../shipping/freezing.rst:190
 msgid "a :code:`build` folder, that holds some log files"
-msgstr ""
+msgstr "일부 로그 파일을 담는 :code:`build` 폴더"
 
 #: ../../shipping/freezing.rst:191
 msgid ""
-"a :code:`dist` folder, that holds the main executable :code:`script`, and"
-" some dependent Python libraries"
-msgstr ""
+"a :code:`dist` folder, that holds the main executable :code:`script`, and "
+"some dependent Python libraries"
+msgstr "메인 실행 파일 :code:`script` 와 일부 의존하는 파이썬 라이브러리를 담는 :code:`dist` 폴더"
 
 #: ../../shipping/freezing.rst:193
 msgid ""
-"all in the same folder as :code:`script.py`. PyInstaller puts all the "
-"Python libraries used in :code:`script.py` into the :code:`dist` folder, "
-"so when distributing the executable, distribute the whole :code:`dist` "
-"folder."
+"all in the same folder as :code:`script.py`. PyInstaller puts all the Python"
+" libraries used in :code:`script.py` into the :code:`dist` folder, so when "
+"distributing the executable, distribute the whole :code:`dist` folder."
 msgstr ""
+"이 모두가 :code:`script.py` 와 같은 폴더에 생깁니다. PyInstaller는 :code:`script.py` 에서 사용된"
+" 모든 파이썬 라이브러리를 :code:`dist` 폴더에 넣으므로, 실행 파일을 배포할 때는 :code:`dist` 폴더 전체를 "
+"배포하세요."
 
 #: ../../shipping/freezing.rst:195
 msgid ""
 "The :code:`script.spec` file can be edited to `customise the build "
-"<http://pythonhosted.org/PyInstaller/#spec-file-operation>`_, with "
-"options such as:"
+"<http://pythonhosted.org/PyInstaller/#spec-file-operation>`_, with options "
+"such as:"
 msgstr ""
+":code:`script.spec` 파일을 편집하여 `빌드를 사용자 정의 "
+"<http://pythonhosted.org/PyInstaller/#spec-file-operation>`_ 할 수 있으며, 다음과 같은"
+" 옵션이 있습니다:"
 
 #: ../../shipping/freezing.rst:197
 msgid "bundling data files with the executable"
-msgstr ""
+msgstr "실행 파일과 함께 데이터 파일 묶기"
 
 #: ../../shipping/freezing.rst:198
 msgid ""
 "including run-time libraries (:code:`.dll` or :code:`.so` files) that "
 "PyInstaller can't infer automatically"
 msgstr ""
+"PyInstaller가 자동으로 추론할 수 없는 런타임 라이브러리(:code:`.dll` 또는 :code:`.so` 파일) 포함하기"
 
 #: ../../shipping/freezing.rst:199
 msgid "adding Python run-time options to the executable"
-msgstr ""
+msgstr "실행 파일에 파이썬 런타임 옵션 추가하기"
 
 #: ../../shipping/freezing.rst:201
 msgid ""
 "Now :code:`script.spec` can be run with :code:`pyinstaller` (instead of "
 "using :code:`script.py` again):"
 msgstr ""
+"이제 (:code:`script.py` 를 다시 사용하는 대신) :code:`pyinstaller` 로 "
+":code:`script.spec` 을 실행할 수 있습니다:"
 
 #: ../../shipping/freezing.rst:207
 msgid ""
-"To create a standalone windowed OS X application, use the "
-":code:`--windowed` option:"
-msgstr ""
+"To create a standalone windowed OS X application, use the :code:`--windowed`"
+" option:"
+msgstr "독립 실행 가능한 윈도우드 OS X 응용을 만들려면 :code:`--windowed` 옵션을 사용하세요:"
 
 #: ../../shipping/freezing.rst:213
 msgid ""
-"This creates a :code:`script.app` in the :code:`dist` folder. Make sure "
-"to use GUI packages in your Python code, like `PyQt "
+"This creates a :code:`script.app` in the :code:`dist` folder. Make sure to "
+"use GUI packages in your Python code, like `PyQt "
 "<https://riverbankcomputing.com/software/pyqt/intro>`_ or `PySide "
-"<http://wiki.qt.io/About-PySide>`_, to control the graphical parts of the"
-" app."
+"<http://wiki.qt.io/About-PySide>`_, to control the graphical parts of the "
+"app."
 msgstr ""
+"이것은 :code:`dist` 폴더에 :code:`script.app` 을 생성합니다. 앱의 그래픽 부분을 제어하려면 파이썬 코드에서 "
+"`PyQt <https://riverbankcomputing.com/software/pyqt/intro>`_ 나 `PySide "
+"<http://wiki.qt.io/About-PySide>`_ 같은 GUI 패키지를 사용해야 합니다."
 
 #: ../../shipping/freezing.rst:215
 msgid ""
 "There are several options in :code:`script.spec` related to Mac OS X app "
 "bundles `here <http://pythonhosted.org/PyInstaller/spec-files.html#spec-"
-"file-options-for-a-mac-os-x-bundle>`_. For example, to specify an icon "
-"for the app, use the :code:`icon=\\path\\to\\icon.icns` option."
+"file-options-for-a-mac-os-x-bundle>`_. For example, to specify an icon for "
+"the app, use the :code:`icon=\\path\\to\\icon.icns` option."
 msgstr ""
+":code:`script.spec` 에는 Mac OS X 앱 번들과 관련된 옵션이 여럿 `여기 "
+"<http://pythonhosted.org/PyInstaller/spec-files.html#spec-file-options-for-"
+"a-mac-os-x-bundle>`_ 에 있습니다. 예를 들어 앱의 아이콘을 지정하려면 "
+":code:`icon=\\path\\to\\icon.icns` 옵션을 사용하세요."
 
 #: ../../shipping/freezing.rst:225
 msgid ""
 "bbFreeze will ONLY work in Python 2.x environment, since it's no longer "
-"being maintained as stated by it's former maintainer. If you're "
-"interested in it, check the repository in `here "
-"<https://github.com/schmir/bbfreeze>`_."
+"being maintained as stated by it's former maintainer. If you're interested "
+"in it, check the repository in `here <https://github.com/schmir/bbfreeze>`_."
 msgstr ""
+"bbFreeze는 이전 유지보수자가 밝힌 대로 더 이상 유지보수되지 않기 때문에, 파이썬 2.x 환경에서만 동작합니다. 관심이 있다면 "
+"`여기 <https://github.com/schmir/bbfreeze>`_ 에서 저장소를 확인하세요."
 
 #: ../../shipping/freezing.rst:227
 msgid ""
-"bbFreeze can be used with all distributions that has Python installed "
-"along with pip2 and/or easy_install."
-msgstr ""
+"bbFreeze can be used with all distributions that has Python installed along "
+"with pip2 and/or easy_install."
+msgstr "bbFreeze는 pip2 및/또는 easy_install과 함께 파이썬이 설치된 모든 배포판에서 사용할 수 있습니다."
 
 #: ../../shipping/freezing.rst:229
 msgid "For pip2, use the following:"
-msgstr ""
+msgstr "pip2의 경우 다음을 사용하세요:"
 
 #: ../../shipping/freezing.rst:235
 msgid "Or, for easy_install:"
-msgstr ""
+msgstr "또는 easy_install의 경우:"
 
 #: ../../shipping/freezing.rst:241
 msgid "With bbFreeze installed, you're ready to freeze your applications."
-msgstr ""
+msgstr "bbFreeze가 설치되면 응용을 프리징할 준비가 된 것입니다."
 
 #: ../../shipping/freezing.rst:243
 msgid ""
 "Let's assume you have a script, say, \"hello.py\" and a module called "
 "\"module.py\" and you have a function in it that's being used in your "
-"script. No need to worry, you can just ask to freeze the main entrypoint "
-"of your script and it should freeze entirely:"
+"script. No need to worry, you can just ask to freeze the main entrypoint of "
+"your script and it should freeze entirely:"
 msgstr ""
+"예를 들어 \"hello.py\" 라는 스크립트와 \"module.py\" 라는 모듈이 있고, 그 모듈에 스크립트에서 사용되는 함수가 "
+"있다고 합시다. 걱정하지 마세요. 스크립트의 메인 엔트리포인트만 프리징하도록 요청해도 전체가 프리징됩니다:"
 
 #: ../../shipping/freezing.rst:250
 msgid ""
@@ -449,24 +509,27 @@ msgid ""
 "executable of the script and required .so (shared objects) files linked "
 "against libraries used within the Python script."
 msgstr ""
+"이것은 dist/ 라는 폴더를 생성하며, 그 안에는 스크립트의 실행 파일과 파이썬 스크립트에서 사용된 라이브러리에 링크된 필요한 "
+".so(공유 객체) 파일이 들어 있습니다."
 
 #: ../../shipping/freezing.rst:252
 msgid ""
-"Alternatively, you can create a script that does the freezing for you. An"
-" API for the freezer is available from the library within:"
-msgstr ""
+"Alternatively, you can create a script that does the freezing for you. An "
+"API for the freezer is available from the library within:"
+msgstr "또는 프리징을 대신 수행하는 스크립트를 만들 수도 있습니다. 라이브러리 안에서 프리저용 API를 사용할 수 있습니다:"
 
 #: ../../shipping/freezing.rst:264
 msgid ""
-"PyInstaller can be used in a similar fashion as in OS X. The installation"
-" goes in the same manner as shown in the OS X section."
+"PyInstaller can be used in a similar fashion as in OS X. The installation "
+"goes in the same manner as shown in the OS X section."
 msgstr ""
+"PyInstaller는 OS X에서와 유사한 방식으로 사용할 수 있습니다. 설치는 OS X 섹션에서 보인 것과 같은 방식으로 진행됩니다."
 
 #: ../../shipping/freezing.rst:266
 msgid ""
 "Don't forget to have dependencies such as Python and pip installed for "
 "usage."
-msgstr ""
+msgstr "사용을 위해 Python과 pip 같은 의존성을 설치하는 것을 잊지 마세요."
 
 #~ msgid ""
 #~ msgstr ""
@@ -490,34 +553,26 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid ""
-#~ "One disadvantage of freezing is that "
-#~ "it will increase the size of your"
-#~ " distribution by about 2–12MB. Also, "
-#~ "you will be responsible for shipping "
-#~ "updated versions of your application "
-#~ "when security vulnerabilities to Python "
-#~ "are patched."
+#~ "One disadvantage of freezing is that it will increase the size of your "
+#~ "distribution by about 2–12MB. Also, you will be responsible for shipping "
+#~ "updated versions of your application when security vulnerabilities to Python"
+#~ " are patched."
 #~ msgstr ""
 
 #~ msgid "Solutions and platforms/features supported:"
 #~ msgstr ""
 
 #~ msgid ""
-#~ "Freezing Python code on Linux into "
-#~ "a Windows executable was only once "
-#~ "supported in PyInstaller `and later "
-#~ "dropped. <http://stackoverflow.com/questions/2950971/cross-"
-#~ "compiling-a-python-script-on-linux-into-a"
-#~ "-windows-executable#comment11890276_2951046>`_."
+#~ "Freezing Python code on Linux into a Windows executable was only once "
+#~ "supported in PyInstaller `and later dropped. "
+#~ "<http://stackoverflow.com/questions/2950971/cross-compiling-a-python-script-"
+#~ "on-linux-into-a-windows-executable#comment11890276_2951046>`_."
 #~ msgstr ""
 
 #~ msgid ""
-#~ "All solutions need MS Visual C++ "
-#~ "dll to be installed on target "
-#~ "machine, except py2app. Only Pyinstaller "
-#~ "makes self-executable exe that bundles"
-#~ " the dll when passing :option:`--onefile`"
-#~ " to :file:`Configure.py`."
+#~ "All solutions need MS Visual C++ dll to be installed on target machine, "
+#~ "except py2app. Only Pyinstaller makes self-executable exe that bundles the "
+#~ "dll when passing :option:`--onefile` to :file:`Configure.py`."
 #~ msgstr ""
 
 #~ msgid "Write steps for most basic .exe"
@@ -528,17 +583,15 @@ msgstr ""
 
 #~ msgid ""
 #~ "(Optionally) `one-file mode "
-#~ "<http://stackoverflow.com/questions/112698/py2exe-generate-"
-#~ "single-executable-file#113014>`_"
+#~ "<http://stackoverflow.com/questions/112698/py2exe-generate-single-"
+#~ "executable-file#113014>`_"
 #~ msgstr ""
 
 #~ msgid ""
-#~ "Provide the Microsoft Visual C runtime"
-#~ " DLL. Two options: `globally install "
-#~ "dll on target machine "
-#~ "<https://www.microsoft.com/en-us/download/details.aspx?id=29>`_"
-#~ " or `distribute dll alongside with "
-#~ ".exe <http://www.py2exe.org/index.cgi/Tutorial#Step52>`_."
+#~ "Provide the Microsoft Visual C runtime DLL. Two options: `globally install "
+#~ "dll on target machine <https://www.microsoft.com/en-"
+#~ "us/download/details.aspx?id=29>`_ or `distribute dll alongside with .exe "
+#~ "<http://www.py2exe.org/index.cgi/Tutorial#Step52>`_."
 #~ msgstr ""
 
 #~ msgid ""
@@ -550,35 +603,27 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid ""
-#~ "a :code:`dist` folder, that holds the"
-#~ " main executable :code:`script`, and some"
-#~ " dependent Python libraries,"
+#~ "a :code:`dist` folder, that holds the main executable :code:`script`, and "
+#~ "some dependent Python libraries,"
 #~ msgstr ""
 
 #~ msgid ""
-#~ "The :code:`script.spec` file can be "
-#~ "edited to `customise the build "
-#~ "<http://pythonhosted.org/PyInstaller/#spec-file-"
-#~ "operation>`_, with options such as"
+#~ "The :code:`script.spec` file can be edited to `customise the build "
+#~ "<http://pythonhosted.org/PyInstaller/#spec-file-operation>`_, with options "
+#~ "such as"
 #~ msgstr ""
 
 #~ msgid "adding Python run-time options to the executable,"
 #~ msgstr ""
 
 #~ msgid ""
-#~ "To create a standalone windowed OS "
-#~ "X application, use the :code:`--windowed` "
-#~ "option"
+#~ "To create a standalone windowed OS X application, use the :code:`--windowed`"
+#~ " option"
 #~ msgstr ""
 
 #~ msgid ""
-#~ "There are several options in "
-#~ ":code:`script.spec` related to Mac OS X"
-#~ " app bundles `here "
-#~ "<http://pythonhosted.org/PyInstaller/#spec-file-"
-#~ "options-for-a-mac-os-x-bundle>`_. For example,"
-#~ " to specify an icon for the "
-#~ "app, use the :code:`icon=\\path\\to\\icon.icns` "
-#~ "option."
+#~ "There are several options in :code:`script.spec` related to Mac OS X app "
+#~ "bundles `here <http://pythonhosted.org/PyInstaller/#spec-file-options-for-a-"
+#~ "mac-os-x-bundle>`_. For example, to specify an icon for the app, use the "
+#~ ":code:`icon=\\path\\to\\icon.icns` option."
 #~ msgstr ""
-
