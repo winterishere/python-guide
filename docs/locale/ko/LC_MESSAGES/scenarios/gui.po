@@ -138,7 +138,7 @@ msgstr "PyObjC"
 msgid ""
 "Only available on OS X. Don't pick this if you're writing a cross-platform "
 "application."
-msgstr ""
+msgstr "OS X에서만 사용할 수 있습니다. 크로스 플랫폼 응용을 만든다면 이것을 선택하지 마세요."
 
 #: ../../scenarios/gui.rst:79
 msgid "PySide"
