@@ -177,7 +177,7 @@ msgstr ""
 
 #: ../../writing/documentation.rst:94
 msgid "reStructuredText"
-msgstr ""
+msgstr "reStructuredText"
 
 #: ../../writing/documentation.rst:96
 msgid ""
@@ -373,6 +373,8 @@ msgid ""
 " understandable, and gets the relevant points across then it has done the "
 "job it was designed to do."
 msgstr ""
+"결국 독스트링을 어떤 스타일로 작성하느냐는 그리 중요하지 않습니다. 독스트링의 목적은 당신의 코드를 읽거나 수정해야 할 누군가를 위한 "
+"문서로 기능하는 것입니다. 정확하고 이해하기 쉬우며 관련 핵심을 전달하는 한, 독스트링은 본래 설계된 역할을 다한 것입니다."
 
 #: ../../writing/documentation.rst:254
 msgid "For further reading on docstrings, feel free to consult :pep:`257`"
@@ -388,7 +390,7 @@ msgstr "황야에 외롭게 서 있는 도구들도 있습니다. 그냥 :ref:`s
 
 #: ../../writing/documentation.rst:270
 msgid "Pycco_"
-msgstr ""
+msgstr "Pycco_"
 
 #: ../../writing/documentation.rst:268
 msgid ""
@@ -401,7 +403,7 @@ msgstr ""
 
 #: ../../writing/documentation.rst:277
 msgid "Ronn_"
-msgstr ""
+msgstr "Ronn_"
 
 #: ../../writing/documentation.rst:276
 msgid ""
@@ -413,7 +415,7 @@ msgstr ""
 
 #: ../../writing/documentation.rst:282
 msgid "Epydoc_"
-msgstr ""
+msgstr "Epydoc_"
 
 #: ../../writing/documentation.rst:282
 msgid "Epydoc is discontinued. Use :ref:`sphinx-ref` instead."
@@ -421,7 +423,7 @@ msgstr "Epydoc은 끝장났습니다. 대신 :ref:`sphinx-ref` 를 쓰세요. "
 
 #: ../../writing/documentation.rst:288
 msgid "MkDocs_"
-msgstr ""
+msgstr "MkDocs_"
 
 #: ../../writing/documentation.rst:287
 msgid ""
