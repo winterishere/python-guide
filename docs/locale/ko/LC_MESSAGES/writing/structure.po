@@ -132,6 +132,9 @@ msgid ""
 "<https://kennethreitz.org/essays/2013/01/27/repository-structure-and-"
 "python>`__."
 msgstr ""
+"**요약**: `Kenneth Reitz가 2013년에 권장한 방식 "
+"<https://kennethreitz.org/essays/2013/01/27/repository-structure-and-"
+"python>`__ 입니다."
 
 #: ../../writing/structure.rst:64
 msgid ""
@@ -287,7 +290,7 @@ msgstr "테스트 도구"
 
 #: ../../writing/structure.rst:179
 msgid "*For advice on writing your tests, see* :doc:`/writing/tests`."
-msgstr ""
+msgstr "*테스트 작성에 대한 조언은* :doc:`/writing/tests` *를 참고하세요.*"
 
 #: ../../writing/structure.rst:1
 msgid "``./test_sample.py`` or ``./tests``"
@@ -330,6 +333,8 @@ msgid ""
 "develop`` to test an actively changing codebase also requires them to have "
 "an isolated environment setup for each instance of the codebase."
 msgstr ""
+"후자를 강력히 추천합니다. 활발히 변경되는 코드베이스를 테스트하기 위해 개발자에게 ``setup.py develop`` 을 실행하라고 "
+"요구한다면, 코드베이스의 각 인스턴스마다 격리된 환경을 셋업하도록 요구하는 셈이 됩니다."
 
 #: ../../writing/structure.rst:213
 msgid ""
@@ -591,6 +596,9 @@ msgid ""
 "short so there is no need to separate words. And, most of all, don't "
 "namespace with underscores; use submodules instead."
 msgstr ""
+"원한다면 모듈 이름을 :file:`my_spam.py` 처럼 지을 수도 있지만, 우리의 믿음직한 친구 언더스코어조차 모듈 이름에서는 자주"
+" 보여서는 안 됩니다. 그렇다고 모듈 이름에 다른 문자(공백이나 하이픈)를 쓰면 임포트가 불가능해집니다(-는 빼기 연산자입니다). 단어를"
+" 구분할 필요가 없도록 모듈 이름은 짧게 유지하세요. 무엇보다도, 언더스코어로 네임스페이스를 만들지 말고 서브모듈을 사용하세요."
 
 #: ../../writing/structure.rst:413
 msgid ""
@@ -729,6 +737,10 @@ msgid ""
 "variable, function, or class defined in :file:`modu.py` is available in the "
 "pack.modu namespace."
 msgstr ""
+":file:`pack/` 디렉토리 안의 :file:`modu.py` 파일은 ``import pack.modu`` 구문으로 임포트됩니다. "
+"이 구문은 :file:`pack` 안의 :file:`__init__.py` 파일을 찾아 그 안의 모든 최상위 구문을 실행합니다. 그런 "
+"다음 :file:`pack/modu.py` 라는 파일을 찾아 그 안의 모든 최상위 구문을 실행합니다. 이러한 작업이 끝나면 "
+":file:`modu.py` 에 정의된 모든 변수, 함수, 클래스는 pack.modu 네임스페이스에서 사용할 수 있게 됩니다."
 
 #: ../../writing/structure.rst:502
 msgid ""
@@ -1171,6 +1183,10 @@ msgid ""
 "the parts together when the full string is needed. List comprehensions are "
 "usually the fastest and most idiomatic way to do this."
 msgstr ""
+"초보자를 놀라게 할 수 있는 파이썬의 특이점 하나는 문자열이 불변(immutable)이라는 점입니다. 즉, 여러 조각으로부터 문자열을 "
+"만들 때, 각 조각을 문자열에 덧붙이는 방식은 비효율적입니다. 덧붙일 때마다 문자열 전체가 복사되기 때문입니다. 그 대신, "
+"가변(mutable)인 리스트에 조각들을 모아두었다가, 완전한 문자열이 필요해졌을 때 그 조각들을 한꺼번에 붙이는(``join``) 편이"
+" 훨씬 효율적입니다. 일반적으로 이를 위한 가장 빠르고 관용적인 방법은 리스트 컴프리헨션입니다."
 
 #: ../../writing/structure.rst:845
 msgid ""
