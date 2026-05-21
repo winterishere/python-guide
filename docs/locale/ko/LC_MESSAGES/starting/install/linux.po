@@ -28,7 +28,7 @@ msgstr "리눅스에 파이썬 2 설치하기"
 #: ../../starting/install/linux.rst:11
 msgid ""
 "Check out our :ref:`guide for installing Python 3 on Linux<install3-linux>`."
-msgstr ""
+msgstr ":ref:`리눅스에 파이썬 3을 설치하는 안내서<install3-linux>` 를 참고하세요."
 
 #: ../../starting/install/linux.rst:13
 msgid ""
@@ -48,6 +48,8 @@ msgid ""
 "as Fedora, don't come with Python 2 pre-installed. You can install the "
 "``python2`` package with your distribution package manager:"
 msgstr ""
+"하지만 파이썬 3의 인기가 높아지면서, 페도라와 같은 일부 배포판에는 파이썬 2가 사전 설치되어 있지 않습니다. 배포판의 패키지 매니저를"
+" 사용하여 ``python2`` 패키지를 설치할 수 있습니다:"
 
 #: ../../starting/install/linux.rst:30
 msgid ""
