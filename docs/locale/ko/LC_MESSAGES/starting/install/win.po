@@ -29,7 +29,7 @@ msgstr "Windows에 파이썬 2 설치하기"
 msgid ""
 "Check out our :ref:`guide for installing Python 3 on "
 "Windows<install3-windows>`."
-msgstr ""
+msgstr ":ref:`Windows에 파이썬 3을 설치하는 안내서<install3-windows>` 를 참고하세요."
 
 #: ../../starting/install/win.rst:13
 msgid ""
@@ -85,7 +85,7 @@ msgstr "``powershell`` 에서 간단하게 실행할 수도 있습니다."
 
 #: ../../starting/install/win.rst:45
 msgid "This is also an option during the installation process."
-msgstr ""
+msgstr "이것은 설치 과정 중에도 선택할 수 있는 옵션입니다."
 
 #: ../../starting/install/win.rst:47
 msgid ""
@@ -112,6 +112,9 @@ msgid ""
 "<https://pypi.org/project/setuptools>`_ and `pip "
 "<https://pip.pypa.io/en/stable/>`_."
 msgstr ""
+"가장 중요한 파이썬 서드파티 패키지를 2개 뽑으라면 `setuptools "
+"<https://pypi.org/project/setuptools>`_ 와 `pip "
+"<https://pip.pypa.io/en/stable/>`_ 입니다."
 
 #: ../../starting/install/win.rst:62
 msgid ""
@@ -120,16 +123,18 @@ msgid ""
 "network installation capability to your own Python software with very little"
 " work."
 msgstr ""
+"한번 설치하고 나면 단 한 줄의 명령어로 호환되는 모든 파이썬 소프트웨어 제품을 다운로드, 설치, 제거할 수 있습니다. 또한 최소한의 "
+"작업으로 당신이 만든 파이썬 소프트웨어에 네트워크 설치 기능을 추가할 수 있습니다."
 
 #: ../../starting/install/win.rst:66
 msgid ""
 "Python 2.7.9 and later (on the python2 series), and Python 3.4 and later "
 "include pip by default."
-msgstr ""
+msgstr "(python2 계열의) 파이썬 2.7.9 이후 버전과 파이썬 3.4 이후 버전에는 기본으로 pip이 포함되어 있습니다."
 
 #: ../../starting/install/win.rst:69
 msgid "To see if pip is installed, open a command prompt and run"
-msgstr ""
+msgstr "pip이 설치되어 있는지 확인하려면, 명령 프롬프트를 열고 다음을 실행하세요"
 
 #: ../../starting/install/win.rst:75
 msgid ""
@@ -137,6 +142,8 @@ msgid ""
 "<https://pip.pypa.io/en/latest/installing/>`_ - this will automatically "
 "install the latest version of setuptools."
 msgstr ""
+"pip을 설치하려면, `pip 공식 설치 안내서 <https://pip.pypa.io/en/latest/installing/>`_ 를 "
+"따르세요. 이 안내서를 따르면 setuptools의 최신 버전도 자동으로 설치됩니다."
 
 #: ../../starting/install/win.rst:80
 msgid "Virtual Environments"
