@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-05-21 08:26+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Last-Translator: YoungSeon Ahn <ys.ahn@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -23,414 +23,480 @@ msgstr ""
 
 #: ../../intro/learning.rst:5
 msgid "Learning Python"
-msgstr ""
+msgstr "파이썬 배우기"
 
 #: ../../intro/learning.rst:12
 msgid "Beginner"
-msgstr ""
+msgstr "초보자"
 
 #: ../../intro/learning.rst:15
 msgid "The Python Tutorial"
-msgstr ""
+msgstr "파이썬 튜토리얼"
 
 #: ../../intro/learning.rst:17
 msgid ""
-"This is the official tutorial. It covers all the basics, and offers a "
-"tour of the language and the standard library. Recommended for those who "
-"need a quick-start guide to the language."
+"This is the official tutorial. It covers all the basics, and offers a tour "
+"of the language and the standard library. Recommended for those who need a "
+"quick-start guide to the language."
 msgstr ""
+"이것은 공식 튜토리얼입니다. 모든 기초를 다루며, 언어와 표준 라이브러리에 대한 둘러보기를 제공합니다. 언어에 대한 빠른 시작 가이드가 "
+"필요한 분들에게 추천합니다."
 
 #: ../../intro/learning.rst:21
 msgid "`The Python Tutorial <http://docs.python.org/tutorial/index.html>`_"
-msgstr ""
+msgstr "`파이썬 튜토리얼 <http://docs.python.org/tutorial/index.html>`_"
 
 #: ../../intro/learning.rst:24
 msgid "Real Python"
-msgstr ""
+msgstr "Real Python"
 
 #: ../../intro/learning.rst:26
 msgid ""
-"Real Python is a repository of free and in-depth Python tutorials created"
-" by a diverse team of professional Python developers. At Real Python you "
-"can learn all things Python from the ground up. Everything from the "
-"absolute basics of Python, to web development and web scraping, to data "
+"Real Python is a repository of free and in-depth Python tutorials created by"
+" a diverse team of professional Python developers. At Real Python you can "
+"learn all things Python from the ground up. Everything from the absolute "
+"basics of Python, to web development and web scraping, to data "
 "visualization, and beyond."
 msgstr ""
+"Real Python은 다양한 전문 파이썬 개발자 팀이 만든 무료의 깊이 있는 파이썬 튜토리얼 저장소입니다. Real Python에서는 "
+"파이썬의 모든 것을 처음부터 배울 수 있습니다. 파이썬의 가장 기초적인 부분부터 웹 개발, 웹 스크래핑, 데이터 시각화 등 그 이상까지 "
+"다룹니다."
 
 #: ../../intro/learning.rst:28
 msgid "`Real Python <https://realpython.com/>`_"
-msgstr ""
+msgstr "`Real Python <https://realpython.com/>`_"
 
 #: ../../intro/learning.rst:31
 msgid "Python Basics"
-msgstr ""
+msgstr "Python Basics"
 
 #: ../../intro/learning.rst:33
 msgid ""
 "pythonbasics.org is an introductory tutorial for beginners. The tutorial "
-"includes exercises. It covers the basics and there are also in-depth "
-"lessons like object oriented programming and regular expressions."
+"includes exercises. It covers the basics and there are also in-depth lessons"
+" like object oriented programming and regular expressions."
 msgstr ""
+"pythonbasics.org는 초보자를 위한 입문 튜토리얼입니다. 이 튜토리얼에는 연습 문제가 포함되어 있습니다. 기초를 다루며 "
+"객체지향 프로그래밍과 정규 표현식 같은 깊이 있는 강의도 있습니다."
 
 #: ../../intro/learning.rst:35
 msgid "`Python basics <https://pythonbasics.org/>`_"
-msgstr ""
+msgstr "`Python basics <https://pythonbasics.org/>`_"
 
 #: ../../intro/learning.rst:38
 msgid "Python for Beginners"
-msgstr ""
+msgstr "Python for Beginners"
 
 #: ../../intro/learning.rst:40
 msgid ""
-"thepythonguru.com is a tutorial focused on beginner programmers. It "
-"covers many Python concepts in depth. It also teaches you some advanced "
-"constructs of Python like lambda expressions and regular expressions. And"
-" last it finishes off with the tutorial \"How to access MySQL db using "
-"Python\""
+"thepythonguru.com is a tutorial focused on beginner programmers. It covers "
+"many Python concepts in depth. It also teaches you some advanced constructs "
+"of Python like lambda expressions and regular expressions. And last it "
+"finishes off with the tutorial \"How to access MySQL db using Python\""
 msgstr ""
+"thepythonguru.com은 초보 프로그래머에 초점을 맞춘 튜토리얼입니다. 많은 파이썬 개념을 깊이 다룹니다. 람다 표현식과 정규 "
+"표현식 같은 파이썬의 일부 고급 구조도 가르쳐 줍니다. 그리고 마지막에는 \"파이썬으로 MySQL db에 접근하는 방법\" 튜토리얼로 "
+"마무리합니다."
 
 #: ../../intro/learning.rst:44
 msgid "`Python for Beginners <https://thepythonguru.com/>`_"
-msgstr ""
+msgstr "`Python for Beginners <https://thepythonguru.com/>`_"
 
 #: ../../intro/learning.rst:47
 msgid "Learn Python Interactive Tutorial"
-msgstr ""
+msgstr "Learn Python 인터랙티브 튜토리얼"
 
 #: ../../intro/learning.rst:49
 msgid ""
-"Learnpython.org is an easy non-intimidating way to get introduced to "
-"Python. The website takes the same approach used on the popular `Try Ruby"
-" <https://ruby.github.io/TryRuby>`_ website. It has an interactive Python"
-" interpreter built into the site that allows you to go through the "
-"lessons without having to install Python locally."
+"Learnpython.org is an easy non-intimidating way to get introduced to Python."
+" The website takes the same approach used on the popular `Try Ruby "
+"<https://ruby.github.io/TryRuby>`_ website. It has an interactive Python "
+"interpreter built into the site that allows you to go through the lessons "
+"without having to install Python locally."
 msgstr ""
+"Learnpython.org는 파이썬을 접하는 쉽고 위협적이지 않은 방법입니다. 이 웹사이트는 인기 있는 `Try Ruby "
+"<https://ruby.github.io/TryRuby>`_ 웹사이트에서 사용된 것과 같은 접근 방식을 취합니다. 사이트에 인터랙티브한"
+" 파이썬 인터프리터가 내장되어 있어 파이썬을 로컬에 설치하지 않고도 강의를 따라갈 수 있습니다."
 
 #: ../../intro/learning.rst:55
 msgid "`Learn Python <http://www.learnpython.org/>`_"
-msgstr ""
+msgstr "`Learn Python <http://www.learnpython.org/>`_"
 
 #: ../../intro/learning.rst:58
 msgid "Python for You and Me"
-msgstr ""
+msgstr "Python for You and Me"
 
 #: ../../intro/learning.rst:60
 msgid ""
-"If you want a more traditional book, *Python For You and Me* is an "
-"excellent resource for learning all aspects of the language."
+"If you want a more traditional book, *Python For You and Me* is an excellent"
+" resource for learning all aspects of the language."
 msgstr ""
+"더 전통적인 책을 원한다면, *Python For You and Me* 는 언어의 모든 측면을 배울 수 있는 훌륭한 자료입니다."
 
 #: ../../intro/learning.rst:63
 msgid "`Python for You and Me <https://pymbook.readthedocs.io/>`_"
-msgstr ""
+msgstr "`Python for You and Me <https://pymbook.readthedocs.io/>`_"
 
 #: ../../intro/learning.rst:66
 msgid "Learn Python Step by Step"
-msgstr ""
+msgstr "Learn Python Step by Step"
 
 #: ../../intro/learning.rst:68
 msgid ""
 "Techbeamers.com provides step-by-step tutorials to teach Python. Each "
 "tutorial is supplemented with logically added coding snippets and equips "
-"with a follow-up quiz on the subject learned. There is a section for "
-"`Python interview questions <https://www.techbeamers.com/python-"
-"interview-questions-programmers>`_ to help job seekers. You can also read"
-" essential `Python tips <https://www.techbeamers.com/essential-python-"
-"tips-tricks-programmers>`_ and learn `best coding practices "
+"with a follow-up quiz on the subject learned. There is a section for `Python"
+" interview questions <https://www.techbeamers.com/python-interview-"
+"questions-programmers>`_ to help job seekers. You can also read essential "
+"`Python tips <https://www.techbeamers.com/essential-python-tips-tricks-"
+"programmers>`_ and learn `best coding practices "
 "<https://www.techbeamers.com/python-code-optimization-tips-tricks>`_ for "
-"writing quality code. Here, you'll get the right platform to learn Python"
-" quickly."
+"writing quality code. Here, you'll get the right platform to learn Python "
+"quickly."
 msgstr ""
+"Techbeamers.com는 파이썬을 가르치기 위한 단계별 튜토리얼을 제공합니다. 각 튜토리얼은 논리적으로 추가된 코딩 스니펫으로 "
+"보강되며, 학습한 주제에 대한 후속 퀴즈가 포함되어 있습니다. 구직자를 돕기 위한 `파이썬 면접 질문 "
+"<https://www.techbeamers.com/python-interview-questions-programmers>`_ 섹션도 "
+"있습니다. 또한 필수 `파이썬 팁 <https://www.techbeamers.com/essential-python-tips-"
+"tricks-programmers>`_ 을 읽고, 품질 좋은 코드를 작성하기 위한 `최선의 코딩 관행 "
+"<https://www.techbeamers.com/python-code-optimization-tips-tricks>`_ 을 배울 수 "
+"있습니다. 이곳에서 파이썬을 빠르게 배울 수 있는 적절한 플랫폼을 만날 수 있습니다."
 
 #: ../../intro/learning.rst:70
 msgid ""
 "`Learn Python Basic to Advanced <https://www.techbeamers.com/python-"
 "tutorial-step-by-step>`_"
 msgstr ""
+"`Learn Python Basic to Advanced <https://www.techbeamers.com/python-"
+"tutorial-step-by-step>`_"
 
 #: ../../intro/learning.rst:74
 msgid "Online Python Tutor"
-msgstr ""
+msgstr "Online Python Tutor"
 
 #: ../../intro/learning.rst:76
 msgid ""
-"Online Python Tutor gives you a visual step-by-step representation of how"
-" your program runs. Python Tutor helps people overcome a fundamental "
-"barrier to learning programming by understanding what happens as the "
-"computer executes each line of a program's source code."
+"Online Python Tutor gives you a visual step-by-step representation of how "
+"your program runs. Python Tutor helps people overcome a fundamental barrier "
+"to learning programming by understanding what happens as the computer "
+"executes each line of a program's source code."
 msgstr ""
+"Online Python Tutor는 프로그램이 어떻게 실행되는지에 대한 시각적이고 단계별인 표현을 제공합니다. Python Tutor는"
+" 컴퓨터가 프로그램 소스 코드의 각 줄을 실행할 때 무슨 일이 일어나는지 이해하게 해주어, 프로그래밍을 배우는 근본적인 장벽을 사람들이 "
+"극복할 수 있도록 돕습니다."
 
 #: ../../intro/learning.rst:82
 msgid "`Online Python Tutor <http://pythontutor.com/>`_"
-msgstr ""
+msgstr "`Online Python Tutor <http://pythontutor.com/>`_"
 
 #: ../../intro/learning.rst:85
 msgid "Invent Your Own Computer Games with Python"
-msgstr ""
+msgstr "Invent Your Own Computer Games with Python"
 
 #: ../../intro/learning.rst:87
 msgid ""
 "This beginner's book is for those with no programming experience at all. "
 "Each chapter has the source code to a small game, using these example "
-"programs to demonstrate programming concepts to give the reader an idea "
-"of what programs \"look like\"."
+"programs to demonstrate programming concepts to give the reader an idea of "
+"what programs \"look like\"."
 msgstr ""
+"이 초보자 책은 프로그래밍 경험이 전혀 없는 분들을 위한 책입니다. 각 장에는 작은 게임의 소스 코드가 있으며, 이러한 예시 프로그램을 "
+"사용하여 프로그래밍 개념을 보여주고 독자에게 프로그램이 \"어떻게 생겼는지\" 감을 줍니다."
 
 #: ../../intro/learning.rst:92
 msgid ""
-"`Invent Your Own Computer Games with Python "
-"<http://inventwithpython.com/>`_"
+"`Invent Your Own Computer Games with Python <http://inventwithpython.com/>`_"
 msgstr ""
+"`Invent Your Own Computer Games with Python <http://inventwithpython.com/>`_"
 
 #: ../../intro/learning.rst:96
 msgid "Hacking Secret Ciphers with Python"
-msgstr ""
+msgstr "Hacking Secret Ciphers with Python"
 
 #: ../../intro/learning.rst:98
 msgid ""
 "This book teaches Python programming and basic cryptography for absolute "
-"beginners. The chapters provide the source code for various ciphers, as "
-"well as programs that can break them."
+"beginners. The chapters provide the source code for various ciphers, as well"
+" as programs that can break them."
 msgstr ""
+"이 책은 완전 초보자를 위해 파이썬 프로그래밍과 기초 암호학을 가르칩니다. 각 장은 여러 가지 암호와 그것들을 깰 수 있는 프로그램의 "
+"소스 코드를 제공합니다."
 
 #: ../../intro/learning.rst:102
 msgid ""
-"`Hacking Secret Ciphers with Python "
-"<http://inventwithpython.com/hacking/>`_"
+"`Hacking Secret Ciphers with Python <http://inventwithpython.com/hacking/>`_"
 msgstr ""
+"`Hacking Secret Ciphers with Python <http://inventwithpython.com/hacking/>`_"
 
 #: ../../intro/learning.rst:106
 msgid "Learn Python the Hard Way"
-msgstr ""
+msgstr "Learn Python the Hard Way"
 
 #: ../../intro/learning.rst:108
 msgid ""
 "This is an excellent beginner programmer's guide to Python. It covers "
 "\"hello world\" from the console to the web."
-msgstr ""
+msgstr "이것은 훌륭한 초보 프로그래머용 파이썬 가이드입니다. 콘솔에서 웹에 이르기까지 \"hello world\"를 다룹니다."
 
 #: ../../intro/learning.rst:111
 msgid "`Learn Python the Hard Way <https://learnpythonthehardway.org/book/>`_"
 msgstr ""
+"`Learn Python the Hard Way <https://learnpythonthehardway.org/book/>`_"
 
 #: ../../intro/learning.rst:115
 msgid "Crash into Python"
-msgstr ""
+msgstr "Crash into Python"
 
 #: ../../intro/learning.rst:117
 msgid ""
 "Also known as *Python for Programmers with 3 Hours*, this guide gives "
 "experienced developers from other languages a crash course on Python."
 msgstr ""
+"*Python for Programmers with 3 Hours* 로도 알려진 이 가이드는 다른 언어를 사용해본 경험 있는 개발자에게 "
+"파이썬에 대한 속성 과정을 제공합니다."
 
 #: ../../intro/learning.rst:120
 msgid "`Crash into Python <https://stephensugden.com/crash_into_python/>`_"
-msgstr ""
+msgstr "`Crash into Python <https://stephensugden.com/crash_into_python/>`_"
 
 #: ../../intro/learning.rst:124
 msgid "Dive Into Python 3"
-msgstr ""
+msgstr "Dive Into Python 3"
 
 #: ../../intro/learning.rst:126
 msgid ""
-"Dive Into Python 3 is a good book for those ready to jump in to Python 3."
-" It's a good read if you are moving from Python 2 to 3 or if you already "
-"have some experience programming in another language."
+"Dive Into Python 3 is a good book for those ready to jump in to Python 3. "
+"It's a good read if you are moving from Python 2 to 3 or if you already have"
+" some experience programming in another language."
 msgstr ""
+"Dive Into Python 3은 파이썬 3에 뛰어들 준비가 된 분들을 위한 좋은 책입니다. 파이썬 2에서 3으로 옮겨가고 있거나, "
+"다른 언어로 이미 어느 정도 프로그래밍 경험이 있다면 좋은 읽을거리입니다."
 
 #: ../../intro/learning.rst:130
 msgid "`Dive Into Python 3 <http://diveintopython3.problemsolving.io/>`_"
-msgstr ""
+msgstr "`Dive Into Python 3 <http://diveintopython3.problemsolving.io/>`_"
 
 #: ../../intro/learning.rst:134
 msgid "Think Python: How to Think Like a Computer Scientist"
-msgstr ""
+msgstr "Think Python: How to Think Like a Computer Scientist"
 
 #: ../../intro/learning.rst:136
 msgid ""
-"Think Python attempts to give an introduction to basic concepts in "
-"computer science through the use of the Python language. The focus was to"
-" create a book with plenty of exercises, minimal jargon, and a section in"
-" each chapter devoted to the subject of debugging."
+"Think Python attempts to give an introduction to basic concepts in computer "
+"science through the use of the Python language. The focus was to create a "
+"book with plenty of exercises, minimal jargon, and a section in each chapter"
+" devoted to the subject of debugging."
 msgstr ""
+"Think Python은 파이썬 언어를 사용하여 컴퓨터 과학의 기본 개념을 소개하려 시도합니다. 연습 문제가 풍부하고 전문 용어는 "
+"최소화하며, 각 장에 디버깅 주제를 다루는 섹션이 있는 책을 만드는 데 초점을 두었습니다."
 
 #: ../../intro/learning.rst:141
 msgid ""
-"While exploring the various features available in the Python language the"
-" author weaves in various design patterns and best practices."
-msgstr ""
+"While exploring the various features available in the Python language the "
+"author weaves in various design patterns and best practices."
+msgstr "파이썬 언어에서 사용할 수 있는 다양한 기능을 탐색하면서, 저자는 다양한 디자인 패턴과 모범 사례를 함께 엮어 넣습니다."
 
 #: ../../intro/learning.rst:144
 msgid ""
-"The book also includes several case studies which have the reader explore"
-" the topics discussed in the book in greater detail by applying those "
-"topics to real-world examples. Case studies include assignments in GUI "
-"programming and Markov Analysis."
+"The book also includes several case studies which have the reader explore "
+"the topics discussed in the book in greater detail by applying those topics "
+"to real-world examples. Case studies include assignments in GUI programming "
+"and Markov Analysis."
 msgstr ""
+"이 책에는 또한 책에서 논의된 주제를 실제 세계의 예시에 적용하여 더 깊이 탐색하게 해주는 여러 케이스 스터디가 포함되어 있습니다. "
+"케이스 스터디에는 GUI 프로그래밍과 마르코프 분석 과제가 포함됩니다."
 
 #: ../../intro/learning.rst:149
 msgid "`Think Python <http://greenteapress.com/thinkpython/html/index.html>`_"
 msgstr ""
+"`Think Python <http://greenteapress.com/thinkpython/html/index.html>`_"
 
 #: ../../intro/learning.rst:153
 msgid "Python Koans"
-msgstr ""
+msgstr "Python Koans"
 
 #: ../../intro/learning.rst:155
 msgid ""
 "Python Koans is a port of Edgecase's Ruby Koans.  It uses a test-driven "
-"approach to provide an interactive tutorial teaching basic Python "
-"concepts.  By fixing assertion statements that fail in a test script, "
-"this provides sequential steps to learning Python."
+"approach to provide an interactive tutorial teaching basic Python concepts."
+"  By fixing assertion statements that fail in a test script, this provides "
+"sequential steps to learning Python."
 msgstr ""
+"Python Koans는 Edgecase의 Ruby Koans를 이식한 것입니다. 테스트 주도 접근 방식을 사용하여 파이썬의 기본 개념을"
+" 가르치는 인터랙티브 튜토리얼을 제공합니다. 테스트 스크립트에서 실패하는 단언(assertion) 구문을 고쳐 나가면서, 파이썬을 배우기"
+" 위한 순차적인 단계를 제공합니다."
 
 #: ../../intro/learning.rst:160
 msgid ""
-"For those used to languages and figuring out puzzles on their own, this "
-"can be a fun, attractive option. For those new to Python and programming,"
-" having an additional resource or reference will be helpful."
+"For those used to languages and figuring out puzzles on their own, this can "
+"be a fun, attractive option. For those new to Python and programming, having"
+" an additional resource or reference will be helpful."
 msgstr ""
+"언어에 익숙하고 스스로 퍼즐을 푸는 데에 익숙한 분들에게는 재미있고 매력적인 선택지가 될 수 있습니다. 파이썬과 프로그래밍에 새로 "
+"입문하는 분들에게는 추가 자료나 참고 자료가 있는 편이 도움이 됩니다."
 
 #: ../../intro/learning.rst:164
 msgid "`Python Koans <https://github.com/gregmalcolm/python_koans>`_"
-msgstr ""
+msgstr "`Python Koans <https://github.com/gregmalcolm/python_koans>`_"
 
 #: ../../intro/learning.rst:166
 msgid ""
 "More information about test driven development can be found at these "
 "resources:"
-msgstr ""
+msgstr "테스트 주도 개발에 대한 더 많은 정보는 다음 자료에서 찾을 수 있습니다:"
 
 #: ../../intro/learning.rst:168
 msgid ""
 "`Test Driven Development <https://en.wikipedia.org/wiki/Test-"
 "driven_development>`_"
 msgstr ""
+"`Test Driven Development <https://en.wikipedia.org/wiki/Test-"
+"driven_development>`_"
 
 #: ../../intro/learning.rst:172
 msgid "A Byte of Python"
-msgstr ""
+msgstr "A Byte of Python"
 
 #: ../../intro/learning.rst:174
 msgid ""
 "A free introductory book that teaches Python at the beginner level, it "
 "assumes no previous programming experience."
-msgstr ""
+msgstr "초보 수준에서 파이썬을 가르치는 무료 입문서로, 사전 프로그래밍 경험을 가정하지 않습니다."
 
 #: ../../intro/learning.rst:177
 msgid ""
 "`A Byte of Python for Python 2.x "
-"<http://www.ibiblio.org/swaroopch/byteofpython/read/>`_ `A Byte of Python"
-" for Python 3.x <https://python.swaroopch.com/>`_"
+"<http://www.ibiblio.org/swaroopch/byteofpython/read/>`_ `A Byte of Python "
+"for Python 3.x <https://python.swaroopch.com/>`_"
 msgstr ""
+"`A Byte of Python for Python 2.x "
+"<http://www.ibiblio.org/swaroopch/byteofpython/read/>`_ `A Byte of Python "
+"for Python 3.x <https://python.swaroopch.com/>`_"
 
 #: ../../intro/learning.rst:182
 msgid "Computer Science Path on Codecademy"
-msgstr ""
+msgstr "Codecademy의 Computer Science Path"
 
 #: ../../intro/learning.rst:184
 msgid ""
 "A Codecademy course for the absolute Python beginner. This free and "
-"interactive course provides and teaches the basics (and beyond) of Python"
-" programming while testing the user's knowledge in between progress. This"
-" course also features a built-in interpreter for receiving instant "
-"feedback on your learning."
+"interactive course provides and teaches the basics (and beyond) of Python "
+"programming while testing the user's knowledge in between progress. This "
+"course also features a built-in interpreter for receiving instant feedback "
+"on your learning."
 msgstr ""
+"완전 파이썬 초보자를 위한 Codecademy 강좌입니다. 이 무료의 인터랙티브 강좌는 파이썬 프로그래밍의 기초(와 그 이상)를 제공하고"
+" 가르치며, 진행 중간중간 사용자의 지식을 테스트합니다. 이 강좌에는 학습에 대한 즉각적인 피드백을 받을 수 있는 내장 인터프리터도 들어"
+" 있습니다."
 
 #: ../../intro/learning.rst:189
 msgid ""
 "`Computer Science Path on Codecademy "
 "<https://www.codecademy.com/learn/paths/computer-science>`_"
 msgstr ""
+"`Codecademy의 Computer Science Path "
+"<https://www.codecademy.com/learn/paths/computer-science>`_"
 
 #: ../../intro/learning.rst:193
 msgid "Code the blocks"
-msgstr ""
+msgstr "Code the blocks"
 
 #: ../../intro/learning.rst:195
 msgid ""
 "*Code the blocks* provides free and interactive Python tutorials for "
-"beginners. It combines Python programming with a 3D environment where you"
-" \"place blocks\" and construct structures. The tutorials teach you how "
-"to use Python to create progressively more elaborate 3D structures, "
-"making the process of learning Python fun and engaging."
+"beginners. It combines Python programming with a 3D environment where you "
+"\"place blocks\" and construct structures. The tutorials teach you how to "
+"use Python to create progressively more elaborate 3D structures, making the "
+"process of learning Python fun and engaging."
 msgstr ""
+"*Code the blocks* 는 초보자를 위한 무료 인터랙티브 파이썬 튜토리얼을 제공합니다. 파이썬 프로그래밍과 \"블록을 "
+"배치\"하여 구조물을 만드는 3D 환경을 결합합니다. 튜토리얼은 점점 더 정교한 3D 구조물을 만들기 위해 파이썬을 사용하는 방법을 "
+"가르쳐, 파이썬을 배우는 과정을 재미있고 흥미롭게 만들어줍니다."
 
 #: ../../intro/learning.rst:201
 msgid "`Code the blocks <https://codetheblocks.com/tutorials/introduction>`_"
-msgstr ""
+msgstr "`Code the blocks <https://codetheblocks.com/tutorials/introduction>`_"
 
 #: ../../intro/learning.rst:206
 msgid "Intermediate"
-msgstr ""
+msgstr "중급자"
 
 #: ../../intro/learning.rst:209
 msgid "Python Tricks: The Book"
-msgstr ""
+msgstr "Python Tricks: The Book"
 
 #: ../../intro/learning.rst:211
 msgid ""
-"Discover Python's best practices with simple examples and start writing "
-"even more beautiful + Pythonic code. *Python Tricks: The Book* shows you "
-"exactly how."
+"Discover Python's best practices with simple examples and start writing even"
+" more beautiful + Pythonic code. *Python Tricks: The Book* shows you exactly"
+" how."
 msgstr ""
+"간단한 예시로 파이썬의 모범 사례를 발견하고, 더 아름답고 파이썬다운 코드를 작성하기 시작하세요. *Python Tricks: The "
+"Book* 이 그 방법을 정확하게 보여줍니다."
 
 #: ../../intro/learning.rst:213
 msgid ""
 "You’ll master intermediate and advanced-level features in Python with "
 "practical examples and a clear narrative."
-msgstr ""
+msgstr "실용적인 예시와 명확한 서술을 통해 파이썬의 중급 및 고급 수준 기능들을 마스터하게 됩니다."
 
 #: ../../intro/learning.rst:215
 msgid ""
 "`Python Tricks: The Book <https://realpython.com/products/python-tricks-"
 "book/>`_"
 msgstr ""
+"`Python Tricks: The Book <https://realpython.com/products/python-tricks-"
+"book/>`_"
 
 #: ../../intro/learning.rst:218
 msgid "Effective Python"
-msgstr ""
+msgstr "Effective Python"
 
 #: ../../intro/learning.rst:220
 msgid ""
-"This book contains 59 specific ways to improve writing Pythonic code. At "
-"227 pages, it is a very brief overview of some of the most common "
-"adaptations programmers need to make to become efficient intermediate "
-"level Python programmers."
+"This book contains 59 specific ways to improve writing Pythonic code. At 227"
+" pages, it is a very brief overview of some of the most common adaptations "
+"programmers need to make to become efficient intermediate level Python "
+"programmers."
 msgstr ""
+"이 책에는 파이썬다운 코드 작성을 개선하는 59가지 구체적인 방법이 담겨 있습니다. 227페이지로, 효율적인 중급 수준의 파이썬 "
+"프로그래머가 되기 위해 프로그래머가 해야 할 가장 일반적인 적응 사항 일부에 대한 매우 간단한 개요입니다."
 
 #: ../../intro/learning.rst:225
 msgid "`Effective Python <https://effectivepython.com/>`_"
-msgstr ""
+msgstr "`Effective Python <https://effectivepython.com/>`_"
 
 #: ../../intro/learning.rst:230
 msgid "Advanced"
-msgstr ""
+msgstr "고급자"
 
 #: ../../intro/learning.rst:233
 msgid "Pro Python"
-msgstr ""
+msgstr "Pro Python"
 
 #: ../../intro/learning.rst:235
 msgid ""
-"This book is for intermediate to advanced Python programmers who are "
-"looking to understand how and why Python works the way it does and how "
-"they can take their code to the next level."
+"This book is for intermediate to advanced Python programmers who are looking"
+" to understand how and why Python works the way it does and how they can "
+"take their code to the next level."
 msgstr ""
+"이 책은 파이썬이 왜 이런 방식으로 동작하는지, 그리고 자신의 코드를 한 단계 더 발전시키는 방법을 이해하고자 하는 중급에서 고급 파이썬"
+" 프로그래머를 위한 책입니다."
 
 #: ../../intro/learning.rst:239
 msgid "`Pro Python <https://www.apress.com/gp/book/9781430227571>`_"
-msgstr ""
+msgstr "`Pro Python <https://www.apress.com/gp/book/9781430227571>`_"
 
 #: ../../intro/learning.rst:243
 msgid "Expert Python Programming"
-msgstr ""
+msgstr "Expert Python Programming"
 
 #: ../../intro/learning.rst:244
 msgid ""
-"Expert Python Programming deals with best practices in programming Python"
-" and is focused on the more advanced crowd."
+"Expert Python Programming deals with best practices in programming Python "
+"and is focused on the more advanced crowd."
 msgstr ""
+"Expert Python Programming은 파이썬 프로그래밍의 모범 사례를 다루며, 보다 고급의 독자층에 초점을 맞춥니다."
 
 #: ../../intro/learning.rst:247
 msgid ""
@@ -438,39 +504,50 @@ msgid ""
 "manager case studies), method resolution order, using super() and meta-"
 "programming, and general :pep:`8` best practices."
 msgstr ""
+"데코레이터(캐싱, 프록시, 컨텍스트 매니저 케이스 스터디 포함), 메소드 결정 순서(MRO), super() 사용과 메타 프로그래밍, "
+"그리고 일반적인 :pep:`8` 모범 사례 같은 주제로 시작합니다."
 
 #: ../../intro/learning.rst:251
 msgid ""
 "It has a detailed, multi-chapter case study on writing and releasing a "
 "package and eventually an application, including a chapter on using "
 "zc.buildout.  Later chapters detail best practices such as writing "
-"documentation, test-driven development, version control, optimization, "
-"and profiling."
+"documentation, test-driven development, version control, optimization, and "
+"profiling."
 msgstr ""
+"패키지와 궁극적으로는 응용을 작성하고 릴리즈하는 것에 대한 자세한 다중 장 케이스 스터디가 있으며, zc.buildout 사용에 대한 "
+"장도 포함되어 있습니다. 후반부 장들은 문서 작성, 테스트 주도 개발, 버전 관리, 최적화, 프로파일링 같은 모범 사례를 자세히 "
+"다룹니다."
 
 #: ../../intro/learning.rst:256
 msgid ""
-"`Expert Python Programming <https://www.packtpub.com/product/expert-"
-"python-programming-third-edition/9781789808896>`_"
+"`Expert Python Programming <https://www.packtpub.com/product/expert-python-"
+"programming-third-edition/9781789808896>`_"
 msgstr ""
+"`Expert Python Programming <https://www.packtpub.com/product/expert-python-"
+"programming-third-edition/9781789808896>`_"
 
 #: ../../intro/learning.rst:260
 msgid "A Guide to Python's Magic Methods"
-msgstr ""
+msgstr "A Guide to Python's Magic Methods"
 
 #: ../../intro/learning.rst:262
 msgid ""
 "This is a collection of blog posts by Rafe Kettler which explain 'magic "
-"methods' in Python. Magic methods are surrounded by double underscores "
-"(i.e. __init__) and can make classes and objects behave in different and "
-"magical ways."
+"methods' in Python. Magic methods are surrounded by double underscores (i.e."
+" __init__) and can make classes and objects behave in different and magical "
+"ways."
 msgstr ""
+"이것은 파이썬의 '매직 메소드(magic methods)'를 설명하는 Rafe Kettler의 블로그 글 모음입니다. 매직 메소드는 더블"
+" 언더스코어로 둘러싸여 있으며(예: __init__), 클래스와 객체를 다양하고 마술 같은 방식으로 동작하게 만들 수 있습니다."
 
 #: ../../intro/learning.rst:266
 msgid ""
 "`A Guide to Python's Magic Methods "
 "<http://www.rafekettler.com/magicmethods.html>`_"
 msgstr ""
+"`A Guide to Python's Magic Methods "
+"<http://www.rafekettler.com/magicmethods.html>`_"
 
 #: ../../intro/learning.rst:268
 msgid ""
@@ -479,14 +556,17 @@ msgid ""
 "Methods (repo on GitHub) "
 "<https://github.com/RafeKettler/magicmethods/blob/master/magicmethods.pdf>`_"
 msgstr ""
+"Rafekettler.com이 현재 다운되어 있어, GitHub 버전으로 바로 갈 수 있습니다. 여기서 PDF 버전을 찾을 수 있습니다:"
+" `A Guide to Python's Magic Methods (GitHub 저장소) "
+"<https://github.com/RafeKettler/magicmethods/blob/master/magicmethods.pdf>`_"
 
 #: ../../intro/learning.rst:274
 msgid "For Engineers and Scientists"
-msgstr ""
+msgstr "엔지니어와 과학자를 위해"
 
 #: ../../intro/learning.rst:277
 msgid "A Primer on Scientific Programming with Python"
-msgstr ""
+msgstr "A Primer on Scientific Programming with Python"
 
 #: ../../intro/learning.rst:279
 msgid ""
@@ -494,23 +574,28 @@ msgid ""
 "Langtangen, mainly covers Python's usage in the scientific field. In the "
 "book, examples are chosen from mathematics and the natural sciences."
 msgstr ""
+"Hans Petter Langtangen이 쓴 A Primer on Scientific Programming with Python은 주로"
+" 과학 분야에서의 파이썬 사용을 다룹니다. 이 책에서는 수학과 자연과학에서 예시를 골랐습니다."
 
 #: ../../intro/learning.rst:283
 msgid ""
 "`A Primer on Scientific Programming with Python "
 "<https://www.springer.com/us/book/9783642302930#otherversion=9783642302923>`_"
 msgstr ""
+"`A Primer on Scientific Programming with Python "
+"<https://www.springer.com/us/book/9783642302930#otherversion=9783642302923>`_"
 
 #: ../../intro/learning.rst:286
 msgid "Numerical Methods in Engineering with Python"
-msgstr ""
+msgstr "Numerical Methods in Engineering with Python"
 
 #: ../../intro/learning.rst:288
 msgid ""
 "Numerical Methods in Engineering with Python, written by Jaan Kiusalaas, "
-"puts the emphasis on numerical methods and how to implement them in "
-"Python."
+"puts the emphasis on numerical methods and how to implement them in Python."
 msgstr ""
+"Jaan Kiusalaas가 쓴 Numerical Methods in Engineering with Python은 수치 해석 방법과 "
+"그것들을 파이썬으로 구현하는 방법에 중점을 둡니다."
 
 #: ../../intro/learning.rst:291
 msgid ""
@@ -519,216 +604,257 @@ msgid ""
 "mathematics-and-programming/numerical-methods-engineering-python-2nd-"
 "edition>`_"
 msgstr ""
+"`Numerical Methods in Engineering with Python "
+"<https://www.cambridge.org/us/academic/subjects/engineering/engineering-"
+"mathematics-and-programming/numerical-methods-engineering-python-2nd-"
+"edition>`_"
 
 #: ../../intro/learning.rst:296
 msgid "Miscellaneous Topics"
-msgstr ""
+msgstr "기타 주제"
 
 #: ../../intro/learning.rst:299
 msgid "Problem Solving with Algorithms and Data Structures"
-msgstr ""
+msgstr "Problem Solving with Algorithms and Data Structures"
 
 #: ../../intro/learning.rst:301
 msgid ""
-"Problem Solving with Algorithms and Data Structures covers a range of "
-"data structures and algorithms. All concepts are illustrated with Python "
-"code along with interactive samples that can be run directly in the "
-"browser."
+"Problem Solving with Algorithms and Data Structures covers a range of data "
+"structures and algorithms. All concepts are illustrated with Python code "
+"along with interactive samples that can be run directly in the browser."
 msgstr ""
+"Problem Solving with Algorithms and Data Structures는 다양한 자료구조와 알고리즘을 다룹니다. "
+"모든 개념은 파이썬 코드와 브라우저에서 바로 실행할 수 있는 인터랙티브 샘플로 설명됩니다."
 
 #: ../../intro/learning.rst:305
 msgid ""
 "`Problem Solving with Algorithms and Data Structures "
 "<http://www.interactivepython.org/courselib/static/pythonds/index.html>`_"
 msgstr ""
+"`Problem Solving with Algorithms and Data Structures "
+"<http://www.interactivepython.org/courselib/static/pythonds/index.html>`_"
 
 #: ../../intro/learning.rst:309
 msgid "Programming Collective Intelligence"
-msgstr ""
+msgstr "Programming Collective Intelligence"
 
 #: ../../intro/learning.rst:311
 msgid ""
-"Programming Collective Intelligence introduces a wide array of basic "
-"machine learning and data mining methods. The exposition is not very "
-"mathematically formal, but rather focuses on explaining the underlying "
-"intuition and shows how to implement the algorithms in Python."
+"Programming Collective Intelligence introduces a wide array of basic machine"
+" learning and data mining methods. The exposition is not very mathematically"
+" formal, but rather focuses on explaining the underlying intuition and shows"
+" how to implement the algorithms in Python."
 msgstr ""
+"Programming Collective Intelligence는 광범위한 기본 머신러닝과 데이터 마이닝 방법을 소개합니다. 수학적으로 "
+"매우 형식적이지는 않으며, 오히려 그 밑에 깔린 직관을 설명하는 데 초점을 맞추고 파이썬으로 알고리즘을 구현하는 방법을 보여줍니다."
 
 #: ../../intro/learning.rst:316
 msgid ""
 "`Programming Collective Intelligence "
 "<http://shop.oreilly.com/product/9780596529321.do>`_"
 msgstr ""
+"`Programming Collective Intelligence "
+"<http://shop.oreilly.com/product/9780596529321.do>`_"
 
 #: ../../intro/learning.rst:320
 msgid "Transforming Code into Beautiful, Idiomatic Python"
-msgstr ""
+msgstr "Transforming Code into Beautiful, Idiomatic Python"
 
 #: ../../intro/learning.rst:322
 msgid ""
 "Transforming Code into Beautiful, Idiomatic Python is a video by Raymond "
 "Hettinger. Learn to take better advantage of Python's best features and "
-"improve existing code through a series of code transformations: \"When "
-"you see this, do that instead.\""
+"improve existing code through a series of code transformations: \"When you "
+"see this, do that instead.\""
 msgstr ""
+"Transforming Code into Beautiful, Idiomatic Python은 Raymond Hettinger의 "
+"동영상입니다. 파이썬의 최고 기능을 더 잘 활용하는 법을 배우고, 일련의 코드 변환을 통해 기존 코드를 개선하세요: \"이것을 보면, "
+"대신 저것을 하세요.\""
 
 #: ../../intro/learning.rst:326
 msgid ""
 "`Transforming Code into Beautiful, Idiomatic Python "
 "<https://www.youtube.com/watch?v=OSGv2VnC0go>`_"
 msgstr ""
+"`Transforming Code into Beautiful, Idiomatic Python "
+"<https://www.youtube.com/watch?v=OSGv2VnC0go>`_"
 
 #: ../../intro/learning.rst:330
 msgid "Fullstack Python"
-msgstr ""
+msgstr "Fullstack Python"
 
 #: ../../intro/learning.rst:332
 msgid ""
 "Fullstack Python offers a complete top-to-bottom resource for web "
 "development using Python."
-msgstr ""
+msgstr "Fullstack Python은 파이썬을 사용한 웹 개발에 대한 완전한 위에서 아래까지의 자료를 제공합니다."
 
 #: ../../intro/learning.rst:335
 msgid ""
 "From setting up the web server, to designing the front-end, choosing a "
 "database, optimizing/scaling, etc."
-msgstr ""
+msgstr "웹 서버 설정부터 프론트엔드 디자인, 데이터베이스 선택, 최적화/확장 등에 이르기까지."
 
 #: ../../intro/learning.rst:338
 msgid ""
 "As the name suggests, it covers everything you need to build and run a "
 "complete web app from scratch."
-msgstr ""
+msgstr "이름이 시사하듯, 완전한 웹 앱을 처음부터 빌드하고 실행하는 데 필요한 모든 것을 다룹니다."
 
 #: ../../intro/learning.rst:341
 msgid "`Fullstack Python <https://www.fullstackpython.com>`_"
-msgstr ""
+msgstr "`Fullstack Python <https://www.fullstackpython.com>`_"
 
 #: ../../intro/learning.rst:345
 msgid "PythonistaCafe"
-msgstr ""
+msgstr "PythonistaCafe"
 
 #: ../../intro/learning.rst:347
 msgid ""
-"PythonistaCafe is an invite-only, online community of Python and software"
-" development enthusiasts helping each other succeed and grow. Think of it"
-" as a club of mutual improvement for Pythonistas where a broad range of "
-"programming questions, career advice, and other topics are discussed "
-"every day."
+"PythonistaCafe is an invite-only, online community of Python and software "
+"development enthusiasts helping each other succeed and grow. Think of it as "
+"a club of mutual improvement for Pythonistas where a broad range of "
+"programming questions, career advice, and other topics are discussed every "
+"day."
 msgstr ""
+"PythonistaCafe는 초대 전용 온라인 커뮤니티로, 파이썬과 소프트웨어 개발 애호가들이 서로의 성공과 성장을 돕는 곳입니다. "
+"광범위한 프로그래밍 질문, 커리어 조언, 기타 주제가 매일 논의되는 파이썬 사용자(Pythonista)를 위한 상호 발전 클럽이라고 "
+"생각하면 됩니다."
 
 #: ../../intro/learning.rst:349
 msgid "`PythonistaCafe <https://www.pythonistacafe.com>`_"
-msgstr ""
+msgstr "`PythonistaCafe <https://www.pythonistacafe.com>`_"
 
 #: ../../intro/learning.rst:354
 msgid "References"
-msgstr ""
+msgstr "참고 문헌"
 
 #: ../../intro/learning.rst:357
 msgid "Python in a Nutshell"
-msgstr ""
+msgstr "Python in a Nutshell"
 
 #: ../../intro/learning.rst:359
 msgid ""
-"Python in a Nutshell, written by Alex Martelli, covers most cross-"
-"platform Python usage, from its syntax to built-in libraries to advanced "
-"topics such as writing C extensions."
+"Python in a Nutshell, written by Alex Martelli, covers most cross-platform "
+"Python usage, from its syntax to built-in libraries to advanced topics such "
+"as writing C extensions."
 msgstr ""
+"Alex Martelli가 쓴 Python in a Nutshell은 문법부터 내장 라이브러리, 그리고 C 확장 작성과 같은 고급 주제에"
+" 이르기까지, 대부분의 크로스 플랫폼 파이썬 사용법을 다룹니다."
 
 #: ../../intro/learning.rst:363
-msgid "`Python in a Nutshell <http://shop.oreilly.com/product/9780596001889.do>`_"
+msgid ""
+"`Python in a Nutshell <http://shop.oreilly.com/product/9780596001889.do>`_"
 msgstr ""
+"`Python in a Nutshell <http://shop.oreilly.com/product/9780596001889.do>`_"
 
 #: ../../intro/learning.rst:366
 msgid "The Python Language Reference"
-msgstr ""
+msgstr "The Python Language Reference"
 
 #: ../../intro/learning.rst:368
 msgid ""
 "This is Python's reference manual. It covers the syntax and the core "
 "semantics of the language."
-msgstr ""
+msgstr "이것은 파이썬의 레퍼런스 매뉴얼입니다. 언어의 문법과 핵심 의미론을 다룹니다."
 
 #: ../../intro/learning.rst:371
 msgid ""
 "`The Python Language Reference "
 "<http://docs.python.org/reference/index.html>`_"
 msgstr ""
+"`The Python Language Reference "
+"<http://docs.python.org/reference/index.html>`_"
 
 #: ../../intro/learning.rst:374
 msgid "Python Essential Reference"
-msgstr ""
+msgstr "Python Essential Reference"
 
 #: ../../intro/learning.rst:376
 msgid ""
 "Python Essential Reference, written by David Beazley, is the definitive "
-"reference guide to Python. It concisely explains both the core language "
-"and the most essential parts of the standard library. It covers Python 3 "
-"and 2.6 versions."
+"reference guide to Python. It concisely explains both the core language and "
+"the most essential parts of the standard library. It covers Python 3 and 2.6"
+" versions."
 msgstr ""
+"David Beazley가 쓴 Python Essential Reference는 파이썬에 대한 결정판 레퍼런스 가이드입니다. 핵심 언어와"
+" 표준 라이브러리에서 가장 필수적인 부분을 간결하게 설명합니다. 파이썬 3과 2.6 버전을 다룹니다."
 
 #: ../../intro/learning.rst:380
 msgid "`Python Essential Reference <http://www.dabeaz.com/per.html>`_"
-msgstr ""
+msgstr "`Python Essential Reference <http://www.dabeaz.com/per.html>`_"
 
 #: ../../intro/learning.rst:383
 msgid "Python Pocket Reference"
-msgstr ""
+msgstr "Python Pocket Reference"
 
 #: ../../intro/learning.rst:385
 msgid ""
-"Python Pocket Reference, written by Mark Lutz, is an easy to use "
-"reference to the core language, with descriptions of commonly used "
-"modules and toolkits. It covers Python 3 and 2.6 versions."
+"Python Pocket Reference, written by Mark Lutz, is an easy to use reference "
+"to the core language, with descriptions of commonly used modules and "
+"toolkits. It covers Python 3 and 2.6 versions."
 msgstr ""
+"Mark Lutz가 쓴 Python Pocket Reference는 핵심 언어에 대한 쉽게 사용할 수 있는 레퍼런스이며, 일반적으로 "
+"사용되는 모듈과 툴킷에 대한 설명이 들어 있습니다. 파이썬 3과 2.6 버전을 다룹니다."
 
 #: ../../intro/learning.rst:389
 msgid ""
 "`Python Pocket Reference "
 "<http://shop.oreilly.com/product/9780596158095.do>`_"
 msgstr ""
+"`Python Pocket Reference "
+"<http://shop.oreilly.com/product/9780596158095.do>`_"
 
 #: ../../intro/learning.rst:392
 msgid "Python Cookbook"
-msgstr ""
+msgstr "Python Cookbook"
 
 #: ../../intro/learning.rst:394
 msgid ""
-"Python Cookbook, written by David Beazley and Brian K. Jones, is packed "
-"with practical recipes. This book covers the core Python language as well"
-" as tasks common to a wide variety of application domains."
+"Python Cookbook, written by David Beazley and Brian K. Jones, is packed with"
+" practical recipes. This book covers the core Python language as well as "
+"tasks common to a wide variety of application domains."
 msgstr ""
+"David Beazley와 Brian K. Jones가 쓴 Python Cookbook은 실용적인 레시피로 가득합니다. 이 책은 핵심 "
+"파이썬 언어뿐만 아니라 다양한 응용 도메인에 공통적인 작업을 다룹니다."
 
 #: ../../intro/learning.rst:398
 msgid "`Python Cookbook <http://shop.oreilly.com/product/0636920027072.do>`_"
-msgstr ""
+msgstr "`Python Cookbook <http://shop.oreilly.com/product/0636920027072.do>`_"
 
 #: ../../intro/learning.rst:401
 msgid "Writing Idiomatic Python"
-msgstr ""
+msgstr "Writing Idiomatic Python"
 
 #: ../../intro/learning.rst:403
 msgid ""
-"Writing Idiomatic Python, written by Jeff Knupp, contains the most common"
-" and important Python idioms in a format that maximizes identification "
-"and understanding.  Each idiom is presented as a recommendation of a way "
-"to write some commonly used piece of code, followed by an explanation of "
-"why the idiom is important. It also contains two code samples for each "
-"idiom: the \"Harmful\" way to write it and the \"Idiomatic\" way."
+"Writing Idiomatic Python, written by Jeff Knupp, contains the most common "
+"and important Python idioms in a format that maximizes identification and "
+"understanding.  Each idiom is presented as a recommendation of a way to "
+"write some commonly used piece of code, followed by an explanation of why "
+"the idiom is important. It also contains two code samples for each idiom: "
+"the \"Harmful\" way to write it and the \"Idiomatic\" way."
 msgstr ""
+"Jeff Knupp이 쓴 Writing Idiomatic Python에는 식별과 이해를 극대화하는 형식으로 가장 흔하고 중요한 파이썬 "
+"이디엄이 담겨 있습니다. 각 이디엄은 자주 사용되는 코드 조각을 작성하는 권장 방식으로 제시되며, 그 이디엄이 왜 중요한지에 대한 설명이"
+" 뒤따릅니다. 또한 각 이디엄에 대해 두 가지 코드 샘플, 즉 \"해로운(Harmful)\" 작성 방식과 "
+"\"이디엄적(Idiomatic)\" 방식을 담고 있습니다."
 
 #: ../../intro/learning.rst:410
 msgid ""
 "`For Python 2.7.3+ <https://www.amazon.com/Writing-Idiomatic-Python-Jeff-"
 "Knupp-ebook/dp/B00B5KG0F8/>`_"
 msgstr ""
+"`Python 2.7.3+ 용 <https://www.amazon.com/Writing-Idiomatic-Python-Jeff-"
+"Knupp-ebook/dp/B00B5KG0F8/>`_"
 
 #: ../../intro/learning.rst:412
 msgid ""
 "`For Python 3.3+  <https://www.amazon.com/Writing-Idiomatic-Python-Jeff-"
 "Knupp-ebook/dp/B00B5VXMRG/>`_"
 msgstr ""
+"`Python 3.3+ 용 <https://www.amazon.com/Writing-Idiomatic-Python-Jeff-Knupp-"
+"ebook/dp/B00B5VXMRG/>`_"
 
 #~ msgid ""
 #~ msgstr ""
@@ -737,41 +863,28 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid ""
-#~ "thepythonguru.com is a tutorial focuses "
-#~ "on beginner programmers. It covers many"
-#~ " python concepts in depth. It also"
-#~ " teaches you some advance constructs "
-#~ "of python like lambda expression, "
-#~ "regular expression. At last it finishes"
-#~ " off with  tutorial \"How to access"
-#~ " MySQL db using python\""
+#~ "thepythonguru.com is a tutorial focuses on beginner programmers. It covers "
+#~ "many python concepts in depth. It also teaches you some advance constructs "
+#~ "of python like lambda expression, regular expression. At last it finishes "
+#~ "off with  tutorial \"How to access MySQL db using python\""
 #~ msgstr ""
 
 #~ msgid "`Python for beginners <http://thepythonguru.com/>`_"
 #~ msgstr ""
 
 #~ msgid ""
-#~ "Learnpython.org is an easy non-"
-#~ "intimidating way to get introduced to"
-#~ " Python. The website takes the same"
-#~ " approach used on the popular `Try"
-#~ " Ruby <http://tryruby.org/>`_ website, it "
-#~ "has an interactive Python interpreter "
-#~ "built into the site that allows "
-#~ "you to go through the lessons "
-#~ "without having to install Python "
-#~ "locally."
+#~ "Learnpython.org is an easy non-intimidating way to get introduced to Python."
+#~ " The website takes the same approach used on the popular `Try Ruby "
+#~ "<http://tryruby.org/>`_ website, it has an interactive Python interpreter "
+#~ "built into the site that allows you to go through the lessons without having"
+#~ " to install Python locally."
 #~ msgstr ""
 
 #~ msgid ""
-#~ "Online Python Tutor gives you a "
-#~ "visual step by step representation of"
-#~ " how your program runs. Python Tutor"
-#~ " helps people overcome a fundamental "
-#~ "barrier to learning programming by "
-#~ "understanding what happens as the "
-#~ "computer executes each line of a "
-#~ "program's source code."
+#~ "Online Python Tutor gives you a visual step by step representation of how "
+#~ "your program runs. Python Tutor helps people overcome a fundamental barrier "
+#~ "to learning programming by understanding what happens as the computer "
+#~ "executes each line of a program's source code."
 #~ msgstr ""
 
 #~ msgid "`Learn Python the Hard Way <http://learnpythonthehardway.org/book/>`_"
@@ -784,81 +897,61 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid ""
-#~ "Think Python attempts to give an "
-#~ "introduction to basic concepts in "
-#~ "computer science through the use of "
-#~ "the Python language. The focus was "
-#~ "to create a book with plenty of"
-#~ " exercises, minimal jargon and a "
-#~ "section in each chapter devoted to "
-#~ "the subject of debugging."
+#~ "Think Python attempts to give an introduction to basic concepts in computer "
+#~ "science through the use of the Python language. The focus was to create a "
+#~ "book with plenty of exercises, minimal jargon and a section in each chapter "
+#~ "devoted to the subject of debugging."
 #~ msgstr ""
 
 #~ msgid ""
-#~ "The book also includes several case "
-#~ "studies which have the reader explore"
-#~ " the topics discussed in the book "
-#~ "in greater detail by applying those "
-#~ "topics to real-world examples. Case "
-#~ "studies include assignments in GUI and"
-#~ " Markov Analysis."
+#~ "The book also includes several case studies which have the reader explore "
+#~ "the topics discussed in the book in greater detail by applying those topics "
+#~ "to real-world examples. Case studies include assignments in GUI and Markov "
+#~ "Analysis."
 #~ msgstr ""
 
 #~ msgid ""
-#~ "Python Koans is a port of "
-#~ "Edgecase's Ruby Koans.  It uses a "
-#~ "test-driven approach, q.v. TEST DRIVEN "
-#~ "DESIGN SECTION to provide an interactive"
-#~ " tutorial teaching basic Python concepts."
-#~ "  By fixing assertion statements that "
-#~ "fail in a test script, this "
-#~ "provides sequential steps to learning "
-#~ "Python."
+#~ "Python Koans is a port of Edgecase's Ruby Koans.  It uses a test-driven "
+#~ "approach, q.v. TEST DRIVEN DESIGN SECTION to provide an interactive tutorial"
+#~ " teaching basic Python concepts.  By fixing assertion statements that fail "
+#~ "in a test script, this provides sequential steps to learning Python."
 #~ msgstr ""
 
 #~ msgid "`Python Koans <http://bitbucket.org/gregmalcolm/python_koans>`_"
 #~ msgstr ""
 
 #~ msgid ""
-#~ "`Test Driven Development "
-#~ "<http://en.wikipedia.org/wiki/Test-driven_development>`_"
+#~ "`Test Driven Development <http://en.wikipedia.org/wiki/Test-"
+#~ "driven_development>`_"
 #~ msgstr ""
 
 #~ msgid ""
-#~ "`A Byte of Python for Python 2.x"
-#~ " <http://www.ibiblio.org/swaroopch/byteofpython/read/>`_ `A"
-#~ " Byte of Python for Python 3.x "
-#~ "<http://swaroopch.com/notes/Python_en-Preface/>`_"
+#~ "`A Byte of Python for Python 2.x "
+#~ "<http://www.ibiblio.org/swaroopch/byteofpython/read/>`_ `A Byte of Python "
+#~ "for Python 3.x <http://swaroopch.com/notes/Python_en-Preface/>`_"
 #~ msgstr ""
 
 #~ msgid "Learn to Program in Python with Codeacademy"
 #~ msgstr ""
 
 #~ msgid ""
-#~ "A Codeacademy course for the absolute"
-#~ " Python beginner. This free and "
-#~ "interactive course provides and teaches "
-#~ "the basics (and beyond) of Python "
-#~ "programming whilst testing the user's "
-#~ "knowledge in between progress. This "
-#~ "course also features a built-in "
-#~ "interpreter for receiving instant feedback "
+#~ "A Codeacademy course for the absolute Python beginner. This free and "
+#~ "interactive course provides and teaches the basics (and beyond) of Python "
+#~ "programming whilst testing the user's knowledge in between progress. This "
+#~ "course also features a built-in interpreter for receiving instant feedback "
 #~ "on your learning."
 #~ msgstr ""
 
 #~ msgid ""
-#~ "`Learn to Program in Python with "
-#~ "Codeacademy <http://www.codecademy.com/en/tracks/python>`_"
+#~ "`Learn to Program in Python with Codeacademy "
+#~ "<http://www.codecademy.com/en/tracks/python>`_"
 #~ msgstr ""
 
 #~ msgid ""
-#~ "This book contains 59 specific ways "
-#~ "to improve writing Pythonic code. At "
-#~ "227 pages, it is a very brief "
-#~ "overview of some of the most "
-#~ "commons adapations programmers need to "
-#~ "make to become efficient intermediate "
-#~ "level Python programmers."
+#~ "This book contains 59 specific ways to improve writing Pythonic code. At 227"
+#~ " pages, it is a very brief overview of some of the most commons adapations "
+#~ "programmers need to make to become efficient intermediate level Python "
+#~ "programmers."
 #~ msgstr ""
 
 #~ msgid "`Effective Python <http://www.effectivepython.com/>`_"
@@ -868,114 +961,88 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid ""
-#~ "It starts with topics like decorators"
-#~ " (with caching, proxy, and context "
-#~ "manager case-studies), method resolution "
-#~ "order, using super() and meta-"
-#~ "programming, and general :pep:`8` best "
-#~ "practices."
+#~ "It starts with topics like decorators (with caching, proxy, and context "
+#~ "manager case-studies), method resolution order, using super() and meta-"
+#~ "programming, and general :pep:`8` best practices."
 #~ msgstr ""
 
 #~ msgid ""
-#~ "It has a detailed, multi-chapter "
-#~ "case study on writing and releasing "
-#~ "a package and eventually an application,"
-#~ " including a chapter on using "
-#~ "zc.buildout.  Later chapters detail best "
-#~ "practices such as writing documentation, "
-#~ "test-driven development, version control, "
-#~ "optimization and profiling."
+#~ "It has a detailed, multi-chapter case study on writing and releasing a "
+#~ "package and eventually an application, including a chapter on using "
+#~ "zc.buildout.  Later chapters detail best practices such as writing "
+#~ "documentation, test-driven development, version control, optimization and "
+#~ "profiling."
 #~ msgstr ""
 
 #~ msgid ""
-#~ "`Expert Python Programming <http://www.packtpub.com"
-#~ "/expert-python-programming/book>`_"
+#~ "`Expert Python Programming <http://www.packtpub.com/expert-python-"
+#~ "programming/book>`_"
 #~ msgstr ""
 
 #~ msgid ""
-#~ "`A Primer on Scientific Programming with"
-#~ " Python "
+#~ "`A Primer on Scientific Programming with Python "
 #~ "<http://www.springer.com/mathematics/computational+science+%26+engineering/book/978-3-642-30292-3>`_"
 #~ msgstr ""
 
 #~ msgid ""
-#~ "`Numerical Methods in Engineering with "
-#~ "Python "
-#~ "<http://www.cambridge.org/us/academic/subjects/engineering"
-#~ "/engineering-mathematics-and-programming/numerical-"
-#~ "methods-engineering-python-2nd-edition>`_"
+#~ "`Numerical Methods in Engineering with Python "
+#~ "<http://www.cambridge.org/us/academic/subjects/engineering/engineering-"
+#~ "mathematics-and-programming/numerical-methods-engineering-python-2nd-"
+#~ "edition>`_"
 #~ msgstr ""
 
 #~ msgid "Miscellaneous topics"
 #~ msgstr ""
 
 #~ msgid ""
-#~ "Transforming Code into Beautiful, Idiomatic"
-#~ " Python is a video by Raymond "
-#~ "Hettinger. Learn to take better "
-#~ "advantage of Python's best features and"
-#~ " improve existing code through a "
-#~ "series of code transformations, \"When "
-#~ "you see this, do that instead.\""
+#~ "Transforming Code into Beautiful, Idiomatic Python is a video by Raymond "
+#~ "Hettinger. Learn to take better advantage of Python's best features and "
+#~ "improve existing code through a series of code transformations, \"When you "
+#~ "see this, do that instead.\""
 #~ msgstr ""
 
 #~ msgid ""
-#~ "From setting up the webserver, to "
-#~ "designing the front-end, choosing a "
+#~ "From setting up the webserver, to designing the front-end, choosing a "
 #~ "database, optimizing/scaling, etc."
 #~ msgstr ""
 
 #~ msgid ""
-#~ "Python in a Nutshell, written by "
-#~ "Alex Martelli, covers most cross-"
-#~ "platform Python's usage, from its syntax"
-#~ " to built-in libraries to advanced"
-#~ " topics such as writing C extensions."
+#~ "Python in a Nutshell, written by Alex Martelli, covers most cross-platform "
+#~ "Python's usage, from its syntax to built-in libraries to advanced topics "
+#~ "such as writing C extensions."
 #~ msgstr ""
 
 #~ msgid ""
-#~ "This is Python's reference manual, it"
-#~ " covers the syntax and the core "
+#~ "This is Python's reference manual, it covers the syntax and the core "
 #~ "semantics of the language."
 #~ msgstr ""
 
 #~ msgid ""
-#~ "Python Cookbook, written by David "
-#~ "Beazley and Brian K. Jones, is "
-#~ "packed with practical recipes. This book"
-#~ " covers the core python language as"
-#~ " well as tasks common to a wide"
-#~ " variety of application domains."
+#~ "Python Cookbook, written by David Beazley and Brian K. Jones, is packed with"
+#~ " practical recipes. This book covers the core python language as well as "
+#~ "tasks common to a wide variety of application domains."
 #~ msgstr ""
 
 #~ msgid ""
-#~ "\"Writing Idiomatic Python\", written by "
-#~ "Jeff Knupp, contains the most common "
-#~ "and important Python idioms in a "
-#~ "format that maximizes identification and "
-#~ "understanding.  Each idiom is presented "
-#~ "as a recommendation of a way to"
-#~ " write some commonly used piece of"
-#~ " code, followed by an explanation of"
-#~ " why the idiom is important. It "
-#~ "also contains two code samples for "
-#~ "each idiom: the \"Harmful\" way to "
-#~ "write it and the \"Idiomatic\" way."
+#~ "\"Writing Idiomatic Python\", written by Jeff Knupp, contains the most "
+#~ "common and important Python idioms in a format that maximizes identification"
+#~ " and understanding.  Each idiom is presented as a recommendation of a way to"
+#~ " write some commonly used piece of code, followed by an explanation of why "
+#~ "the idiom is important. It also contains two code samples for each idiom: "
+#~ "the \"Harmful\" way to write it and the \"Idiomatic\" way."
 #~ msgstr ""
 
 #~ msgid ""
-#~ "`For Python 2.7.3+ <http://www.amazon.com"
-#~ "/Writing-Idiomatic-Python-2-7-3-Knupp/dp/1482372177/>`_"
+#~ "`For Python 2.7.3+ <http://www.amazon.com/Writing-Idiomatic-"
+#~ "Python-2-7-3-Knupp/dp/1482372177/>`_"
 #~ msgstr ""
 
 #~ msgid ""
-#~ "`For Python 3.3+  <http://www.amazon.com/Writing-"
-#~ "Idiomatic-Python-Jeff-Knupp-"
-#~ "ebook/dp/B00B5VXMRG/>`_"
+#~ "`For Python 3.3+  <http://www.amazon.com/Writing-Idiomatic-Python-Jeff-"
+#~ "Knupp-ebook/dp/B00B5VXMRG/>`_"
 #~ msgstr ""
 
 #~ msgid ""
-#~ "`Expert Python Programming <https://www.packtpub.com"
-#~ "/application-development/expert-python-programming>`_"
+#~ "`Expert Python Programming <https://www.packtpub.com/application-"
+#~ "development/expert-python-programming>`_"
 #~ msgstr ""
-
