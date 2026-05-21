@@ -1,11 +1,11 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: pythonguide 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-11-30 22:28\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Last-Translator: YoungSeon Ahn <ys.ahn@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -13,7 +13,7 @@ msgstr ""
 
 #: ../../notes/license.rst:3
 msgid "License"
-msgstr ""
+msgstr "라이선스"
 
 #: ../../notes/license.rst:5
 msgid ""
@@ -21,3 +21,6 @@ msgid ""
 "ShareAlike 3.0 Unported license <https://creativecommons.org/licenses/by-nc-"
 "sa/3.0/>`_."
 msgstr ""
+"이 안내서는 `크리에이티브 커먼즈 저작자표시-비영리-동일조건변경허락 3.0 Unported 라이선스 "
+"<https://creativecommons.org/licenses/by-nc-sa/3.0/deed.ko>`_ 에 따라 이용할 수 "
+"있습니다."
