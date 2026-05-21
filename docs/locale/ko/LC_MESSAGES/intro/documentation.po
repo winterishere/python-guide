@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-15 08:55+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Last-Translator: YoungSeon Ahn <ys.ahn@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -23,74 +23,74 @@ msgstr ""
 
 #: ../../intro/documentation.rst:5
 msgid "Documentation"
-msgstr ""
+msgstr "문서"
 
 #: ../../intro/documentation.rst:12
 msgid "Official Documentation"
-msgstr ""
+msgstr "공식 문서"
 
 #: ../../intro/documentation.rst:14
-msgid "The official Python Language and Library documentation can be found here:"
-msgstr ""
+msgid ""
+"The official Python Language and Library documentation can be found here:"
+msgstr "공식 파이썬 언어 및 라이브러리 문서는 여기에서 찾을 수 있습니다:"
 
 #: ../../intro/documentation.rst:16
 msgid "`Python 2.x <https://docs.python.org/2/>`_"
-msgstr ""
+msgstr "`파이썬 2.x <https://docs.python.org/2/>`_"
 
 #: ../../intro/documentation.rst:17
 msgid "`Python 3.x <https://docs.python.org/3/>`_"
-msgstr ""
+msgstr "`파이썬 3.x <https://docs.python.org/3/>`_"
 
 #: ../../intro/documentation.rst:22
 msgid "Read the Docs"
-msgstr ""
+msgstr "Read the Docs"
 
 #: ../../intro/documentation.rst:24
 msgid ""
-"Read the Docs is a popular community project that hosts documentation for"
-" open source software. It holds documentation for many Python modules, "
-"both popular and exotic."
+"Read the Docs is a popular community project that hosts documentation for "
+"open source software. It holds documentation for many Python modules, both "
+"popular and exotic."
 msgstr ""
+"Read the Docs는 오픈 소스 소프트웨어의 문서를 호스팅하는 인기 있는 커뮤니티 프로젝트입니다. 유명한 것부터 특이한 것까지 "
+"수많은 파이썬 모듈의 문서를 제공합니다."
 
 #: ../../intro/documentation.rst:28
 msgid "`Read the Docs <https://readthedocs.org/>`_"
-msgstr ""
+msgstr "`Read the Docs <https://readthedocs.org/>`_"
 
 #: ../../intro/documentation.rst:33
 msgid "pydoc"
-msgstr ""
+msgstr "pydoc"
 
 #: ../../intro/documentation.rst:35
 msgid ""
-":program:`pydoc` is a utility that is installed when you install Python. "
-"It allows you to quickly retrieve and search for documentation from your "
-"shell. For example, if you needed a quick refresher on the :mod:`time` "
-"module, pulling up documentation would be as simple as:"
+":program:`pydoc` is a utility that is installed when you install Python. It "
+"allows you to quickly retrieve and search for documentation from your shell."
+" For example, if you needed a quick refresher on the :mod:`time` module, "
+"pulling up documentation would be as simple as:"
 msgstr ""
+":program:`pydoc` 는 파이썬을 설치할 때 함께 설치되는 유틸리티입니다. 쉘에서 문서를 빠르게 찾아보고 검색할 수 있게 "
+"해줍니다. 예를 들어 :mod:`time` 모듈에 대한 내용을 빠르게 다시 확인하고 싶다면, 다음과 같이 간단하게 문서를 띄울 수 "
+"있습니다:"
 
 #: ../../intro/documentation.rst:44
 msgid ""
-"The above command is essentially equivalent to opening the Python REPL "
-"and running:"
-msgstr ""
+"The above command is essentially equivalent to opening the Python REPL and "
+"running:"
+msgstr "위 명령어는 본질적으로 파이썬 REPL을 열고 다음을 실행하는 것과 같습니다:"
 
 #~ msgid ""
 #~ msgstr ""
 
 #~ msgid ""
-#~ ":program:`pydoc` is a utility that is"
-#~ " installed when you install Python. "
-#~ "It allows you to quickly retrieve "
-#~ "and search for documentation from your"
-#~ " shell. For example, if you needed"
-#~ " a quick refresher on the :mod:`time`"
-#~ " module, pulling up documentation would "
-#~ "be as simple as"
+#~ ":program:`pydoc` is a utility that is installed when you install Python. It "
+#~ "allows you to quickly retrieve and search for documentation from your shell."
+#~ " For example, if you needed a quick refresher on the :mod:`time` module, "
+#~ "pulling up documentation would be as simple as"
 #~ msgstr ""
 
 #~ msgid ""
-#~ "The above command is essentially "
-#~ "equivalent to opening the Python REPL"
-#~ " and running"
+#~ "The above command is essentially equivalent to opening the Python REPL and "
+#~ "running"
 #~ msgstr ""
-
